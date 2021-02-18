@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  username: <%= ENV["PG_REMOTE_USERNAME"].presence || ENV["PG_USERNAME"] %>
+  password: <%= ENV["PG_REMOTE_PASSWORD"].presence || ENV["PG_PASSWORD"] %>
+  host: <%= ENV["PG_REMOTE_HOST"] %>
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: gobierto-contratos-face-dev
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  username: <%= ENV["PG_USERNAME"] %>
+  password: <%= ENV["PG_PASSWORD"] %>
+  host: <%= ENV["PG_HOST"] %>
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  database: gobierto-contratos-face-test

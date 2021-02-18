@@ -1,0 +1,131 @@
+---
+defaults: &defaults
+  working_directory: ~/gobierto-contratos
+  docker:
+    - image: circleci/ruby:2.7.1-node-browsers
+      environment:
+        RAILS_ENV: test
+        PGHOST: localhost
+        PGUSER: gobierto-contratos
+        # Disable spring so bin/rails works. See: https://github.com/rails/spring/pull/546
+        DISABLE_SPRING: true
+        REDIS_URL: redis://localhost:6379/0
+        REQUEST_SLEEP_DELAY: 0
+    - image: postgres:12
+      environment:
+        POSTGRES_USER: gobierto-contratos
+        POSTGRES_DB: gobierto-contratos_test
+        POSTGRES_PASSWORD: "gobierto-contratos"
+    - image: redis:4.0.9
+
+version: 2
+jobs:
+  bundle_dependencies:
+    <<: *defaults
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/gobierto-contratos
+      - restore_cache:
+          name: "[Bundler] Restore cache"
+          keys:
+            - gobierto-contratos-bundler-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: "[Bundler] Install dependencies"
+          command: bundle install --path vendor/bundle --jobs=4 --retry=3  --without development
+      - save_cache:
+          name: "[Bundler] Cache dependencies"
+          key: gobierto-contratos-bundler-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - restore_cache:
+          name: "[Yarn] Restore cache"
+          keys:
+            - gobierto-contratos-yarn-{{ checksum "yarn.lock" }}
+      - run:
+          name: "[Yarn] Install dependencies"
+          command: yarn install
+      - save_cache:
+          name: "[Yarn] Cache dependencies"
+          key: gobierto-contratos-yarn-{{ checksum "yarn.lock" }}
+          paths:
+            - node_modules
+      - persist_to_workspace:
+          root: ~/gobierto-contratos
+          paths:
+            - vendor/bundle
+            - node_modules
+
+  tests:
+    <<: *defaults
+    parallelism: 1
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/gobierto-contratos
+      - run: bundle --path vendor/bundle
+      - run: yarn install
+      # Wait for DB containers to be ready
+      - run: dockerize -wait tcp://localhost:5432 -timeout 1m
+      - run: dockerize -wait tcp://localhost:6379 -timeout 1m
+
+      # Install postgres 12
+      - run: wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+      - run: echo "deb http://apt.postgresql.org/pub/repos/apt/ buster-pgdg main" | sudo tee  /etc/apt/sources.list.d/pgdg.list
+      - run: sudo apt update
+      - run: sudo apt -y install postgresql-12 postgresql-client-12
+
+      # Setup the database
+      - run: bin/rails db:create db:migrate
+
+      # Precompile assets
+      - run: bin/rails assets:precompile
+
+      - run:
+          name: Run tests
+          command: bin/rails test
+
+  staging-deploy:
+    working_directory: ~/gobierto-contratos
+    machine:
+      enabled: true
+    steps:
+      # deploy script is in the repository
+      - checkout
+      - run:
+          name: Deploy staging branch
+          command: bin/staging_deploy.sh
+
+  production-deploy:
+    working_directory: ~/gobierto-contratos
+    machine:
+      enabled: true
+    steps:
+      # deploy script is in the repository
+      - checkout
+      - run:
+          name: Deploy master branch
+          command: bin/production_deploy.sh
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - bundle_dependencies
+      - tests:
+          requires:
+            - bundle_dependencies
+      - staging-deploy:
+          requires:
+            - bundle_dependencies
+            - tests
+          filters:
+            branches:
+              only: staging
+      - production-deploy:
+          requires:
+            - bundle_dependencies
+            - tests
+          filters:
+            branches:
+              only: master

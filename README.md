@@ -73,6 +73,8 @@ entidades hijas). Por ejemplo para el DIR3 L01401945, sus entidades hijas son: h
 
 - Entregar la tarea en una o varias PR incrementales
 
+- Al final de la prueba, grabar un vídeo con [Loom](https://loom.com) (cuenta gratuita, son vídeos de måximo 5 minutos) explicando y razonando la solución, y mostrando las partes más relevantes, para mostrar tu trabajo. Nosotros usamos bastante vídeos cortos para mostrar y demostrar features, señalar bugs...
+
 
 ## Dudas o comentarios
 

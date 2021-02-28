@@ -1,0 +1,3 @@
+CREATE USER developer WITH ENCRYPTED PASSWORD 'gobierto';
+ALTER USER developer CREATEDB;
+

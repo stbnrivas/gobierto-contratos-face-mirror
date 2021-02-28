@@ -1,17 +1,19 @@
-development:
+default: &default
   adapter: postgresql
   encoding: unicode
-  username: <%= ENV["PG_REMOTE_USERNAME"].presence || ENV["PG_USERNAME"] %>
-  password: <%= ENV["PG_REMOTE_PASSWORD"].presence || ENV["PG_PASSWORD"] %>
-  host: <%= ENV["PG_REMOTE_HOST"] %>
+  host: <%= ENV["PG_HOST"] %>
+  port: <%= ENV["PG_PORT"] %>
+
+development:
+  <<: *default
+  username: <%= ENV.fetch("PG_USER_DEV") %>
+  password: <%= ENV.fetch("PG_PASS_DEV") %>
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: gobierto-contratos-face-dev
+  database: <%= ENV.fetch("PG_NAME_DEV") %>
 
 test:
-  adapter: postgresql
-  encoding: unicode
-  username: <%= ENV["PG_USERNAME"] %>
-  password: <%= ENV["PG_PASSWORD"] %>
-  host: <%= ENV["PG_HOST"] %>
+  <<: *default
+  username: <%= ENV.fetch("PG_USER_TEST") %>
+  password: <%= ENV.fetch("PG_PASS_TEST") %>
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: gobierto-contratos-face-test
+  database: <%= ENV.fetch("PG_NAME_TEST") %>

@@ -1,0 +1,1 @@
+docker exec -it gobierto-contratos-face-mirror_pgsql_1 psql -U postgres

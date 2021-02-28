@@ -5,6 +5,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem "bootsnap", ">= 1.1.0", require: false
 gem "dalli"
+gem "dotenv", "~> 2.7", :group => :development
+gem "dotenv-rails", "~> 2.7"
 gem "faraday"
 gem "fuzzy_match"
 gem "hashie"

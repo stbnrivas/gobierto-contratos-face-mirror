@@ -235,6 +235,14 @@ TODO: buscar el significado de las una o dos letras con la que comienzan...
 - Al final de la prueba, grabar un vídeo con [Loom](https://loom.com) (cuenta gratuita, son vídeos de måximo 5 minutos) explicando y razonando la solución, y mostrando las partes más relevantes, para mostrar tu trabajo. Nosotros usamos bastante vídeos cortos para mostrar y demostrar features, señalar bugs...
 
 
+
+
+## Solucion:
+
+he añadido un fichero de operaciones para mostrar como funciona la [solución](OPERATIONS-dev.md)
+
+
+
 ## Dudas o comentarios
 
 fernando@populate.tools

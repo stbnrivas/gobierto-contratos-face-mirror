@@ -19,6 +19,7 @@ gem "pry"
 gem "pry-rails"
 gem "rails", "~> 6.1"
 gem "rollbar"
+gem "sidekiq", "~> 6.1"
 gem "mimemagic"
 
 group :development, :test do

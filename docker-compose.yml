@@ -13,3 +13,15 @@ services:
     image: redis:5.0.11
     ports:
       - "6379:6379"
+  sidekiq-ui:
+    build:
+      context: .dockerfiles/sidekiq-ui/
+      dockerfile: Dockerfile
+    depends_on:
+      - redis
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+    expose:
+      - "9292"
+    ports:
+      - "9292:9292"

@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 27 Feb 2021 19:19:09 GMT
+      - Sat, 27 Feb 2021 19:22:39 GMT
       Server:
       - Microsoft-IIS/5.0
       Cache-Control:
@@ -43,5 +43,5 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"pager":{"total":"44","limit":25},"filter":{"fields":["administracion","provincia","nivel"]}}'
-  recorded_at: Sat, 27 Feb 2021 19:19:09 GMT
+  recorded_at: Sat, 27 Feb 2021 19:22:39 GMT
 recorded_with: VCR 6.0.0

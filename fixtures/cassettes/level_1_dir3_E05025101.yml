@@ -1,0 +1,2150 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:52 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62521,"og":{"codigo_dir":"EA0020890","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0020904","nombre":"Area Jur\u00eddica"},"oc":{"codigo_dir":"EA0020912","nombre":"Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62535,"og":{"codigo_dir":"EA0020890","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0020913","nombre":"Contratacion"},"oc":{"codigo_dir":"EA0020912","nombre":"Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62536,"og":{"codigo_dir":"EA0020949","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"},"ut":{"codigo_dir":"EA0020949","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"},"oc":{"codigo_dir":"EA0020949","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62554,"og":{"codigo_dir":"EA0020890","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0020910","nombre":"Caja 1 - Campus
+        Chamartin"},"oc":{"codigo_dir":"EA0020912","nombre":"Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62555,"og":{"codigo_dir":"EA0020890","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0020911","nombre":"Caja 2 - Campus
+        Majadahonda"},"oc":{"codigo_dir":"EA0020912","nombre":"Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62895,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021109","nombre":"Centro
+        Oceanografico de Vigo (PONTEVEDRA)"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62896,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021111","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto Espa\u00f1ol
+        de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62897,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021113","nombre":"S.G.
+        de Investigacion"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto Espa\u00f1ol
+        de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62914,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021101","nombre":"Centro
+        Oceanografico de Murcia (SEDE- SAN PEDRO DEL PINATAR)"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62915,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021107","nombre":"Centro
+        Oceanografico de A Coru\u00f1a (SEDE- A CORU\u00d1A) )"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62916,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021110","nombre":"Direccion"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62934,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021102","nombre":"Centro
+        Oceanografico de Malaga (SEDE- FUENGIROLA)"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62935,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021104","nombre":"Centro
+        Oceanografico de Canarias (SEDE- SANTA CRUZ DE TENERIFE)"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62954,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021105","nombre":"Centro
+        Oceanografico de Gijon (ASTURIAS)"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62955,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021106","nombre":"Centro
+        Oceanografico de Baleares (SEDE- PALMA DE MALLORCA)"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62956,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021108","nombre":"Centro
+        Oceanografico de Santander (CANTABRIA)"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[{"nif":"Q3811001A"}],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":63727,"og":{"codigo_dir":"EA0020886","nombre":"Instituto
+        de Astrof\u00edsica de Canarias"},"ut":{"codigo_dir":"EA0020886","nombre":"Instituto
+        de Astrof\u00edsica de Canarias"},"oc":{"codigo_dir":"EA0020886","nombre":"Instituto
+        de Astrof\u00edsica de Canarias"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64443,"og":{"codigo_dir":"E05036301","nombre":"Subsecretar\u00eda
+        de Ciencia, Innovaci\u00f3n y Universidades"},"ut":{"codigo_dir":"EA0020821","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64451,"og":{"codigo_dir":"E05033501","nombre":"Secretar\u00eda
+        de Estado de Universidades, Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64460,"og":{"codigo_dir":"E05043101","nombre":"Direcci\u00f3n
+        General de Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n"},"ut":{"codigo_dir":"EA0020821","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64480,"og":{"codigo_dir":"E05033501","nombre":"Secretar\u00eda
+        de Estado de Universidades, Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n"},"ut":{"codigo_dir":"EA0020821","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64481,"og":{"codigo_dir":"E05043301","nombre":"Secretar\u00eda
+        General de Coordinaci\u00f3n de Pol\u00edtica Cient\u00edfica"},"ut":{"codigo_dir":"EA0020821","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64488,"og":{"codigo_dir":"E05036301","nombre":"Subsecretar\u00eda
+        de Ciencia, Innovaci\u00f3n y Universidades"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64489,"og":{"codigo_dir":"E05043101","nombre":"Direcci\u00f3n
+        General de Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64499,"og":{"codigo_dir":"E05036301","nombre":"Subsecretar\u00eda
+        de Ciencia, Innovaci\u00f3n y Universidades"},"ut":{"codigo_dir":"EA0020822","nombre":"Oficial\u00eda
+        Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina Contable. I.D. Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:52 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:52 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"341","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:02:53 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:53 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62521,"og":{"codigo_dir":"EA0020890","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0020904","nombre":"Area Jur\u00eddica"},"oc":{"codigo_dir":"EA0020912","nombre":"Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62535,"og":{"codigo_dir":"EA0020890","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0020913","nombre":"Contratacion"},"oc":{"codigo_dir":"EA0020912","nombre":"Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62536,"og":{"codigo_dir":"EA0020949","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"},"ut":{"codigo_dir":"EA0020949","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"},"oc":{"codigo_dir":"EA0020949","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62554,"og":{"codigo_dir":"EA0020890","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0020910","nombre":"Caja 1 - Campus
+        Chamartin"},"oc":{"codigo_dir":"EA0020912","nombre":"Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62555,"og":{"codigo_dir":"EA0020890","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0020911","nombre":"Caja 2 - Campus
+        Majadahonda"},"oc":{"codigo_dir":"EA0020912","nombre":"Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62895,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021109","nombre":"Centro
+        Oceanografico de Vigo (PONTEVEDRA)"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62896,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021111","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto Espa\u00f1ol
+        de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62897,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021113","nombre":"S.G.
+        de Investigacion"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto Espa\u00f1ol
+        de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62914,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021101","nombre":"Centro
+        Oceanografico de Murcia (SEDE- SAN PEDRO DEL PINATAR)"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62915,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021107","nombre":"Centro
+        Oceanografico de A Coru\u00f1a (SEDE- A CORU\u00d1A) )"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62916,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021110","nombre":"Direccion"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62934,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021102","nombre":"Centro
+        Oceanografico de Malaga (SEDE- FUENGIROLA)"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62935,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021104","nombre":"Centro
+        Oceanografico de Canarias (SEDE- SANTA CRUZ DE TENERIFE)"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62954,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021105","nombre":"Centro
+        Oceanografico de Gijon (ASTURIAS)"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62955,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021106","nombre":"Centro
+        Oceanografico de Baleares (SEDE- PALMA DE MALLORCA)"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":62956,"og":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0021108","nombre":"Centro
+        Oceanografico de Santander (CANTABRIA)"},"oc":{"codigo_dir":"EA0021100","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"}},{"cifs":[{"nif":"Q3811001A"}],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":63727,"og":{"codigo_dir":"EA0020886","nombre":"Instituto
+        de Astrof\u00edsica de Canarias"},"ut":{"codigo_dir":"EA0020886","nombre":"Instituto
+        de Astrof\u00edsica de Canarias"},"oc":{"codigo_dir":"EA0020886","nombre":"Instituto
+        de Astrof\u00edsica de Canarias"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64443,"og":{"codigo_dir":"E05036301","nombre":"Subsecretar\u00eda
+        de Ciencia, Innovaci\u00f3n y Universidades"},"ut":{"codigo_dir":"EA0020821","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64451,"og":{"codigo_dir":"E05033501","nombre":"Secretar\u00eda
+        de Estado de Universidades, Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64460,"og":{"codigo_dir":"E05043101","nombre":"Direcci\u00f3n
+        General de Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n"},"ut":{"codigo_dir":"EA0020821","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64480,"og":{"codigo_dir":"E05033501","nombre":"Secretar\u00eda
+        de Estado de Universidades, Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n"},"ut":{"codigo_dir":"EA0020821","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64481,"og":{"codigo_dir":"E05043301","nombre":"Secretar\u00eda
+        General de Coordinaci\u00f3n de Pol\u00edtica Cient\u00edfica"},"ut":{"codigo_dir":"EA0020821","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64488,"og":{"codigo_dir":"E05036301","nombre":"Subsecretar\u00eda
+        de Ciencia, Innovaci\u00f3n y Universidades"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64489,"og":{"codigo_dir":"E05043101","nombre":"Direcci\u00f3n
+        General de Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64499,"og":{"codigo_dir":"E05036301","nombre":"Subsecretar\u00eda
+        de Ciencia, Innovaci\u00f3n y Universidades"},"ut":{"codigo_dir":"EA0020822","nombre":"Oficial\u00eda
+        Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina Contable. I.D. Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:53 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:54 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":65021,"og":{"codigo_dir":"EA0020924","nombre":"Instituto
+        Nacional de Investigaci\u00f3n y Tecnolog\u00eda Agraria y Alimentaria (INIA)"},"ut":{"codigo_dir":"EA0020929","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":65282,"og":{"codigo_dir":"EA0020936","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0020945","nombre":"Ciemat-Fusi\u00f3n"},"oc":{"codigo_dir":"EA0020946","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":65323,"og":{"codigo_dir":"EA0020936","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0020941","nombre":"Departamento
+        de Medio Ambiente"},"oc":{"codigo_dir":"EA0020946","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":65326,"og":{"codigo_dir":"EA0020936","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0020946","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0020946","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":65321,"og":{"codigo_dir":"EA0020936","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0020939","nombre":"Ciemat-Psa"},"oc":{"codigo_dir":"EA0020946","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":65322,"og":{"codigo_dir":"EA0020936","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0020940","nombre":"Departamento
+        de Investigacion Basica"},"oc":{"codigo_dir":"EA0020946","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":65324,"og":{"codigo_dir":"EA0020936","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0020943","nombre":"Departamento
+        de Tecnologia"},"oc":{"codigo_dir":"EA0020946","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":65325,"og":{"codigo_dir":"EA0020936","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0020944","nombre":"Laboratorio
+        Nacional de Fusion"},"oc":{"codigo_dir":"EA0020946","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":65327,"og":{"codigo_dir":"EA0020936","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0020947","nombre":"S.G.
+        de Relaciones Institucionales y Transferencia del Conocimiento"},"oc":{"codigo_dir":"EA0020946","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":65303,"og":{"codigo_dir":"EA0020936","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0020948","nombre":"S.G.
+        de Seguridad y Mejora de las Instalaciones del Ciemat"},"oc":{"codigo_dir":"EA0020946","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":65301,"og":{"codigo_dir":"EA0020936","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0020937","nombre":"Departamento
+        de Energia"},"oc":{"codigo_dir":"EA0020946","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":65302,"og":{"codigo_dir":"EA0020936","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0020942","nombre":"Ciemat-Enresa
+        Medioambiente"},"oc":{"codigo_dir":"EA0020946","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":65263,"og":{"codigo_dir":"EA0020936","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0020938","nombre":"Ciemat-Enresa
+        Energ\u00eda"},"oc":{"codigo_dir":"EA0020946","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":67629,"og":{"codigo_dir":"E04875003","nombre":"Secretar\u00eda
+        General de Universidades"},"ut":{"codigo_dir":"EA0034039","nombre":"Caja Pagadora
+        del Ministerio de Ciencia, Innovaci\u00f3n y Universidades"},"oc":{"codigo_dir":"GE0015295","nombre":"Oficina
+        Contable. I.D. Ministerio de Ciencia e Innovaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":67647,"og":{"codigo_dir":"E04875003","nombre":"Secretar\u00eda
+        General de Universidades"},"ut":{"codigo_dir":"EA0020821","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0015295","nombre":"Oficina
+        Contable. I.D. Ministerio de Ciencia e Innovaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":67650,"og":{"codigo_dir":"E04875003","nombre":"Secretar\u00eda
+        General de Universidades"},"ut":{"codigo_dir":"EA0020874","nombre":"S.G. de
+        Formaci\u00f3n del Profesorado Universitario, Programaci\u00f3n y Atenci\u00f3n
+        al Estudiante"},"oc":{"codigo_dir":"GE0015295","nombre":"Oficina Contable.
+        I.D. Ministerio de Ciencia e Innovaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":67631,"og":{"codigo_dir":"E05043101","nombre":"Direcci\u00f3n
+        General de Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n"},"ut":{"codigo_dir":"EA0034039","nombre":"Caja
+        Pagadora del Ministerio de Ciencia, Innovaci\u00f3n y Universidades"},"oc":{"codigo_dir":"GE0015295","nombre":"Oficina
+        Contable. I.D. Ministerio de Ciencia e Innovaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":67628,"og":{"codigo_dir":"E05043101","nombre":"Direcci\u00f3n
+        General de Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n"},"ut":{"codigo_dir":"EA0020821","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0015295","nombre":"Oficina
+        Contable. I.D. Ministerio de Ciencia e Innovaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64504,"og":{"codigo_dir":"E05043301","nombre":"Secretar\u00eda
+        General de Coordinaci\u00f3n de Pol\u00edtica Cient\u00edfica"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":67649,"og":{"codigo_dir":"E05043301","nombre":"Secretar\u00eda
+        General de Coordinaci\u00f3n de Pol\u00edtica Cient\u00edfica"},"ut":{"codigo_dir":"EA0020821","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0015295","nombre":"Oficina
+        Contable. I.D. Ministerio de Ciencia e Innovaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":64739,"og":{"codigo_dir":"EA0020877","nombre":"Agencia
+        Nacional de Evaluacion de la Calidad y Acreditacion (ANECA)"},"ut":{"codigo_dir":"EA0020877","nombre":"Agencia
+        Nacional de Evaluacion de la Calidad y Acreditacion (ANECA)"},"oc":{"codigo_dir":"EA0020877","nombre":"Agencia
+        Nacional de Evaluacion de la Calidad y Acreditacion (ANECA)"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":67667,"og":{"codigo_dir":"E05033501","nombre":"Secretar\u00eda
+        de Estado de Universidades, Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n"},"ut":{"codigo_dir":"EA0020821","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0015295","nombre":"Oficina
+        Contable. I.D. Ministerio de Ciencia e Innovaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":67651,"og":{"codigo_dir":"E05033501","nombre":"Secretar\u00eda
+        de Estado de Universidades, Investigaci\u00f3n, Desarrollo e Innovaci\u00f3n"},"ut":{"codigo_dir":"EA0034039","nombre":"Caja
+        Pagadora del Ministerio de Ciencia, Innovaci\u00f3n y Universidades"},"oc":{"codigo_dir":"GE0015295","nombre":"Oficina
+        Contable. I.D. Ministerio de Ciencia e Innovaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":67630,"og":{"codigo_dir":"E05036301","nombre":"Subsecretar\u00eda
+        de Ciencia, Innovaci\u00f3n y Universidades"},"ut":{"codigo_dir":"EA0034039","nombre":"Caja
+        Pagadora del Ministerio de Ciencia, Innovaci\u00f3n y Universidades"},"oc":{"codigo_dir":"GE0015295","nombre":"Oficina
+        Contable. I.D. Ministerio de Ciencia e Innovaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":67648,"og":{"codigo_dir":"E05036301","nombre":"Subsecretar\u00eda
+        de Ciencia, Innovaci\u00f3n y Universidades"},"ut":{"codigo_dir":"EA0020821","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0015295","nombre":"Oficina
+        Contable. I.D. Ministerio de Ciencia e Innovaci\u00f3n"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:54 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:55 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":68448,"og":{"codigo_dir":"EA0020936","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0020946","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69388,"og":{"codigo_dir":"E04875003","nombre":"Secretar\u00eda
+        General de Universidades"},"ut":{"codigo_dir":"E04875003","nombre":"Secretar\u00eda
+        General de Universidades"},"oc":{"codigo_dir":"GE0015295","nombre":"Oficina
+        Contable. I.D. Ministerio de Ciencia e Innovaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":67688,"og":{"codigo_dir":"E05043301","nombre":"Secretar\u00eda
+        General de Coordinaci\u00f3n de Pol\u00edtica Cient\u00edfica"},"ut":{"codigo_dir":"EA0034039","nombre":"Caja
+        Pagadora del Ministerio de Ciencia, Innovaci\u00f3n y Universidades"},"oc":{"codigo_dir":"GE0015295","nombre":"Oficina
+        Contable. I.D. Ministerio de Ciencia e Innovaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69847,"og":{"codigo_dir":"EA0020952","nombre":"Instituto
+        de Ciencias de la Tierra Jaume Almera"},"ut":{"codigo_dir":"EA0020952","nombre":"Instituto
+        de Ciencias de la Tierra Jaume Almera"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69848,"og":{"codigo_dir":"EA0020953","nombre":"Instituto
+        de Ciencias de la Vid y el Vino"},"ut":{"codigo_dir":"EA0020953","nombre":"Instituto
+        de Ciencias de la Vid y el Vino"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69849,"og":{"codigo_dir":"EA0020954","nombre":"Centro
+        de Astrobiologia"},"ut":{"codigo_dir":"EA0020954","nombre":"Centro de Astrobiologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69850,"og":{"codigo_dir":"EA0020955","nombre":"Centro
+        de Automatica y Robotica"},"ut":{"codigo_dir":"EA0020955","nombre":"Centro
+        de Automatica y Robotica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69853,"og":{"codigo_dir":"EA0020956","nombre":"Centro
+        de Ciencias Humanas y Sociales"},"ut":{"codigo_dir":"EA0021059","nombre":"Instituto
+        de Politicas y Bienes Publicos"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69852,"og":{"codigo_dir":"EA0020956","nombre":"Centro
+        de Ciencias Humanas y Sociales"},"ut":{"codigo_dir":"EA0021026","nombre":"Instituto
+        de Economia, Geografia y Demografia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69851,"og":{"codigo_dir":"EA0020956","nombre":"Centro
+        de Ciencias Humanas y Sociales"},"ut":{"codigo_dir":"EA0020998","nombre":"Instituto
+        de Arqueologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69854,"og":{"codigo_dir":"EA0020958","nombre":"Centro
+        de Edafologia y Biologia Aplicada del Segura"},"ut":{"codigo_dir":"EA0020958","nombre":"Centro
+        de Edafologia y Biologia Aplicada del Segura"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69855,"og":{"codigo_dir":"EA0020963","nombre":"Centro
+        de Fisica Teorica y Matematicas"},"ut":{"codigo_dir":"EA0020963","nombre":"Centro
+        de Fisica Teorica y Matematicas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69856,"og":{"codigo_dir":"EA0020965","nombre":"Centro
+        de Investigacion Cardiovascular"},"ut":{"codigo_dir":"EA0020965","nombre":"Centro
+        de Investigacion Cardiovascular"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69857,"og":{"codigo_dir":"EA0020970","nombre":"Centro
+        de Investigaciones Biologicas"},"ut":{"codigo_dir":"EA0020970","nombre":"Centro
+        de Investigaciones Biologicas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69858,"og":{"codigo_dir":"EA0020971","nombre":"Centro
+        de Investigaciones Cientificas Isla de la Cartuja"},"ut":{"codigo_dir":"EA0021048","nombre":"Instituto
+        de Investigaciones Quimicas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69859,"og":{"codigo_dir":"EA0020972","nombre":"Centro
+        de Investigaciones Sobre Desertificacion"},"ut":{"codigo_dir":"EA0020972","nombre":"Centro
+        de Investigaciones Sobre Desertificacion"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69860,"og":{"codigo_dir":"EA0020974","nombre":"Centro
+        de Quimica y Materiales de Aragon"},"ut":{"codigo_dir":"EA0021069","nombre":"Instituto
+        de Sintesis Quimica y Catalisis Homogenea"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69861,"og":{"codigo_dir":"EA0020976","nombre":"Centro
+        Nacional de Biotecnologia"},"ut":{"codigo_dir":"EA0020976","nombre":"Centro
+        Nacional de Biotecnologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69862,"og":{"codigo_dir":"EA0020978","nombre":"Editorial
+        Csic"},"ut":{"codigo_dir":"EA0020978","nombre":"Editorial Csic"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69863,"og":{"codigo_dir":"EA0020979","nombre":"Escuela
+        de Estudios Arabes"},"ut":{"codigo_dir":"EA0020979","nombre":"Escuela de Estudios
+        Arabes"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General Adjunta
+        de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69864,"og":{"codigo_dir":"EA0020989","nombre":"Instituto
+        Biologia Molecular y Celular del Cancer de Salamanca"},"ut":{"codigo_dir":"EA0020989","nombre":"Instituto
+        Biologia Molecular y Celular del Cancer de Salamanca"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":68395,"og":{"codigo_dir":"EA0021083","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0021083","nombre":"Secretaria General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":68229,"og":{"codigo_dir":"EA0020877","nombre":"Agencia
+        Nacional de Evaluacion de la Calidad y Acreditacion (ANECA)"},"ut":{"codigo_dir":"EA0020877","nombre":"Agencia
+        Nacional de Evaluacion de la Calidad y Acreditacion (ANECA)"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":68447,"og":{"codigo_dir":"EA0020890","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0020913","nombre":"Contratacion"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":67687,"og":{"codigo_dir":"E05036301","nombre":"Subsecretar\u00eda
+        de Ciencia, Innovaci\u00f3n y Universidades"},"ut":{"codigo_dir":"EA0020822","nombre":"Oficial\u00eda
+        Mayor"},"oc":{"codigo_dir":"GE0015295","nombre":"Oficina Contable. I.D. Ministerio
+        de Ciencia e Innovaci\u00f3n"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:55 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:56 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69865,"og":{"codigo_dir":"EA0020990","nombre":"Instituto
+        Botanico de Barcelona"},"ut":{"codigo_dir":"EA0020990","nombre":"Instituto
+        Botanico de Barcelona"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69866,"og":{"codigo_dir":"EA0020991","nombre":"Instituto
+        Cajal"},"ut":{"codigo_dir":"EA0020991","nombre":"Instituto Cajal"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69867,"og":{"codigo_dir":"EA0020956","nombre":"Centro
+        de Ciencias Humanas y Sociales"},"ut":{"codigo_dir":"EA0020956","nombre":"Centro
+        de Ciencias Humanas y Sociales"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69868,"og":{"codigo_dir":"EA0020959","nombre":"Centro
+        Andaluz de Biologia del Desarrollo"},"ut":{"codigo_dir":"EA0020959","nombre":"Centro
+        Andaluz de Biologia del Desarrollo"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69869,"og":{"codigo_dir":"EA0020962","nombre":"Centro
+        de Fisica Miguel A. Catalan"},"ut":{"codigo_dir":"EA0020962","nombre":"Centro
+        de Fisica Miguel A. Catalan"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69870,"og":{"codigo_dir":"EA0020967","nombre":"Centro
+        de Investigacion en Nanociencia y Nanotecnologia"},"ut":{"codigo_dir":"EA0020967","nombre":"Centro
+        de Investigacion en Nanociencia y Nanotecnologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69871,"og":{"codigo_dir":"EA0020969","nombre":"Centro
+        de Investigacion y Desarrollo Pascual Vila"},"ut":{"codigo_dir":"EA0020969","nombre":"Centro
+        de Investigacion y Desarrollo Pascual Vila"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69872,"og":{"codigo_dir":"EA0020969","nombre":"Centro
+        de Investigacion y Desarrollo Pascual Vila"},"ut":{"codigo_dir":"EA0021025","nombre":"Instituto
+        de Diagnostico Ambiental y Estudios del Agua"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69874,"og":{"codigo_dir":"EA0020974","nombre":"Centro
+        de Quimica y Materiales de Aragon"},"ut":{"codigo_dir":"EA0020974","nombre":"Centro
+        de Quimica y Materiales de Aragon"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69877,"og":{"codigo_dir":"EA0020988","nombre":"Instituto
+        Biofisika"},"ut":{"codigo_dir":"EA0020988","nombre":"Instituto Biofisika"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69878,"og":{"codigo_dir":"EA0020993","nombre":"Instituto
+        de Acuicultura Torre de la Sal"},"ut":{"codigo_dir":"EA0020993","nombre":"Instituto
+        de Acuicultura Torre de la Sal"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69879,"og":{"codigo_dir":"EA0021002","nombre":"Instituto
+        de Biologia Integrativa de Sistemas"},"ut":{"codigo_dir":"EA0021002","nombre":"Instituto
+        de Biologia Integrativa de Sistemas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69880,"og":{"codigo_dir":"EA0021040","nombre":"Instituto
+        de Instrumentacion para la Imagen Molecular"},"ut":{"codigo_dir":"EA0021040","nombre":"Instituto
+        de Instrumentacion para la Imagen Molecular"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69881,"og":{"codigo_dir":"EA0021021","nombre":"Instituto
+        de Ciencias del Mar"},"ut":{"codigo_dir":"EA0021021","nombre":"Instituto de
+        Ciencias del Mar"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69882,"og":{"codigo_dir":"EA0021027","nombre":"Instituto
+        de Estructura de la Materia"},"ut":{"codigo_dir":"EA0021027","nombre":"Instituto
+        de Estructura de la Materia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69887,"og":{"codigo_dir":"EA0020956","nombre":"Centro
+        de Ciencias Humanas y Sociales"},"ut":{"codigo_dir":"EA0021030","nombre":"Instituto
+        de Filosofia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69888,"og":{"codigo_dir":"EA0020956","nombre":"Centro
+        de Ciencias Humanas y Sociales"},"ut":{"codigo_dir":"EA0021050","nombre":"Instituto
+        de Lengua, Literatura y Antropologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69889,"og":{"codigo_dir":"EA0020956","nombre":"Centro
+        de Ciencias Humanas y Sociales"},"ut":{"codigo_dir":"EA0021051","nombre":"Instituto
+        de Lenguas y Culturas del Mediterraneo y Oriente Proximo"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69890,"og":{"codigo_dir":"EA0020956","nombre":"Centro
+        de Ciencias Humanas y Sociales"},"ut":{"codigo_dir":"EA0021038","nombre":"Instituto
+        de Historia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69891,"og":{"codigo_dir":"EA0020963","nombre":"Centro
+        de Fisica Teorica y Matematicas"},"ut":{"codigo_dir":"EA0021024","nombre":"Instituto
+        de Ciencias Matematicas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69892,"og":{"codigo_dir":"EA0020963","nombre":"Centro
+        de Fisica Teorica y Matematicas"},"ut":{"codigo_dir":"EA0021035","nombre":"Instituto
+        de Fisica Teorica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69893,"og":{"codigo_dir":"EA0020971","nombre":"Centro
+        de Investigaciones Cientificas Isla de la Cartuja"},"ut":{"codigo_dir":"EA0020971","nombre":"Centro
+        de Investigaciones Cientificas Isla de la Cartuja"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69894,"og":{"codigo_dir":"EA0020971","nombre":"Centro
+        de Investigaciones Cientificas Isla de la Cartuja"},"ut":{"codigo_dir":"EA0021014","nombre":"Instituto
+        de Ciencia de Materiales de Sevilla"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69896,"og":{"codigo_dir":"EA0020973","nombre":"Centro
+        de Quimica Organica Lora Tamayo"},"ut":{"codigo_dir":"EA0020973","nombre":"Centro
+        de Quimica Organica Lora Tamayo"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69897,"og":{"codigo_dir":"EA0020975","nombre":"Centro
+        Mediterraneo de Investigaciones Marinas y Ambientales"},"ut":{"codigo_dir":"EA0020975","nombre":"Centro
+        Mediterraneo de Investigaciones Marinas y Ambientales"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:56 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:57 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69898,"og":{"codigo_dir":"EA0020977","nombre":"Centro
+        Nacional de Investigaciones Metalurgicas (Madrid)"},"ut":{"codigo_dir":"EA0020977","nombre":"Centro
+        Nacional de Investigaciones Metalurgicas (Madrid)"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69899,"og":{"codigo_dir":"EA0020983","nombre":"Estacion
+        Experimental de Zonas Aridas"},"ut":{"codigo_dir":"EA0020983","nombre":"Estacion
+        Experimental de Zonas Aridas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69900,"og":{"codigo_dir":"EA0020985","nombre":"Inst.
+        de Biologia Molecular de Barcelona"},"ut":{"codigo_dir":"EA0020985","nombre":"Inst.
+        de Biologia Molecular de Barcelona"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69901,"og":{"codigo_dir":"EA0020986","nombre":"Institucion
+        Mila y Fontanals"},"ut":{"codigo_dir":"EA0020986","nombre":"Institucion Mila
+        y Fontanals"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69902,"og":{"codigo_dir":"EA0020987","nombre":"Instituto
+        Andaluz de Ciencias de la Tierra"},"ut":{"codigo_dir":"EA0020987","nombre":"Instituto
+        Andaluz de Ciencias de la Tierra"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69903,"og":{"codigo_dir":"EA0020996","nombre":"Instituto
+        de Agroquimica y Tecnologia de Alimentos"},"ut":{"codigo_dir":"EA0020996","nombre":"Instituto
+        de Agroquimica y Tecnologia de Alimentos"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69904,"og":{"codigo_dir":"EA0020999","nombre":"Instituto
+        de Astrofisica de Andalucia"},"ut":{"codigo_dir":"EA0020999","nombre":"Instituto
+        de Astrofisica de Andalucia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69905,"og":{"codigo_dir":"EA0021003","nombre":"Instituto
+        de Biologia Molecular Eladio Vi\u00f1uela"},"ut":{"codigo_dir":"EA0021003","nombre":"Instituto
+        de Biologia Molecular Eladio Vi\u00f1uela"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69906,"og":{"codigo_dir":"EA0021006","nombre":"Instituto
+        de Biomedicina de Sevilla"},"ut":{"codigo_dir":"EA0021006","nombre":"Instituto
+        de Biomedicina de Sevilla"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69907,"og":{"codigo_dir":"EA0020957","nombre":"Centro
+        Andaluz de Biologia Molecular y Medicina Regenerativa"},"ut":{"codigo_dir":"EA0020957","nombre":"Centro
+        Andaluz de Biologia Molecular y Medicina Regenerativa"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69908,"og":{"codigo_dir":"EA0020960","nombre":"Centro
+        de Estudios Avanzados de Blanes"},"ut":{"codigo_dir":"EA0020960","nombre":"Centro
+        de Estudios Avanzados de Blanes"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69909,"og":{"codigo_dir":"EA0020961","nombre":"Centro
+        de Fisica de Materiales"},"ut":{"codigo_dir":"EA0020961","nombre":"Centro
+        de Fisica de Materiales"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69910,"og":{"codigo_dir":"EA0020968","nombre":"Centro
+        de Investigacion en Nanomateriales y Nanotecnologia"},"ut":{"codigo_dir":"EA0020968","nombre":"Centro
+        de Investigacion en Nanomateriales y Nanotecnologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69911,"og":{"codigo_dir":"EA0020969","nombre":"Centro
+        de Investigacion y Desarrollo Pascual Vila"},"ut":{"codigo_dir":"EA0021062","nombre":"Instituto
+        de Quimica Avanzada de Catalu\u00f1a"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69912,"og":{"codigo_dir":"EA0020971","nombre":"Centro
+        de Investigaciones Cientificas Isla de la Cartuja"},"ut":{"codigo_dir":"EA0021009","nombre":"Instituto
+        de Bioquimica Vegetal y Fotosintesis"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69916,"og":{"codigo_dir":"EA0020981","nombre":"Estacion
+        Biologica de Do\u00f1ana"},"ut":{"codigo_dir":"EA0020981","nombre":"Estacion
+        Biologica de Do\u00f1ana"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69917,"og":{"codigo_dir":"EA0020982","nombre":"Estacion
+        Experimental Aula Dei"},"ut":{"codigo_dir":"EA0020982","nombre":"Estacion
+        Experimental Aula Dei"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69918,"og":{"codigo_dir":"EA0020984","nombre":"Estacion
+        Experimental del Zaidin"},"ut":{"codigo_dir":"EA0020984","nombre":"Estacion
+        Experimental del Zaidin"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69919,"og":{"codigo_dir":"EA0020994","nombre":"Instituto
+        de Agricultura Sostenible"},"ut":{"codigo_dir":"EA0020994","nombre":"Instituto
+        de Agricultura Sostenible"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69920,"og":{"codigo_dir":"EA0020998","nombre":"Instituto
+        de Arqueologia"},"ut":{"codigo_dir":"EA0020998","nombre":"Instituto de Arqueologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69921,"og":{"codigo_dir":"EA0021001","nombre":"Instituto
+        de Biologia Funcional y Genomica"},"ut":{"codigo_dir":"EA0021001","nombre":"Instituto
+        de Biologia Funcional y Genomica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69922,"og":{"codigo_dir":"EA0021004","nombre":"Instituto
+        de Biologia Molecular y Celular de Plantas Primo Yufera"},"ut":{"codigo_dir":"EA0021004","nombre":"Instituto
+        de Biologia Molecular y Celular de Plantas Primo Yufera"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69923,"og":{"codigo_dir":"EA0021008","nombre":"Instituto
+        de Biomedicina y Biotecnologia de Cantabria"},"ut":{"codigo_dir":"EA0021008","nombre":"Instituto
+        de Biomedicina y Biotecnologia de Cantabria"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69924,"og":{"codigo_dir":"EA0021010","nombre":"Instituto
+        de Carboquimica"},"ut":{"codigo_dir":"EA0021010","nombre":"Instituto de Carboquimica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69925,"og":{"codigo_dir":"EA0021015","nombre":"Instituto
+        de Ciencia de Materiales Madrid"},"ut":{"codigo_dir":"EA0021015","nombre":"Instituto
+        de Ciencia de Materiales Madrid"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:57 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:58 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69927,"og":{"codigo_dir":"EA0020992","nombre":"Instituto
+        Ciencias de la Construccion Eduardo Torroja"},"ut":{"codigo_dir":"EA0020992","nombre":"Instituto
+        Ciencias de la Construccion Eduardo Torroja"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69928,"og":{"codigo_dir":"EA0020995","nombre":"Instituto
+        de Agrobiotecnologia"},"ut":{"codigo_dir":"EA0020995","nombre":"Instituto
+        de Agrobiotecnologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69929,"og":{"codigo_dir":"EA0020997","nombre":"Instituto
+        de Analisis Economico"},"ut":{"codigo_dir":"EA0020997","nombre":"Instituto
+        de Analisis Economico"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69930,"og":{"codigo_dir":"EA0021000","nombre":"Instituto
+        de Biologia Evolutiva"},"ut":{"codigo_dir":"EA0021000","nombre":"Instituto
+        de Biologia Evolutiva"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69931,"og":{"codigo_dir":"EA0021005","nombre":"Instituto
+        de Biologia y Genetica Molecular"},"ut":{"codigo_dir":"EA0021005","nombre":"Instituto
+        de Biologia y Genetica Molecular"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69947,"og":{"codigo_dir":"EA0021007","nombre":"Instituto
+        de Biomedicina de Valencia"},"ut":{"codigo_dir":"EA0021007","nombre":"Instituto
+        de Biomedicina de Valencia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69948,"og":{"codigo_dir":"EA0021011","nombre":"Instituto
+        de Catalisis y Petroleoquimica"},"ut":{"codigo_dir":"EA0021011","nombre":"Instituto
+        de Catalisis y Petroleoquimica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69932,"og":{"codigo_dir":"EA0021012","nombre":"Instituto
+        de Ceramica y Vidrio"},"ut":{"codigo_dir":"EA0021012","nombre":"Instituto
+        de Ceramica y Vidrio"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69949,"og":{"codigo_dir":"EA0021013","nombre":"Instituto
+        de Ciencia de Materiales de Barcelona"},"ut":{"codigo_dir":"EA0021013","nombre":"Instituto
+        de Ciencia de Materiales de Barcelona"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69926,"og":{"codigo_dir":"EA0021016","nombre":"Instituto
+        de Ciencia y Tecnologia de Alimentos y Nutricion"},"ut":{"codigo_dir":"EA0021016","nombre":"Instituto
+        de Ciencia y Tecnologia de Alimentos y Nutricion"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69933,"og":{"codigo_dir":"EA0021017","nombre":"Instituto
+        de Ciencia y Tecnologia de Polimeros"},"ut":{"codigo_dir":"EA0021017","nombre":"Instituto
+        de Ciencia y Tecnologia de Polimeros"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69934,"og":{"codigo_dir":"EA0021020","nombre":"Instituto
+        de Ciencias del Espacio"},"ut":{"codigo_dir":"EA0021020","nombre":"Instituto
+        de Ciencias del Espacio"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69935,"og":{"codigo_dir":"EA0021023","nombre":"Instituto
+        de Ciencias Marinas de Andalucia"},"ut":{"codigo_dir":"EA0021023","nombre":"Instituto
+        de Ciencias Marinas de Andalucia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69936,"og":{"codigo_dir":"EA0021028","nombre":"Instituto
+        de Estudios Gallegos Padre Sarmiento"},"ut":{"codigo_dir":"EA0021028","nombre":"Instituto
+        de Estudios Gallegos Padre Sarmiento"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69950,"og":{"codigo_dir":"EA0021032","nombre":"Instituto
+        de Fisica de Cantabria"},"ut":{"codigo_dir":"EA0021032","nombre":"Instituto
+        de Fisica de Cantabria"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69937,"og":{"codigo_dir":"EA0021033","nombre":"Instituto
+        de Fisica Fundamental"},"ut":{"codigo_dir":"EA0021033","nombre":"Instituto
+        de Fisica Fundamental"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69938,"og":{"codigo_dir":"EA0021034","nombre":"Instituto
+        de Fisica Interdisciplinar y Sistemas Complejos"},"ut":{"codigo_dir":"EA0021034","nombre":"Instituto
+        de Fisica Interdisciplinar y Sistemas Complejos"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69939,"og":{"codigo_dir":"EA0021036","nombre":"Instituto
+        de Ganaderia de Monta\u00f1a"},"ut":{"codigo_dir":"EA0021036","nombre":"Instituto
+        de Ganaderia de Monta\u00f1a"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69940,"og":{"codigo_dir":"EA0021039","nombre":"Instituto
+        de Hortofruticultura Subtropical y Mediterranea \"\"La Mayora\"\""},"ut":{"codigo_dir":"EA0021039","nombre":"Instituto
+        de Hortofruticultura Subtropical y Mediterranea \"\"La Mayora\"\""},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69941,"og":{"codigo_dir":"EA0021041","nombre":"Instituto
+        de Investigacion en Ciencias de Alimentacion"},"ut":{"codigo_dir":"EA0021041","nombre":"Instituto
+        de Investigacion en Ciencias de Alimentacion"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69942,"og":{"codigo_dir":"EA0021045","nombre":"Instituto
+        de Investigaciones Biomedicas Alberto Sols"},"ut":{"codigo_dir":"EA0021045","nombre":"Instituto
+        de Investigaciones Biomedicas Alberto Sols"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69943,"og":{"codigo_dir":"EA0021047","nombre":"Instituto
+        de Investigaciones Marinas"},"ut":{"codigo_dir":"EA0021047","nombre":"Instituto
+        de Investigaciones Marinas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69944,"og":{"codigo_dir":"EA0021056","nombre":"Instituto
+        de Neurociencias"},"ut":{"codigo_dir":"EA0021056","nombre":"Instituto de Neurociencias"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69945,"og":{"codigo_dir":"EA0021057","nombre":"Instituto
+        de Optica Daza de Valdes"},"ut":{"codigo_dir":"EA0021057","nombre":"Instituto
+        de Optica Daza de Valdes"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69946,"og":{"codigo_dir":"EA0021063","nombre":"Instituto
+        de Quimica Fisica Rocasolano"},"ut":{"codigo_dir":"EA0021063","nombre":"Instituto
+        de Quimica Fisica Rocasolano"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:58 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:59 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69951,"og":{"codigo_dir":"EA0021042","nombre":"Instituto
+        de Investigacion en Inteligencia Artificial"},"ut":{"codigo_dir":"EA0021042","nombre":"Instituto
+        de Investigacion en Inteligencia Artificial"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69952,"og":{"codigo_dir":"EA0021049","nombre":"Instituto
+        de la Grasa"},"ut":{"codigo_dir":"EA0021049","nombre":"Instituto de la Grasa"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69953,"og":{"codigo_dir":"EA0021054","nombre":"Instituto
+        de Microelectronica de Madrid"},"ut":{"codigo_dir":"EA0021054","nombre":"Instituto
+        de Microelectronica de Madrid"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69954,"og":{"codigo_dir":"EA0021055","nombre":"Instituto
+        de Microelectronica de Sevilla"},"ut":{"codigo_dir":"EA0021055","nombre":"Instituto
+        de Microelectronica de Sevilla"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69955,"og":{"codigo_dir":"EA0021066","nombre":"Instituto
+        de Recursos Naturales y Agrobiologia de Salamanca"},"ut":{"codigo_dir":"EA0021066","nombre":"Instituto
+        de Recursos Naturales y Agrobiologia de Salamanca"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69956,"og":{"codigo_dir":"EA0021070","nombre":"Instituto
+        de Tecnologia Quimica"},"ut":{"codigo_dir":"EA0021070","nombre":"Instituto
+        de Tecnologia Quimica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69957,"og":{"codigo_dir":"EA0021071","nombre":"Instituto
+        de Tecnologias Fisicas y de la Informacion \"\"Leonardo Torres Quevedo\"\""},"ut":{"codigo_dir":"EA0021071","nombre":"Instituto
+        de Tecnologias Fisicas y de la Informacion \"\"Leonardo Torres Quevedo\""},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69958,"og":{"codigo_dir":"EA0021072","nombre":"Instituto
+        Gestion de la Innovacion y del Conocimiento"},"ut":{"codigo_dir":"EA0021072","nombre":"Instituto
+        Gestion de la Innovacion y del Conocimiento"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69959,"og":{"codigo_dir":"EA0021075","nombre":"Instituto
+        Pirenaico de Ecologia"},"ut":{"codigo_dir":"EA0021075","nombre":"Instituto
+        Pirenaico de Ecologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69960,"og":{"codigo_dir":"EA0021076","nombre":"Laboratorio
+        de Investigacion en Fluidodinamica y Tecnologias de la Combustion"},"ut":{"codigo_dir":"EA0021076","nombre":"Laboratorio
+        de Investigacion en Fluidodinamica y Tecnologias de la Combustion"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69965,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020953","nombre":"Instituto
+        de Ciencias de la Vid y el Vino"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69966,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020957","nombre":"Centro
+        Andaluz de Biologia Molecular y Medicina Regenerativa"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69967,"og":{"codigo_dir":"EA0021018","nombre":"Instituto
+        de Ciencias Agrarias"},"ut":{"codigo_dir":"EA0021018","nombre":"Instituto
+        de Ciencias Agrarias"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69968,"og":{"codigo_dir":"EA0021022","nombre":"Instituto
+        de Ciencias del Patrimonio"},"ut":{"codigo_dir":"EA0021022","nombre":"Instituto
+        de Ciencias del Patrimonio"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69969,"og":{"codigo_dir":"EA0021029","nombre":"Instituto
+        de Estudios Sociales Avanzados"},"ut":{"codigo_dir":"EA0021029","nombre":"Instituto
+        de Estudios Sociales Avanzados"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69970,"og":{"codigo_dir":"EA0021031","nombre":"Instituto
+        de Fisica Corpuscular"},"ut":{"codigo_dir":"EA0021031","nombre":"Instituto
+        de Fisica Corpuscular"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69971,"og":{"codigo_dir":"EA0021037","nombre":"Instituto
+        de Geociencias"},"ut":{"codigo_dir":"EA0021037","nombre":"Instituto de Geociencias"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69972,"og":{"codigo_dir":"EA0021043","nombre":"Instituto
+        de Investigacion en Recursos Cinegeticos"},"ut":{"codigo_dir":"EA0021043","nombre":"Instituto
+        de Investigacion en Recursos Cinegeticos"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69973,"og":{"codigo_dir":"EA0021044","nombre":"Instituto
+        de Investigaciones Agrobiologicas de Galicia"},"ut":{"codigo_dir":"EA0021044","nombre":"Instituto
+        de Investigaciones Agrobiologicas de Galicia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69974,"og":{"codigo_dir":"EA0021046","nombre":"Instituto
+        de Investigaciones Biomedicas de Barcelona"},"ut":{"codigo_dir":"EA0021046","nombre":"Instituto
+        de Investigaciones Biomedicas de Barcelona"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69975,"og":{"codigo_dir":"EA0021053","nombre":"Instituto
+        de Microelectronica de Barcelona"},"ut":{"codigo_dir":"EA0021053","nombre":"Instituto
+        de Microelectronica de Barcelona"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69976,"og":{"codigo_dir":"EA0021058","nombre":"Instituto
+        de Parasitologia y Biomedicina Lopez Neyra"},"ut":{"codigo_dir":"EA0021058","nombre":"Instituto
+        de Parasitologia y Biomedicina Lopez Neyra"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69977,"og":{"codigo_dir":"EA0021060","nombre":"Instituto
+        de Productos Lacteos de Asturias"},"ut":{"codigo_dir":"EA0021060","nombre":"Instituto
+        de Productos Lacteos de Asturias"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69978,"og":{"codigo_dir":"EA0021073","nombre":"Instituto
+        Mediterraneo de Estudios Avanzados"},"ut":{"codigo_dir":"EA0021073","nombre":"Instituto
+        Mediterraneo de Estudios Avanzados"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69979,"og":{"codigo_dir":"EA0021077","nombre":"Mision
+        Biologica de Galicia"},"ut":{"codigo_dir":"EA0021077","nombre":"Mision Biologica
+        de Galicia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General Adjunta
+        de Actuacion Economica"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:59 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:00 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69981,"og":{"codigo_dir":"EA0020975","nombre":"Centro
+        Mediterraneo de Investigaciones Marinas y Ambientales"},"ut":{"codigo_dir":"EA0021099","nombre":"Unidad
+        de Tecnologia Marina"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69987,"og":{"codigo_dir":"EA0021061","nombre":"Instituto
+        de Productos Naturales y Agrobiologia"},"ut":{"codigo_dir":"EA0021061","nombre":"Instituto
+        de Productos Naturales y Agrobiologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70007,"og":{"codigo_dir":"EA0021064","nombre":"Instituto
+        de Quimica Medica"},"ut":{"codigo_dir":"EA0021064","nombre":"Instituto de
+        Quimica Medica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70008,"og":{"codigo_dir":"EA0021065","nombre":"Instituto
+        de Quimica Organica General"},"ut":{"codigo_dir":"EA0021065","nombre":"Instituto
+        de Quimica Organica General"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69988,"og":{"codigo_dir":"EA0021067","nombre":"Instituto
+        de Recursos Naturales y Agrobiologia Sevilla"},"ut":{"codigo_dir":"EA0021067","nombre":"Instituto
+        de Recursos Naturales y Agrobiologia Sevilla"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70009,"og":{"codigo_dir":"EA0021068","nombre":"Instituto
+        de Robotica e Informatica Industrial"},"ut":{"codigo_dir":"EA0021068","nombre":"Instituto
+        de Robotica e Informatica Industrial"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69989,"og":{"codigo_dir":"EA0021074","nombre":"Instituto
+        Nacional del Carbon"},"ut":{"codigo_dir":"EA0021074","nombre":"Instituto Nacional
+        del Carbon"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General Adjunta
+        de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70010,"og":{"codigo_dir":"EA0021078","nombre":"Museo
+        Nacional de Ciencias Naturales"},"ut":{"codigo_dir":"EA0021078","nombre":"Museo
+        Nacional de Ciencias Naturales"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70030,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020962","nombre":"Centro
+        de Fisica Miguel A. Catalan"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70031,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020964","nombre":"Centro
+        de Investigacion Agrigenomica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70028,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020952","nombre":"Instituto
+        de Ciencias de la Tierra Jaume Almera"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70029,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020956","nombre":"Centro
+        de Ciencias Humanas y Sociales"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69996,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020954","nombre":"Centro
+        de Astrobiologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69997,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020955","nombre":"Centro
+        de Automatica y Robotica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69998,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020958","nombre":"Centro
+        de Edafologia y Biologia Aplicada del Segura"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69999,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020960","nombre":"Centro
+        de Estudios Avanzados de Blanes"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70000,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020963","nombre":"Centro
+        de Fisica Teorica y Matematicas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70051,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020983","nombre":"Estacion
+        Experimental de Zonas Aridas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70017,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020961","nombre":"Centro
+        de Fisica de Materiales"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70050,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020975","nombre":"Centro
+        Mediterraneo de Investigaciones Marinas y Ambientales"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70048,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020969","nombre":"Centro
+        de Investigacion y Desarrollo Pascual Vila"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70049,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020971","nombre":"Centro
+        de Investigaciones Cientificas Isla de la Cartuja"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70016,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020959","nombre":"Centro
+        Andaluz de Biologia del Desarrollo"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":69980,"og":{"codigo_dir":"EA0021097","nombre":"Real
+        Jardin Botanico"},"ut":{"codigo_dir":"EA0021097","nombre":"Real Jardin Botanico"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70011,"og":{"codigo_dir":"EA0038752","nombre":"Residencia
+        de Investigadores y Biblioteca de Sevilla (Rebis)"},"ut":{"codigo_dir":"EA0038752","nombre":"Residencia
+        de Investigadores y Biblioteca de Sevilla (Rebis)"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:00 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:01 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70052,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020988","nombre":"Instituto
+        Biofisika"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General Adjunta
+        de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70054,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020997","nombre":"Instituto
+        de Analisis Economico"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70055,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020998","nombre":"Instituto
+        de Arqueologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70056,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020999","nombre":"Instituto
+        de Astrofisica de Andalucia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70057,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021001","nombre":"Instituto
+        de Biologia Funcional y Genomica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70058,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021003","nombre":"Instituto
+        de Biologia Molecular Eladio Vi\u00f1uela"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70059,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021009","nombre":"Instituto
+        de Bioquimica Vegetal y Fotosintesis"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70060,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021010","nombre":"Instituto
+        de Carboquimica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70061,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021012","nombre":"Instituto
+        de Ceramica y Vidrio"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70062,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021013","nombre":"Instituto
+        de Ciencia de Materiales de Barcelona"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70063,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021015","nombre":"Instituto
+        de Ciencia de Materiales Madrid"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70064,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021018","nombre":"Instituto
+        de Ciencias Agrarias"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70065,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021019","nombre":"Instituto
+        de Ciencias de Materiales de Aragon"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70066,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021020","nombre":"Instituto
+        de Ciencias del Espacio"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70067,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020965","nombre":"Centro
+        de Investigacion Cardiovascular"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70068,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020972","nombre":"Centro
+        de Investigaciones Sobre Desertificacion"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70069,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020974","nombre":"Centro
+        de Quimica y Materiales de Aragon"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70070,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020977","nombre":"Centro
+        Nacional de Investigaciones Metalurgicas (Madrid)"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70071,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020986","nombre":"Institucion
+        Mila y Fontanals"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70072,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020992","nombre":"Instituto
+        Ciencias de la Construccion Eduardo Torroja"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70073,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020994","nombre":"Instituto
+        de Agricultura Sostenible"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70074,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021000","nombre":"Instituto
+        de Biologia Evolutiva"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70075,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021002","nombre":"Instituto
+        de Biologia Integrativa de Sistemas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70076,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021005","nombre":"Instituto
+        de Biologia y Genetica Molecular"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70077,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021014","nombre":"Instituto
+        de Ciencia de Materiales de Sevilla"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:01 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:02 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70078,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021021","nombre":"Instituto
+        de Ciencias del Mar"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70079,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021028","nombre":"Instituto
+        de Estudios Gallegos Padre Sarmiento"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70080,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021034","nombre":"Instituto
+        de Fisica Interdisciplinar y Sistemas Complejos"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70081,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021044","nombre":"Instituto
+        de Investigaciones Agrobiologicas de Galicia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70082,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021047","nombre":"Instituto
+        de Investigaciones Marinas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70083,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021049","nombre":"Instituto
+        de la Grasa"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70084,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021050","nombre":"Instituto
+        de Lengua, Literatura y Antropologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70085,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021052","nombre":"Instituto
+        de Medicina Molecular Principe de Asturias"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70086,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021058","nombre":"Instituto
+        de Parasitologia y Biomedicina Lopez Neyra"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70087,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020966","nombre":"Centro
+        de Investigacion Ecologica y Aplicaciones Forestales"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70088,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020968","nombre":"Centro
+        de Investigacion en Nanomateriales y Nanotecnologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70089,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020973","nombre":"Centro
+        de Quimica Organica Lora Tamayo"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70090,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020976","nombre":"Centro
+        Nacional de Biotecnologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70091,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020979","nombre":"Escuela
+        de Estudios Arabes"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70092,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020985","nombre":"Inst.
+        de Biologia Molecular de Barcelona"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70093,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020996","nombre":"Instituto
+        de Agroquimica y Tecnologia de Alimentos"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70094,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021016","nombre":"Instituto
+        de Ciencia y Tecnologia de Alimentos y Nutricion"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70095,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021023","nombre":"Instituto
+        de Ciencias Marinas de Andalucia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70096,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021024","nombre":"Instituto
+        de Ciencias Matematicas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70097,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021027","nombre":"Instituto
+        de Estructura de la Materia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70098,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021033","nombre":"Instituto
+        de Fisica Fundamental"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70099,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021035","nombre":"Instituto
+        de Fisica Teorica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70100,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021036","nombre":"Instituto
+        de Ganaderia de Monta\u00f1a"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70101,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021039","nombre":"Instituto
+        de Hortofruticultura Subtropical y Mediterranea \"\"La Mayora\"\""},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70102,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021040","nombre":"Instituto
+        de Instrumentacion para la Imagen Molecular"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:02 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=11
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:03 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70103,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021042","nombre":"Instituto
+        de Investigacion en Inteligencia Artificial"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70104,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021045","nombre":"Instituto
+        de Investigaciones Biomedicas Alberto Sols"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70105,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021051","nombre":"Instituto
+        de Lenguas y Culturas del Mediterraneo y Oriente Proximo"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70106,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021055","nombre":"Instituto
+        de Microelectronica de Sevilla"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70107,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020967","nombre":"Centro
+        de Investigacion en Nanociencia y Nanotecnologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70108,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020970","nombre":"Centro
+        de Investigaciones Biologicas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70109,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020978","nombre":"Editorial
+        Csic"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General Adjunta
+        de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70110,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020980","nombre":"Escuela
+        de Estudios Hispano-Americanos"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70111,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020981","nombre":"Estacion
+        Biologica de Do\u00f1ana"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70112,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020982","nombre":"Estacion
+        Experimental Aula Dei"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70113,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020984","nombre":"Estacion
+        Experimental del Zaidin"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70114,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020987","nombre":"Instituto
+        Andaluz de Ciencias de la Tierra"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70115,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020989","nombre":"Instituto
+        Biologia Molecular y Celular del Cancer de Salamanca"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70116,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020991","nombre":"Instituto
+        Cajal"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General Adjunta
+        de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70117,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020993","nombre":"Instituto
+        de Acuicultura Torre de la Sal"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70118,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020995","nombre":"Instituto
+        de Agrobiotecnologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70119,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021004","nombre":"Instituto
+        de Biologia Molecular y Celular de Plantas Primo Yufera"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70120,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021006","nombre":"Instituto
+        de Biomedicina de Sevilla"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70121,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021007","nombre":"Instituto
+        de Biomedicina de Valencia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70122,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021008","nombre":"Instituto
+        de Biomedicina y Biotecnologia de Cantabria"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70123,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021011","nombre":"Instituto
+        de Catalisis y Petroleoquimica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70124,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021017","nombre":"Instituto
+        de Ciencia y Tecnologia de Polimeros"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70125,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021037","nombre":"Instituto
+        de Geociencias"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70126,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021053","nombre":"Instituto
+        de Microelectronica de Barcelona"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70127,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021022","nombre":"Instituto
+        de Ciencias del Patrimonio"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:03 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=12
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:04 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70128,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021025","nombre":"Instituto
+        de Diagnostico Ambiental y Estudios del Agua"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70129,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021026","nombre":"Instituto
+        de Economia, Geografia y Demografia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70130,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021029","nombre":"Instituto
+        de Estudios Sociales Avanzados"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70131,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021030","nombre":"Instituto
+        de Filosofia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70132,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021031","nombre":"Instituto
+        de Fisica Corpuscular"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70133,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021032","nombre":"Instituto
+        de Fisica de Cantabria"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70134,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021038","nombre":"Instituto
+        de Historia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70135,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021041","nombre":"Instituto
+        de Investigacion en Ciencias de Alimentacion"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70136,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021043","nombre":"Instituto
+        de Investigacion en Recursos Cinegeticos"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70137,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021046","nombre":"Instituto
+        de Investigaciones Biomedicas de Barcelona"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70138,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021048","nombre":"Instituto
+        de Investigaciones Quimicas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70139,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021054","nombre":"Instituto
+        de Microelectronica de Madrid"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70140,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021056","nombre":"Instituto
+        de Neurociencias"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70141,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021057","nombre":"Instituto
+        de Optica Daza de Valdes"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70142,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021060","nombre":"Instituto
+        de Productos Lacteos de Asturias"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70143,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021061","nombre":"Instituto
+        de Productos Naturales y Agrobiologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70144,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021069","nombre":"Instituto
+        de Sintesis Quimica y Catalisis Homogenea"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70145,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021073","nombre":"Instituto
+        Mediterraneo de Estudios Avanzados"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70146,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021074","nombre":"Instituto
+        Nacional del Carbon"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70147,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021059","nombre":"Instituto
+        de Politicas y Bienes Publicos"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70148,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021067","nombre":"Instituto
+        de Recursos Naturales y Agrobiologia Sevilla"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70149,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021068","nombre":"Instituto
+        de Robotica e Informatica Industrial"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70150,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021070","nombre":"Instituto
+        de Tecnologia Quimica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70151,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021071","nombre":"Instituto
+        de Tecnologias Fisicas y de la Informacion \"\"Leonardo Torres Quevedo\""},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70152,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021075","nombre":"Instituto
+        Pirenaico de Ecologia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:04 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=13
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:05 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70153,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021077","nombre":"Mision
+        Biologica de Galicia"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70154,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021082","nombre":"Gabinete
+        del Presidente"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70155,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021089","nombre":"Vicepresidencia
+        de Investigacion Cientifica y Tecnica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70156,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021090","nombre":"Vicepresidencia
+        Adjunta de Areas Cientifico-Tecnicas"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70157,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021094","nombre":"Vicepresidencia
+        Adjunta de Organizacion y Cultura Cientifica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70158,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"GE0000237","nombre":"CAJA
+        PAGADORA ESCUELA ESPA\u00d1OLA DE HISTORIA Y ARQUEOLOGIA"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70159,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"GE0000242","nombre":"CAJA
+        PAGADORA DELEGACI\u00d3N CSIC EN ANDALUCIA"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70167,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021062","nombre":"Instituto
+        de Quimica Avanzada de Catalu\u00f1a"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70168,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021076","nombre":"Laboratorio
+        de Investigacion en Fluidodinamica y Tecnologias de la Combustion"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70169,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021091","nombre":"Vicepresidencia
+        Adjunta de Programacion Cientifica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70170,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021092","nombre":"Vicepresidencia
+        Adjunta de Transferencia del Conocimiento"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70171,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021093","nombre":"Vicepresidencia
+        de Organizacion y Relaciones Institucionales"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70172,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021095","nombre":"Vicepresidencia
+        Adjunta de Relaciones Institucionales"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70173,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021096","nombre":"Vicepresidencia
+        de Relaciones Internacionales"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70175,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021098","nombre":"Unidad
+        de Recursos de Informacion Cientifica para la Investigacion"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70176,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"GE0000238","nombre":"CAJA
+        PAGADORA DELEGACI\u00d3N CSIC EN CATALU\u00d1A"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70177,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"GE0000239","nombre":"CAJA
+        PAGADORA DELEGACI\u00d3N CSIC EN VALENCIA"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70178,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"GE0000241","nombre":"CAJA
+        PAGADORA DELEGACI\u00d3N CSIC EN GALICIA"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70179,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"GE0000244","nombre":"CAJA
+        PAGADORA DELEGACI\u00d3N CSIC EN BRUSELAS"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70187,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021063","nombre":"Instituto
+        de Quimica Fisica Rocasolano"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70188,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021064","nombre":"Instituto
+        de Quimica Medica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70189,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021065","nombre":"Instituto
+        de Quimica Organica General"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70190,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021066","nombre":"Instituto
+        de Recursos Naturales y Agrobiologia de Salamanca"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70191,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021072","nombre":"Instituto
+        Gestion de la Innovacion y del Conocimiento"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70192,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021078","nombre":"Museo
+        Nacional de Ciencias Naturales"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:05 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025101/relaciones?administracion=E05025101&limit=25.0&page=14
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:06 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia,
+        Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":73810,"og":{"codigo_dir":"EA0020936","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0039247","nombre":"Unidad
+        de Investigaci\u00f3n Biom\u00e9dica"},"oc":{"codigo_dir":"EA0020946","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Ciencia, Innovaci\u00f3n
+        y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70608,"og":{"codigo_dir":"EA0020949","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"},"ut":{"codigo_dir":"EA0020949","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70193,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021086","nombre":"Secretaria
+        General Adjunta de Informatica"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70196,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021097","nombre":"Real
+        Jardin Botanico"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":75907,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0038752","nombre":"Residencia
+        de Investigadores y Biblioteca de Sevilla (Rebis)"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70195,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021088","nombre":"Secretaria
+        General Adjunta de Recursos Humanos"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70197,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"GE0000243","nombre":"CAJA
+        PAGADORA DELEGACI\u00d3N CSIC EN ARAGON"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70194,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":96507,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021099","nombre":"Unidad
+        de Tecnologia Marina"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70209,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"GE0000531","nombre":"CAJA
+        PAGADORA OFICIALIA MAYOR"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70207,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021081","nombre":"Presidencia
+        del C.S.I.C."},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":86087,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0020990","nombre":"Instituto
+        Botanico de Barcelona"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria
+        General Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":70208,"og":{"codigo_dir":"EA0021087","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0021083","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General Adjunta
+        de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":96527,"og":{"codigo_dir":"EA0021099","nombre":"UNIDAD
+        DE TECNOLOGIA MARINA"},"ut":{"codigo_dir":"EA0021099","nombre":"Unidad de
+        Tecnologia Marina"},"oc":{"codigo_dir":"EA0021085","nombre":"Secretaria General
+        Adjunta de Actuacion Economica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":76247,"og":{"codigo_dir":"EA0020890","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0020909","nombre":"Area de Gestion
+        Econ\u00f3mico Presupuestaria"},"oc":{"codigo_dir":"EA0020912","nombre":"Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Ciencia, Innovaci\u00f3n y Universidades","codigo_dir":"E05025101","cifs":[]},"id":76228,"og":{"codigo_dir":"EA0020890","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0020909","nombre":"Area de Gestion
+        Econ\u00f3mico Presupuestaria"},"oc":{"codigo_dir":"EA0003131","nombre":"Contabilidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:06 GMT
+recorded_with: VCR 6.0.0

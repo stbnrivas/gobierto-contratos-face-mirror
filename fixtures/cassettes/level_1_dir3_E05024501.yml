@@ -1,0 +1,295 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024501/relaciones?administracion=E05024501&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:09 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de la Presidencia,
+        Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67935,"og":{"codigo_dir":"E04797504","nombre":"Delegaci\u00f3n
+        del Gobierno para la Violencia de G\u00e9nero"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina
+        Contable. I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67847,"og":{"codigo_dir":"E04797504","nombre":"Delegaci\u00f3n
+        del Gobierno para la Violencia de G\u00e9nero"},"ut":{"codigo_dir":"E04797504","nombre":"Delegaci\u00f3n
+        del Gobierno para la Violencia de G\u00e9nero"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina
+        Contable. I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67829,"og":{"codigo_dir":"E05040501","nombre":"Direcci\u00f3n
+        General para la Igualdad de Trato y Diversidad"},"ut":{"codigo_dir":"E05040501","nombre":"Direcci\u00f3n
+        General para la Igualdad de Trato y Diversidad"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina
+        Contable. I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67848,"og":{"codigo_dir":"E05040501","nombre":"Direcci\u00f3n
+        General para la Igualdad de Trato y Diversidad"},"ut":{"codigo_dir":"E04797504","nombre":"Delegaci\u00f3n
+        del Gobierno para la Violencia de G\u00e9nero"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina
+        Contable. I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67973,"og":{"codigo_dir":"E05040501","nombre":"Direcci\u00f3n
+        General para la Igualdad de Trato y Diversidad"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina
+        Contable. I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67936,"og":{"codigo_dir":"EA0022240","nombre":"Oficialia
+        Mayor"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina Presupuestaria y
+        de Gestion Economica"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina Contable.
+        I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62478,"og":{"codigo_dir":"EA0022240","nombre":"Oficialia
+        Mayor"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina Presupuestaria y
+        de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina Contable.
+        I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62517,"og":{"codigo_dir":"EA0022241","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62498,"og":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62518,"og":{"codigo_dir":"EA0022243","nombre":"Subdirecci\u00f3n
+        General de Tecnolog\u00edas y Servicios de Informaci\u00f3n"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62519,"og":{"codigo_dir":"EA0022247","nombre":"Subdirecci\u00f3n
+        General de Publicaciones, Documentaci\u00f3n y Archivo"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62522,"og":{"codigo_dir":"EA0022253","nombre":"Direcci\u00f3n
+        de la Agencia Estatal Bolet\u00edn Oficial del Estado"},"ut":{"codigo_dir":"EA0022258","nombre":"Unidad
+        Tramitadora"},"oc":{"codigo_dir":"EA0022257","nombre":"Oficina de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62900,"og":{"codigo_dir":"EA0022253","nombre":"Direcci\u00f3n
+        de la Agencia Estatal Bolet\u00edn Oficial del Estado"},"ut":{"codigo_dir":"EA0022258","nombre":"Unidad
+        Tramitadora"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":66133,"og":{"codigo_dir":"EA0022261","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"EA0022265","nombre":"S.G.
+        de Publicaciones y Documentacion"},"oc":{"codigo_dir":"EA0022262","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":66161,"og":{"codigo_dir":"EA0022261","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"EA0022264","nombre":"S.G.
+        de Estudios e Investigacion"},"oc":{"codigo_dir":"EA0022262","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":66100,"og":{"codigo_dir":"EA0022261","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"EA0022262","nombre":"Gerencia"},"oc":{"codigo_dir":"EA0022262","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":63357,"og":{"codigo_dir":"EA0033560","nombre":"Instituto
+        de la Mujer y para la Igualdad de Oportunidades"},"ut":{"codigo_dir":"EA0033565","nombre":"Unidad
+        Tramitadora de Contrataci\u00f3n Instituto de la Mujer y para la Igualdad
+        de Oportunidades"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67828,"og":{"codigo_dir":"E05027901","nombre":"Secretar\u00eda
+        de Estado de Igualdad"},"ut":{"codigo_dir":"E04797504","nombre":"Delegaci\u00f3n
+        del Gobierno para la Violencia de G\u00e9nero"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina
+        Contable. I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67849,"og":{"codigo_dir":"E05027901","nombre":"Secretar\u00eda
+        de Estado de Igualdad"},"ut":{"codigo_dir":"E05027901","nombre":"Secretar\u00eda
+        de Estado de Igualdad"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina Contable.
+        I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67972,"og":{"codigo_dir":"E05027901","nombre":"Secretar\u00eda
+        de Estado de Igualdad"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina Presupuestaria
+        y de Gestion Economica"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina
+        Contable. I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62497,"og":{"codigo_dir":"E05035101","nombre":"Subsecretar\u00eda
+        de la Presidencia, Relaciones con las Cortes e Igualdad"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:09 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024501/relaciones?administracion=E05024501&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:10 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"21","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:05:10 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024501/relaciones?administracion=E05024501&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:11 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de la Presidencia,
+        Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67935,"og":{"codigo_dir":"E04797504","nombre":"Delegaci\u00f3n
+        del Gobierno para la Violencia de G\u00e9nero"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina
+        Contable. I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67847,"og":{"codigo_dir":"E04797504","nombre":"Delegaci\u00f3n
+        del Gobierno para la Violencia de G\u00e9nero"},"ut":{"codigo_dir":"E04797504","nombre":"Delegaci\u00f3n
+        del Gobierno para la Violencia de G\u00e9nero"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina
+        Contable. I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67829,"og":{"codigo_dir":"E05040501","nombre":"Direcci\u00f3n
+        General para la Igualdad de Trato y Diversidad"},"ut":{"codigo_dir":"E05040501","nombre":"Direcci\u00f3n
+        General para la Igualdad de Trato y Diversidad"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina
+        Contable. I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67848,"og":{"codigo_dir":"E05040501","nombre":"Direcci\u00f3n
+        General para la Igualdad de Trato y Diversidad"},"ut":{"codigo_dir":"E04797504","nombre":"Delegaci\u00f3n
+        del Gobierno para la Violencia de G\u00e9nero"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina
+        Contable. I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67973,"og":{"codigo_dir":"E05040501","nombre":"Direcci\u00f3n
+        General para la Igualdad de Trato y Diversidad"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina
+        Contable. I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67936,"og":{"codigo_dir":"EA0022240","nombre":"Oficialia
+        Mayor"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina Presupuestaria y
+        de Gestion Economica"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina Contable.
+        I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62478,"og":{"codigo_dir":"EA0022240","nombre":"Oficialia
+        Mayor"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina Presupuestaria y
+        de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina Contable.
+        I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62517,"og":{"codigo_dir":"EA0022241","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62498,"og":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62518,"og":{"codigo_dir":"EA0022243","nombre":"Subdirecci\u00f3n
+        General de Tecnolog\u00edas y Servicios de Informaci\u00f3n"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62519,"og":{"codigo_dir":"EA0022247","nombre":"Subdirecci\u00f3n
+        General de Publicaciones, Documentaci\u00f3n y Archivo"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62522,"og":{"codigo_dir":"EA0022253","nombre":"Direcci\u00f3n
+        de la Agencia Estatal Bolet\u00edn Oficial del Estado"},"ut":{"codigo_dir":"EA0022258","nombre":"Unidad
+        Tramitadora"},"oc":{"codigo_dir":"EA0022257","nombre":"Oficina de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62900,"og":{"codigo_dir":"EA0022253","nombre":"Direcci\u00f3n
+        de la Agencia Estatal Bolet\u00edn Oficial del Estado"},"ut":{"codigo_dir":"EA0022258","nombre":"Unidad
+        Tramitadora"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":66133,"og":{"codigo_dir":"EA0022261","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"EA0022265","nombre":"S.G.
+        de Publicaciones y Documentacion"},"oc":{"codigo_dir":"EA0022262","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":66161,"og":{"codigo_dir":"EA0022261","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"EA0022264","nombre":"S.G.
+        de Estudios e Investigacion"},"oc":{"codigo_dir":"EA0022262","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":66100,"og":{"codigo_dir":"EA0022261","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"EA0022262","nombre":"Gerencia"},"oc":{"codigo_dir":"EA0022262","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":63357,"og":{"codigo_dir":"EA0033560","nombre":"Instituto
+        de la Mujer y para la Igualdad de Oportunidades"},"ut":{"codigo_dir":"EA0033565","nombre":"Unidad
+        Tramitadora de Contrataci\u00f3n Instituto de la Mujer y para la Igualdad
+        de Oportunidades"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67828,"og":{"codigo_dir":"E05027901","nombre":"Secretar\u00eda
+        de Estado de Igualdad"},"ut":{"codigo_dir":"E04797504","nombre":"Delegaci\u00f3n
+        del Gobierno para la Violencia de G\u00e9nero"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina
+        Contable. I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67849,"og":{"codigo_dir":"E05027901","nombre":"Secretar\u00eda
+        de Estado de Igualdad"},"ut":{"codigo_dir":"E05027901","nombre":"Secretar\u00eda
+        de Estado de Igualdad"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina Contable.
+        I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":67972,"og":{"codigo_dir":"E05027901","nombre":"Secretar\u00eda
+        de Estado de Igualdad"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina Presupuestaria
+        y de Gestion Economica"},"oc":{"codigo_dir":"GE0015417","nombre":"Oficina
+        Contable. I.D. Ministerio de Igualdad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes e Igualdad","codigo_dir":"E05024501","cifs":[]},"id":62497,"og":{"codigo_dir":"E05035101","nombre":"Subsecretar\u00eda
+        de la Presidencia, Relaciones con las Cortes e Igualdad"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:11 GMT
+recorded_with: VCR 6.0.0

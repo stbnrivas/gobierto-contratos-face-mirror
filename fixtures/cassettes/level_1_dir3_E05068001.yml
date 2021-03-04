@@ -1,0 +1,1418 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068001/relaciones?administracion=E05068001&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:47 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87007,"og":{"codigo_dir":"EA0043300","nombre":"Presidencia
+        de la Aemet"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de
+        Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de
+        Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87018,"og":{"codigo_dir":"EA0043300","nombre":"Presidencia
+        de la Aemet"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87027,"og":{"codigo_dir":"EA0043301","nombre":"Departamento
+        de Coordinacion de las Delegaciones Territoriales"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87019,"og":{"codigo_dir":"EA0043321","nombre":"Direccion
+        de Administracion"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion
+        Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87013,"og":{"codigo_dir":"EA0043325","nombre":"Direccion
+        de Planificacion, Estrategia y Desarrollo Comercial"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87014,"og":{"codigo_dir":"EA0043327","nombre":"Direccion
+        de Produccion e Infraestructuras"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87020,"og":{"codigo_dir":"EA0043327","nombre":"Direccion
+        de Produccion e Infraestructuras"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion
+        Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87021,"og":{"codigo_dir":"EA0043328","nombre":"Coordinacion
+        de Telematica"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87028,"og":{"codigo_dir":"EA0043302","nombre":"Delegacion
+        Territorial de la Aemet en Andalucia, Ceuta y Melilla"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87015,"og":{"codigo_dir":"EA0043304","nombre":"Delegacion
+        Territorial de la Aemet en Aragon"},"ut":{"codigo_dir":"EA0043304","nombre":"Delegacion
+        Territorial de la Aemet en Aragon"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87030,"og":{"codigo_dir":"EA0043305","nombre":"Delegacion
+        Territorial de la Aemet en Asturias"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87031,"og":{"codigo_dir":"EA0043306","nombre":"Delegacion
+        Territorial de la Aemet en Canarias"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87008,"og":{"codigo_dir":"EA0043308","nombre":"Delegacion
+        Territorial de la Aemet en Cantabria"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87009,"og":{"codigo_dir":"EA0043309","nombre":"Delegacion
+        Territorial de la Aemet en Castilla-La Mancha"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87033,"og":{"codigo_dir":"EA0043310","nombre":"Delegacion
+        Territorial de la Aemet en Castilla-Leon"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87010,"og":{"codigo_dir":"EA0043311","nombre":"Delegacion
+        Territorial de la Aemet en Catalu\u00f1a"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87034,"og":{"codigo_dir":"EA0043312","nombre":"Delegacion
+        Territorial de la Aemet en Extremadura"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87011,"og":{"codigo_dir":"EA0043314","nombre":"Delegacion
+        Territorial de la Aemet en Illes Balears"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87012,"og":{"codigo_dir":"EA0043316","nombre":"Delegacion
+        Territorial de la Aemet en Madrid"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87016,"og":{"codigo_dir":"EA0043316","nombre":"Delegacion
+        Territorial de la Aemet en Madrid"},"ut":{"codigo_dir":"EA0043316","nombre":"Delegacion
+        Territorial de la Aemet en Madrid"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87017,"og":{"codigo_dir":"EA0043317","nombre":"Delegacion
+        Territorial de la Aemet en Murcia"},"ut":{"codigo_dir":"EA0043317","nombre":"Delegacion
+        Territorial de la Aemet en Murcia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87022,"og":{"codigo_dir":"EA0043330","nombre":"Departamento
+        de Infraestructura y Sistemas"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion
+        Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87029,"og":{"codigo_dir":"EA0043303","nombre":"Centro
+        Meteorologico de Malaga"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87032,"og":{"codigo_dir":"EA0043307","nombre":"Centro
+        Meteorologico de Tenerife"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":86847,"og":{"codigo_dir":"EA0043414","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"ut":{"codigo_dir":"EA0043414","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"oc":{"codigo_dir":"EA0043414","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:47 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068001/relaciones?administracion=E05068001&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:48 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"214","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:03:48 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068001/relaciones?administracion=E05068001&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:49 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87007,"og":{"codigo_dir":"EA0043300","nombre":"Presidencia
+        de la Aemet"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de
+        Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de
+        Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87018,"og":{"codigo_dir":"EA0043300","nombre":"Presidencia
+        de la Aemet"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87027,"og":{"codigo_dir":"EA0043301","nombre":"Departamento
+        de Coordinacion de las Delegaciones Territoriales"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87019,"og":{"codigo_dir":"EA0043321","nombre":"Direccion
+        de Administracion"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion
+        Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87013,"og":{"codigo_dir":"EA0043325","nombre":"Direccion
+        de Planificacion, Estrategia y Desarrollo Comercial"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87014,"og":{"codigo_dir":"EA0043327","nombre":"Direccion
+        de Produccion e Infraestructuras"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87020,"og":{"codigo_dir":"EA0043327","nombre":"Direccion
+        de Produccion e Infraestructuras"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion
+        Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87021,"og":{"codigo_dir":"EA0043328","nombre":"Coordinacion
+        de Telematica"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87028,"og":{"codigo_dir":"EA0043302","nombre":"Delegacion
+        Territorial de la Aemet en Andalucia, Ceuta y Melilla"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87015,"og":{"codigo_dir":"EA0043304","nombre":"Delegacion
+        Territorial de la Aemet en Aragon"},"ut":{"codigo_dir":"EA0043304","nombre":"Delegacion
+        Territorial de la Aemet en Aragon"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87030,"og":{"codigo_dir":"EA0043305","nombre":"Delegacion
+        Territorial de la Aemet en Asturias"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87031,"og":{"codigo_dir":"EA0043306","nombre":"Delegacion
+        Territorial de la Aemet en Canarias"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87008,"og":{"codigo_dir":"EA0043308","nombre":"Delegacion
+        Territorial de la Aemet en Cantabria"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87009,"og":{"codigo_dir":"EA0043309","nombre":"Delegacion
+        Territorial de la Aemet en Castilla-La Mancha"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87033,"og":{"codigo_dir":"EA0043310","nombre":"Delegacion
+        Territorial de la Aemet en Castilla-Leon"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87010,"og":{"codigo_dir":"EA0043311","nombre":"Delegacion
+        Territorial de la Aemet en Catalu\u00f1a"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87034,"og":{"codigo_dir":"EA0043312","nombre":"Delegacion
+        Territorial de la Aemet en Extremadura"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87011,"og":{"codigo_dir":"EA0043314","nombre":"Delegacion
+        Territorial de la Aemet en Illes Balears"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87012,"og":{"codigo_dir":"EA0043316","nombre":"Delegacion
+        Territorial de la Aemet en Madrid"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87016,"og":{"codigo_dir":"EA0043316","nombre":"Delegacion
+        Territorial de la Aemet en Madrid"},"ut":{"codigo_dir":"EA0043316","nombre":"Delegacion
+        Territorial de la Aemet en Madrid"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87017,"og":{"codigo_dir":"EA0043317","nombre":"Delegacion
+        Territorial de la Aemet en Murcia"},"ut":{"codigo_dir":"EA0043317","nombre":"Delegacion
+        Territorial de la Aemet en Murcia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87022,"og":{"codigo_dir":"EA0043330","nombre":"Departamento
+        de Infraestructura y Sistemas"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion
+        Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87029,"og":{"codigo_dir":"EA0043303","nombre":"Centro
+        Meteorologico de Malaga"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87032,"og":{"codigo_dir":"EA0043307","nombre":"Centro
+        Meteorologico de Tenerife"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":86847,"og":{"codigo_dir":"EA0043414","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"ut":{"codigo_dir":"EA0043414","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"oc":{"codigo_dir":"EA0043414","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:49 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068001/relaciones?administracion=E05068001&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:50 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87035,"og":{"codigo_dir":"EA0043315","nombre":"Delegacion
+        Territorial de la Aemet en La Rioja"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87036,"og":{"codigo_dir":"EA0043317","nombre":"Delegacion
+        Territorial de la Aemet en Murcia"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87037,"og":{"codigo_dir":"EA0043318","nombre":"Delegacion
+        Territorial de la Aemet en Navarra"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87038,"og":{"codigo_dir":"EA0043319","nombre":"Delegacion
+        Territorial de la Aemet en Pais Vasco"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87039,"og":{"codigo_dir":"EA0043320","nombre":"Delegacion
+        Territorial de la Aemet en Valencia"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87040,"og":{"codigo_dir":"EA0043321","nombre":"Direccion
+        de Administracion"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal
+        de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal
+        de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio para
+        la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87041,"og":{"codigo_dir":"EA0043322","nombre":"Area
+        de Gestion Economica Financiera"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87042,"og":{"codigo_dir":"EA0043324","nombre":"Area
+        Juridica y Patrimonial"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87043,"og":{"codigo_dir":"EA0043326","nombre":"Centro
+        de Investigacion Atmosferica de Iza\u00f1a"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87044,"og":{"codigo_dir":"EA0043328","nombre":"Coordinacion
+        de Telematica"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de
+        Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de
+        Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87045,"og":{"codigo_dir":"EA0043331","nombre":"Departamento
+        de Produccion"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de
+        Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de
+        Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87046,"og":{"codigo_dir":"EA0043302","nombre":"Delegacion
+        Territorial de la Aemet en Andalucia, Ceuta y Melilla"},"ut":{"codigo_dir":"EA0043302","nombre":"Delegacion
+        Territorial de la Aemet en Andalucia, Ceuta y Melilla"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87047,"og":{"codigo_dir":"EA0043304","nombre":"Delegacion
+        Territorial de la Aemet en Aragon"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87048,"og":{"codigo_dir":"EA0043313","nombre":"Delegacion
+        Territorial de la Aemet en Galicia"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87049,"og":{"codigo_dir":"EA0043329","nombre":"Departamento
+        de Desarrollo y Aplicaciones"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87050,"og":{"codigo_dir":"EA0043330","nombre":"Departamento
+        de Infraestructura y Sistemas"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87051,"og":{"codigo_dir":"EA0043303","nombre":"Centro
+        Meteorologico de Malaga"},"ut":{"codigo_dir":"EA0043303","nombre":"Centro
+        Meteorologico de Malaga"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87052,"og":{"codigo_dir":"EA0043305","nombre":"Delegacion
+        Territorial de la Aemet en Asturias"},"ut":{"codigo_dir":"EA0043305","nombre":"Delegacion
+        Territorial de la Aemet en Asturias"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87053,"og":{"codigo_dir":"EA0043307","nombre":"Centro
+        Meteorologico de Tenerife"},"ut":{"codigo_dir":"EA0043307","nombre":"Centro
+        Meteorologico de Tenerife"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87054,"og":{"codigo_dir":"EA0043311","nombre":"Delegacion
+        Territorial de la Aemet en Catalu\u00f1a"},"ut":{"codigo_dir":"EA0043311","nombre":"Delegacion
+        Territorial de la Aemet en Catalu\u00f1a"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87055,"og":{"codigo_dir":"EA0043319","nombre":"Delegacion
+        Territorial de la Aemet en Pais Vasco"},"ut":{"codigo_dir":"EA0043319","nombre":"Delegacion
+        Territorial de la Aemet en Pais Vasco"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87056,"og":{"codigo_dir":"EA0043325","nombre":"Direccion
+        de Planificacion, Estrategia y Desarrollo Comercial"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion
+        Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87067,"og":{"codigo_dir":"EA0043306","nombre":"Delegacion
+        Territorial de la Aemet en Canarias"},"ut":{"codigo_dir":"EA0043306","nombre":"Delegacion
+        Territorial de la Aemet en Canarias"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87068,"og":{"codigo_dir":"EA0043308","nombre":"Delegacion
+        Territorial de la Aemet en Cantabria"},"ut":{"codigo_dir":"EA0043308","nombre":"Delegacion
+        Territorial de la Aemet en Cantabria"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87069,"og":{"codigo_dir":"EA0043309","nombre":"Delegacion
+        Territorial de la Aemet en Castilla-La Mancha"},"ut":{"codigo_dir":"EA0043309","nombre":"Delegacion
+        Territorial de la Aemet en Castilla-La Mancha"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:50 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068001/relaciones?administracion=E05068001&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:51 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87149,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043396","nombre":"Refugio
+        Nacional de Caza Islas Chafarinas"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87147,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043370","nombre":"\u00c1rea
+        de Actuaciones Singulares en Red, Centros y Fincas"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87148,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043392","nombre":"Isla
+        Graciosa de Teguise"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio para
+        la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87150,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043397","nombre":"Unidad
+        de Apoyo a Direcci\u00f3n"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87168,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043372","nombre":"\u00c1rea
+        de Gesti\u00f3n Econ\u00f3mica y Presupuestaria"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87167,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043371","nombre":"\u00c1rea
+        de Conservaci\u00f3n, Seguimiento y Programas de la Red"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87077,"og":{"codigo_dir":"EA0043301","nombre":"Departamento
+        de Coordinacion de las Delegaciones Territoriales"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion
+        Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87078,"og":{"codigo_dir":"EA0043322","nombre":"Area
+        de Gestion Economica Financiera"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion
+        Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87079,"og":{"codigo_dir":"EA0043324","nombre":"Area
+        Juridica y Patrimonial"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion
+        Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87082,"og":{"codigo_dir":"EA0043326","nombre":"Centro
+        de Investigacion Atmosferica de Iza\u00f1a"},"ut":{"codigo_dir":"EA0043326","nombre":"Centro
+        de Investigacion Atmosferica de Iza\u00f1a"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87070,"og":{"codigo_dir":"EA0043310","nombre":"Delegacion
+        Territorial de la Aemet en Castilla-Leon"},"ut":{"codigo_dir":"EA0043310","nombre":"Delegacion
+        Territorial de la Aemet en Castilla-Leon"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87071,"og":{"codigo_dir":"EA0043312","nombre":"Delegacion
+        Territorial de la Aemet en Extremadura"},"ut":{"codigo_dir":"EA0043312","nombre":"Delegacion
+        Territorial de la Aemet en Extremadura"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87072,"og":{"codigo_dir":"EA0043313","nombre":"Delegacion
+        Territorial de la Aemet en Galicia"},"ut":{"codigo_dir":"EA0043313","nombre":"Delegacion
+        Territorial de la Aemet en Galicia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87073,"og":{"codigo_dir":"EA0043314","nombre":"Delegacion
+        Territorial de la Aemet en Illes Balears"},"ut":{"codigo_dir":"EA0043314","nombre":"Delegacion
+        Territorial de la Aemet en Illes Balears"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87074,"og":{"codigo_dir":"EA0043315","nombre":"Delegacion
+        Territorial de la Aemet en La Rioja"},"ut":{"codigo_dir":"EA0043315","nombre":"Delegacion
+        Territorial de la Aemet en La Rioja"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87075,"og":{"codigo_dir":"EA0043318","nombre":"Delegacion
+        Territorial de la Aemet en Navarra"},"ut":{"codigo_dir":"EA0043318","nombre":"Delegacion
+        Territorial de la Aemet en Navarra"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87076,"og":{"codigo_dir":"EA0043320","nombre":"Delegacion
+        Territorial de la Aemet en Valencia"},"ut":{"codigo_dir":"EA0043320","nombre":"Delegacion
+        Territorial de la Aemet en Valencia"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87080,"og":{"codigo_dir":"EA0043329","nombre":"Departamento
+        de Desarrollo y Aplicaciones"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion
+        Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87081,"og":{"codigo_dir":"EA0043331","nombre":"Departamento
+        de Produccion"},"ut":{"codigo_dir":"EA0043323","nombre":"Habilitacion Sscc"},"oc":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87107,"og":{"codigo_dir":"EA0043782","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"EA0043791","nombre":"Direccion
+        Tecnica"},"oc":{"codigo_dir":"EA0043799","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87108,"og":{"codigo_dir":"EA0043782","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"EA0043797","nombre":"Oficina
+        de Planificacion Hidrologica"},"oc":{"codigo_dir":"EA0043799","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87087,"og":{"codigo_dir":"EA0043782","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"EA0043783","nombre":"Comisaria
+        de Aguas"},"oc":{"codigo_dir":"EA0043799","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87088,"og":{"codigo_dir":"EA0043782","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"EA0043798","nombre":"Presidencia"},"oc":{"codigo_dir":"EA0043799","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87089,"og":{"codigo_dir":"EA0043782","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"EA0043799","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0043799","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87127,"og":{"codigo_dir":"EA0043782","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"GE0001931","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil (CAJA)"},"oc":{"codigo_dir":"EA0043799","nombre":"Secretaria
+        General"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:51 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068001/relaciones?administracion=E05068001&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:51 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87187,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043373","nombre":"Caja
+        Fija y Habilitaci\u00f3n Oa Parques Nacionales"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87188,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043375","nombre":"\u00c1rea
+        Jur\u00eddica y de Gestion de Recursos Humanos"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87189,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043377","nombre":"Centro
+        de Encomienda de Mudela"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87190,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043379","nombre":"Centro
+        del Lince el Acebuche"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio para
+        la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87191,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043380","nombre":"Centro
+        Lugar Nuevo y Selladores"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87192,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043384","nombre":"Direcci\u00f3n"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87193,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043385","nombre":"Finca
+        Dehesa de San Juan (PN SIERRA NEVADA)"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87194,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043386","nombre":"Finca
+        Granadilla"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina Contable Parques
+        Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87195,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043391","nombre":"Fincas
+        de Representaci\u00f3n Institucional"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87197,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043395","nombre":"Parque
+        Nacional de Daimiel"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio para
+        la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87198,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043398","nombre":"Vivero
+        Escuela Rio Guadarrama (NAVALCARNERO)"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87207,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043389","nombre":"Finca
+        Lugar Nuevo de Monfrag\u00fce (PN MONFRAG\u00dcE)"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87169,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043374","nombre":"\u00c1rea
+        de Relaciones Internacionales y Reservas de la Biosfera"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87170,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043376","nombre":"Centro
+        de Cr\u00eda Granadilla"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87172,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043381","nombre":"Centro
+        Quintos de Mora"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio para
+        la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87173,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043382","nombre":"Centro
+        Valsain (CENTRO NACIONAL DE EDUCACION AMBIENTAL)"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87171,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043378","nombre":"Centro
+        de Montes y Aserradero de Valsain"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87174,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043383","nombre":"Convenios
+        y Casas Forestales"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio para
+        la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87175,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043387","nombre":"Finca
+        las Marismillas (PN DO\u00d1ANA)"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87176,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043388","nombre":"Finca
+        los Realejos"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina Contable Parques
+        Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87178,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043394","nombre":"Parque
+        Nacional de Caba\u00f1eros"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87196,"og":{"codigo_dir":"EA0043776","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0043779","nombre":"Oficina
+        de Planificacion Hidrologica"},"oc":{"codigo_dir":"EA0043776","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87177,"og":{"codigo_dir":"EA0043776","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0043777","nombre":"Comisaria
+        de Aguas"},"oc":{"codigo_dir":"EA0043776","nombre":"Confederacion Hidrografica
+        del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio para
+        la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87179,"og":{"codigo_dir":"EA0043776","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0043780","nombre":"Presidencia"},"oc":{"codigo_dir":"EA0043776","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87180,"og":{"codigo_dir":"EA0043776","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0043781","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0043776","nombre":"Confederacion Hidrografica
+        del Jucar, O.A."}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:51 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068001/relaciones?administracion=E05068001&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:53 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":89696,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043345","nombre":"Demarcacion
+        de Costas Cantabria"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina Contable.
+        Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":93307,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043350","nombre":"Demarcacion
+        de Costas de Galicia A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014065","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en A Coru\u00f1a - Intervencion
+        T"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":90987,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043360","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":94510,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043352","nombre":"Demarcacion
+        de Costas Murcia"},"oc":{"codigo_dir":"GE0014099","nombre":"Oficina Contable.
+        Delegacion de Economia y Hacienda en Murcia - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":90427,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043359","nombre":"Servicio
+        Provincial de Costas Gipuzkoa"},"oc":{"codigo_dir":"GE0014062","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Guipuzcoa - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":90327,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043361","nombre":"Servicio
+        Provincial de Costas Lugo"},"oc":{"codigo_dir":"GE0014095","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lugo - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":93547,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043364","nombre":"Servicio
+        Provincial de Costas Tarragona"},"oc":{"codigo_dir":"GE0014109","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Economia y Hacienda en Tarragona - Intervenci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":93567,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043344","nombre":"Demarcacion
+        de Costas. Andalucia-Mediterraneo Malaga"},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Malaga - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":90867,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043351","nombre":"Demarcacion
+        de Costas del Pais Vasco Bizkaia"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":90527,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043355","nombre":"Servicio
+        Provincial de Costas Almeria"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":94707,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043354","nombre":"Servicio
+        Provincial de Costas Alicante"},"oc":{"codigo_dir":"GE0014116","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alicante - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":90227,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043343","nombre":"Demarcacion
+        de Costas. Andalucia-Atlantico Cadiz"},"oc":{"codigo_dir":"GE0014078","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cadiz - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":93287,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043350","nombre":"Demarcacion
+        de Costas de Galicia A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014065","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en A Coru\u00f1a - Intervencion
+        T"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":94347,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043363","nombre":"Servicio
+        Provincial de Costas Sevilla"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":90507,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0022596","nombre":"Servicio
+        Provincial de Costas Almeria"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":91127,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043360","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[{"nif":"G19122712"}],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":91447,"og":{"codigo_dir":"EA0044908","nombre":"EA0044908"},"ut":{"codigo_dir":"EA0044908","nombre":"EA0044908"},"oc":{"codigo_dir":"EA0044908","nombre":"EA0044908"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87208,"og":{"codigo_dir":"EA0043369","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0043390","nombre":"Finca
+        Ribavellosa"},"oc":{"codigo_dir":"EA0043393","nombre":"Oficina Contable Parques
+        Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87267,"og":{"codigo_dir":"EA0043324","nombre":"Area
+        Juridica y Patrimonial"},"ut":{"codigo_dir":"EA0043299","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":95011,"og":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"GE0012033","nombre":"Servicio
+        de Aplicaciones Industriales"},"oc":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":95031,"og":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0043516","nombre":"Oficina de
+        Planificaci\u00f3n Hidrol\u00f3gica"},"oc":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":95032,"og":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0043518","nombre":"Secretar\u00eda
+        General"},"oc":{"codigo_dir":"EA0043433","nombre":"Confederacion Hidrografica
+        del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":95030,"og":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0043515","nombre":"Direcci\u00f3n
+        T\u00e9cnica"},"oc":{"codigo_dir":"EA0043433","nombre":"Confederacion Hidrografica
+        del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":89831,"og":{"codigo_dir":"EA0043744","nombre":"Confederacion
+        Hidrografica del Guadiana"},"ut":{"codigo_dir":"EA0043766","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0043744","nombre":"Confederacion Hidrografica
+        del Guadiana"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":87209,"og":{"codigo_dir":"EA0043776","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0043778","nombre":"Direccion
+        Tecnica"},"oc":{"codigo_dir":"EA0043776","nombre":"Confederacion Hidrografica
+        del Jucar, O.A."}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:53 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068001/relaciones?administracion=E05068001&limit=25.0&page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:54 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96730,"og":{"codigo_dir":"E05068301","nombre":"Secretar\u00eda
+        de Estado de Energ\u00eda"},"ut":{"codigo_dir":"E05068401","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96729,"og":{"codigo_dir":"E05068301","nombre":"Secretar\u00eda
+        de Estado de Energ\u00eda"},"ut":{"codigo_dir":"E05068301","nombre":"Secretar\u00eda
+        de Estado de Energ\u00eda"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":95949,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043353","nombre":"Demarcacion
+        de Costas Valencia"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina Contable.
+        Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96734,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043334","nombre":"Subdirecci\u00f3n
+        General de Mercados de Carbono"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96733,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043287","nombre":"Gabinete
+        T\u00e9cnico de la Subsecretaria"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96721,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043333","nombre":"S.G.
+        de Coordinacion de Acciones Frente al Cambio Climatico"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96715,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"E05068401","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96719,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043290","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos e Inspecci\u00f3n de los Servicios"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96723,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043335","nombre":"Unidad
+        de Apoyo D.G. de Calidad y Evaluaci\u00f3n Ambiental"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":95247,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043348","nombre":"Demarcacion
+        de Costas de Canarias Las Palmas"},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96725,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043408","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mica y Presupuestaria"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96735,"og":{"codigo_dir":"E04595806","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0043414","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96736,"og":{"codigo_dir":"E04595806","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0043420","nombre":"Confederacion
+        Hidrografica del Duero"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96726,"og":{"codigo_dir":"E04595806","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0043519","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96720,"og":{"codigo_dir":"E04737007","nombre":"Oficina
+        Espa\u00f1ola del Cambio Clim\u00e1tico"},"ut":{"codigo_dir":"EA0043333","nombre":"S.G.
+        de Coordinacion de Acciones Frente al Cambio Climatico"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96722,"og":{"codigo_dir":"E04737007","nombre":"Oficina
+        Espa\u00f1ola del Cambio Clim\u00e1tico"},"ut":{"codigo_dir":"EA0043334","nombre":"Subdirecci\u00f3n
+        General de Mercados de Carbono"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96732,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0022596","nombre":"Servicio
+        Provincial de Costas Almeria"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96724,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043340","nombre":"Subdirecci\u00f3n
+        General para la Protecci\u00f3n de la Costa"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96127,"og":{"codigo_dir":"E05077401","nombre":"Direcci\u00f3n
+        General de Biodiversidad, Bosques y Desertificaci\u00f3n"},"ut":{"codigo_dir":"EA0043909","nombre":"Unidad
+        de Apoyo de la Direcci\u00f3n General de Biodiversidad, Bosques y Desertificaci\u00f3n"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96718,"og":{"codigo_dir":"E05077601","nombre":"Secretar\u00eda
+        General para el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"E05077801","nombre":"Direcci\u00f3n
+        General de Pol\u00edticas contra la Despoblaci\u00f3n"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":95048,"og":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"GE0012030","nombre":"\u00c1rea
+        de Explotaci\u00f3n"},"oc":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":95068,"og":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0043434","nombre":"Comisar\u00eda
+        de Aguas"},"oc":{"codigo_dir":"EA0043433","nombre":"Confederacion Hidrografica
+        del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":95069,"og":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0043517","nombre":"Presidencia"},"oc":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":95034,"og":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"GE0012032","nombre":"Servicio
+        6\u00ba del \u00c1rea de Explotaci\u00f3n"},"oc":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":95033,"og":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"GE0012031","nombre":"Servicio
+        2\u00ba del \u00c1rea de Explotaci\u00f3n"},"oc":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:54 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068001/relaciones?administracion=E05068001&limit=25.0&page=7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:55 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96827,"og":{"codigo_dir":"E05068601","nombre":"Secretar\u00eda
+        de Estado de Medio Ambiente"},"ut":{"codigo_dir":"E05068701","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96813,"og":{"codigo_dir":"E05068601","nombre":"Secretar\u00eda
+        de Estado de Medio Ambiente"},"ut":{"codigo_dir":"EA0039767","nombre":"Caja
+        Pagadora Cop25"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96828,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"E05068701","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97388,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043343","nombre":"Demarcacion
+        de Costas. Andalucia-Atlantico Cadiz"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96831,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"E05078001","nombre":"Direcci\u00f3n
+        General de Servicios"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96847,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"GE0003626","nombre":"Caja
+        Pagadora MITERD"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96767,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043356","nombre":"Servicio
+        Provincial de Costas Castellon"},"oc":{"codigo_dir":"GE0014081","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Castellon - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97227,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043357","nombre":"Servicio
+        Provincial de Costas de Granada"},"oc":{"codigo_dir":"GE0014087","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Granada - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96809,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"E05041502","nombre":"Secretar\u00eda
+        General T\u00e9cnica"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96808,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"E00119407","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Energ\u00e9tica y Minas"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96818,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043842","nombre":"Gabinete
+        T\u00e9cnico"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96815,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043340","nombre":"Subdirecci\u00f3n
+        General para la Protecci\u00f3n de la Costa"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96807,"og":{"codigo_dir":"E00119407","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Energ\u00e9tica y Minas"},"ut":{"codigo_dir":"E00119407","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Energ\u00e9tica y Minas"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96832,"og":{"codigo_dir":"E04595806","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0043408","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mica y Presupuestaria"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96833,"og":{"codigo_dir":"E04595806","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0043824","nombre":"Direcci\u00f3n
+        T\u00e9cnica"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96834,"og":{"codigo_dir":"E04595806","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"GE0001931","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil (CAJA)"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96737,"og":{"codigo_dir":"E04595806","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0043776","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96738,"og":{"codigo_dir":"E04595806","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"GE0003626","nombre":"Caja Pagadora
+        MITERD"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable. I.D. Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96816,"og":{"codigo_dir":"E04595806","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0043433","nombre":"Confederacion
+        Hidrografica del Ebro"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96817,"og":{"codigo_dir":"E04595806","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0043830","nombre":"Direccion Tecnica"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96819,"og":{"codigo_dir":"E04595806","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"GE0011648","nombre":"Caja Pagos a Justificar
+        Expropiaciones y Obras Emergencia Chg"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97390,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043353","nombre":"Demarcacion
+        de Costas Valencia"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97391,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043354","nombre":"Servicio
+        Provincial de Costas Alicante"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97387,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043343","nombre":"Demarcacion
+        de Costas. Andalucia-Atlantico Cadiz"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":96814,"og":{"codigo_dir":"E05077101","nombre":"Direcci\u00f3n
+        General de Calidad y Evaluaci\u00f3n Ambiental"},"ut":{"codigo_dir":"EA0043335","nombre":"Unidad
+        de Apoyo D.G. de Calidad y Evaluaci\u00f3n Ambiental"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:55 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068001/relaciones?administracion=E05068001&limit=25.0&page=8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:56 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97393,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043356","nombre":"Servicio
+        Provincial de Costas Castellon"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97411,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043348","nombre":"Demarcacion
+        de Costas de Canarias Las Palmas"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97417,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043361","nombre":"Servicio
+        Provincial de Costas Lugo"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97419,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043909","nombre":"Unidad
+        de Apoyo de la Direcci\u00f3n General de Biodiversidad, Bosques y Desertificaci\u00f3n"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97409,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043345","nombre":"Demarcacion
+        de Costas Cantabria"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97412,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043350","nombre":"Demarcacion
+        de Costas de Galicia A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97431,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043353","nombre":"Demarcacion
+        de Costas Valencia"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97427,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043344","nombre":"Demarcacion
+        de Costas. Andalucia-Mediterraneo Malaga"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97392,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043355","nombre":"Servicio
+        Provincial de Costas Almeria"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97396,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043364","nombre":"Servicio
+        Provincial de Costas Tarragona"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97395,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043362","nombre":"Servicio
+        Provincial de Costas Pontevedra"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97394,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043357","nombre":"Servicio
+        Provincial de Costas de Granada"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97413,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043352","nombre":"Demarcacion
+        de Costas Murcia"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97408,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043345","nombre":"Demarcacion
+        de Costas Cantabria"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97415,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043358","nombre":"Servicio
+        Provincial de Costas Girona"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97407,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043344","nombre":"Demarcacion
+        de Costas. Andalucia-Mediterraneo Malaga"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97414,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043356","nombre":"Servicio
+        Provincial de Costas Castellon"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97410,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043347","nombre":"Demarcacion
+        de Costas de Baleares"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97416,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043360","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97418,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043363","nombre":"Servicio
+        Provincial de Costas Sevilla"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97433,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043365","nombre":"Servicio
+        Provincial de Costas Tenerife"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97429,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043350","nombre":"Demarcacion
+        de Costas de Galicia A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97430,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043351","nombre":"Demarcacion
+        de Costas del Pais Vasco Bizkaia"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97428,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043349","nombre":"Demarcacion
+        de Costas de Catalu\u00f1a"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97432,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043361","nombre":"Servicio
+        Provincial de Costas Lugo"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:56 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068001/relaciones?administracion=E05068001&limit=25.0&page=9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:57 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97451,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043352","nombre":"Demarcacion
+        de Costas Murcia"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97454,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043357","nombre":"Servicio
+        Provincial de Costas de Granada"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97457,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043360","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97456,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043359","nombre":"Servicio
+        Provincial de Costas Gipuzkoa"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97452,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043354","nombre":"Servicio
+        Provincial de Costas Alicante"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97453,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043355","nombre":"Servicio
+        Provincial de Costas Almeria"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97450,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043351","nombre":"Demarcacion
+        de Costas del Pais Vasco Bizkaia"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97458,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043364","nombre":"Servicio
+        Provincial de Costas Tarragona"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97767,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043346","nombre":"Demarcacion
+        de Costas en Asturias (Oviedo)"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97768,"og":{"codigo_dir":"E05074301","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"},"ut":{"codigo_dir":"EA0043346","nombre":"Demarcacion
+        de Costas en Asturias (Oviedo)"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97447,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043346","nombre":"Demarcacion
+        de Costas en Asturias (Oviedo)"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97448,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043348","nombre":"Demarcacion
+        de Costas de Canarias Las Palmas"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97455,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043359","nombre":"Servicio
+        Provincial de Costas Gipuzkoa"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico","codigo_dir":"E05068001","cifs":[]},"id":97434,"og":{"codigo_dir":"E04795206","nombre":"Direcci\u00f3n
+        General de la Costa y el Mar"},"ut":{"codigo_dir":"EA0043355","nombre":"Servicio
+        Provincial de Costas Almeria"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:57 GMT
+recorded_with: VCR 6.0.0

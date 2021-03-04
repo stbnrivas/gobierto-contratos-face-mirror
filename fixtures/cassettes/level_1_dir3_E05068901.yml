@@ -1,0 +1,911 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068901/relaciones?administracion=E05068901&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:01 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos
+        Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85607,"og":{"codigo_dir":"E05042502","nombre":"Secretar\u00eda
+        General del Tesoro y Financiaci\u00f3n Internacional"},"ut":{"codigo_dir":"EA0043011","nombre":"S.G.
+        de Asuntos Economicos y Financieros de la Union Europea"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85608,"og":{"codigo_dir":"E05042702","nombre":"Direcci\u00f3n
+        General del Tesoro y Pol\u00edtica Financiera"},"ut":{"codigo_dir":"EA0043020","nombre":"S.G.
+        de Legislaci\u00f3n de Entidades de Cr\u00e9dito, Servicios Bancarios y de
+        Pago"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina Contable. I.D. Secretaria
+        Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85609,"og":{"codigo_dir":"E05042702","nombre":"Direcci\u00f3n
+        General del Tesoro y Pol\u00edtica Financiera"},"ut":{"codigo_dir":"EA0043024","nombre":"S.G.
+        de Gesti\u00f3n de la Deuda P\u00fablica"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85610,"og":{"codigo_dir":"EA0042931","nombre":"Comision
+        Nacional de los Mercados y la Competencia"},"ut":{"codigo_dir":"GE0000251","nombre":"Caja
+        Fija Cnmc"},"oc":{"codigo_dir":"EA0010702","nombre":"Subdireccion  de Recursos
+        Humanos y Gestion Economica y Patrimonial"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85611,"og":{"codigo_dir":"EA0042931","nombre":"Comision
+        Nacional de los Mercados y la Competencia"},"ut":{"codigo_dir":"GE0000251","nombre":"Caja
+        Fija Cnmc"},"oc":{"codigo_dir":"EA0042963","nombre":"Subdireccion  de Recursos
+        Humanos y Gestion Economica y Patrimonial"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85627,"og":{"codigo_dir":"E05042502","nombre":"Secretar\u00eda
+        General del Tesoro y Financiaci\u00f3n Internacional"},"ut":{"codigo_dir":"EA0043012","nombre":"S.G.
+        de Instituciones Financieras Multilaterales"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85628,"og":{"codigo_dir":"E05042502","nombre":"Secretar\u00eda
+        General del Tesoro y Financiaci\u00f3n Internacional"},"ut":{"codigo_dir":"EA0043015","nombre":"S.G.
+        de Gesti\u00f3n de la Deuda Externa y Financiaci\u00f3n Internacional"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85647,"og":{"codigo_dir":"E05042502","nombre":"Secretar\u00eda
+        General del Tesoro y Financiaci\u00f3n Internacional"},"ut":{"codigo_dir":"EA0043013","nombre":"S.G.
+        de Relaciones con el FMI y el G20"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85648,"og":{"codigo_dir":"E05042502","nombre":"Secretar\u00eda
+        General del Tesoro y Financiaci\u00f3n Internacional"},"ut":{"codigo_dir":"EA0043016","nombre":"S.G.
+        de Informatica y de Gestion"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85649,"og":{"codigo_dir":"E05042702","nombre":"Direcci\u00f3n
+        General del Tesoro y Pol\u00edtica Financiera"},"ut":{"codigo_dir":"EA0043021","nombre":"S.G.
+        de Legislaci\u00f3n de Mercado de Valores e Instrumentos Financieros"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85650,"og":{"codigo_dir":"E05042702","nombre":"Direcci\u00f3n
+        General del Tesoro y Pol\u00edtica Financiera"},"ut":{"codigo_dir":"EA0043022","nombre":"S.G.
+        de Inspeccion y Control de Movimientos de Capitales"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85651,"og":{"codigo_dir":"E05042702","nombre":"Direcci\u00f3n
+        General del Tesoro y Pol\u00edtica Financiera"},"ut":{"codigo_dir":"EA0043064","nombre":"S.G.
+        de Gesti\u00f3n de la Tesorer\u00eda del Estado"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85652,"og":{"codigo_dir":"EA0042931","nombre":"Comision
+        Nacional de los Mercados y la Competencia"},"ut":{"codigo_dir":"GE0000252","nombre":"Pagos
+        en Firme Cnmc"},"oc":{"codigo_dir":"EA0010702","nombre":"Subdireccion  de
+        Recursos Humanos y Gestion Economica y Patrimonial"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85653,"og":{"codigo_dir":"EA0042931","nombre":"Comision
+        Nacional de los Mercados y la Competencia"},"ut":{"codigo_dir":"GE0000252","nombre":"Pagos
+        en Firme Cnmc"},"oc":{"codigo_dir":"EA0042963","nombre":"Subdireccion  de
+        Recursos Humanos y Gestion Economica y Patrimonial"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85727,"og":{"codigo_dir":"E04931804","nombre":"Secretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G. de Administraci\u00f3n
+        Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85728,"og":{"codigo_dir":"EA0042906","nombre":"S.G.
+        de Tecnologias de la Informacion y las Comunicaciones"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85729,"og":{"codigo_dir":"E05069801","nombre":"Secretar\u00eda
+        de Estado de Telecomunicaciones e Infraestructuras Digitales"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85747,"og":{"codigo_dir":"E05042902","nombre":"Direcci\u00f3n
+        General de An\u00e1lisis Macroecon\u00f3mico"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85748,"og":{"codigo_dir":"E05069101","nombre":"Secretaria
+        de la Vicepresidenta Tercera del Gobierno"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85749,"og":{"codigo_dir":"E05069601","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G. de
+        Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85750,"og":{"codigo_dir":"E05074501","nombre":"Subsecretar\u00eda
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85751,"og":{"codigo_dir":"EA0042737","nombre":"Jefaturas
+        Provinciales de Inspeccion de Telecomunicaciones"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85752,"og":{"codigo_dir":"EA0042898","nombre":"Gabinete
+        Tecnico del Subsecretario"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85753,"og":{"codigo_dir":"EA0042904","nombre":"S.G.
+        de Inspecci\u00f3n de Servicios"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85754,"og":{"codigo_dir":"EA0042917","nombre":"S.G.
+        de Recursos, Reclamaciones y Relaciones con la Administracion de Justicia"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:01 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068901/relaciones?administracion=E05068901&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:02 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"123","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:04:02 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068901/relaciones?administracion=E05068901&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:03 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos
+        Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85607,"og":{"codigo_dir":"E05042502","nombre":"Secretar\u00eda
+        General del Tesoro y Financiaci\u00f3n Internacional"},"ut":{"codigo_dir":"EA0043011","nombre":"S.G.
+        de Asuntos Economicos y Financieros de la Union Europea"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85608,"og":{"codigo_dir":"E05042702","nombre":"Direcci\u00f3n
+        General del Tesoro y Pol\u00edtica Financiera"},"ut":{"codigo_dir":"EA0043020","nombre":"S.G.
+        de Legislaci\u00f3n de Entidades de Cr\u00e9dito, Servicios Bancarios y de
+        Pago"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina Contable. I.D. Secretaria
+        Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85609,"og":{"codigo_dir":"E05042702","nombre":"Direcci\u00f3n
+        General del Tesoro y Pol\u00edtica Financiera"},"ut":{"codigo_dir":"EA0043024","nombre":"S.G.
+        de Gesti\u00f3n de la Deuda P\u00fablica"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85610,"og":{"codigo_dir":"EA0042931","nombre":"Comision
+        Nacional de los Mercados y la Competencia"},"ut":{"codigo_dir":"GE0000251","nombre":"Caja
+        Fija Cnmc"},"oc":{"codigo_dir":"EA0010702","nombre":"Subdireccion  de Recursos
+        Humanos y Gestion Economica y Patrimonial"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85611,"og":{"codigo_dir":"EA0042931","nombre":"Comision
+        Nacional de los Mercados y la Competencia"},"ut":{"codigo_dir":"GE0000251","nombre":"Caja
+        Fija Cnmc"},"oc":{"codigo_dir":"EA0042963","nombre":"Subdireccion  de Recursos
+        Humanos y Gestion Economica y Patrimonial"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85627,"og":{"codigo_dir":"E05042502","nombre":"Secretar\u00eda
+        General del Tesoro y Financiaci\u00f3n Internacional"},"ut":{"codigo_dir":"EA0043012","nombre":"S.G.
+        de Instituciones Financieras Multilaterales"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85628,"og":{"codigo_dir":"E05042502","nombre":"Secretar\u00eda
+        General del Tesoro y Financiaci\u00f3n Internacional"},"ut":{"codigo_dir":"EA0043015","nombre":"S.G.
+        de Gesti\u00f3n de la Deuda Externa y Financiaci\u00f3n Internacional"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85647,"og":{"codigo_dir":"E05042502","nombre":"Secretar\u00eda
+        General del Tesoro y Financiaci\u00f3n Internacional"},"ut":{"codigo_dir":"EA0043013","nombre":"S.G.
+        de Relaciones con el FMI y el G20"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85648,"og":{"codigo_dir":"E05042502","nombre":"Secretar\u00eda
+        General del Tesoro y Financiaci\u00f3n Internacional"},"ut":{"codigo_dir":"EA0043016","nombre":"S.G.
+        de Informatica y de Gestion"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85649,"og":{"codigo_dir":"E05042702","nombre":"Direcci\u00f3n
+        General del Tesoro y Pol\u00edtica Financiera"},"ut":{"codigo_dir":"EA0043021","nombre":"S.G.
+        de Legislaci\u00f3n de Mercado de Valores e Instrumentos Financieros"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85650,"og":{"codigo_dir":"E05042702","nombre":"Direcci\u00f3n
+        General del Tesoro y Pol\u00edtica Financiera"},"ut":{"codigo_dir":"EA0043022","nombre":"S.G.
+        de Inspeccion y Control de Movimientos de Capitales"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85651,"og":{"codigo_dir":"E05042702","nombre":"Direcci\u00f3n
+        General del Tesoro y Pol\u00edtica Financiera"},"ut":{"codigo_dir":"EA0043064","nombre":"S.G.
+        de Gesti\u00f3n de la Tesorer\u00eda del Estado"},"oc":{"codigo_dir":"GE0014047","nombre":"Oficina
+        Contable. I.D. Secretaria Gral. del Tesoro y Financiaci\u00f3n Internacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85652,"og":{"codigo_dir":"EA0042931","nombre":"Comision
+        Nacional de los Mercados y la Competencia"},"ut":{"codigo_dir":"GE0000252","nombre":"Pagos
+        en Firme Cnmc"},"oc":{"codigo_dir":"EA0010702","nombre":"Subdireccion  de
+        Recursos Humanos y Gestion Economica y Patrimonial"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85653,"og":{"codigo_dir":"EA0042931","nombre":"Comision
+        Nacional de los Mercados y la Competencia"},"ut":{"codigo_dir":"GE0000252","nombre":"Pagos
+        en Firme Cnmc"},"oc":{"codigo_dir":"EA0042963","nombre":"Subdireccion  de
+        Recursos Humanos y Gestion Economica y Patrimonial"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85727,"og":{"codigo_dir":"E04931804","nombre":"Secretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G. de Administraci\u00f3n
+        Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85728,"og":{"codigo_dir":"EA0042906","nombre":"S.G.
+        de Tecnologias de la Informacion y las Comunicaciones"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85729,"og":{"codigo_dir":"E05069801","nombre":"Secretar\u00eda
+        de Estado de Telecomunicaciones e Infraestructuras Digitales"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85747,"og":{"codigo_dir":"E05042902","nombre":"Direcci\u00f3n
+        General de An\u00e1lisis Macroecon\u00f3mico"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85748,"og":{"codigo_dir":"E05069101","nombre":"Secretaria
+        de la Vicepresidenta Tercera del Gobierno"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85749,"og":{"codigo_dir":"E05069601","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G. de
+        Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85750,"og":{"codigo_dir":"E05074501","nombre":"Subsecretar\u00eda
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85751,"og":{"codigo_dir":"EA0042737","nombre":"Jefaturas
+        Provinciales de Inspeccion de Telecomunicaciones"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85752,"og":{"codigo_dir":"EA0042898","nombre":"Gabinete
+        Tecnico del Subsecretario"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85753,"og":{"codigo_dir":"EA0042904","nombre":"S.G.
+        de Inspecci\u00f3n de Servicios"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85754,"og":{"codigo_dir":"EA0042917","nombre":"S.G.
+        de Recursos, Reclamaciones y Relaciones con la Administracion de Justicia"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:03 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068901/relaciones?administracion=E05068901&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:04 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos
+        Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85756,"og":{"codigo_dir":"E05069001","nombre":"Gabinete
+        de la Vicepresidenta Tercera del Gobierno"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85767,"og":{"codigo_dir":"E05069001","nombre":"Gabinete
+        de la Vicepresidenta Tercera del Gobierno"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85769,"og":{"codigo_dir":"E05069801","nombre":"Secretar\u00eda
+        de Estado de Telecomunicaciones e Infraestructuras Digitales"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85757,"og":{"codigo_dir":"E05069101","nombre":"Secretaria
+        de la Vicepresidenta Tercera del Gobierno"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85758,"og":{"codigo_dir":"E05069901","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja Pagadora
+        de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85776,"og":{"codigo_dir":"E05069701","nombre":"Secretaria
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja Pagadora
+        de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85768,"og":{"codigo_dir":"E05069701","nombre":"Secretaria
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G. de
+        Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85777,"og":{"codigo_dir":"E05070001","nombre":"Secretaria
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja Pagadora
+        de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85778,"og":{"codigo_dir":"E05074501","nombre":"Subsecretar\u00eda
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85770,"og":{"codigo_dir":"E05074601","nombre":"Secretar\u00eda
+        del Subsecretario"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G. de Administraci\u00f3n
+        Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85779,"og":{"codigo_dir":"E05074601","nombre":"Secretar\u00eda
+        del Subsecretario"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja Pagadora
+        de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85755,"og":{"codigo_dir":"E04931804","nombre":"Secretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja Pagadora
+        de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85780,"og":{"codigo_dir":"EA0042737","nombre":"Jefaturas
+        Provinciales de Inspeccion de Telecomunicaciones"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85781,"og":{"codigo_dir":"EA0042898","nombre":"Gabinete
+        Tecnico del Subsecretario"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85782,"og":{"codigo_dir":"EA0042899","nombre":"Oficina
+        Presupuestaria"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja Pagadora de
+        Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85771,"og":{"codigo_dir":"EA0042899","nombre":"Oficina
+        Presupuestaria"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G. de Administraci\u00f3n
+        Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85783,"og":{"codigo_dir":"EA0042900","nombre":"Junta
+        Asesora Permanente"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja Pagadora
+        de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85772,"og":{"codigo_dir":"EA0042900","nombre":"Junta
+        Asesora Permanente"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G. de Administraci\u00f3n
+        Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85759,"og":{"codigo_dir":"EA0042903","nombre":"S.G.
+        de Recursos Humanos"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja Pagadora
+        de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85773,"og":{"codigo_dir":"EA0042903","nombre":"S.G.
+        de Recursos Humanos"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G. de Administraci\u00f3n
+        Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85774,"og":{"codigo_dir":"EA0042905","nombre":"S.G.
+        de Comunicaci\u00f3n"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G. de Administraci\u00f3n
+        Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85760,"og":{"codigo_dir":"EA0042906","nombre":"S.G.
+        de Tecnologias de la Informacion y las Comunicaciones"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85761,"og":{"codigo_dir":"EA0042915","nombre":"Vicesecretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja Pagadora
+        de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85775,"og":{"codigo_dir":"EA0042915","nombre":"Vicesecretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G. de Administraci\u00f3n
+        Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85762,"og":{"codigo_dir":"EA0042917","nombre":"S.G.
+        de Recursos, Reclamaciones y Relaciones con la Administracion de Justicia"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:04 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068901/relaciones?administracion=E05068901&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:05 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos
+        Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85784,"og":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85785,"og":{"codigo_dir":"EA0042905","nombre":"S.G.
+        de Comunicaci\u00f3n"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja Pagadora
+        de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85786,"og":{"codigo_dir":"EA0042916","nombre":"S.G.
+        de Informes y Desarrollo Normativo"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85787,"og":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85788,"og":{"codigo_dir":"EA0042916","nombre":"S.G.
+        de Informes y Desarrollo Normativo"},"ut":{"codigo_dir":"EA0042901","nombre":"S.G.
+        de Administraci\u00f3n Financiera y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85789,"og":{"codigo_dir":"E05042902","nombre":"Direcci\u00f3n
+        General de An\u00e1lisis Macroecon\u00f3mico"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85790,"og":{"codigo_dir":"E05069601","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja Pagadora
+        de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85791,"og":{"codigo_dir":"EA0042904","nombre":"S.G.
+        de Inspecci\u00f3n de Servicios"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85947,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0003825","nombre":"Gastos Electorales INE"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85948,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0013703","nombre":"Contratos Menores y Adquisici\u00f3n
+        Centralizada"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85949,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0013705","nombre":"Arrendamientos"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85967,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0013702","nombre":"Contrataci\u00f3n Administrativa"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":85987,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0013704","nombre":"Unidad Central de Tesorer\u00eda"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":86807,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0033712","nombre":"Delegacion Provincial del
+        INE de Cordoba"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":88807,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0033714","nombre":"Delegacion Provincial del
+        INE de Gipuzkoa"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91167,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042824","nombre":"Delegacion Provincial del
+        INE de A Coru\u00f1a"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91168,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042827","nombre":"Delegacion Provincial del
+        INE de Almeria"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91227,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042825","nombre":"Delegacion Provincial del
+        INE de Albacete"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91228,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042826","nombre":"Delegacion Provincial del
+        INE de Alicante\/Alacant"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91229,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042837","nombre":"Delegacion Provincial del
+        INE de Cantabria"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91230,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042839","nombre":"Delegacion Provincial del
+        INE de Ceuta"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91231,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042845","nombre":"Delegacion Provincial del
+        INE de Granada"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91232,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042849","nombre":"Delegacion Provincial del
+        INE de Illes Balears"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91233,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042857","nombre":"Delegacion Provincial del
+        INE de Malaga"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91234,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042859","nombre":"Delegacion Provincial del
+        INE de Murcia"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:05 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068901/relaciones?administracion=E05068901&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:05 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos
+        Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91235,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042860","nombre":"Delegacion Provincial del
+        INE de Navarra"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91236,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042861","nombre":"Delegacion Provincial del
+        INE de Ourense"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91237,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042863","nombre":"Delegacion Provincial del
+        INE de Pontevedra"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91238,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042864","nombre":"Delegacion Provincial del
+        INE de Salamanca"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91239,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042865","nombre":"Delegacion Provincial del
+        INE de Santa Cruz de Tenerife"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91240,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042872","nombre":"Delegacion Provincial del
+        INE de Valencia\/Val\u00e8ncia"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91247,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042828","nombre":"Delegacion Provincial del
+        INE de Araba\/\u00c1lava"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91248,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042829","nombre":"Delegacion Provincial del
+        INE de Asturias"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91249,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042832","nombre":"Delegacion Provincial del
+        INE de Barcelona"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91250,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042841","nombre":"Delegacion Provincial del
+        INE de Cordoba"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91251,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042843","nombre":"Delegacion Provincial del
+        INE de Gipuzkoa"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91252,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042846","nombre":"Delegacion Provincial del
+        INE de Guadalajara"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91253,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042847","nombre":"Delegacion Provincial del
+        INE de Huelva"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91254,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042848","nombre":"Delegacion Provincial del
+        INE de Huesca"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91255,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042856","nombre":"Delegacion Provincial del
+        INE de Madrid"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91256,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042867","nombre":"Delegacion Provincial del
+        INE de Sevilla"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91257,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042869","nombre":"Delegacion Provincial del
+        INE de Tarragona"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91258,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042871","nombre":"Delegacion Provincial del
+        INE de Toledo"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91259,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042873","nombre":"Delegacion Provincial del
+        INE de Valladolid"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91260,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042875","nombre":"Delegacion Provincial del
+        INE de Zaragoza"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91267,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042830","nombre":"Delegacion Provincial del
+        INE de Avila"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91268,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042833","nombre":"Delegacion Provincial del
+        INE de Bizkaia"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91269,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042834","nombre":"Delegacion Provincial del
+        INE de Burgos"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91270,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042840","nombre":"Delegacion Provincial del
+        INE de Ciudad Real"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91271,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042842","nombre":"Delegacion Provincial del
+        INE de Cuenca"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:05 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05068901/relaciones?administracion=E05068901&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:06 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos
+        Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":96707,"og":{"codigo_dir":"E05069501","nombre":"Secretar\u00eda
+        de Estado de Digitalizaci\u00f3n e Inteligencia Artificial"},"ut":{"codigo_dir":"EA0044328","nombre":"Divisi\u00f3n
+        de Planificaci\u00f3n y Ejecuci\u00f3n de Programas"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":96887,"og":{"codigo_dir":"E05069501","nombre":"Secretar\u00eda
+        de Estado de Digitalizaci\u00f3n e Inteligencia Artificial"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":95947,"og":{"codigo_dir":"E05069801","nombre":"Secretar\u00eda
+        de Estado de Telecomunicaciones e Infraestructuras Digitales"},"ut":{"codigo_dir":"EA0042790","nombre":"Divisi\u00f3n
+        de Programaci\u00f3n Econ\u00f3mica y Contrataci\u00f3n"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":95788,"og":{"codigo_dir":"E04995903","nombre":"Secretar\u00eda
+        General de Administraci\u00f3n Digital"},"ut":{"codigo_dir":"EA0042902","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":95787,"og":{"codigo_dir":"E04995903","nombre":"Secretar\u00eda
+        General de Administraci\u00f3n Digital"},"ut":{"codigo_dir":"E04995903","nombre":"Secretar\u00eda
+        General de Administraci\u00f3n Digital"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91287,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042831","nombre":"Delegacion Provincial del
+        INE de Badajoz"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91288,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042835","nombre":"Delegacion Provincial del
+        INE de Caceres"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91293,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042870","nombre":"Delegacion Provincial del
+        INE de Teruel"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91289,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042836","nombre":"Delegacion Provincial del
+        INE de Cadiz"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91290,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042838","nombre":"Delegacion Provincial del
+        INE de Castell\u00f3n\/Castell\u00f3"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos Econ\u00f3micos
+        y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91291,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042844","nombre":"Delegacion Provincial del
+        INE de Girona"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91292,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042868","nombre":"Delegacion Provincial del
+        INE de Soria"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91273,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042852","nombre":"Delegacion Provincial del
+        INE de Las Palmas"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91327,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042851","nombre":"Delegacion Provincial del
+        INE de La Rioja"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91278,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042866","nombre":"Delegacion Provincial del
+        INE de Segovia"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91276,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042858","nombre":"Delegacion Provincial del
+        INE de Melilla"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91275,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042855","nombre":"Delegacion Provincial del
+        INE de Lugo"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91279,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042874","nombre":"Delegacion Provincial del
+        INE de Zamora"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91277,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042862","nombre":"Delegacion Provincial del
+        INE de Palencia"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91272,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042850","nombre":"Delegacion Provincial del
+        INE de Jaen"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91274,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042854","nombre":"Delegacion Provincial del
+        INE de Lleida"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":91328,"og":{"codigo_dir":"EA0042895","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0042853","nombre":"Delegacion Provincial del
+        INE de Leon"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital","codigo_dir":"E05068901","cifs":[]},"id":93447,"og":{"codigo_dir":"EA0042931","nombre":"Comision
+        Nacional de los Mercados y la Competencia"},"ut":{"codigo_dir":"GE0000252","nombre":"Pagos
+        en Firme Cnmc"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:06 GMT
+recorded_with: VCR 6.0.0

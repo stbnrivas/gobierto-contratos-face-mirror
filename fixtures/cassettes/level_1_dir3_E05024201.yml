@@ -1,0 +1,1046 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024201/relaciones?administracion=E05024201&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:13 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo,
+        Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61654,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021625","nombre":"Centro
+        Nacional de Verificacion de Maquinaria de Bizkaia (SEDE- BARACALDO)"},"oc":{"codigo_dir":"E00142903","nombre":"Instituto
+        Nacional de Seguridad e Higiene en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61655,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021627","nombre":"Centro
+        Nacional de Condiciones de Trabajo de Barcelona"},"oc":{"codigo_dir":"E00142903","nombre":"Instituto
+        Nacional de Seguridad e Higiene en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61656,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021630","nombre":"Caja
+        Servicios Centrales Instituto Nacional de Seguridad y Salud en el Trabajo"},"oc":{"codigo_dir":"E00142903","nombre":"Instituto
+        Nacional de Seguridad e Higiene en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61657,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021625","nombre":"Centro
+        Nacional de Verificacion de Maquinaria de Bizkaia (SEDE- BARACALDO)"},"oc":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61658,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021629","nombre":"Centro
+        Nacional de Nuevas Tecnologias de Madrid"},"oc":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61659,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021630","nombre":"Caja
+        Servicios Centrales Instituto Nacional de Seguridad y Salud en el Trabajo"},"oc":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61674,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021626","nombre":"Administraci\u00f3n
+        Instituto Nacional de Seguridad y Salud en el Trabajo"},"oc":{"codigo_dir":"E00142903","nombre":"Instituto
+        Nacional de Seguridad e Higiene en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61675,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021628","nombre":"Centro
+        Nacional de Medios de Proteccion de Sevilla"},"oc":{"codigo_dir":"E00142903","nombre":"Instituto
+        Nacional de Seguridad e Higiene en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61676,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021629","nombre":"Centro
+        Nacional de Nuevas Tecnologias de Madrid"},"oc":{"codigo_dir":"E00142903","nombre":"Instituto
+        Nacional de Seguridad e Higiene en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61677,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021627","nombre":"Centro
+        Nacional de Condiciones de Trabajo de Barcelona"},"oc":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61678,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021628","nombre":"Centro
+        Nacional de Medios de Proteccion de Sevilla"},"oc":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61694,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021626","nombre":"Administraci\u00f3n
+        Instituto Nacional de Seguridad y Salud en el Trabajo"},"oc":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63025,"og":{"codigo_dir":"E04939902","nombre":"Secretar\u00eda
+        General de Inmigraci\u00f3n y Emigraci\u00f3n"},"ut":{"codigo_dir":"EA0021772","nombre":"S.G.
+        de Planificacion y Gestion Economica"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63026,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021802","nombre":"Direcci\u00f3n
+        Territorial Inspecci\u00f3n de Trabajo y Seguridad Social de Cantabria"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63027,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021808","nombre":"Direcci\u00f3n
+        Territorial Inspecci\u00f3n de Trabajo y Seguridad Social de Extremadura-Inspecci\u00f3n
+        Provincial Trabajo y Seguridad Social Badajoz"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63028,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021814","nombre":"Direcci\u00f3n
+        Territorial Inspecci\u00f3n de Trabajo y Seguridad Social de Navarra-Inspecci\u00f3n
+        Provincial Trabajo y Seguridad Social de Navarra"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63029,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021819","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Alacant\/Alicante"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63030,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021826","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Burgos"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63031,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021828","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de C\u00e1diz"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63032,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021834","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Granada"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63033,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021843","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de M\u00e1laga"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63055,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021797","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de C\u00f3rdoba"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63056,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021799","nombre":"Direcci\u00f3n
+        Territorial Inspecci\u00f3n de Trabajo y Seguridad Social de Asturias-Inspecci\u00f3n
+        Provincial Trabajo y Seguridad Social de Asturias"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63057,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021810","nombre":"Direcci\u00f3n
+        Territorial Inspecci\u00f3n de Trabajo y Seguridad Social de Illes Balears-Inspecci\u00f3n
+        Provincial Trabajo y Seguridad Social de Illes Balears"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63058,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021812","nombre":"Direcci\u00f3n
+        Territorial Inspecci\u00f3n de Trabajo y Seguridad Social de Madrid-Inspecci\u00f3n
+        Provincial Trabajo y Seguridad Social de Madrid"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:13 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024201/relaciones?administracion=E05024201&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:14 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"146","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:03:14 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024201/relaciones?administracion=E05024201&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:15 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo,
+        Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61654,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021625","nombre":"Centro
+        Nacional de Verificacion de Maquinaria de Bizkaia (SEDE- BARACALDO)"},"oc":{"codigo_dir":"E00142903","nombre":"Instituto
+        Nacional de Seguridad e Higiene en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61655,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021627","nombre":"Centro
+        Nacional de Condiciones de Trabajo de Barcelona"},"oc":{"codigo_dir":"E00142903","nombre":"Instituto
+        Nacional de Seguridad e Higiene en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61656,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021630","nombre":"Caja
+        Servicios Centrales Instituto Nacional de Seguridad y Salud en el Trabajo"},"oc":{"codigo_dir":"E00142903","nombre":"Instituto
+        Nacional de Seguridad e Higiene en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61657,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021625","nombre":"Centro
+        Nacional de Verificacion de Maquinaria de Bizkaia (SEDE- BARACALDO)"},"oc":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61658,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021629","nombre":"Centro
+        Nacional de Nuevas Tecnologias de Madrid"},"oc":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61659,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021630","nombre":"Caja
+        Servicios Centrales Instituto Nacional de Seguridad y Salud en el Trabajo"},"oc":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61674,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021626","nombre":"Administraci\u00f3n
+        Instituto Nacional de Seguridad y Salud en el Trabajo"},"oc":{"codigo_dir":"E00142903","nombre":"Instituto
+        Nacional de Seguridad e Higiene en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61675,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021628","nombre":"Centro
+        Nacional de Medios de Proteccion de Sevilla"},"oc":{"codigo_dir":"E00142903","nombre":"Instituto
+        Nacional de Seguridad e Higiene en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61676,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021629","nombre":"Centro
+        Nacional de Nuevas Tecnologias de Madrid"},"oc":{"codigo_dir":"E00142903","nombre":"Instituto
+        Nacional de Seguridad e Higiene en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61677,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021627","nombre":"Centro
+        Nacional de Condiciones de Trabajo de Barcelona"},"oc":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61678,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021628","nombre":"Centro
+        Nacional de Medios de Proteccion de Sevilla"},"oc":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":61694,"og":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0021626","nombre":"Administraci\u00f3n
+        Instituto Nacional de Seguridad y Salud en el Trabajo"},"oc":{"codigo_dir":"EA0021624","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63025,"og":{"codigo_dir":"E04939902","nombre":"Secretar\u00eda
+        General de Inmigraci\u00f3n y Emigraci\u00f3n"},"ut":{"codigo_dir":"EA0021772","nombre":"S.G.
+        de Planificacion y Gestion Economica"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63026,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021802","nombre":"Direcci\u00f3n
+        Territorial Inspecci\u00f3n de Trabajo y Seguridad Social de Cantabria"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63027,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021808","nombre":"Direcci\u00f3n
+        Territorial Inspecci\u00f3n de Trabajo y Seguridad Social de Extremadura-Inspecci\u00f3n
+        Provincial Trabajo y Seguridad Social Badajoz"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63028,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021814","nombre":"Direcci\u00f3n
+        Territorial Inspecci\u00f3n de Trabajo y Seguridad Social de Navarra-Inspecci\u00f3n
+        Provincial Trabajo y Seguridad Social de Navarra"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63029,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021819","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Alacant\/Alicante"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63030,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021826","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Burgos"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63031,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021828","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de C\u00e1diz"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63032,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021834","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Granada"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63033,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021843","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de M\u00e1laga"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63055,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021797","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de C\u00f3rdoba"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63056,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021799","nombre":"Direcci\u00f3n
+        Territorial Inspecci\u00f3n de Trabajo y Seguridad Social de Asturias-Inspecci\u00f3n
+        Provincial Trabajo y Seguridad Social de Asturias"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63057,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021810","nombre":"Direcci\u00f3n
+        Territorial Inspecci\u00f3n de Trabajo y Seguridad Social de Illes Balears-Inspecci\u00f3n
+        Provincial Trabajo y Seguridad Social de Illes Balears"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63058,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021812","nombre":"Direcci\u00f3n
+        Territorial Inspecci\u00f3n de Trabajo y Seguridad Social de Madrid-Inspecci\u00f3n
+        Provincial Trabajo y Seguridad Social de Madrid"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:15 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024201/relaciones?administracion=E05024201&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:16 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo,
+        Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63059,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021813","nombre":"Direcci\u00f3n
+        Territorial Inspecci\u00f3n de Trabajo y Seguridad Social de Murcia-Inspecci\u00f3n
+        Provincial Trabajo y Seguridad Social de Murcia"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63060,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021817","nombre":"Escuela
+        de la Inspecci\u00f3n de Trabajo y Seguridad Social"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63061,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021820","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Albacete"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63062,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021827","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de C\u00e1ceres"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63063,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021829","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Castell\u00f3\/Castell\u00f3n"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63064,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021830","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Ceuta"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63065,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021831","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Cuenca"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63066,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021835","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Guadalajara"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63067,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021838","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Ja\u00e9n"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63068,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021839","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Las Palmas"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63069,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021841","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Lleida"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63070,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021844","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Melilla"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63071,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021846","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Palencia"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63072,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021848","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Salamanca"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63073,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021849","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Santa Cruz de Tenerife"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63075,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021796","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Ciudad Real"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63076,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021811","nombre":"Direcci\u00f3n
+        Territorial Inspecci\u00f3n de Trabajo y Seguridad Social de La Rioja-Inspecci\u00f3n
+        Provincial Trabajo y Seguridad Social de la Rioja"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63077,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021832","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Gipuzkoa"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63078,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021833","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Girona"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63079,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021842","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Lugo"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63080,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021850","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Segovia"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63081,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021851","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Sevilla"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63082,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021852","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Soria"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63083,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021856","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Valencia"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63084,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021858","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Zamora"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:16 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024201/relaciones?administracion=E05024201&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:17 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo,
+        Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63085,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021878","nombre":"Caja
+        Pagadora General"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina Contable.
+        I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63094,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021818","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63095,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021821","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Almer\u00eda"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63096,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021822","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Araba\/\u00c1lava"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63097,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021823","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Avila"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63098,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021824","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Barcelona"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63099,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021825","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Bizkaia"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63100,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021836","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Huelva"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63101,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021837","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Huesca"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63102,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021840","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Le\u00f3n"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63103,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021855","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Toledo"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63104,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021859","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Zaragoza"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63105,"og":{"codigo_dir":"E04939902","nombre":"Secretar\u00eda
+        General de Inmigraci\u00f3n y Emigraci\u00f3n"},"ut":{"codigo_dir":"EA0021877","nombre":"S.G.
+        de Administracion Financiera"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63106,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021877","nombre":"S.G.
+        de Administracion Financiera"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63107,"og":{"codigo_dir":"E04939902","nombre":"Secretar\u00eda
+        General de Inmigraci\u00f3n y Emigraci\u00f3n"},"ut":{"codigo_dir":"EA0021878","nombre":"Caja
+        Pagadora General"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina Contable.
+        I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63108,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021879","nombre":"S.G.
+        de Recursos Humanos"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina Contable.
+        I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63114,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021845","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Ourense"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63115,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021847","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Pontevedra (Sede Vigo)"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63116,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021853","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Tarragona"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63117,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021857","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Valladolid"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63118,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021864","nombre":"S.G.
+        de Informacion Administrativa y Publicaciones"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63134,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021854","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Teruel"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63135,"og":{"codigo_dir":"E05036701","nombre":"Secretar\u00eda
+        de Estado de Empleo"},"ut":{"codigo_dir":"EA0021877","nombre":"S.G. de Administracion
+        Financiera"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina Contable. I.D.
+        Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63266,"og":{"codigo_dir":"E04939902","nombre":"Secretar\u00eda
+        General de Inmigraci\u00f3n y Emigraci\u00f3n"},"ut":{"codigo_dir":"EA0021782","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Valencia"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63676,"og":{"codigo_dir":"EA0033647","nombre":"Consejo
+        Economico y Social"},"ut":{"codigo_dir":"EA0033655","nombre":"Caja Personal"},"oc":{"codigo_dir":"EA0033657","nombre":"Oficina
+        de Contabilidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:17 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024201/relaciones?administracion=E05024201&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:18 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo,
+        Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63677,"og":{"codigo_dir":"EA0033647","nombre":"Consejo
+        Economico y Social"},"ut":{"codigo_dir":"EA0033656","nombre":"Contrataci\u00f3n"},"oc":{"codigo_dir":"EA0033657","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo,
+        Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63678,"og":{"codigo_dir":"EA0033647","nombre":"Consejo
+        Economico y Social"},"ut":{"codigo_dir":"EA0033658","nombre":"Recursos Humanos"},"oc":{"codigo_dir":"EA0033657","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo,
+        Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":63717,"og":{"codigo_dir":"EA0033647","nombre":"Consejo
+        Economico y Social"},"ut":{"codigo_dir":"EA0033654","nombre":"Caja Central"},"oc":{"codigo_dir":"EA0033657","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo,
+        Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":65101,"og":{"codigo_dir":"E04939902","nombre":"Secretar\u00eda
+        General de Inmigraci\u00f3n y Emigraci\u00f3n"},"ut":{"codigo_dir":"EA0021781","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Sevilla"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":66562,"og":{"codigo_dir":"EA0021877","nombre":"S.G.
+        de Administracion Financiera"},"ut":{"codigo_dir":"EA0021784","nombre":"Centro
+        de Estancia Temporal de Inmigrantes (C.E.T.I.) de Melilla"},"oc":{"codigo_dir":"GE0014097","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Melilla - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":66945,"og":{"codigo_dir":"E04939902","nombre":"Secretar\u00eda
+        General de Inmigraci\u00f3n y Emigraci\u00f3n"},"ut":{"codigo_dir":"EA0021784","nombre":"Centro
+        de Estancia Temporal de Inmigrantes (C.E.T.I.) de Melilla"},"oc":{"codigo_dir":"GE0014097","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Melilla - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":68060,"og":{"codigo_dir":"EA0033647","nombre":"Consejo
+        Economico y Social"},"ut":{"codigo_dir":"EA0033656","nombre":"Contrataci\u00f3n"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":69067,"og":{"codigo_dir":"E04939902","nombre":"Secretar\u00eda
+        General de Inmigraci\u00f3n y Emigraci\u00f3n"},"ut":{"codigo_dir":"EA0021785","nombre":"Centro
+        de Estancia Temporal de Inmigrantes (CETI) de Ceuta"},"oc":{"codigo_dir":"GE0014082","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ceuta - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":69807,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021861","nombre":"Secretar\u00eda
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":76367,"og":{"codigo_dir":"E04939902","nombre":"Secretar\u00eda
+        General de Inmigraci\u00f3n y Emigraci\u00f3n"},"ut":{"codigo_dir":"EA0021780","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Alcobendas - Madrid"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":76387,"og":{"codigo_dir":"E05034401","nombre":"Subsecretar\u00eda
+        de Trabajo, Migraciones y Seguridad Social"},"ut":{"codigo_dir":"EA0021780","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Alcobendas - Madrid"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":76468,"og":{"codigo_dir":"E04939902","nombre":"Secretar\u00eda
+        General de Inmigraci\u00f3n y Emigraci\u00f3n"},"ut":{"codigo_dir":"EA0021783","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Vallecas - Madrid"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":76487,"og":{"codigo_dir":"EA0021780","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Alcobendas - Madrid"},"ut":{"codigo_dir":"EA0021780","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Alcobendas - Madrid"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":76507,"og":{"codigo_dir":"EA0021783","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Vallecas - Madrid"},"ut":{"codigo_dir":"EA0021783","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Vallecas - Madrid"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":77487,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021861","nombre":"Secretar\u00eda
+        General"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina Contable del Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80828,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021797","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de C\u00f3rdoba"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80829,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021818","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de A Coru\u00f1a"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80830,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021819","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Alacant\/Alicante"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80831,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021821","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Almer\u00eda"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80832,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021822","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Araba\/\u00c1lava"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80833,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021825","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Bizkaia"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80834,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021826","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Burgos"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80835,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021830","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Ceuta"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80836,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021833","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Girona"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80837,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021835","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Guadalajara"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:18 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024201/relaciones?administracion=E05024201&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:19 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo,
+        Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80838,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021837","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Huesca"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80839,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021838","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Ja\u00e9n"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80840,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021839","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Las Palmas"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80841,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021840","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Le\u00f3n"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80842,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021842","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Lugo"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80843,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021845","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Ourense"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80844,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021847","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Pontevedra (Sede Vigo)"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80845,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021848","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Salamanca"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80846,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021849","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Santa Cruz de Tenerife"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80847,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021796","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Ciudad Real"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80848,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021817","nombre":"Escuela
+        de la Inspecci\u00f3n de Trabajo y Seguridad Social"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80849,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021820","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Albacete"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80850,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021823","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Avila"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80851,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021824","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Barcelona"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80852,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021827","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de C\u00e1ceres"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80853,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021828","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de C\u00e1diz"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80854,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021829","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Castell\u00f3\/Castell\u00f3n"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80855,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021831","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Cuenca"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80856,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021832","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Gipuzkoa"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80857,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021834","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Granada"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80858,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021836","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Huelva"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80859,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021841","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Lleida"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80860,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021843","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de M\u00e1laga"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80861,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021844","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Melilla"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80862,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021846","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Palencia"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:19 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024201/relaciones?administracion=E05024201&limit=25.0&page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:19 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo,
+        Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":81072,"og":{"codigo_dir":"EA0021265","nombre":"Centro
+        Nacional de Formaci\u00f3n Mar\u00edtima de Isla Cristina"},"ut":{"codigo_dir":"EA0021265","nombre":"Centro
+        Nacional de Formaci\u00f3n Mar\u00edtima de Isla Cristina"},"oc":{"codigo_dir":"EA0021727","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Huelva"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":81090,"og":{"codigo_dir":"EA0021267","nombre":"Centro
+        Nacional de Formaci\u00f3n Mar\u00edtima de Bamio"},"ut":{"codigo_dir":"EA0021267","nombre":"Centro
+        Nacional de Formaci\u00f3n Mar\u00edtima de Bamio"},"oc":{"codigo_dir":"EA0021743","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Pontevedra"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80867,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021853","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Tarragona"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80868,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021854","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Teruel"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80873,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0039913","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Navarra"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80869,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021858","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Zamora"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80872,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0039910","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de I. Balears"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80871,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0039909","nombre":"Nspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Cantabria"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80874,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0039914","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de La Rioja"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80870,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021859","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Zaragoza"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80889,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0039907","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Asturias"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80864,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021851","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Sevilla"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80890,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0039908","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Badajoz"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80866,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021855","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Toledo"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80891,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0039911","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Madrid"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80863,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021850","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Segovia"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80865,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021852","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Soria"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80893,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"GE0016577","nombre":"Caja
+        Pagadora General del O.E. Inspecci\u00f3n de Trabajo y Seguridad Social"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80887,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021856","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Valencia"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80888,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0021857","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Valladolid"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo, Migraciones y Seguridad Social","codigo_dir":"E05024201","cifs":[]},"id":80892,"og":{"codigo_dir":"EA0021795","nombre":"Organismo
+        Estatal Inspecci\u00f3n de Trabajo y Seguridad Social"},"ut":{"codigo_dir":"EA0039912","nombre":"Inspecci\u00f3n
+        Provincial de Trabajo y Seguridad Social de Murcia"},"oc":{"codigo_dir":"GE0015395","nombre":"Oficina
+        Contable del Organismo Estatal Inspecci\u00f3n de Trabajo y Seguridad  Social"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:19 GMT
+recorded_with: VCR 6.0.0

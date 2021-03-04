@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 27 Feb 2021 19:19:06 GMT
+      - Sun, 28 Feb 2021 08:49:13 GMT
       Server:
       - Microsoft-IIS/5.0
       Cache-Control:
@@ -43,7 +43,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"pager":{"total":"44","limit":25},"filter":{"fields":["administracion","provincia","nivel"]}}'
-  recorded_at: Sat, 27 Feb 2021 19:19:06 GMT
+  recorded_at: Sun, 28 Feb 2021 08:49:13 GMT
 - request:
     method: get
     uri: https://face.gob.es/api/v2/administraciones?limit=25&nivel=1&page=1&provincia=
@@ -63,7 +63,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 27 Feb 2021 19:19:07 GMT
+      - Sun, 28 Feb 2021 08:49:13 GMT
       Server:
       - Microsoft-IIS/5.0
       Cache-Control:
@@ -112,7 +112,7 @@ http_interactions:
         Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},{"codigo_dir":"E05025101","nombre_admon":"Ministerio
         de Ciencia, Innovaci\u00f3n y Universidades"},{"codigo_dir":"E05024801","nombre_admon":"Ministerio
         de Cultura y Deporte"}]}'
-  recorded_at: Sat, 27 Feb 2021 19:19:07 GMT
+  recorded_at: Sun, 28 Feb 2021 08:49:13 GMT
 - request:
     method: get
     uri: https://face.gob.es/api/v2/administraciones?limit=25&nivel=1&page=2&provincia=
@@ -132,7 +132,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 27 Feb 2021 19:19:08 GMT
+      - Sun, 28 Feb 2021 08:49:14 GMT
       Server:
       - Microsoft-IIS/5.0
       Cache-Control:
@@ -175,5 +175,5 @@ http_interactions:
         Consumo y Bienestar Social"},{"codigo_dir":"E05070401","nombre_admon":"Ministerio
         de Derechos Sociales y Agenda 2030"},{"codigo_dir":"E05073401","nombre_admon":"Ministerio
         de Universidades"}]}'
-  recorded_at: Sat, 27 Feb 2021 19:19:08 GMT
+  recorded_at: Sun, 28 Feb 2021 08:49:14 GMT
 recorded_with: VCR 6.0.0

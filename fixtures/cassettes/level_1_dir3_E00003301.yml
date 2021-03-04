@@ -1,0 +1,1946 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:14 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S28004758"},{"nif":"S2826002D"},{"nif":"B2800475B"},{"nif":"S2800475B"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":2188,"og":{"codigo_dir":"EA0002979","nombre":"Sae
+        de la Unidad Militar de Emergencias"},"ut":{"codigo_dir":"EA0002979","nombre":"Sae
+        de la Unidad Militar de Emergencias"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2800158D"},{"nif":"S2800157F"},{"nif":"S2830209I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7797,"og":{"codigo_dir":"EA0002972","nombre":"Area
+        Economico Administrativa de la Subdireccion General de Gestion Economica"},"ut":{"codigo_dir":"EA0002972","nombre":"Area
+        Economico Administrativa de la Subdireccion General de Gestion Economica"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830218J"},{"nif":"S2830101H"},{"nif":"S2830101F"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7798,"og":{"codigo_dir":"EA0002973","nombre":"Sae
+        del Cuarto Militar de S. M. el Rey y Guardia Real"},"ut":{"codigo_dir":"EA0002973","nombre":"Sae
+        del Cuarto Militar de S. M. el Rey y Guardia Real"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2822022H"},{"nif":"S2830146C"},{"nif":"S2822002H"},{"nif":"S2830144H"},{"nif":"52822002H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7799,"og":{"codigo_dir":"EA0002974","nombre":"Subdirecci\u00f3n
+        General de Adquisiciones de Armamento y Material"},"ut":{"codigo_dir":"EA0002974","nombre":"Subdirecci\u00f3n
+        General de Adquisiciones de Armamento y Material"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2822022H"},{"nif":"S2830146C"},{"nif":"S2822002H"},{"nif":"S2830144H"},{"nif":"52822002H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7800,"og":{"codigo_dir":"EA0002974","nombre":"Subdirecci\u00f3n
+        General de Adquisiciones de Armamento y Material"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S0930058C"},{"nif":"S2830149G"},{"nif":"S2800621A"},{"nif":"S2830020J"},{"nif":"S2230038H"},{"nif":"S2800196D"},{"nif":"S4130033F"},{"nif":"S2800058F"},{"nif":"S4614001H"},{"nif":"S2830092I"},{"nif":"Q2801824J"},{"nif":"S2830136D"},{"nif":"S2830290I"},{"nif":"S3015002C"},{"nif":"S2830083H"},{"nif":"S2822023D"},{"nif":"S2830156B"},{"nif":"S4730009J"},{"nif":"S2830028C"},{"nif":"S2830281H"},{"nif":"S2830062B"},{"nif":"Q2865006G"},{"nif":"S0222001J"},{"nif":"S2830101H"},{"nif":"S2830016H"},{"nif":"S2800643E"},{"nif":"S2830039J"},{"nif":"S2800010G"},{"nif":"S2830084F"},{"nif":"S0330010J"},{"nif":"S4630044H"},{"nif":"S2830158H"},{"nif":"S2630010C"},{"nif":"S2830009C"},{"nif":"S2830283D"},{"nif":"S2830066C"},{"nif":"S4700008H"},{"nif":"S1030006I"},{"nif":"S2830203B"},{"nif":"S4830001F"},{"nif":"S2830267G"},{"nif":"S2814005A"},{"nif":"S2830160D"},{"nif":"S2830030I"},{"nif":"S2830071C"},{"nif":"S4630039H"},{"nif":"S2830001J"},{"nif":"S2830209I"},{"nif":"S4830012C"},{"nif":"S2830018D"},{"nif":"S2830274C"},{"nif":"S2830054I"},{"nif":"S4130025B"},{"nif":"S2800086G"},{"nif":"S2800506D"},{"nif":"S2822024B"},{"nif":"S4630048I"},{"nif":"S4600016B"},{"nif":"S2830032E"},{"nif":"S5022001A"},{"nif":"S2830309G"},{"nif":"S4630040F"},{"nif":"S4530002G"},{"nif":"S2830024B"},{"nif":"S0130017G"},{"nif":"S2800512B"},{"nif":"S2800607J"},{"nif":"S2830177H"},{"nif":"S2830263F"},{"nif":"S2814001J"},{"nif":"S3030051A"},{"nif":"S0930073B"},{"nif":"S3722001I"},{"nif":"S4600304B"},{"nif":"S3022001F"},{"nif":"S2830146C"},{"nif":"S4722001G"},{"nif":"S2830265A"},{"nif":"S2814003F"},{"nif":"S2430018H"},{"nif":"S4630001H"},{"nif":"S4730033J"},{"nif":"S2830029A"},{"nif":"S2830296F"},{"nif":"S4714001G"},{"nif":"S2830088G"},{"nif":"Q2801024G"},{"nif":"S4714005H"},{"nif":"S2800147G"},{"nif":"S2830164F"},{"nif":"S2830012G"},{"nif":"S3730006H"},{"nif":"S2830031G"},{"nif":"S2830299J"},{"nif":"S2422001D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7803,"og":{"codigo_dir":"EA0002978","nombre":"Secci\u00f3n
+        Econ\u00f3mico Financiera de la Direcci\u00f3n General de Infraestructura"},"ut":{"codigo_dir":"EA0002978","nombre":"Secci\u00f3n
+        Econ\u00f3mico Financiera de la Direcci\u00f3n General de Infraestructura"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S0930058C"},{"nif":"S2830149G"},{"nif":"S2800621A"},{"nif":"S2830020J"},{"nif":"S2230038H"},{"nif":"S2800196D"},{"nif":"S4130033F"},{"nif":"S2800058F"},{"nif":"S4614001H"},{"nif":"S2830092I"},{"nif":"Q2801824J"},{"nif":"S2830136D"},{"nif":"S2830290I"},{"nif":"S3015002C"},{"nif":"S2830083H"},{"nif":"S2822023D"},{"nif":"S2830156B"},{"nif":"S4730009J"},{"nif":"S2830028C"},{"nif":"S2830281H"},{"nif":"S2830062B"},{"nif":"Q2865006G"},{"nif":"S0222001J"},{"nif":"S2830101H"},{"nif":"S2830016H"},{"nif":"S2800643E"},{"nif":"S2830039J"},{"nif":"S2800010G"},{"nif":"S2830084F"},{"nif":"S0330010J"},{"nif":"S4630044H"},{"nif":"S2830158H"},{"nif":"S2630010C"},{"nif":"S2830009C"},{"nif":"S2830283D"},{"nif":"S2830066C"},{"nif":"S4700008H"},{"nif":"S1030006I"},{"nif":"S2830203B"},{"nif":"S4830001F"},{"nif":"S2830267G"},{"nif":"S2814005A"},{"nif":"S2830160D"},{"nif":"S2830030I"},{"nif":"S2830071C"},{"nif":"S4630039H"},{"nif":"S2830001J"},{"nif":"S2830209I"},{"nif":"S4830012C"},{"nif":"S2830018D"},{"nif":"S2830274C"},{"nif":"S2830054I"},{"nif":"S4130025B"},{"nif":"S2800086G"},{"nif":"S2800506D"},{"nif":"S2822024B"},{"nif":"S4630048I"},{"nif":"S4600016B"},{"nif":"S2830032E"},{"nif":"S5022001A"},{"nif":"S2830309G"},{"nif":"S4630040F"},{"nif":"S4530002G"},{"nif":"S2830024B"},{"nif":"S0130017G"},{"nif":"S2800512B"},{"nif":"S2800607J"},{"nif":"S2830177H"},{"nif":"S2830263F"},{"nif":"S2814001J"},{"nif":"S3030051A"},{"nif":"S0930073B"},{"nif":"S3722001I"},{"nif":"S4600304B"},{"nif":"S3022001F"},{"nif":"S2830146C"},{"nif":"S4722001G"},{"nif":"S2830265A"},{"nif":"S2814003F"},{"nif":"S2430018H"},{"nif":"S4630001H"},{"nif":"S4730033J"},{"nif":"S2830029A"},{"nif":"S2830296F"},{"nif":"S4714001G"},{"nif":"S2830088G"},{"nif":"Q2801024G"},{"nif":"S4714005H"},{"nif":"S2800147G"},{"nif":"S2830164F"},{"nif":"S2830012G"},{"nif":"S3730006H"},{"nif":"S2830031G"},{"nif":"S2830299J"},{"nif":"S2422001D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7804,"og":{"codigo_dir":"EA0002978","nombre":"Secci\u00f3n
+        Econ\u00f3mico Financiera de la Direcci\u00f3n General de Infraestructura"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S2830006I"},{"nif":"S2826042J"},{"nif":"S2830083H"},{"nif":"S2815004C"},{"nif":"Q2801824J"},{"nif":"S2830001J"},{"nif":"S2830146C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7805,"og":{"codigo_dir":"EA0002980","nombre":"Jae
+        del Estado Mayor de la Defensa"},"ut":{"codigo_dir":"EA0002980","nombre":"Jae
+        del Estado Mayor de la Defensa"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830006I"},{"nif":"S2826042J"},{"nif":"S2830083H"},{"nif":"S2815004C"},{"nif":"Q2801824J"},{"nif":"S2830001J"},{"nif":"S2830146C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7806,"og":{"codigo_dir":"EA0002980","nombre":"Jae
+        del Estado Mayor de la Defensa"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S2830006I"},{"nif":"S2830083H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7807,"og":{"codigo_dir":"EA0002981","nombre":"Sae
+        del Centro Superior de Estudios de la Defensa Nacional"},"ut":{"codigo_dir":"EA0002981","nombre":"Sae
+        del Centro Superior de Estudios de la Defensa Nacional"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830141D"},{"nif":"S2830146C"},{"nif":"S2830290I"},{"nif":"S2800505D"},{"nif":"S2800506D"},{"nif":"S2830023D"},{"nif":"S2815001I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7808,"og":{"codigo_dir":"EA0002994","nombre":"Area
+        de Servicios Economicos de la Sub. Gral. de Serv. Economicos y Pag."},"ut":{"codigo_dir":"EA0002994","nombre":"Area
+        de Servicios Economicos de la Sub. Gral. de Serv. Economicos y Pag."},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7809,"og":{"codigo_dir":"EA0002995","nombre":"Seccion
+        Economica del Gabinete del Ministro de Defensa"},"ut":{"codigo_dir":"EA0002995","nombre":"Seccion
+        Economica del Gabinete del Ministro de Defensa"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2800086G"},{"nif":"S2800553F"},{"nif":"S2801155I"},{"nif":"S2830017F"},{"nif":"S3530026H"},{"nif":"S2800027A"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7810,"og":{"codigo_dir":"EA0002997","nombre":"Sae
+        de la Jae de la Inspeccion General de Sanidad"},"ut":{"codigo_dir":"EA0002997","nombre":"Sae
+        de la Jae de la Inspeccion General de Sanidad"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830017F"},{"nif":"Q2877020D"},{"nif":"S2800086G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7811,"og":{"codigo_dir":"EA0002998","nombre":"Sea
+        del Hospital Central de la Defensa \"GOMEZ ULLA\""},"ut":{"codigo_dir":"EA0002998","nombre":"Sea
+        del Hospital Central de la Defensa \"GOMEZ ULLA\""},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S5030009D"},{"nif":"S2800086G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7812,"og":{"codigo_dir":"EA0002999","nombre":"Sea
+        del Hospital Central de la Defensa en Zaragoza"},"ut":{"codigo_dir":"EA0002999","nombre":"Sea
+        del Hospital Central de la Defensa en Zaragoza"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2800086G"},{"nif":"S2830018D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7814,"og":{"codigo_dir":"EA0003001","nombre":"Sea
+        del Centro Militar de Farmacia de la Defensa"},"ut":{"codigo_dir":"EA0003001","nombre":"Sea
+        del Centro Militar de Farmacia de la Defensa"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2800147G"},{"nif":"E02905402"},{"nif":"S3515002H"},{"nif":"S3500003C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10339,"og":{"codigo_dir":"E02905402","nombre":"Intendencia
+        de Las Palmas"},"ut":{"codigo_dir":"E02905402","nombre":"Intendencia de Las
+        Palmas"},"oc":{"codigo_dir":"E02926602","nombre":"S.G. de Contabilidad"}},{"cifs":[{"nif":"S2815001I"},{"nif":"S2830115H"},{"nif":"S2830109A"},{"nif":"S2830128A"},{"nif":"Q2865006G"},{"nif":"S2830111G"},{"nif":"S2815003E"},{"nif":"S2830110I"},{"nif":"S2815004C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10340,"og":{"codigo_dir":"EA0002984","nombre":"Intendencia
+        de Madrid"},"ut":{"codigo_dir":"EA0002984","nombre":"Intendencia de Madrid"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S3600005G"},{"nif":"S1515003J"},{"nif":"S1500007H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10341,"og":{"codigo_dir":"EA0002985","nombre":"Intendencia
+        de el Ferrol"},"ut":{"codigo_dir":"EA0002985","nombre":"Intendencia de el
+        Ferrol"},"oc":{"codigo_dir":"E02926602","nombre":"S.G. de Contabilidad"}},{"cifs":[{"nif":"S3030016D"},{"nif":"S3015002C"},{"nif":"S2800147G"},{"nif":"S2815001I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10342,"og":{"codigo_dir":"EA0002986","nombre":"Intendencia
+        de Cartagena"},"ut":{"codigo_dir":"EA0002986","nombre":"Intendencia de Cartagena"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S1130054H"},{"nif":"S1160054H"},{"nif":"S2800147G"},{"nif":"S1115005I"},{"nif":"S1130059G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10343,"og":{"codigo_dir":"EA0002987","nombre":"Intendencia
+        de Rota"},"ut":{"codigo_dir":"EA0002987","nombre":"Intendencia de Rota"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S1115005I"},{"nif":"S1115005L"},{"nif":"S2800147G"},{"nif":"S11150051"},{"nif":"S2930034J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10344,"og":{"codigo_dir":"EA0002988","nombre":"Intendencia
+        de San Fernando"},"ut":{"codigo_dir":"EA0002988","nombre":"Intendencia de
+        San Fernando"},"oc":{"codigo_dir":"E02926602","nombre":"S.G. de Contabilidad"}},{"cifs":[{"nif":"S28150082"},{"nif":"S2800147G"},{"nif":"S1515003J"},{"nif":"Q2801824J"},{"nif":"S2815004C"},{"nif":"S2815001I"},{"nif":"S2830209I"},{"nif":"S2830205G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10345,"og":{"codigo_dir":"EA0002989","nombre":"Unidad
+        de Gestion y Coordinacion Economica de la Dat"},"ut":{"codigo_dir":"EA0002989","nombre":"Unidad
+        de Gestion y Coordinacion Economica de la Dat"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S28150082"},{"nif":"S2800147G"},{"nif":"S1515003J"},{"nif":"Q2801824J"},{"nif":"S2815004C"},{"nif":"S2815001I"},{"nif":"S2830209I"},{"nif":"S2830205G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10346,"og":{"codigo_dir":"EA0002989","nombre":"Unidad
+        de Gestion y Coordinacion Economica de la Dat"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S2815004C"},{"nif":"S2815001I"},{"nif":"Q2865006G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10347,"og":{"codigo_dir":"EA0002990","nombre":"Seccion
+        Economica de la Jefatura de Personal"},"ut":{"codigo_dir":"EA0002990","nombre":"Seccion
+        Economica de la Jefatura de Personal"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:14 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:15 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"325","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:02:15 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:16 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S2800147G"},{"nif":"E02905402"},{"nif":"S3515002H"},{"nif":"S3500003C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10339,"og":{"codigo_dir":"E02905402","nombre":"Intendencia
+        de Las Palmas"},"ut":{"codigo_dir":"E02905402","nombre":"Intendencia de Las
+        Palmas"},"oc":{"codigo_dir":"E02926602","nombre":"S.G. de Contabilidad"}},{"cifs":[{"nif":"S2830141D"},{"nif":"S2830146C"},{"nif":"S2830290I"},{"nif":"S2800505D"},{"nif":"S2800506D"},{"nif":"S2830023D"},{"nif":"S2815001I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7808,"og":{"codigo_dir":"EA0002994","nombre":"Area
+        de Servicios Economicos de la Sub. Gral. de Serv. Economicos y Pag."},"ut":{"codigo_dir":"EA0002994","nombre":"Area
+        de Servicios Economicos de la Sub. Gral. de Serv. Economicos y Pag."},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2800158D"},{"nif":"S2800157F"},{"nif":"S2830209I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7797,"og":{"codigo_dir":"EA0002972","nombre":"Area
+        Economico Administrativa de la Subdireccion General de Gestion Economica"},"ut":{"codigo_dir":"EA0002972","nombre":"Area
+        Economico Administrativa de la Subdireccion General de Gestion Economica"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S3030016D"},{"nif":"S3015002C"},{"nif":"S2800147G"},{"nif":"S2815001I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10342,"og":{"codigo_dir":"EA0002986","nombre":"Intendencia
+        de Cartagena"},"ut":{"codigo_dir":"EA0002986","nombre":"Intendencia de Cartagena"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S3600005G"},{"nif":"S1515003J"},{"nif":"S1500007H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10341,"og":{"codigo_dir":"EA0002985","nombre":"Intendencia
+        de el Ferrol"},"ut":{"codigo_dir":"EA0002985","nombre":"Intendencia de el
+        Ferrol"},"oc":{"codigo_dir":"E02926602","nombre":"S.G. de Contabilidad"}},{"cifs":[{"nif":"S2815001I"},{"nif":"S2830115H"},{"nif":"S2830109A"},{"nif":"S2830128A"},{"nif":"Q2865006G"},{"nif":"S2830111G"},{"nif":"S2815003E"},{"nif":"S2830110I"},{"nif":"S2815004C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10340,"og":{"codigo_dir":"EA0002984","nombre":"Intendencia
+        de Madrid"},"ut":{"codigo_dir":"EA0002984","nombre":"Intendencia de Madrid"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S1130054H"},{"nif":"S1160054H"},{"nif":"S2800147G"},{"nif":"S1115005I"},{"nif":"S1130059G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10343,"og":{"codigo_dir":"EA0002987","nombre":"Intendencia
+        de Rota"},"ut":{"codigo_dir":"EA0002987","nombre":"Intendencia de Rota"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S1115005I"},{"nif":"S1115005L"},{"nif":"S2800147G"},{"nif":"S11150051"},{"nif":"S2930034J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10344,"og":{"codigo_dir":"EA0002988","nombre":"Intendencia
+        de San Fernando"},"ut":{"codigo_dir":"EA0002988","nombre":"Intendencia de
+        San Fernando"},"oc":{"codigo_dir":"E02926602","nombre":"S.G. de Contabilidad"}},{"cifs":[{"nif":"S2830218J"},{"nif":"S2830101H"},{"nif":"S2830101F"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7798,"og":{"codigo_dir":"EA0002973","nombre":"Sae
+        del Cuarto Militar de S. M. el Rey y Guardia Real"},"ut":{"codigo_dir":"EA0002973","nombre":"Sae
+        del Cuarto Militar de S. M. el Rey y Guardia Real"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830006I"},{"nif":"S2826042J"},{"nif":"S2830083H"},{"nif":"S2815004C"},{"nif":"Q2801824J"},{"nif":"S2830001J"},{"nif":"S2830146C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7805,"og":{"codigo_dir":"EA0002980","nombre":"Jae
+        del Estado Mayor de la Defensa"},"ut":{"codigo_dir":"EA0002980","nombre":"Jae
+        del Estado Mayor de la Defensa"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830006I"},{"nif":"S2826042J"},{"nif":"S2830083H"},{"nif":"S2815004C"},{"nif":"Q2801824J"},{"nif":"S2830001J"},{"nif":"S2830146C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7806,"og":{"codigo_dir":"EA0002980","nombre":"Jae
+        del Estado Mayor de la Defensa"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S2800086G"},{"nif":"S2800553F"},{"nif":"S2801155I"},{"nif":"S2830017F"},{"nif":"S3530026H"},{"nif":"S2800027A"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7810,"og":{"codigo_dir":"EA0002997","nombre":"Sae
+        de la Jae de la Inspeccion General de Sanidad"},"ut":{"codigo_dir":"EA0002997","nombre":"Sae
+        de la Jae de la Inspeccion General de Sanidad"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S28004758"},{"nif":"S2826002D"},{"nif":"B2800475B"},{"nif":"S2800475B"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":2188,"og":{"codigo_dir":"EA0002979","nombre":"Sae
+        de la Unidad Militar de Emergencias"},"ut":{"codigo_dir":"EA0002979","nombre":"Sae
+        de la Unidad Militar de Emergencias"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830006I"},{"nif":"S2830083H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7807,"og":{"codigo_dir":"EA0002981","nombre":"Sae
+        del Centro Superior de Estudios de la Defensa Nacional"},"ut":{"codigo_dir":"EA0002981","nombre":"Sae
+        del Centro Superior de Estudios de la Defensa Nacional"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2800086G"},{"nif":"S2830018D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7814,"og":{"codigo_dir":"EA0003001","nombre":"Sea
+        del Centro Militar de Farmacia de la Defensa"},"ut":{"codigo_dir":"EA0003001","nombre":"Sea
+        del Centro Militar de Farmacia de la Defensa"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S5030009D"},{"nif":"S2800086G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7812,"og":{"codigo_dir":"EA0002999","nombre":"Sea
+        del Hospital Central de la Defensa en Zaragoza"},"ut":{"codigo_dir":"EA0002999","nombre":"Sea
+        del Hospital Central de la Defensa en Zaragoza"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830017F"},{"nif":"Q2877020D"},{"nif":"S2800086G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7811,"og":{"codigo_dir":"EA0002998","nombre":"Sea
+        del Hospital Central de la Defensa \"GOMEZ ULLA\""},"ut":{"codigo_dir":"EA0002998","nombre":"Sea
+        del Hospital Central de la Defensa \"GOMEZ ULLA\""},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2815004C"},{"nif":"S2815001I"},{"nif":"Q2865006G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10347,"og":{"codigo_dir":"EA0002990","nombre":"Seccion
+        Economica de la Jefatura de Personal"},"ut":{"codigo_dir":"EA0002990","nombre":"Seccion
+        Economica de la Jefatura de Personal"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7809,"og":{"codigo_dir":"EA0002995","nombre":"Seccion
+        Economica del Gabinete del Ministro de Defensa"},"ut":{"codigo_dir":"EA0002995","nombre":"Seccion
+        Economica del Gabinete del Ministro de Defensa"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S0930058C"},{"nif":"S2830149G"},{"nif":"S2800621A"},{"nif":"S2830020J"},{"nif":"S2230038H"},{"nif":"S2800196D"},{"nif":"S4130033F"},{"nif":"S2800058F"},{"nif":"S4614001H"},{"nif":"S2830092I"},{"nif":"Q2801824J"},{"nif":"S2830136D"},{"nif":"S2830290I"},{"nif":"S3015002C"},{"nif":"S2830083H"},{"nif":"S2822023D"},{"nif":"S2830156B"},{"nif":"S4730009J"},{"nif":"S2830028C"},{"nif":"S2830281H"},{"nif":"S2830062B"},{"nif":"Q2865006G"},{"nif":"S0222001J"},{"nif":"S2830101H"},{"nif":"S2830016H"},{"nif":"S2800643E"},{"nif":"S2830039J"},{"nif":"S2800010G"},{"nif":"S2830084F"},{"nif":"S0330010J"},{"nif":"S4630044H"},{"nif":"S2830158H"},{"nif":"S2630010C"},{"nif":"S2830009C"},{"nif":"S2830283D"},{"nif":"S2830066C"},{"nif":"S4700008H"},{"nif":"S1030006I"},{"nif":"S2830203B"},{"nif":"S4830001F"},{"nif":"S2830267G"},{"nif":"S2814005A"},{"nif":"S2830160D"},{"nif":"S2830030I"},{"nif":"S2830071C"},{"nif":"S4630039H"},{"nif":"S2830001J"},{"nif":"S2830209I"},{"nif":"S4830012C"},{"nif":"S2830018D"},{"nif":"S2830274C"},{"nif":"S2830054I"},{"nif":"S4130025B"},{"nif":"S2800086G"},{"nif":"S2800506D"},{"nif":"S2822024B"},{"nif":"S4630048I"},{"nif":"S4600016B"},{"nif":"S2830032E"},{"nif":"S5022001A"},{"nif":"S2830309G"},{"nif":"S4630040F"},{"nif":"S4530002G"},{"nif":"S2830024B"},{"nif":"S0130017G"},{"nif":"S2800512B"},{"nif":"S2800607J"},{"nif":"S2830177H"},{"nif":"S2830263F"},{"nif":"S2814001J"},{"nif":"S3030051A"},{"nif":"S0930073B"},{"nif":"S3722001I"},{"nif":"S4600304B"},{"nif":"S3022001F"},{"nif":"S2830146C"},{"nif":"S4722001G"},{"nif":"S2830265A"},{"nif":"S2814003F"},{"nif":"S2430018H"},{"nif":"S4630001H"},{"nif":"S4730033J"},{"nif":"S2830029A"},{"nif":"S2830296F"},{"nif":"S4714001G"},{"nif":"S2830088G"},{"nif":"Q2801024G"},{"nif":"S4714005H"},{"nif":"S2800147G"},{"nif":"S2830164F"},{"nif":"S2830012G"},{"nif":"S3730006H"},{"nif":"S2830031G"},{"nif":"S2830299J"},{"nif":"S2422001D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7803,"og":{"codigo_dir":"EA0002978","nombre":"Secci\u00f3n
+        Econ\u00f3mico Financiera de la Direcci\u00f3n General de Infraestructura"},"ut":{"codigo_dir":"EA0002978","nombre":"Secci\u00f3n
+        Econ\u00f3mico Financiera de la Direcci\u00f3n General de Infraestructura"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S0930058C"},{"nif":"S2830149G"},{"nif":"S2800621A"},{"nif":"S2830020J"},{"nif":"S2230038H"},{"nif":"S2800196D"},{"nif":"S4130033F"},{"nif":"S2800058F"},{"nif":"S4614001H"},{"nif":"S2830092I"},{"nif":"Q2801824J"},{"nif":"S2830136D"},{"nif":"S2830290I"},{"nif":"S3015002C"},{"nif":"S2830083H"},{"nif":"S2822023D"},{"nif":"S2830156B"},{"nif":"S4730009J"},{"nif":"S2830028C"},{"nif":"S2830281H"},{"nif":"S2830062B"},{"nif":"Q2865006G"},{"nif":"S0222001J"},{"nif":"S2830101H"},{"nif":"S2830016H"},{"nif":"S2800643E"},{"nif":"S2830039J"},{"nif":"S2800010G"},{"nif":"S2830084F"},{"nif":"S0330010J"},{"nif":"S4630044H"},{"nif":"S2830158H"},{"nif":"S2630010C"},{"nif":"S2830009C"},{"nif":"S2830283D"},{"nif":"S2830066C"},{"nif":"S4700008H"},{"nif":"S1030006I"},{"nif":"S2830203B"},{"nif":"S4830001F"},{"nif":"S2830267G"},{"nif":"S2814005A"},{"nif":"S2830160D"},{"nif":"S2830030I"},{"nif":"S2830071C"},{"nif":"S4630039H"},{"nif":"S2830001J"},{"nif":"S2830209I"},{"nif":"S4830012C"},{"nif":"S2830018D"},{"nif":"S2830274C"},{"nif":"S2830054I"},{"nif":"S4130025B"},{"nif":"S2800086G"},{"nif":"S2800506D"},{"nif":"S2822024B"},{"nif":"S4630048I"},{"nif":"S4600016B"},{"nif":"S2830032E"},{"nif":"S5022001A"},{"nif":"S2830309G"},{"nif":"S4630040F"},{"nif":"S4530002G"},{"nif":"S2830024B"},{"nif":"S0130017G"},{"nif":"S2800512B"},{"nif":"S2800607J"},{"nif":"S2830177H"},{"nif":"S2830263F"},{"nif":"S2814001J"},{"nif":"S3030051A"},{"nif":"S0930073B"},{"nif":"S3722001I"},{"nif":"S4600304B"},{"nif":"S3022001F"},{"nif":"S2830146C"},{"nif":"S4722001G"},{"nif":"S2830265A"},{"nif":"S2814003F"},{"nif":"S2430018H"},{"nif":"S4630001H"},{"nif":"S4730033J"},{"nif":"S2830029A"},{"nif":"S2830296F"},{"nif":"S4714001G"},{"nif":"S2830088G"},{"nif":"Q2801024G"},{"nif":"S4714005H"},{"nif":"S2800147G"},{"nif":"S2830164F"},{"nif":"S2830012G"},{"nif":"S3730006H"},{"nif":"S2830031G"},{"nif":"S2830299J"},{"nif":"S2422001D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7804,"og":{"codigo_dir":"EA0002978","nombre":"Secci\u00f3n
+        Econ\u00f3mico Financiera de la Direcci\u00f3n General de Infraestructura"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S2822022H"},{"nif":"S2830146C"},{"nif":"S2822002H"},{"nif":"S2830144H"},{"nif":"52822002H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7799,"og":{"codigo_dir":"EA0002974","nombre":"Subdirecci\u00f3n
+        General de Adquisiciones de Armamento y Material"},"ut":{"codigo_dir":"EA0002974","nombre":"Subdirecci\u00f3n
+        General de Adquisiciones de Armamento y Material"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2822022H"},{"nif":"S2830146C"},{"nif":"S2822002H"},{"nif":"S2830144H"},{"nif":"52822002H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":7800,"og":{"codigo_dir":"EA0002974","nombre":"Subdirecci\u00f3n
+        General de Adquisiciones de Armamento y Material"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S28150082"},{"nif":"S2800147G"},{"nif":"S1515003J"},{"nif":"Q2801824J"},{"nif":"S2815004C"},{"nif":"S2815001I"},{"nif":"S2830209I"},{"nif":"S2830205G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10345,"og":{"codigo_dir":"EA0002989","nombre":"Unidad
+        de Gestion y Coordinacion Economica de la Dat"},"ut":{"codigo_dir":"EA0002989","nombre":"Unidad
+        de Gestion y Coordinacion Economica de la Dat"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S28150082"},{"nif":"S2800147G"},{"nif":"S1515003J"},{"nif":"Q2801824J"},{"nif":"S2815004C"},{"nif":"S2815001I"},{"nif":"S2830209I"},{"nif":"S2830205G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10346,"og":{"codigo_dir":"EA0002989","nombre":"Unidad
+        de Gestion y Coordinacion Economica de la Dat"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:16 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:17 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S2830209I"},{"nif":"S2815004C"},{"nif":"S2815001I"},{"nif":"S2830217B"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10348,"og":{"codigo_dir":"EA0002991","nombre":"Seccion
+        de Coordinacion Economica de la Dae"},"ut":{"codigo_dir":"EA0002991","nombre":"Seccion
+        de Coordinacion Economica de la Dae"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2822023D"},{"nif":"S2800811H"},{"nif":"S2815004C"},{"nif":"Q2801824J"},{"nif":"S2830189C"},{"nif":"S2830184D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10349,"og":{"codigo_dir":"EA0003003","nombre":"Direcci\u00f3n
+        de Adquisiciones del Mando de Apoyo Log\u00edstico"},"ut":{"codigo_dir":"EA0003003","nombre":"Direcci\u00f3n
+        de Adquisiciones del Mando de Apoyo Log\u00edstico"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2822023D"},{"nif":"S2800811H"},{"nif":"S2815004C"},{"nif":"Q2801824J"},{"nif":"S2830189C"},{"nif":"S2830184D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10350,"og":{"codigo_dir":"EA0003003","nombre":"Direcci\u00f3n
+        de Adquisiciones del Mando de Apoyo Log\u00edstico"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801615B"},{"nif":"S2822024B"},{"nif":"S2822023D"},{"nif":"S2830189C"},{"nif":"S8222024B"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10351,"og":{"codigo_dir":"EA0003004","nombre":"Sea
+        62 Base Aerea de Cuatro Vientos"},"ut":{"codigo_dir":"EA0003004","nombre":"Sea
+        62 Base Aerea de Cuatro Vientos"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S1500000C"},{"nif":"S2422001D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10352,"og":{"codigo_dir":"EA0003008","nombre":"Sea
+        45 Aer\u00f3dromo Militar de Leon"},"ut":{"codigo_dir":"EA0003008","nombre":"Sea
+        45 Aer\u00f3dromo Militar de Leon"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S4130033F"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10353,"og":{"codigo_dir":"EA0003014","nombre":"Sea
+        12 Acar Tablada"},"ut":{"codigo_dir":"EA0003014","nombre":"Sea 12 Acar Tablada"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2802223D"},{"nif":"S2801225J"},{"nif":"S2822023D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10354,"og":{"codigo_dir":"EA0003016","nombre":"Sea
+        27 Base Aerea de Getafe"},"ut":{"codigo_dir":"EA0003016","nombre":"Sea 27
+        Base Aerea de Getafe"},"oc":{"codigo_dir":"E02926602","nombre":"S.G. de Contabilidad"}},{"cifs":[{"nif":"N9211004H"},{"nif":"S0222000J"},{"nif":"S0222001J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10355,"og":{"codigo_dir":"EA0003025","nombre":"Sea
+        23 Base Aerea de Albacete"},"ut":{"codigo_dir":"EA0003025","nombre":"Sea 23
+        Base Aerea de Albacete"},"oc":{"codigo_dir":"E02926602","nombre":"S.G. de
+        Contabilidad"}},{"cifs":[{"nif":"S18300261"},{"nif":"S4122001C"},{"nif":"S2830189C"},{"nif":"S2922001I"},{"nif":"S1830026I"},{"nif":"S1830026Y"},{"nif":"S1830033E"},{"nif":"S2822023D"},{"nif":"S2930060E"},{"nif":"S2930061C"},{"nif":"S4100000A"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10356,"og":{"codigo_dir":"EA0003027","nombre":"Sea
+        24 Base Aerea de Moron"},"ut":{"codigo_dir":"EA0003027","nombre":"Sea 24 Base
+        Aerea de Moron"},"oc":{"codigo_dir":"E02926602","nombre":"S.G. de Contabilidad"}},{"cifs":[{"nif":"S2822001J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10357,"og":{"codigo_dir":"EA0003032","nombre":"Secci\u00f3n
+        de Gestion Economica de la Dae"},"ut":{"codigo_dir":"EA0003032","nombre":"Secci\u00f3n
+        de Gestion Economica de la Dae"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"09691582A"},{"nif":"S3522001A"},{"nif":"S3522002I"},{"nif":"08955297V"},{"nif":"S0722001E"},{"nif":"S35220021"},{"nif":"22661588X"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10358,"og":{"codigo_dir":"EA0003035","nombre":"Sea
+        14 Cuartel General del Macan"},"ut":{"codigo_dir":"EA0003035","nombre":"Sea
+        14 Cuartel General del Macan"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S5022001A"},{"nif":"S5030052D"},{"nif":"S1700001I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10359,"og":{"codigo_dir":"EA0003038","nombre":"Sea
+        26 Base Aerea de Zaragoza"},"ut":{"codigo_dir":"EA0003038","nombre":"Sea 26
+        Base Aerea de Zaragoza"},"oc":{"codigo_dir":"E02926602","nombre":"S.G. de
+        Contabilidad"}},{"cifs":[{"nif":"S3022001F"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10360,"og":{"codigo_dir":"EA0003039","nombre":"Sea
+        41 Base Aerea de San Javier"},"ut":{"codigo_dir":"EA0003039","nombre":"Sea
+        41 Base Aerea de San Javier"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2822022F"},{"nif":"S2800140B"},{"nif":"12345678Z"},{"nif":"S2830121F"},{"nif":"S2822023D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10361,"og":{"codigo_dir":"EA0003044","nombre":"Sea
+        22 Base Aerea de Torrejon"},"ut":{"codigo_dir":"EA0003044","nombre":"Sea 22
+        Base Aerea de Torrejon"},"oc":{"codigo_dir":"E02926602","nombre":"S.G. de
+        Contabilidad"}},{"cifs":[{"nif":"S2830189C"},{"nif":"G82360884"},{"nif":"A2830419G"},{"nif":"Q2830149G"},{"nif":"S2830149G"},{"nif":"S2830184D"},{"nif":"A2830149G"},{"nif":"02830149G"},{"nif":"B80787450"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10363,"og":{"codigo_dir":"EA0003046","nombre":"Sea
+        15 Agrupacion del Cgea"},"ut":{"codigo_dir":"EA0003046","nombre":"Sea 15 Agrupacion
+        del Cgea"},"oc":{"codigo_dir":"E02926602","nombre":"S.G. de Contabilidad"}},{"cifs":[{"nif":"S3722001I"},{"nif":"S0622001F"},{"nif":"S37220011"},{"nif":"S3722001L"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10364,"og":{"codigo_dir":"EA0003048","nombre":"Sea
+        46 Base Aerea de Matacan"},"ut":{"codigo_dir":"EA0003048","nombre":"Sea 46
+        Base Aerea de Matacan"},"oc":{"codigo_dir":"E02926602","nombre":"S.G. de Contabilidad"}},{"cifs":[{"nif":"S0722001E"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10365,"og":{"codigo_dir":"EA0003049","nombre":"Sea
+        61 Base Aerea de Son San Juan"},"ut":{"codigo_dir":"EA0003049","nombre":"Sea
+        61 Base Aerea de Son San Juan"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830078H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10366,"og":{"codigo_dir":"EA0003050","nombre":"Saeco
+        de la Direccion de Asuntos Economicos del Ejercito de Tierra"},"ut":{"codigo_dir":"EA0003050","nombre":"Saeco
+        de la Direccion de Asuntos Economicos del Ejercito de Tierra"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830108C"},{"nif":"S0800105I"},{"nif":"S08001051"},{"nif":"S4530011H"},{"nif":"S0800105L"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10367,"og":{"codigo_dir":"EA0003051","nombre":"Jae
+        de la Inspeccion General del Ejercito"},"ut":{"codigo_dir":"EA0003051","nombre":"Jae
+        de la Inspeccion General del Ejercito"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S5030003G"},{"nif":"S5030007H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10369,"og":{"codigo_dir":"EA0003053","nombre":"Saeco
+        de la Academia General Militar"},"ut":{"codigo_dir":"EA0003053","nombre":"Saeco
+        de la Academia General Militar"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S5030020A"},{"nif":"S4100017E"},{"nif":"S4600023H"},{"nif":"S4114001C"},{"nif":"S1130042C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10386,"og":{"codigo_dir":"EA0003070","nombre":"Jae
+        del Cuartel General de la Fuerza Terrestre"},"ut":{"codigo_dir":"EA0003070","nombre":"Jae
+        del Cuartel General de la Fuerza Terrestre"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S4600069A"},{"nif":"S4600087C"},{"nif":"S4630043J"},{"nif":"S4630041D"},{"nif":"S4600023H"},{"nif":"S4630044H"},{"nif":"S4630020H"},{"nif":"S4600085G"},{"nif":"S4614001H"},{"nif":"S4620020H"},{"nif":"S4630045E"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10387,"og":{"codigo_dir":"EA0003072","nombre":"Jae
+        del Cuartel General de Alta Disponibilidad"},"ut":{"codigo_dir":"EA0003072","nombre":"Jae
+        del Cuartel General de Alta Disponibilidad"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830309G"},{"nif":"Q2801824J"},{"nif":"S2830108C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10388,"og":{"codigo_dir":"EA0003073","nombre":"Saeco
+        de la Direccion de Infraestructura"},"ut":{"codigo_dir":"EA0003073","nombre":"Saeco
+        de la Direccion de Infraestructura"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830309G"},{"nif":"Q2801824J"},{"nif":"S2830108C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10389,"og":{"codigo_dir":"EA0003073","nombre":"Saeco
+        de la Direccion de Infraestructura"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S2814006I"},{"nif":"Q2880019A"},{"nif":"S2830177H"},{"nif":"S1930008F"},{"nif":"S2830091A"},{"nif":"S2830140F"},{"nif":"S2860177H"},{"nif":"S2800811H"},{"nif":"S2800215B"},{"nif":"S2926602H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10390,"og":{"codigo_dir":"EA0003074","nombre":"Jae
+        del Estado Mayor del Ejercito"},"ut":{"codigo_dir":"EA0003074","nombre":"Jae
+        del Estado Mayor del Ejercito"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:17 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:18 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S2830013E"},{"nif":"S2830012E"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10392,"og":{"codigo_dir":"EA0003076","nombre":"Saeco
+        de la Escuela de Guerra del Ejercito"},"ut":{"codigo_dir":"EA0003076","nombre":"Saeco
+        de la Escuela de Guerra del Ejercito"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2801224C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10393,"og":{"codigo_dir":"EA0003077","nombre":"Saeco
+        del Parque y Centro de Mantenimiento de Material de Helicopteros"},"ut":{"codigo_dir":"EA0003077","nombre":"Saeco
+        del Parque y Centro de Mantenimiento de Material de Helicopteros"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S4600008I"},{"nif":"S1514001E"},{"nif":"S2830209I"},{"nif":"S0230004D"},{"nif":"S1500066D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10397,"og":{"codigo_dir":"EA0003081","nombre":"Jae
+        del Cuartel General de la Fuerza Logistica Operativa"},"ut":{"codigo_dir":"EA0003081","nombre":"Jae
+        del Cuartel General de la Fuerza Logistica Operativa"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830032E"},{"nif":"S2830275J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10399,"og":{"codigo_dir":"EA0003083","nombre":"Saeco
+        de la Jefatura de los Sistemas de Informacion, Telecom. y A.T."},"ut":{"codigo_dir":"EA0003083","nombre":"Saeco
+        de la Jefatura de los Sistemas de Informacion, Telecom. y A.T."},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S1130049H"},{"nif":"S1130106F"},{"nif":"S1130045F"},{"nif":"S1130026F"},{"nif":"S5100014I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10400,"og":{"codigo_dir":"EA0003084","nombre":"Saeco
+        de la Comandancia General de Ceuta"},"ut":{"codigo_dir":"EA0003084","nombre":"Saeco
+        de la Comandancia General de Ceuta"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2930043A"},{"nif":"S2800811H"},{"nif":"S2930051D"},{"nif":"S2930028B"},{"nif":"E02926602"},{"nif":"S5200024G"},{"nif":"S2930049H"},{"nif":"S2930025H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10401,"og":{"codigo_dir":"EA0003085","nombre":"Saeco
+        de la Comandancia General de Melilla"},"ut":{"codigo_dir":"EA0003085","nombre":"Saeco
+        de la Comandancia General de Melilla"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S4730003C"},{"nif":"S4714005H"},{"nif":"S0130017G"},{"nif":"S1530010F"},{"nif":"S3330015C"},{"nif":"S0530007D"},{"nif":"S4730016E"},{"nif":"Q4700560H"},{"nif":"S2430002B"},{"nif":"S4730033J"},{"nif":"S2030016F"},{"nif":"S4714001G"},{"nif":"S1530022A"},{"nif":"S1530071H"},{"nif":"S3730014B"},{"nif":"S4830012C"},{"nif":"S2830282F"},{"nif":"G24358483"},{"nif":"S4700008H"},{"nif":"S3700002C"},{"nif":"S3630010A"},{"nif":"S4030002B"},{"nif":"S1530064C"},{"nif":"S0930029D"},{"nif":"S47140016"},{"nif":"S4700031J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10402,"og":{"codigo_dir":"EA0003086","nombre":"Saeco
+        de la Jefatura de Intendencia de Asuntos Economicos Oeste"},"ut":{"codigo_dir":"EA0003086","nombre":"Saeco
+        de la Jefatura de Intendencia de Asuntos Economicos Oeste"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830287E"},{"nif":"E02926602"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10404,"og":{"codigo_dir":"EA0003088","nombre":"Jae
+        del Mando de Adiestramiento y Doctrina"},"ut":{"codigo_dir":"EA0003088","nombre":"Jae
+        del Mando de Adiestramiento y Doctrina"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830015F"},{"nif":"S2800118H"},{"nif":"S2800811H"},{"nif":"S2800811S"},{"nif":"S2830007G"},{"nif":"S2830029A"},{"nif":"S2830158H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10405,"og":{"codigo_dir":"EA0003089","nombre":"Jae
+        del Mando de Apoyo Logistico del Ejercito de Tierra"},"ut":{"codigo_dir":"EA0003089","nombre":"Jae
+        del Mando de Apoyo Logistico del Ejercito de Tierra"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830015F"},{"nif":"S2800118H"},{"nif":"S2800811H"},{"nif":"S2800811S"},{"nif":"S2830007G"},{"nif":"S2830029A"},{"nif":"S2830158H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10406,"og":{"codigo_dir":"EA0003089","nombre":"Jae
+        del Mando de Apoyo Logistico del Ejercito de Tierra"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S2800602A"},{"nif":"S3130009H"},{"nif":"S2800608H"},{"nif":"S2800023J"},{"nif":"Q1180008C"},{"nif":"S2830136D"},{"nif":"S2800607J"},{"nif":"S0930072D"},{"nif":"S2930010J"},{"nif":"S2800604G"},{"nif":"S2800611B"},{"nif":"S2830009C"},{"nif":"S2800610D"},{"nif":"S0730044E"},{"nif":"S2800606B"},{"nif":"S2800615C"},{"nif":"S2830044J"},{"nif":"S1130031F"},{"nif":"S1530038G"},{"nif":"S2800599I"},{"nif":"S2800612J"},{"nif":"S2800664A"},{"nif":"S2830086A"},{"nif":"S3930004A"},{"nif":"S2800600E"},{"nif":"S2830011I"},{"nif":"S2800618G"},{"nif":"S2801226H"},{"nif":"S2800620C"},{"nif":"S1800003D"},{"nif":"S2800058F"},{"nif":"S3330013H"},{"nif":"S2830170C"},{"nif":"S2800621A"},{"nif":"C2830009C"},{"nif":"S2830156B"},{"nif":"S2801259I"},{"nif":"S2800603I"},{"nif":"S2800198J"},{"nif":"S2800605D"},{"nif":"S2830286G"},{"nif":"S0730046J"},{"nif":"S2800616A"},{"nif":"S28006075"},{"nif":"S2830031G"},{"nif":"S3030003B"},{"nif":"S4600016B"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10407,"og":{"codigo_dir":"EA0003090","nombre":"Jae
+        del Mando de Personal del Ejercito"},"ut":{"codigo_dir":"EA0003090","nombre":"Jae
+        del Mando de Personal del Ejercito"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830007G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10410,"og":{"codigo_dir":"EA0003093","nombre":"Saeco
+        del Parque y Centro de Mantenimiento de Material de Intendencia"},"ut":{"codigo_dir":"EA0003093","nombre":"Saeco
+        del Parque y Centro de Mantenimiento de Material de Intendencia"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"E02926602"},{"nif":"X4030007A"},{"nif":"S4030007A"},{"nif":"S2830052C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10411,"og":{"codigo_dir":"EA0003095","nombre":"Saeco
+        del Parque y Centro de Mantenimiento de Sistemas Acorazados N\u00ba 2"},"ut":{"codigo_dir":"EA0003095","nombre":"Saeco
+        del Parque y Centro de Mantenimiento de Sistemas Acorazados N\u00ba 2"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2800546J"},{"nif":"S2800811H"},{"nif":"S2830071C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10412,"og":{"codigo_dir":"EA0003096","nombre":"Saeco
+        del Parque y Centro de Mto. Sis. Aa Costa y Misiles"},"ut":{"codigo_dir":"EA0003096","nombre":"Saeco
+        del Parque y Centro de Mto. Sis. Aa Costa y Misiles"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S4730009J"},{"nif":"S4700006B"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10413,"og":{"codigo_dir":"EA0003097","nombre":"Saeco
+        del Parque y Centro de Mantenimiento de Material de Artilleria"},"ut":{"codigo_dir":"EA0003097","nombre":"Saeco
+        del Parque y Centro de Mantenimiento de Material de Artilleria"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830028E"},{"nif":"S2800811H"},{"nif":"S2830028C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10414,"og":{"codigo_dir":"EA0003098","nombre":"Saeco
+        del Parque y Centro de Mantenimiento de Material de Ingenieros"},"ut":{"codigo_dir":"EA0003098","nombre":"Saeco
+        del Parque y Centro de Mantenimiento de Material de Ingenieros"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"Q2830103D"},{"nif":"S2830029A"},{"nif":"F2830029A"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10415,"og":{"codigo_dir":"EA0003100","nombre":"Saeco
+        del Parque y Centro de Mantenimiento de Vehiculos Ruedas N\u00ba 1"},"ut":{"codigo_dir":"EA0003100","nombre":"Saeco
+        del Parque y Centro de Mantenimiento de Vehiculos Ruedas N\u00ba 1"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S1430011E"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10416,"og":{"codigo_dir":"EA0003101","nombre":"Saeco
+        del Parque y Centro de Mantenimiento de Vehiculos Ruedas N\u00ba 2"},"ut":{"codigo_dir":"EA0003101","nombre":"Saeco
+        del Parque y Centro de Mantenimiento de Vehiculos Ruedas N\u00ba 2"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S3830019J"},{"nif":"S3800006C"},{"nif":"S3530037H"},{"nif":"S3830037B"},{"nif":"S3830004B"},{"nif":"S3500004A"},{"nif":"S0800105I"},{"nif":"S3830011G"},{"nif":"S4130041I"},{"nif":"S3830012E"},{"nif":"S3814001H"},{"nif":"S3530033D"},{"nif":"S3830028A"},{"nif":"S3530038C"},{"nif":"S3830038J"},{"nif":"S3830003D"},{"nif":"S3522002I"},{"nif":"S3800008I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10417,"og":{"codigo_dir":"EA0003102","nombre":"Jae
+        del Mando de Canarias"},"ut":{"codigo_dir":"EA0003102","nombre":"Jae del Mando
+        de Canarias"},"oc":{"codigo_dir":"E02926602","nombre":"S.G. de Contabilidad"}},{"cifs":[{"nif":"S2830058J"},{"nif":"S2830158H"},{"nif":"S2800512B"},{"nif":"S4630048I"},{"nif":"S2830177H"},{"nif":"S2830260B"},{"nif":"S2830037D"},{"nif":"S1500066D"},{"nif":"S4530002G"},{"nif":"S2830039J"},{"nif":"S2830084F"},{"nif":"S2801157E"},{"nif":"S2830029A"},{"nif":"S2830283D"},{"nif":"S2830265A"},{"nif":"S2830062B"},{"nif":"S2801100E"},{"nif":"S2814003F"},{"nif":"S2800427C"},{"nif":"S2800671F"},{"nif":"S2830296F"},{"nif":"S2830216D"},{"nif":"S1330009J"},{"nif":"S2830071C"},{"nif":"S2830020J"},{"nif":"S2830267G"},{"nif":"Q7855056C"},{"nif":"S2830299J"},{"nif":"S2800141J"},{"nif":"S2800601C"},{"nif":"S2830032E"},{"nif":"S2800156H"},{"nif":"S2830012G"},{"nif":"S2830054I"},{"nif":"S2830013E"},{"nif":"S2830291G"},{"nif":"S2830278D"},{"nif":"S2830140F"},{"nif":"S2830016H"},{"nif":"S2830263F"},{"nif":"S4530011H"},{"nif":"S2830294A"},{"nif":"00011930Q"},{"nif":"S2800112A"},{"nif":"S0230004D"},{"nif":"S2830052C"},{"nif":"Q2802001D"},{"nif":"S2830274C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10418,"og":{"codigo_dir":"EA0003103","nombre":"Saeco
+        de la Jefatura de Intendencia de Asuntos Economicos Centro"},"ut":{"codigo_dir":"EA0003103","nombre":"Saeco
+        de la Jefatura de Intendencia de Asuntos Economicos Centro"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S4100005J"},{"nif":"S1430022B"},{"nif":"S1000295D"},{"nif":"Q5455061A"},{"nif":"S1100029F"},{"nif":"S4130038E"},{"nif":"Q1800614H"},{"nif":"S1430025E"},{"nif":"S0630014I"},{"nif":"S4114001C"},{"nif":"Q3000247A"},{"nif":"V93262061"},{"nif":"S0430002F"},{"nif":"S0600001B"},{"nif":"S0630025E"},{"nif":"S4130017I"},{"nif":"S5200024G"},{"nif":"S3000001B"},{"nif":"E02926602"},{"nif":"S5100014I"},{"nif":"S1430011E"},{"nif":"S1130148H"},{"nif":"S1430026C"},{"nif":"S3030009I"},{"nif":"Q3000769D"},{"nif":"S4100002G"},{"nif":"S1430019H"},{"nif":"S1130052B"},{"nif":"S4130025B"},{"nif":"S4100038A"},{"nif":"S4100006H"},{"nif":"S1430023J"},{"nif":"S0630006E"},{"nif":"S1130136C"},{"nif":"S1830027G"},{"nif":"S0630018J"},{"nif":"S4130001C"},{"nif":"S4100021G"},{"nif":"S0400023H"},{"nif":"S1430009I"},{"nif":"S0630024H"},{"nif":"A1430026C"},{"nif":"S2830287E"},{"nif":"S4130041I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10419,"og":{"codigo_dir":"EA0003104","nombre":"Saeco
+        de la Jefatura de Intendencia de Asuntos Economicos Sur"},"ut":{"codigo_dir":"EA0003104","nombre":"Saeco
+        de la Jefatura de Intendencia de Asuntos Economicos Sur"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830275J"},{"nif":"S2830054I"},{"nif":"S1530020E"},{"nif":"S2800512B"},{"nif":"S2230038H"},{"nif":"S2830039J"},{"nif":"S4530011H"},{"nif":"S2800552H"},{"nif":"S0400003J"},{"nif":"S2814010A"},{"nif":"S2830032E"},{"nif":"S2801220A"},{"nif":"S2830281H"},{"nif":"E00003301"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10422,"og":{"codigo_dir":"EA0003107","nombre":"Saeco
+        de la Divisi\u00f3n \"Castillejos\""},"ut":{"codigo_dir":"EA0003107","nombre":"Saeco
+        de la Divisi\u00f3n \"Castillejos\""},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S0900058I"},{"nif":"S0930058C"},{"nif":"S0930004G"},{"nif":"S0630024H"},{"nif":"S0930069J"},{"nif":"S1530010F"},{"nif":"S2830266I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10423,"og":{"codigo_dir":"EA0003108","nombre":"Saeco
+        de la Divisi\u00f3n San Marcial"},"ut":{"codigo_dir":"EA0003108","nombre":"Saeco
+        de la Divisi\u00f3n San Marcial"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S4630040F"},{"nif":"S1500066D"},{"nif":"S0800501I"},{"nif":"S5000028J"},{"nif":"S5030023E"},{"nif":"S4630039H"},{"nif":"S2530006B"},{"nif":"S5033048B"},{"nif":"S4600023H"},{"nif":"S2200000D"},{"nif":"S0730002C"},{"nif":"S4600304B"},{"nif":"S0700013F"},{"nif":"S5030031H"},{"nif":"G08323172"},{"nif":"Q5000875D"},{"nif":"S5030027F"},{"nif":"S5030041G"},{"nif":"S3113574B"},{"nif":"S0830042H"},{"nif":"S4600056H"},{"nif":"S2530001C"},{"nif":"S5030003G"},{"nif":"S4630045E"},{"nif":"S5000011F"},{"nif":"S2230036B"},{"nif":"S4600087C"},{"nif":"S4614001H"},{"nif":"S3130001E"},{"nif":"S5030020A"},{"nif":"S2230038H"},{"nif":"S4630044H"},{"nif":"S3117773F"},{"nif":"S0700040I"},{"nif":"S2830063J"},{"nif":"S5030034B"},{"nif":"S0800105I"},{"nif":"S0830038F"},{"nif":"S4600042H"},{"nif":"S2200021J"},{"nif":"S5030048B"},{"nif":"S1700016G"},{"nif":"S2830146C"},{"nif":"S2230033I"},{"nif":"Q5080002H"},{"nif":"S0300017A"},{"nif":"S4630046C"},{"nif":"S2800645J"},{"nif":"S2200007I"},{"nif":"S5000027B"},{"nif":"S5030056E"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10424,"og":{"codigo_dir":"EA0003109","nombre":"Saeco
+        de la Jefatura de Intendencia de Asuntos Economicos Este"},"ut":{"codigo_dir":"EA0003109","nombre":"Saeco
+        de la Jefatura de Intendencia de Asuntos Economicos Este"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2801225J"},{"nif":"A78982899"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":10426,"og":{"codigo_dir":"EA0003332","nombre":"Sea
+        del Cuartel General del Mando Aereo General"},"ut":{"codigo_dir":"EA0003332","nombre":"Sea
+        del Cuartel General del Mando Aereo General"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:18 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:19 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q2861003H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11012,"og":{"codigo_dir":"E00399201","nombre":"RESIDENCIA
+        JORGE JUAN"},"ut":{"codigo_dir":"E00399201","nombre":"Residencia Jorge Juan"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[{"nif":"Q2861003H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11013,"og":{"codigo_dir":"E02789101","nombre":"Secretaria
+        General del Isfas"},"ut":{"codigo_dir":"E02789101","nombre":"Secretaria General
+        del Isfas"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11014,"og":{"codigo_dir":"E02789401","nombre":"SUBDIRECCION
+        DE PRESTACIONES"},"ut":{"codigo_dir":"E02789401","nombre":"Subdireccion de
+        Prestaciones del Isfas"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11015,"og":{"codigo_dir":"E02789501","nombre":"SUBDIRECCION
+        ECONOMICO-FINANCIERA"},"ut":{"codigo_dir":"E02789501","nombre":"SUBDIRECCION
+        ECONOMICO-FINANCIERA"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11080,"og":{"codigo_dir":"E04431501","nombre":"Centro
+        Residencial General Guti\u00e9rrez Mellado"},"ut":{"codigo_dir":"E04431501","nombre":"COMPLEJO
+        RESIDENCIAL \"CIUDAD PATRICIA\""},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11083,"og":{"codigo_dir":"E02933902","nombre":"SUBDELEGACION
+        DE DEFENSA EN BADAJOZ"},"ut":{"codigo_dir":"E02933902","nombre":"SUBDELEGACION
+        DE DEFENSA EN BADAJOZ"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11084,"og":{"codigo_dir":"E02933902","nombre":"SUBDELEGACION
+        DE DEFENSA EN BADAJOZ"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11085,"og":{"codigo_dir":"E02934102","nombre":"SUBDELEGACION
+        DE DEFENSA EN BARCELONA"},"ut":{"codigo_dir":"E02934102","nombre":"SUBDELEGACION
+        DE DEFENSA EN BARCELONA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11086,"og":{"codigo_dir":"E02934102","nombre":"SUBDELEGACION
+        DE DEFENSA EN BARCELONA"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11087,"og":{"codigo_dir":"E02934203","nombre":"SUBDELEGACION
+        DE DEFENSA EN BURGOS"},"ut":{"codigo_dir":"E02934203","nombre":"SUBDELEGACION
+        DE DEFENSA EN BURGOS"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11088,"og":{"codigo_dir":"E02934203","nombre":"SUBDELEGACION
+        DE DEFENSA EN BURGOS"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11089,"og":{"codigo_dir":"E02934802","nombre":"SUBDELEGACION
+        DE DEFENSA EN A CORU\u00d1A"},"ut":{"codigo_dir":"E02934802","nombre":"SUBDELEGACION
+        DE DEFENSA EN A CORU\u00d1A"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11090,"og":{"codigo_dir":"E02934802","nombre":"SUBDELEGACION
+        DE DEFENSA EN A CORU\u00d1A"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11091,"og":{"codigo_dir":"E02935403","nombre":"SUBDELEGACION
+        DE DEFENSA EN SAN SEBASTIAN"},"ut":{"codigo_dir":"E02935403","nombre":"SUBDELEGACION
+        DE DEFENSA EN SAN SEBASTIAN"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11092,"og":{"codigo_dir":"E02935403","nombre":"SUBDELEGACION
+        DE DEFENSA EN SAN SEBASTIAN"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11093,"og":{"codigo_dir":"E02935803","nombre":"SUBDELEGACION
+        DE DEFENSA EN LEON"},"ut":{"codigo_dir":"E02935803","nombre":"SUBDELEGACION
+        DE DEFENSA EN LEON"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11094,"og":{"codigo_dir":"E02935803","nombre":"SUBDELEGACION
+        DE DEFENSA EN LEON"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto de
+        Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11095,"og":{"codigo_dir":"E02937103","nombre":"SUBDELEGACION
+        DE DEFENSA EN PONTEVEDRA"},"ut":{"codigo_dir":"E02937103","nombre":"SUBDELEGACION
+        DE DEFENSA EN PONTEVEDRA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11096,"og":{"codigo_dir":"E02937103","nombre":"SUBDELEGACION
+        DE DEFENSA EN PONTEVEDRA"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11097,"og":{"codigo_dir":"E02937303","nombre":"SUBDELEGACION
+        DE DEFENSA EN SANTA CRUZ DE TENERIFE"},"ut":{"codigo_dir":"E02937303","nombre":"SUBDELEGACION
+        DE DEFENSA EN SANTA CRUZ DE TENERIFE"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11098,"og":{"codigo_dir":"E02937303","nombre":"SUBDELEGACION
+        DE DEFENSA EN SANTA CRUZ DE TENERIFE"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11099,"og":{"codigo_dir":"E02937602","nombre":"SUBDELEGACION
+        DE DEFENSA EN SEVILLA"},"ut":{"codigo_dir":"E02937602","nombre":"SUBDELEGACION
+        DE DEFENSA EN SEVILLA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11100,"og":{"codigo_dir":"E02937602","nombre":"SUBDELEGACION
+        DE DEFENSA EN SEVILLA"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11101,"og":{"codigo_dir":"E02938102","nombre":"SUBDELEGACION
+        DE DEFENSA EN VALENCIA"},"ut":{"codigo_dir":"E02938102","nombre":"SUBDELEGACION
+        DE DEFENSA EN VALENCIA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11102,"og":{"codigo_dir":"E02938102","nombre":"SUBDELEGACION
+        DE DEFENSA EN VALENCIA"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:19 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:20 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11103,"og":{"codigo_dir":"E02938502","nombre":"SUBDELEGACION
+        DE DEFENSA EN ZARAGOZA"},"ut":{"codigo_dir":"E02938502","nombre":"SUBDELEGACION
+        DE DEFENSA EN ZARAGOZA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11104,"og":{"codigo_dir":"E02938502","nombre":"SUBDELEGACION
+        DE DEFENSA EN ZARAGOZA"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11105,"og":{"codigo_dir":"E02938602","nombre":"SUBDELEGACION
+        DE DEFENSA EN CEUTA"},"ut":{"codigo_dir":"E02938602","nombre":"SUBDELEGACION
+        DE DEFENSA EN CEUTA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11106,"og":{"codigo_dir":"E02938602","nombre":"SUBDELEGACION
+        DE DEFENSA EN CEUTA"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto de
+        Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11107,"og":{"codigo_dir":"E02938702","nombre":"SUBDELEGACION
+        DE DEFENSA EN MELILLA"},"ut":{"codigo_dir":"E02938702","nombre":"SUBDELEGACION
+        DE DEFENSA EN MELILLA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11108,"og":{"codigo_dir":"E02938702","nombre":"SUBDELEGACION
+        DE DEFENSA EN MELILLA"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11109,"og":{"codigo_dir":"E04429302","nombre":"OFICINA
+        DELEGADA EN ALGECIRAS"},"ut":{"codigo_dir":"E04429302","nombre":"OFICINA DELEGADA
+        EN ALGECIRAS"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11110,"og":{"codigo_dir":"E04429302","nombre":"OFICINA
+        DELEGADA EN ALGECIRAS"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11111,"og":{"codigo_dir":"E04429902","nombre":"OFICINA
+        DELEGADA EN SAN FERNANDO"},"ut":{"codigo_dir":"E04429902","nombre":"OFICINA
+        DELEGADA EN SAN FERNANDO"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11112,"og":{"codigo_dir":"E04429902","nombre":"OFICINA
+        DELEGADA EN SAN FERNANDO"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11113,"og":{"codigo_dir":"E04430102","nombre":"OFICINA
+        DELEGADA EN FERROL"},"ut":{"codigo_dir":"E04430102","nombre":"OFICINA DELEGADA
+        EN FERROL"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11114,"og":{"codigo_dir":"E04430102","nombre":"OFICINA
+        DELEGADA EN FERROL"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto de
+        Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11115,"og":{"codigo_dir":"E04430202","nombre":"OFICINA
+        DELEGADA EN ALCALA DE HENARES"},"ut":{"codigo_dir":"E04430202","nombre":"OFICINA
+        DELEGADA EN ALCALA DE HENARES"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11116,"og":{"codigo_dir":"E04430202","nombre":"OFICINA
+        DELEGADA EN ALCALA DE HENARES"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11117,"og":{"codigo_dir":"E04430302","nombre":"OFICINA
+        DELEGADA EN CARTAGENA"},"ut":{"codigo_dir":"E04430302","nombre":"OFICINA DELEGADA
+        EN CARTAGENA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11118,"og":{"codigo_dir":"E04430302","nombre":"OFICINA
+        DELEGADA EN CARTAGENA"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"},{"nif":"Q2861003H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11119,"og":{"codigo_dir":"E04905301","nombre":"Secretaria
+        General del Invied"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto de
+        Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"},{"nif":"Q2861003H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11120,"og":{"codigo_dir":"E04905301","nombre":"Secretaria
+        General del Invied"},"ut":{"codigo_dir":"E04905301","nombre":"SECRETARIA GENERAL"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"},{"nif":"Q2861003H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11121,"og":{"codigo_dir":"E04905301","nombre":"Secretaria
+        General del Invied"},"ut":{"codigo_dir":"E04905501","nombre":"S.G. ECONOMICO-FINANCIERA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"},{"nif":"C2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11122,"og":{"codigo_dir":"E04905401","nombre":"S.G.
+        DE GESTION"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto de Vivienda,
+        Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11125,"og":{"codigo_dir":"E04905601","nombre":"S.G.
+        TECNICA Y DE ENAJENACION"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S2830256J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11157,"og":{"codigo_dir":"E00116501","nombre":"SUBSECRETARIA
+        DE DEFENSA"},"ut":{"codigo_dir":"E00116501","nombre":"Subsecretaria de Defensa"},"oc":{"codigo_dir":"E00116501","nombre":"Subsecretaria
+        de Defensa"}},{"cifs":[{"nif":"Q2801405H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11158,"og":{"codigo_dir":"EA0003005","nombre":"DEPARTAMENTO
+        ECONOMICO MDE"},"ut":{"codigo_dir":"EA0003005","nombre":"Departamento Economico
+        Mde"},"oc":{"codigo_dir":"EA0003005","nombre":"Departamento Economico Mde"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11159,"og":{"codigo_dir":"EA0003006","nombre":"SERVICIOS
+        GENERALES DE INFRAESTRUCTURA"},"ut":{"codigo_dir":"EA0003006","nombre":"Servicios
+        Generales de Infraestructura"},"oc":{"codigo_dir":"EA0003006","nombre":"Servicios
+        Generales de Infraestructura"}},{"cifs":[{"nif":"S2801154B"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11160,"og":{"codigo_dir":"EA0003007","nombre":"GRUPO
+        DE APOYO A LAS COMUNICACIONES"},"ut":{"codigo_dir":"EA0003007","nombre":"GRUPO
+        DE APOYO A LAS COMUNICACIONES"},"oc":{"codigo_dir":"EA0003007","nombre":"Grupo
+        de Apoyo a las Comunicaciones"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:20 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&limit=25.0&page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:21 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11161,"og":{"codigo_dir":"EA0003009","nombre":"AREA
+        DE FORMACION MDE"},"ut":{"codigo_dir":"EA0003009","nombre":"AREA DE FORMACION
+        MDE"},"oc":{"codigo_dir":"EA0003009","nombre":"Area de Formacion Mde"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11163,"og":{"codigo_dir":"EA0003010","nombre":"GABINETE
+        DE ANALISIS PATRIMONIAL"},"ut":{"codigo_dir":"EA0003010","nombre":"Gabinete
+        de Analisis Patrimonial"},"oc":{"codigo_dir":"EA0003010","nombre":"Gabinete
+        de Analisis Patrimonial"}},{"cifs":[{"nif":"S2801161G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11164,"og":{"codigo_dir":"EA0003011","nombre":"UNIDAD
+        DE COMPRAS DEL MDE"},"ut":{"codigo_dir":"EA0003011","nombre":"Unidad de Compras
+        del Mde"},"oc":{"codigo_dir":"EA0003011","nombre":"Unidad de Compras del Mde"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11165,"og":{"codigo_dir":"EA0003012","nombre":"OFICINA
+        CENTRAL DE SERVICIOS"},"ut":{"codigo_dir":"EA0003012","nombre":"Oficina Central
+        de Servicios"},"oc":{"codigo_dir":"EA0003012","nombre":"Oficina Central de
+        Servicios"}},{"cifs":[{"nif":"S2801082E"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11166,"og":{"codigo_dir":"EA0003013","nombre":"GESTION
+        Y ADMINISTRACION DE RECURSOS MATERIALES"},"ut":{"codigo_dir":"EA0003013","nombre":"Gestion
+        y Administracion de Recursos Materiales"},"oc":{"codigo_dir":"EA0003013","nombre":"Gestion
+        y Administracion de Recursos Materiales"}},{"cifs":[{"nif":"S2800809B"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11167,"og":{"codigo_dir":"EA0003015","nombre":"AREA
+        DE SERVICIOS INTEGRALES"},"ut":{"codigo_dir":"EA0003015","nombre":"Area de
+        Servicios Integrales"},"oc":{"codigo_dir":"EA0003015","nombre":"Area de Servicios
+        Integrales"}},{"cifs":[{"nif":"S2830252I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11168,"og":{"codigo_dir":"EA0003017","nombre":"OFICINA
+        TECNICA DE DOCUMENTACION MDE"},"ut":{"codigo_dir":"EA0003017","nombre":"Oficina
+        Tecnica de Documentacion Mde"},"oc":{"codigo_dir":"EA0003017","nombre":"Oficina
+        Tecnica de Documentacion Mde"}},{"cifs":[{"nif":"S2830227A"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11169,"og":{"codigo_dir":"EA0003018","nombre":"OFICINA
+        TECNICA DE SEGURIDAD INDUSTRIAL DEL MDE"},"ut":{"codigo_dir":"EA0003018","nombre":"Oficina
+        Tecnica de Seguridad Industrial del Mde"},"oc":{"codigo_dir":"EA0003018","nombre":"Oficina
+        Tecnica de Seguridad Industrial del Mde"}},{"cifs":[{"nif":"S2801153D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11170,"og":{"codigo_dir":"EA0003019","nombre":"CENTRO
+        DE SUMINISTROS DE DEFENSA"},"ut":{"codigo_dir":"EA0003019","nombre":"Centro
+        de Suministros de Defensa"},"oc":{"codigo_dir":"EA0003019","nombre":"Centro
+        de Suministros de Defensa"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11171,"og":{"codigo_dir":"EA0003020","nombre":"UNIDAD
+        DE GESTION INTERNACIONAL"},"ut":{"codigo_dir":"EA0003020","nombre":"Unidad
+        de Gestion Internacional"},"oc":{"codigo_dir":"EA0003020","nombre":"Unidad
+        de Gestion Internacional"}},{"cifs":[{"nif":"S2800662E"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11172,"og":{"codigo_dir":"EA0003021","nombre":"ADQUISICION
+        TECNICA"},"ut":{"codigo_dir":"EA0003021","nombre":"Adquisicion Tecnica"},"oc":{"codigo_dir":"EA0003021","nombre":"Adquisicion
+        Tecnica"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11173,"og":{"codigo_dir":"EA0003022","nombre":"CENTRO
+        DE ASESORAMIENTO FINANCIERO"},"ut":{"codigo_dir":"EA0003022","nombre":"Centro
+        de Asesoramiento Financiero"},"oc":{"codigo_dir":"EA0003022","nombre":"Centro
+        de Asesoramiento Financiero"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11174,"og":{"codigo_dir":"EA0003023","nombre":"SECCION
+        DE FINANCIACION INTEGRAL"},"ut":{"codigo_dir":"EA0003023","nombre":"SECCION
+        DE FINANCIACION INTEGRAL"},"oc":{"codigo_dir":"EA0003023","nombre":"Seccion
+        de Financiacion Integral"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11175,"og":{"codigo_dir":"EA0003024","nombre":"DEPARTAMENTO
+        TECNICO DEL MDE"},"ut":{"codigo_dir":"EA0003024","nombre":"Departamento Tecnico
+        del Mde"},"oc":{"codigo_dir":"EA0003024","nombre":"Departamento Tecnico del
+        Mde"}},{"cifs":[{"nif":"Q2801544D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11176,"og":{"codigo_dir":"EA0003026","nombre":"COMITE
+        SECTORIAL INTERPROVINCIAL"},"ut":{"codigo_dir":"EA0003026","nombre":"Comite
+        Sectorial Interprovincial"},"oc":{"codigo_dir":"EA0003026","nombre":"Comite
+        Sectorial Interprovincial"}},{"cifs":[{"nif":"Q2801545A"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11177,"og":{"codigo_dir":"EA0003028","nombre":"UNIDAD
+        ADMINISTRATIVA INTERNACIONAL"},"ut":{"codigo_dir":"EA0003028","nombre":"Unidad
+        Administrativa Internacional"},"oc":{"codigo_dir":"EA0003028","nombre":"Unidad
+        Administrativa Internacional"}},{"cifs":[{"nif":"S2800065A"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11178,"og":{"codigo_dir":"EA0003029","nombre":"COMISION
+        DE ESTUDIOS Y PROYECTOS"},"ut":{"codigo_dir":"EA0003029","nombre":"Comision
+        de Estudios y Proyectos"},"oc":{"codigo_dir":"EA0003029","nombre":"Comision
+        de Estudios y Proyectos"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11179,"og":{"codigo_dir":"EA0003030","nombre":"DELEGACION
+        TECNICA DE MADRID"},"ut":{"codigo_dir":"EA0003030","nombre":"DELEGACION TECNICA
+        DE MADRID"},"oc":{"codigo_dir":"EA0003030","nombre":"Delegacion Tecnica de
+        Madrid"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11180,"og":{"codigo_dir":"EA0003031","nombre":"ESTUDIOS
+        Y CONSULTORIA MDE"},"ut":{"codigo_dir":"EA0003031","nombre":"ESTUDIOS Y CONSULTORIA
+        MDE"},"oc":{"codigo_dir":"EA0003031","nombre":"Estudios y Consultoria Mde"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11181,"og":{"codigo_dir":"EA0003033","nombre":"SECCION
+        TECNICA DE MADRID"},"ut":{"codigo_dir":"EA0003033","nombre":"SECCION TECNICA
+        DE MADRID"},"oc":{"codigo_dir":"EA0003033","nombre":"Seccion Tecnica de Madrid"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11182,"og":{"codigo_dir":"EA0003034","nombre":"UNIDAD
+        DE ADMINISTRACION Y GESTION DE RECURSOS"},"ut":{"codigo_dir":"EA0003034","nombre":"UNIDAD
+        DE ADMINISTRACION Y GESTION DE RECURSOS"},"oc":{"codigo_dir":"EA0003034","nombre":"Unidad
+        de Administracion y Gestion de Recursos"}},{"cifs":[{"nif":"S2830249E"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11183,"og":{"codigo_dir":"EA0003036","nombre":"OFICINA
+        TECNICA DE RELACIONES MDE"},"ut":{"codigo_dir":"EA0003036","nombre":"Oficina
+        Tecnica de Relaciones Mde"},"oc":{"codigo_dir":"EA0003036","nombre":"Oficina
+        Tecnica de Relaciones Mde"}},{"cifs":[{"nif":"S2800813D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11184,"og":{"codigo_dir":"EA0003037","nombre":"UNIDAD
+        DE AUTOMATIZACION Y DESARROLLO"},"ut":{"codigo_dir":"EA0003037","nombre":"Unidad
+        de Automatizacion y Desarrollo"},"oc":{"codigo_dir":"EA0003037","nombre":"Unidad
+        de Automatizacion y Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11185,"og":{"codigo_dir":"EA0003040","nombre":"SERVICIO
+        DE COMUNICACIONES EXTERIORES"},"ut":{"codigo_dir":"EA0003040","nombre":"Servicio
+        de Comunicaciones Exteriores"},"oc":{"codigo_dir":"EA0003040","nombre":"Servicio
+        de Comunicaciones Exteriores"}},{"cifs":[{"nif":"S2801123G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11186,"og":{"codigo_dir":"EA0003041","nombre":"SECCION
+        CONTROL TELEMATICO"},"ut":{"codigo_dir":"EA0003041","nombre":"Seccion Control
+        Telematico"},"oc":{"codigo_dir":"EA0003041","nombre":"Seccion Control Telematico"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:21 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&limit=25.0&page=7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:22 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q2801546I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11187,"og":{"codigo_dir":"EA0003042","nombre":"GESTION
+        DE GRUPOS"},"ut":{"codigo_dir":"EA0003042","nombre":"Gestion de Grupos"},"oc":{"codigo_dir":"EA0003042","nombre":"Gestion
+        de Grupos"}},{"cifs":[{"nif":"Q2801563D"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11189,"og":{"codigo_dir":"EA0003043","nombre":"COMISION
+        DE ASUNTOS SECTORIALES"},"ut":{"codigo_dir":"EA0003043","nombre":"Comision
+        de Asuntos Sectoriales"},"oc":{"codigo_dir":"EA0003043","nombre":"Comision
+        de Asuntos Sectoriales"}},{"cifs":[{"nif":"S2801122I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11190,"og":{"codigo_dir":"EA0003045","nombre":"UNIDAD
+        DE ALMACENAMIENTO Y DISTRIBUCION DEL MDE"},"ut":{"codigo_dir":"EA0003045","nombre":"Unidad
+        de Almacenamiento y Distribucion del Mde"},"oc":{"codigo_dir":"EA0003045","nombre":"Unidad
+        de Almacenamiento y Distribucion del Mde"}},{"cifs":[{"nif":"S2800236H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11191,"og":{"codigo_dir":"EA0003047","nombre":"OBSERVATORIO
+        DE ESTUDIOS GLOBALES"},"ut":{"codigo_dir":"EA0003047","nombre":"Observatorio
+        de Estudios Globales"},"oc":{"codigo_dir":"EA0003047","nombre":"Observatorio
+        de Estudios Globales"}},{"cifs":[{"nif":"S3814001H"},{"nif":"A2822003F"},{"nif":"Q2820003F"},{"nif":"Q2822003F"},{"nif":"S2800593B"},{"nif":"E02786801"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":11198,"og":{"codigo_dir":"E00116401","nombre":"Instituto
+        Nacional de T\u00e9cnica Aeroespacial Esteban Terradas (INTA)"},"ut":{"codigo_dir":"EA0003292","nombre":"Unidad
+        de Gesti\u00f3n de Contrataci\u00f3n y Adquisiciones"},"oc":{"codigo_dir":"E02786801","nombre":"INTA
+        - Secretar\u00eda General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17094,"og":{"codigo_dir":"E02933503","nombre":"SUBDELEGACION
+        DE DEFENSA EN ALBACETE"},"ut":{"codigo_dir":"E02933503","nombre":"SUBDELEGACION
+        DE DEFENSA EN ALBACETE"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17095,"og":{"codigo_dir":"E02933703","nombre":"SUBDELEGACION
+        DE DEFENSA EN ALMERIA"},"ut":{"codigo_dir":"E02933703","nombre":"SUBDELEGACION
+        DE DEFENSA EN ALMERIA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17096,"og":{"codigo_dir":"E02934703","nombre":"SUBDELEGACION
+        DE DEFENSA EN CORDOBA"},"ut":{"codigo_dir":"E02934703","nombre":"SUBDELEGACION
+        DE DEFENSA EN CORDOBA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17097,"og":{"codigo_dir":"E02935203","nombre":"SUBDELEGACION
+        DE DEFENSA EN GRANADA"},"ut":{"codigo_dir":"E02935203","nombre":"SUBDELEGACION
+        DE DEFENSA EN GRANADA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17098,"og":{"codigo_dir":"E02936602","nombre":"SUBDELEGACION
+        DE DEFENSA EN PAMPLONA"},"ut":{"codigo_dir":"E02936602","nombre":"SUBDELEGACION
+        DE DEFENSA EN PAMPLONA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17099,"og":{"codigo_dir":"E02936803","nombre":"SUBDELEGACION
+        DE DEFENSA EN OVIEDO"},"ut":{"codigo_dir":"E02936803","nombre":"SUBDELEGACION
+        DE DEFENSA EN OVIEDO"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17100,"og":{"codigo_dir":"E02937002","nombre":"SUBDELEGACION
+        DE DEFENSA EN LAS PALMAS DE GRAN CANARIA"},"ut":{"codigo_dir":"E02937002","nombre":"SUBDELEGACION
+        DE DEFENSA EN LAS PALMAS DE GRAN CANARIA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17101,"og":{"codigo_dir":"E02938002","nombre":"SUBDELEGACION
+        DE DEFENSA EN TOLEDO"},"ut":{"codigo_dir":"E02938002","nombre":"SUBDELEGACION
+        DE DEFENSA EN TOLEDO"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17102,"og":{"codigo_dir":"E02938202","nombre":"SUBDELEGACION
+        DE DEFENSA EN VALLADOLID"},"ut":{"codigo_dir":"E02938202","nombre":"SUBDELEGACION
+        DE DEFENSA EN VALLADOLID"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17103,"og":{"codigo_dir":"E04804601","nombre":"SUBDELEGACION
+        DE DEFENSA EN PALMA"},"ut":{"codigo_dir":"E04804601","nombre":"SUBDELEGACION
+        DE DEFENSA EN PALMA"},"oc":{"codigo_dir":"E04905501","nombre":"S.G. Economico-Financiera"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17104,"og":{"codigo_dir":"GE0003201","nombre":"DELEGACION
+        DE OBRAS DEL INVIED (SEVILLA)"},"ut":{"codigo_dir":"GE0003201","nombre":"DELEGACION
+        DE OBRAS DEL INVIED (SEVILLA)"},"oc":{"codigo_dir":"EA0008721","nombre":"S.G.
+        de Obras"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17105,"og":{"codigo_dir":"GE0003230","nombre":"DELEGACION
+        DE OBRAS DEL INVIED (GRANADA)"},"ut":{"codigo_dir":"GE0003230","nombre":"DELEGACION
+        DE OBRAS DEL INVIED (GRANADA)"},"oc":{"codigo_dir":"EA0008721","nombre":"S.G.
+        de Obras"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17106,"og":{"codigo_dir":"GE0003231","nombre":"DELEGACION
+        DE OBRAS DEL INVIED (VALENCIA)"},"ut":{"codigo_dir":"GE0003231","nombre":"DELEGACION
+        DE OBRAS DEL INVIED (VALENCIA)"},"oc":{"codigo_dir":"EA0008721","nombre":"S.G.
+        de Obras"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17107,"og":{"codigo_dir":"GE0003232","nombre":"DELEGACION
+        DE OBRAS DEL INVIED (MURCIA)"},"ut":{"codigo_dir":"GE0003232","nombre":"DELEGACION
+        DE OBRAS DEL INVIED (MURCIA)"},"oc":{"codigo_dir":"EA0008721","nombre":"S.G.
+        de Obras"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17108,"og":{"codigo_dir":"GE0003233","nombre":"DELEGACION
+        DE OBRAS DEL INVIED (VALLADOLID)"},"ut":{"codigo_dir":"GE0003233","nombre":"DELEGACION
+        DE OBRAS DEL INVIED (VALLADOLID)"},"oc":{"codigo_dir":"EA0008721","nombre":"S.G.
+        de Obras"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17109,"og":{"codigo_dir":"GE0003234","nombre":"DELGACION
+        DE OBRAS DEL INVIED (BURGOS)"},"ut":{"codigo_dir":"GE0003234","nombre":"DELGACION
+        DE OBRAS DEL INVIED (BURGOS)"},"oc":{"codigo_dir":"EA0008721","nombre":"S.G.
+        de Obras"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17110,"og":{"codigo_dir":"GE0003235","nombre":"DELEGACION
+        DE OBRAS DEL INVIED (ZARAGOZA)"},"ut":{"codigo_dir":"GE0003235","nombre":"DELEGACION
+        DE OBRAS DEL INVIED (ZARAGOZA)"},"oc":{"codigo_dir":"EA0008721","nombre":"S.G.
+        de Obras"}},{"cifs":[{"nif":"Q2801824J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17111,"og":{"codigo_dir":"GE0003236","nombre":"DELEGACION
+        DE OBRAS DEL INVIED (MADRID)"},"ut":{"codigo_dir":"GE0003236","nombre":"DELEGACION
+        DE OBRAS DEL INVIED (MADRID)"},"oc":{"codigo_dir":"EA0008721","nombre":"S.G.
+        de Obras"}},{"cifs":[{"nif":"S2800450E"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17114,"og":{"codigo_dir":"GE0002419","nombre":"CENTRO
+        PROVINCIAL DE GESTION"},"ut":{"codigo_dir":"GE0002419","nombre":"Centro Provincial
+        de Gestion"},"oc":{"codigo_dir":"GE0002419","nombre":"Centro Provincial de
+        Gestion"}},{"cifs":[{"nif":"S2800543G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17115,"og":{"codigo_dir":"GE0002421","nombre":"GABINETE
+        DE CONTRATACION Y ARCHIVO"},"ut":{"codigo_dir":"GE0002421","nombre":"Gabinete
+        de Contratacion y Archivo"},"oc":{"codigo_dir":"GE0002421","nombre":"Gabinete
+        de Contratacion y Archivo"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:22 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&limit=25.0&page=8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:23 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17116,"og":{"codigo_dir":"GE0002422","nombre":"OFICINA
+        REGIONAL ADMINISTRATIVA"},"ut":{"codigo_dir":"GE0002422","nombre":"Oficina
+        Regional Administrativa"},"oc":{"codigo_dir":"GE0002422","nombre":"Oficina
+        Regional Administrativa"}},{"cifs":[{"nif":"Q3080009H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17117,"og":{"codigo_dir":"GE0002423","nombre":"UNIDAD
+        ADMINISTRATIVA PROVINCIAL 1"},"ut":{"codigo_dir":"GE0002423","nombre":"Unidad
+        Administrativa Provincial 1"},"oc":{"codigo_dir":"GE0002423","nombre":"Unidad
+        Administrativa Provincial 1"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17118,"og":{"codigo_dir":"GE0002424","nombre":"UNIDAD
+        ADMINISTRATIVA PROVINCIAL 2"},"ut":{"codigo_dir":"GE0002424","nombre":"Unidad
+        Administrativa Provincial 2"},"oc":{"codigo_dir":"GE0002424","nombre":"Unidad
+        Administrativa Provincial 2"}},{"cifs":[{"nif":"Q0380002F"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17119,"og":{"codigo_dir":"GE0002425","nombre":"UNIDAD
+        ADMINISTRATIVA PROVINCIAL 3"},"ut":{"codigo_dir":"GE0002425","nombre":"Unidad
+        Administrativa Provincial 3"},"oc":{"codigo_dir":"GE0002425","nombre":"Unidad
+        Administrativa Provincial 3"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":17120,"og":{"codigo_dir":"GE0002426","nombre":"CENTRO
+        ECONOMICO ADMINISTRATIVO"},"ut":{"codigo_dir":"GE0002426","nombre":"Centro
+        Economico Administrativo"},"oc":{"codigo_dir":"GE0002426","nombre":"Centro
+        Economico Administrativo"}},{"cifs":[{"nif":"S2800647F"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":19123,"og":{"codigo_dir":"EA0003235","nombre":"CENTRO
+        UNIVERSITARIO DE LA DEFENSA EN SAN JAVIER"},"ut":{"codigo_dir":"EA0003235","nombre":"CENTRO
+        UNIVERSITARIO DE LA DEFENSA EN SAN JAVIER"},"oc":{"codigo_dir":"EA0003235","nombre":"CENTRO
+        UNIVERSITARIO DE LA DEFENSA EN SAN JAVIER"}},{"cifs":[{"nif":"S2800645J"},{"nif":"S0800645J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":20093,"og":{"codigo_dir":"EA0003237","nombre":"Centro
+        Universitario de la Defensa de Zaragoza"},"ut":{"codigo_dir":"EA0003237","nombre":"Centro
+        Universitario de la Defensa de Zaragoza"},"oc":{"codigo_dir":"EA0003237","nombre":"Centro
+        Universitario de la Defensa de Zaragoza"}},{"cifs":[{"nif":"S2800646H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":35559,"og":{"codigo_dir":"EA0003238","nombre":"Centro
+        Universitario de la Defensa Mar\u00edn"},"ut":{"codigo_dir":"EA0003238","nombre":"Centro
+        Universitario de la Defensa Mar\u00edn"},"oc":{"codigo_dir":"EA0003238","nombre":"Centro
+        Universitario de la Defensa Mar\u00edn"}},{"cifs":[{"nif":"S2801158C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":35863,"og":{"codigo_dir":"EA0003246","nombre":"GERENTE"},"ut":{"codigo_dir":"EA0003246","nombre":"GERENTE"},"oc":{"codigo_dir":"EA0003246","nombre":"GERENTE"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":38436,"og":{"codigo_dir":"EA0008721","nombre":"S.G.
+        DE OBRAS"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto de Vivienda,
+        Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S2830141D"},{"nif":"S2830146C"},{"nif":"S2830290I"},{"nif":"S2800505D"},{"nif":"S2800506D"},{"nif":"S2830023D"},{"nif":"S2815001I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":41628,"og":{"codigo_dir":"EA0002994","nombre":"Area
+        de Servicios Economicos de la Sub. Gral. de Serv. Economicos y Pag."},"ut":{"codigo_dir":"EA0009431","nombre":"Unidad
+        de Contrataci\u00f3n de la Sdg de S.Econ\u00f3micos y Pagadur\u00edas"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830141D"},{"nif":"S2830146C"},{"nif":"S2830290I"},{"nif":"S2800505D"},{"nif":"S2800506D"},{"nif":"S2830023D"},{"nif":"S2815001I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":41630,"og":{"codigo_dir":"EA0002994","nombre":"Area
+        de Servicios Economicos de la Sub. Gral. de Serv. Economicos y Pag."},"ut":{"codigo_dir":"EA0009432","nombre":"Pagadur\u00eda
+        de Servicios del \u00d3rgano Central"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S2830141D"},{"nif":"S2830146C"},{"nif":"S2830290I"},{"nif":"S2800505D"},{"nif":"S2800506D"},{"nif":"S2830023D"},{"nif":"S2815001I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":41632,"og":{"codigo_dir":"EA0002994","nombre":"Area
+        de Servicios Economicos de la Sub. Gral. de Serv. Economicos y Pag."},"ut":{"codigo_dir":"EA0009433","nombre":"Pagadur\u00eda
+        de Organismos Perif\u00e9ricos"},"oc":{"codigo_dir":"E02926602","nombre":"S.G.
+        de Contabilidad"}},{"cifs":[{"nif":"S4730003C"},{"nif":"S4714005H"},{"nif":"S0130017G"},{"nif":"S1530010F"},{"nif":"S3330015C"},{"nif":"S0530007D"},{"nif":"S4730016E"},{"nif":"Q4700560H"},{"nif":"S2430002B"},{"nif":"S4730033J"},{"nif":"S2030016F"},{"nif":"S4714001G"},{"nif":"S1530022A"},{"nif":"S1530071H"},{"nif":"S3730014B"},{"nif":"S4830012C"},{"nif":"S2830282F"},{"nif":"G24358483"},{"nif":"S4700008H"},{"nif":"S3700002C"},{"nif":"S3630010A"},{"nif":"S4030002B"},{"nif":"S1530064C"},{"nif":"S0930029D"},{"nif":"S47140016"},{"nif":"S4700031J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":49279,"og":{"codigo_dir":"EA0003086","nombre":"Saeco
+        de la Jefatura de Intendencia de Asuntos Economicos Oeste"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S3830019J"},{"nif":"S3800006C"},{"nif":"S3530037H"},{"nif":"S3830037B"},{"nif":"S3830004B"},{"nif":"S3500004A"},{"nif":"S0800105I"},{"nif":"S3830011G"},{"nif":"S4130041I"},{"nif":"S3830012E"},{"nif":"S3814001H"},{"nif":"S3530033D"},{"nif":"S3830028A"},{"nif":"S3530038C"},{"nif":"S3830038J"},{"nif":"S3830003D"},{"nif":"S3522002I"},{"nif":"S3800008I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":50417,"og":{"codigo_dir":"EA0003102","nombre":"Jae
+        del Mando de Canarias"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S4100005J"},{"nif":"S1430022B"},{"nif":"S1000295D"},{"nif":"Q5455061A"},{"nif":"S1100029F"},{"nif":"S4130038E"},{"nif":"Q1800614H"},{"nif":"S1430025E"},{"nif":"S0630014I"},{"nif":"S4114001C"},{"nif":"Q3000247A"},{"nif":"V93262061"},{"nif":"S0430002F"},{"nif":"S0600001B"},{"nif":"S0630025E"},{"nif":"S4130017I"},{"nif":"S5200024G"},{"nif":"S3000001B"},{"nif":"E02926602"},{"nif":"S5100014I"},{"nif":"S1430011E"},{"nif":"S1130148H"},{"nif":"S1430026C"},{"nif":"S3030009I"},{"nif":"Q3000769D"},{"nif":"S4100002G"},{"nif":"S1430019H"},{"nif":"S1130052B"},{"nif":"S4130025B"},{"nif":"S4100038A"},{"nif":"S4100006H"},{"nif":"S1430023J"},{"nif":"S0630006E"},{"nif":"S1130136C"},{"nif":"S1830027G"},{"nif":"S0630018J"},{"nif":"S4130001C"},{"nif":"S4100021G"},{"nif":"S0400023H"},{"nif":"S1430009I"},{"nif":"S0630024H"},{"nif":"A1430026C"},{"nif":"S2830287E"},{"nif":"S4130041I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":50418,"og":{"codigo_dir":"EA0003104","nombre":"Saeco
+        de la Jefatura de Intendencia de Asuntos Economicos Sur"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S3600005G"},{"nif":"S1515003J"},{"nif":"S1500007H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":50454,"og":{"codigo_dir":"EA0002985","nombre":"Intendencia
+        de el Ferrol"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto de Vivienda,
+        Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S3030016D"},{"nif":"S3015002C"},{"nif":"S2800147G"},{"nif":"S2815001I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":50474,"og":{"codigo_dir":"EA0002986","nombre":"Intendencia
+        de Cartagena"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto de Vivienda,
+        Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S5022001A"},{"nif":"S5030052D"},{"nif":"S1700001I"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":50475,"og":{"codigo_dir":"EA0003038","nombre":"Sea
+        26 Base Aerea de Zaragoza"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S4630040F"},{"nif":"S1500066D"},{"nif":"S0800501I"},{"nif":"S5000028J"},{"nif":"S5030023E"},{"nif":"S4630039H"},{"nif":"S2530006B"},{"nif":"S5033048B"},{"nif":"S4600023H"},{"nif":"S2200000D"},{"nif":"S0730002C"},{"nif":"S4600304B"},{"nif":"S0700013F"},{"nif":"S5030031H"},{"nif":"G08323172"},{"nif":"Q5000875D"},{"nif":"S5030027F"},{"nif":"S5030041G"},{"nif":"S3113574B"},{"nif":"S0830042H"},{"nif":"S4600056H"},{"nif":"S2530001C"},{"nif":"S5030003G"},{"nif":"S4630045E"},{"nif":"S5000011F"},{"nif":"S2230036B"},{"nif":"S4600087C"},{"nif":"S4614001H"},{"nif":"S3130001E"},{"nif":"S5030020A"},{"nif":"S2230038H"},{"nif":"S4630044H"},{"nif":"S3117773F"},{"nif":"S0700040I"},{"nif":"S2830063J"},{"nif":"S5030034B"},{"nif":"S0800105I"},{"nif":"S0830038F"},{"nif":"S4600042H"},{"nif":"S2200021J"},{"nif":"S5030048B"},{"nif":"S1700016G"},{"nif":"S2830146C"},{"nif":"S2230033I"},{"nif":"Q5080002H"},{"nif":"S0300017A"},{"nif":"S4630046C"},{"nif":"S2800645J"},{"nif":"S2200007I"},{"nif":"S5000027B"},{"nif":"S5030056E"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":50476,"og":{"codigo_dir":"EA0003109","nombre":"Saeco
+        de la Jefatura de Intendencia de Asuntos Economicos Este"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":51914,"og":{"codigo_dir":"EA0011216","nombre":"Isfas
+        Asuntos Generales"},"ut":{"codigo_dir":"E02789101","nombre":"Secretaria General
+        del Isfas"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":51934,"og":{"codigo_dir":"EA0011217","nombre":"Isfas
+        Contratacion"},"ut":{"codigo_dir":"E02789101","nombre":"Secretaria General
+        del Isfas"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":51954,"og":{"codigo_dir":"EA0011218","nombre":"Isfas
+        Ceisfas"},"ut":{"codigo_dir":"EA0011218","nombre":"Isfas Ceisfas"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[{"nif":"09691582A"},{"nif":"S3522001A"},{"nif":"S3522002I"},{"nif":"08955297V"},{"nif":"S0722001E"},{"nif":"S35220021"},{"nif":"22661588X"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":52330,"og":{"codigo_dir":"EA0003035","nombre":"Sea
+        14 Cuartel General del Macan"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S1130054H"},{"nif":"S1160054H"},{"nif":"S2800147G"},{"nif":"S1115005I"},{"nif":"S1130059G"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":52994,"og":{"codigo_dir":"EA0002987","nombre":"Intendencia
+        de Rota"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto de Vivienda,
+        Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:23 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&limit=25.0&page=9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:24 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":53458,"og":{"codigo_dir":"GE0013822","nombre":"Comit\u00e9
+        de Apoyo y Formaci\u00f3n en Infraestructuras"},"ut":{"codigo_dir":"GE0013822","nombre":"Comit\u00e9
+        de Apoyo y Formaci\u00f3n en Infraestructuras"},"oc":{"codigo_dir":"GE0013822","nombre":"Comit\u00e9
+        de Apoyo y Formaci\u00f3n en Infraestructuras"}},{"cifs":[{"nif":"N9211004H"},{"nif":"S0222000J"},{"nif":"S0222001J"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":53781,"og":{"codigo_dir":"EA0003025","nombre":"Sea
+        23 Base Aerea de Albacete"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto
+        de Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[{"nif":"S2800147G"},{"nif":"E02905402"},{"nif":"S3515002H"},{"nif":"S3500003C"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":54277,"og":{"codigo_dir":"E02905402","nombre":"Intendencia
+        de Las Palmas"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto de Vivienda,
+        Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"E04905501","nombre":"S.G.
+        Economico-Financiera"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":54894,"og":{"codigo_dir":"EA0018109","nombre":"CARLOS
+        VAN WALRE ORTIZ"},"ut":{"codigo_dir":"EA0018109","nombre":"CARLOS VAN WALRE
+        ORTIZ"},"oc":{"codigo_dir":"EA0018109","nombre":"CARLOS VAN WALRE ORTIZ"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":57954,"og":{"codigo_dir":"EA0018976","nombre":"pedro
+        rodriguez ortega"},"ut":{"codigo_dir":"EA0018976","nombre":"pedro rodriguez
+        ortega"},"oc":{"codigo_dir":"EA0018976","nombre":"pedro rodriguez ortega"}},{"cifs":[{"nif":"Q2861003H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":59056,"og":{"codigo_dir":"E02789101","nombre":"Secretaria
+        General del Isfas"},"ut":{"codigo_dir":"E02789101","nombre":"Secretaria General
+        del Isfas"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2801824J"},{"nif":"Q2861003H"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":59076,"og":{"codigo_dir":"E04905301","nombre":"Secretaria
+        General del Invied"},"ut":{"codigo_dir":"E04905001","nombre":"Instituto de
+        Vivienda, Infraestructura y Equipamiento de la Defensa"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"S3814001H"},{"nif":"A2822003F"},{"nif":"Q2820003F"},{"nif":"Q2822003F"},{"nif":"S2800593B"},{"nif":"E02786801"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":59095,"og":{"codigo_dir":"E00116401","nombre":"Instituto
+        Nacional de T\u00e9cnica Aeroespacial Esteban Terradas (INTA)"},"ut":{"codigo_dir":"EA0003292","nombre":"Unidad
+        de Gesti\u00f3n de Contrataci\u00f3n y Adquisiciones"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"Q5750019A"}],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":60114,"og":{"codigo_dir":"EA0019035","nombre":"CONSORCIO
+        CASTILLO DE SAN CARLOS"},"ut":{"codigo_dir":"EA0019035","nombre":"CONSORCIO
+        CASTILLO DE SAN CARLOS"},"oc":{"codigo_dir":"EA0019035","nombre":"CONSORCIO
+        CASTILLO DE SAN CARLOS"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":66099,"og":{"codigo_dir":"E02796202","nombre":"Subdelegacion
+        del Isfas de Vigo"},"ut":{"codigo_dir":"E02796202","nombre":"Subdelegacion
+        del Isfas de Vigo"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":68088,"og":{"codigo_dir":"EA0020817","nombre":"Centro
+        Criptologico Nacional"},"ut":{"codigo_dir":"EA0020817","nombre":"Centro Criptologico
+        Nacional"},"oc":{"codigo_dir":"EA0020817","nombre":"Centro Criptologico Nacional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":68128,"og":{"codigo_dir":"EA0020816","nombre":"Centro
+        Nacional de Inteligencia"},"ut":{"codigo_dir":"EA0020816","nombre":"Centro
+        Nacional de Inteligencia"},"oc":{"codigo_dir":"EA0020816","nombre":"Centro
+        Nacional de Inteligencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":69767,"og":{"codigo_dir":"EA0020818","nombre":"Oficina
+        Nacional de Seguridad"},"ut":{"codigo_dir":"EA0020818","nombre":"Oficina Nacional
+        de Seguridad"},"oc":{"codigo_dir":"EA0020818","nombre":"Oficina Nacional de
+        Seguridad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":69787,"og":{"codigo_dir":"GE0015461","nombre":"Delegaci\u00f3n
+        de Planificaci\u00f3n y Control"},"ut":{"codigo_dir":"GE0015461","nombre":"Delegaci\u00f3n
+        de Planificaci\u00f3n y Control"},"oc":{"codigo_dir":"GE0015461","nombre":"Delegaci\u00f3n
+        de Planificaci\u00f3n y Control"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71568,"og":{"codigo_dir":"EA0038694","nombre":"Delegacion
+        Especial de Isfas Cartagena"},"ut":{"codigo_dir":"EA0038694","nombre":"Delegacion
+        Especial de Isfas Cartagena"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71569,"og":{"codigo_dir":"EA0038696","nombre":"Delegacion
+        de Isfas Murcia"},"ut":{"codigo_dir":"EA0038696","nombre":"Delegacion de Isfas
+        Murcia"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71570,"og":{"codigo_dir":"EA0038697","nombre":"Delegacion
+        de Isfas Pontevedra"},"ut":{"codigo_dir":"EA0038697","nombre":"Delegacion
+        de Isfas Pontevedra"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71571,"og":{"codigo_dir":"EA0038702","nombre":"Delegacion
+        de Isfas Madrid Sur"},"ut":{"codigo_dir":"EA0038702","nombre":"Delegacion
+        de Isfas Madrid Sur"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71572,"og":{"codigo_dir":"EA0038709","nombre":"Delegacion
+        de Isfas Cordoba"},"ut":{"codigo_dir":"EA0038709","nombre":"Delegacion de
+        Isfas Cordoba"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71573,"og":{"codigo_dir":"EA0038713","nombre":"Delegacion
+        Especial de Isfas Andalucia Occidental"},"ut":{"codigo_dir":"EA0038713","nombre":"Delegacion
+        Especial de Isfas Andalucia Occidental"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71574,"og":{"codigo_dir":"EA0038714","nombre":"Delegacion
+        Especial de Isfas Andalucia Oriental"},"ut":{"codigo_dir":"EA0038714","nombre":"Delegacion
+        Especial de Isfas Andalucia Oriental"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71575,"og":{"codigo_dir":"EA0038737","nombre":"Delegacion
+        de Isfas Jaen"},"ut":{"codigo_dir":"EA0038714","nombre":"Delegacion Especial
+        de Isfas Andalucia Oriental"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71576,"og":{"codigo_dir":"EA0038717","nombre":"Delegacion
+        de Isfas Algeciras"},"ut":{"codigo_dir":"EA0038717","nombre":"Delegacion de
+        Isfas Algeciras"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71577,"og":{"codigo_dir":"EA0038724","nombre":"Delegacion
+        de Isfas Burgos"},"ut":{"codigo_dir":"EA0038719","nombre":"Delegacion Especial
+        de Isfas Valladolid"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71587,"og":{"codigo_dir":"EA0038687","nombre":"Delegacion
+        Especial de Isfas Asturias"},"ut":{"codigo_dir":"EA0038687","nombre":"Delegacion
+        Especial de Isfas Asturias"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:24 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&limit=25.0&page=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:25 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71590,"og":{"codigo_dir":"EA0038756","nombre":"Delegacion
+        de Isfas Gerona"},"ut":{"codigo_dir":"EA0038690","nombre":"Delegacion Especial
+        de Isfas Barcelona"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71588,"og":{"codigo_dir":"EA0038689","nombre":"Delegacion
+        de Isfas Lugo"},"ut":{"codigo_dir":"EA0038689","nombre":"Delegacion de Isfas
+        Lugo"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71589,"og":{"codigo_dir":"EA0038690","nombre":"Delegacion
+        Especial de Isfas Barcelona"},"ut":{"codigo_dir":"EA0038690","nombre":"Delegacion
+        Especial de Isfas Barcelona"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71607,"og":{"codigo_dir":"EA0038692","nombre":"Delegacion
+        de Isfas Tarragona"},"ut":{"codigo_dir":"EA0038690","nombre":"Delegacion Especial
+        de Isfas Barcelona"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71591,"og":{"codigo_dir":"EA0038696","nombre":"Delegacion
+        de Isfas Murcia"},"ut":{"codigo_dir":"EA0038694","nombre":"Delegacion Especial
+        de Isfas Cartagena"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71592,"og":{"codigo_dir":"EA0038699","nombre":"Delegacion
+        Especial de Isfas Madrid"},"ut":{"codigo_dir":"EA0038699","nombre":"Delegacion
+        Especial de Isfas Madrid"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71593,"og":{"codigo_dir":"EA0038701","nombre":"Delegacion
+        de Isfas Madrid Norte"},"ut":{"codigo_dir":"EA0038701","nombre":"Delegacion
+        de Isfas Madrid Norte"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71608,"og":{"codigo_dir":"EA0038704","nombre":"Delegacion
+        de Isfas Madrid Oeste"},"ut":{"codigo_dir":"EA0038704","nombre":"Delegacion
+        de Isfas Madrid Oeste"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71606,"og":{"codigo_dir":"EA0038705","nombre":"Delegacion
+        de Isfas Zamora"},"ut":{"codigo_dir":"EA0038719","nombre":"Delegacion Especial
+        de Isfas Valladolid"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71594,"og":{"codigo_dir":"EA0038707","nombre":"Delegacion
+        de Isfas Huelva"},"ut":{"codigo_dir":"EA0038707","nombre":"Delegacion de Isfas
+        Huelva"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71599,"og":{"codigo_dir":"EA0038709","nombre":"Delegacion
+        de Isfas Cordoba"},"ut":{"codigo_dir":"EA0038713","nombre":"Delegacion Especial
+        de Isfas Andalucia Occidental"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71595,"og":{"codigo_dir":"EA0038710","nombre":"Delegacion
+        Especial de Isfas Valencia"},"ut":{"codigo_dir":"EA0038710","nombre":"Delegacion
+        Especial de Isfas Valencia"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71597,"og":{"codigo_dir":"EA0038711","nombre":"Delegacion
+        de Isfas Castellon"},"ut":{"codigo_dir":"EA0038711","nombre":"Delegacion de
+        Isfas Castellon"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71596,"og":{"codigo_dir":"EA0038711","nombre":"Delegacion
+        de Isfas Castellon"},"ut":{"codigo_dir":"EA0038710","nombre":"Delegacion Especial
+        de Isfas Valencia"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71598,"og":{"codigo_dir":"EA0038712","nombre":"Delegacion
+        de Isfas Alicante"},"ut":{"codigo_dir":"EA0038712","nombre":"Delegacion de
+        Isfas Alicante"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71609,"og":{"codigo_dir":"EA0038712","nombre":"Delegacion
+        de Isfas Alicante"},"ut":{"codigo_dir":"EA0038710","nombre":"Delegacion Especial
+        de Isfas Valencia"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71605,"og":{"codigo_dir":"EA0038716","nombre":"Delegacion
+        de Isfas Puerto de Santa Maria"},"ut":{"codigo_dir":"EA0038716","nombre":"Delegacion
+        de Isfas Puerto de Santa Maria"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71600,"og":{"codigo_dir":"EA0038716","nombre":"Delegacion
+        de Isfas Puerto de Santa Maria"},"ut":{"codigo_dir":"EA0038713","nombre":"Delegacion
+        Especial de Isfas Andalucia Occidental"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71601,"og":{"codigo_dir":"EA0038717","nombre":"Delegacion
+        de Isfas Algeciras"},"ut":{"codigo_dir":"EA0038713","nombre":"Delegacion Especial
+        de Isfas Andalucia Occidental"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71602,"og":{"codigo_dir":"EA0038718","nombre":"Delegacion
+        de Isfas Cadiz"},"ut":{"codigo_dir":"EA0038713","nombre":"Delegacion Especial
+        de Isfas Andalucia Occidental"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71610,"og":{"codigo_dir":"EA0038720","nombre":"Delegacion
+        de Isfas Avila"},"ut":{"codigo_dir":"EA0038720","nombre":"Delegacion de Isfas
+        Avila"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71611,"og":{"codigo_dir":"EA0038721","nombre":"Delegacion
+        de Isfas Salamanca"},"ut":{"codigo_dir":"EA0038721","nombre":"Delegacion de
+        Isfas Salamanca"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71612,"og":{"codigo_dir":"EA0038722","nombre":"Delegacion
+        de Isfas Palencia"},"ut":{"codigo_dir":"EA0038722","nombre":"Delegacion de
+        Isfas Palencia"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71603,"og":{"codigo_dir":"EA0038730","nombre":"Delegacion
+        de Isfas Almeria"},"ut":{"codigo_dir":"EA0038714","nombre":"Delegacion Especial
+        de Isfas Andalucia Oriental"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71604,"og":{"codigo_dir":"EA0038738","nombre":"Delegacion
+        de Isfas Malaga"},"ut":{"codigo_dir":"EA0038714","nombre":"Delegacion Especial
+        de Isfas Andalucia Oriental"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:25 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&limit=25.0&page=11
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:25 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71627,"og":{"codigo_dir":"EA0038755","nombre":"Delegacion
+        de Isfas Lerida"},"ut":{"codigo_dir":"EA0038690","nombre":"Delegacion Especial
+        de Isfas Barcelona"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71628,"og":{"codigo_dir":"EA0038692","nombre":"Delegacion
+        de Isfas Tarragona"},"ut":{"codigo_dir":"EA0038692","nombre":"Delegacion de
+        Isfas Tarragona"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71629,"og":{"codigo_dir":"EA0038698","nombre":"Delegacion
+        de Isfas Ferrol"},"ut":{"codigo_dir":"EA0038698","nombre":"Delegacion de Isfas
+        Ferrol"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71630,"og":{"codigo_dir":"EA0038700","nombre":"Delegacion
+        de Isfas Alcala de Henares"},"ut":{"codigo_dir":"EA0038700","nombre":"Delegacion
+        de Isfas Alcala de Henares"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71631,"og":{"codigo_dir":"EA0038703","nombre":"Delegacion
+        de Isfas Madrid Este"},"ut":{"codigo_dir":"EA0038703","nombre":"Delegacion
+        de Isfas Madrid Este"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71632,"og":{"codigo_dir":"EA0038705","nombre":"Delegacion
+        de Isfas Zamora"},"ut":{"codigo_dir":"EA0038705","nombre":"Delegacion de Isfas
+        Zamora"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71633,"og":{"codigo_dir":"EA0038707","nombre":"Delegacion
+        de Isfas Huelva"},"ut":{"codigo_dir":"EA0038713","nombre":"Delegacion Especial
+        de Isfas Andalucia Occidental"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71634,"og":{"codigo_dir":"EA0038718","nombre":"Delegacion
+        de Isfas Cadiz"},"ut":{"codigo_dir":"EA0038718","nombre":"Delegacion de Isfas
+        Cadiz"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71635,"og":{"codigo_dir":"EA0038722","nombre":"Delegacion
+        de Isfas Palencia"},"ut":{"codigo_dir":"EA0038719","nombre":"Delegacion Especial
+        de Isfas Valladolid"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71647,"og":{"codigo_dir":"EA0038719","nombre":"Delegacion
+        Especial de Isfas Valladolid"},"ut":{"codigo_dir":"EA0038719","nombre":"Delegacion
+        Especial de Isfas Valladolid"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71648,"og":{"codigo_dir":"EA0038720","nombre":"Delegacion
+        de Isfas Avila"},"ut":{"codigo_dir":"EA0038719","nombre":"Delegacion Especial
+        de Isfas Valladolid"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71649,"og":{"codigo_dir":"EA0038721","nombre":"Delegacion
+        de Isfas Salamanca"},"ut":{"codigo_dir":"EA0038719","nombre":"Delegacion Especial
+        de Isfas Valladolid"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71650,"og":{"codigo_dir":"EA0038723","nombre":"Delegacion
+        de Isfas Soria"},"ut":{"codigo_dir":"EA0038719","nombre":"Delegacion Especial
+        de Isfas Valladolid"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71651,"og":{"codigo_dir":"EA0038725","nombre":"Delegacion
+        de Isfas Leon"},"ut":{"codigo_dir":"EA0038719","nombre":"Delegacion Especial
+        de Isfas Valladolid"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71652,"og":{"codigo_dir":"EA0038726","nombre":"Delegacion
+        de Isfas Segovia"},"ut":{"codigo_dir":"EA0038719","nombre":"Delegacion Especial
+        de Isfas Valladolid"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71653,"og":{"codigo_dir":"EA0038723","nombre":"Delegacion
+        de Isfas Soria"},"ut":{"codigo_dir":"EA0038723","nombre":"Delegacion de Isfas
+        Soria"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71654,"og":{"codigo_dir":"EA0038724","nombre":"Delegacion
+        de Isfas Burgos"},"ut":{"codigo_dir":"EA0038724","nombre":"Delegacion de Isfas
+        Burgos"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71655,"og":{"codigo_dir":"EA0038725","nombre":"Delegacion
+        de Isfas Leon"},"ut":{"codigo_dir":"EA0038725","nombre":"Delegacion de Isfas
+        Leon"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71656,"og":{"codigo_dir":"EA0038726","nombre":"Delegacion
+        de Isfas Segovia"},"ut":{"codigo_dir":"EA0038726","nombre":"Delegacion de
+        Isfas Segovia"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71707,"og":{"codigo_dir":"E04431501","nombre":"Centro
+        Residencial General Guti\u00e9rrez Mellado"},"ut":{"codigo_dir":"E00399201","nombre":"Residencia
+        Jorge Juan"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71708,"og":{"codigo_dir":"EA0038699","nombre":"Delegacion
+        Especial de Isfas Madrid"},"ut":{"codigo_dir":"E02789101","nombre":"Secretaria
+        General del Isfas"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71709,"og":{"codigo_dir":"EA0038727","nombre":"Delegacion
+        Especial de Isfas Zaragoza"},"ut":{"codigo_dir":"E02789101","nombre":"Secretaria
+        General del Isfas"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71710,"og":{"codigo_dir":"EA0038727","nombre":"Delegacion
+        Especial de Isfas Zaragoza"},"ut":{"codigo_dir":"EA0038727","nombre":"Delegacion
+        Especial de Isfas Zaragoza"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71711,"og":{"codigo_dir":"EA0038728","nombre":"Delegacion
+        de Isfas Huesca"},"ut":{"codigo_dir":"EA0038728","nombre":"Delegacion de Isfas
+        Huesca"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71712,"og":{"codigo_dir":"EA0038730","nombre":"Delegacion
+        de Isfas Almeria"},"ut":{"codigo_dir":"EA0038730","nombre":"Delegacion de
+        Isfas Almeria"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:26 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&limit=25.0&page=12
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:27 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71713,"og":{"codigo_dir":"EA0038749","nombre":"Delegacion
+        de Isfas Fuerteventura"},"ut":{"codigo_dir":"EA0038732","nombre":"Delegacion
+        Especial de Isfas Canarias"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71714,"og":{"codigo_dir":"EA0038740","nombre":"Delegacion
+        de Isfas Ciudad Real"},"ut":{"codigo_dir":"EA0038734","nombre":"Delegacion
+        Especial de Isfas Toledo"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71715,"og":{"codigo_dir":"EA0038743","nombre":"Delegacion
+        de Isfas Guadalajara"},"ut":{"codigo_dir":"EA0038734","nombre":"Delegacion
+        Especial de Isfas Toledo"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71716,"og":{"codigo_dir":"EA0038737","nombre":"Delegacion
+        de Isfas Jaen"},"ut":{"codigo_dir":"EA0038737","nombre":"Delegacion de Isfas
+        Jaen"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71717,"og":{"codigo_dir":"EA0038739","nombre":"Delegacion
+        de Isfas Guipuzcoa"},"ut":{"codigo_dir":"EA0038739","nombre":"Delegacion de
+        Isfas Guipuzcoa"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71718,"og":{"codigo_dir":"EA0038744","nombre":"Delegacion
+        de Isfas Lanzarote"},"ut":{"codigo_dir":"EA0038744","nombre":"Delegacion de
+        Isfas Lanzarote"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71719,"og":{"codigo_dir":"EA0038756","nombre":"Delegacion
+        de Isfas Gerona"},"ut":{"codigo_dir":"EA0038756","nombre":"Delegacion de Isfas
+        Gerona"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71727,"og":{"codigo_dir":"EA0038699","nombre":"Delegacion
+        Especial de Isfas Madrid"},"ut":{"codigo_dir":"E02789401","nombre":"Subdireccion
+        de Prestaciones del Isfas"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71728,"og":{"codigo_dir":"EA0038727","nombre":"Delegacion
+        Especial de Isfas Zaragoza"},"ut":{"codigo_dir":"E02789401","nombre":"Subdireccion
+        de Prestaciones del Isfas"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71729,"og":{"codigo_dir":"EA0038728","nombre":"Delegacion
+        de Isfas Huesca"},"ut":{"codigo_dir":"EA0038727","nombre":"Delegacion Especial
+        de Isfas Zaragoza"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71730,"og":{"codigo_dir":"EA0038729","nombre":"Delegacion
+        de Isfas Teruel"},"ut":{"codigo_dir":"EA0038727","nombre":"Delegacion Especial
+        de Isfas Zaragoza"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71731,"og":{"codigo_dir":"EA0038732","nombre":"Delegacion
+        Especial de Isfas Canarias"},"ut":{"codigo_dir":"EA0038732","nombre":"Delegacion
+        Especial de Isfas Canarias"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71732,"og":{"codigo_dir":"EA0038760","nombre":"Delegacion
+        de Isfas Tenerife"},"ut":{"codigo_dir":"EA0038732","nombre":"Delegacion Especial
+        de Isfas Canarias"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71733,"og":{"codigo_dir":"EA0038735","nombre":"Delegacion
+        Especial de Isfas Ceuta"},"ut":{"codigo_dir":"EA0038735","nombre":"Delegacion
+        Especial de Isfas Ceuta"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71734,"og":{"codigo_dir":"EA0038736","nombre":"Delegacion
+        Especial de Isfas Alava"},"ut":{"codigo_dir":"EA0038736","nombre":"Delegacion
+        Especial de Isfas Alava"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71735,"og":{"codigo_dir":"EA0038739","nombre":"Delegacion
+        de Isfas Guipuzcoa"},"ut":{"codigo_dir":"EA0038736","nombre":"Delegacion Especial
+        de Isfas Alava"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71736,"og":{"codigo_dir":"EA0038741","nombre":"Delegacion
+        de Isfas Vizcaya"},"ut":{"codigo_dir":"EA0038741","nombre":"Delegacion de
+        Isfas Vizcaya"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71737,"og":{"codigo_dir":"EA0038747","nombre":"Delegacion
+        Especial de Isfas Navarra"},"ut":{"codigo_dir":"EA0038747","nombre":"Delegacion
+        Especial de Isfas Navarra"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71738,"og":{"codigo_dir":"EA0038748","nombre":"Delegacion
+        Especial de Isfas Melilla"},"ut":{"codigo_dir":"EA0038748","nombre":"Delegacion
+        Especial de Isfas Melilla"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71739,"og":{"codigo_dir":"EA0038750","nombre":"Delegacion
+        Especial de Isfas Badajoz"},"ut":{"codigo_dir":"EA0038750","nombre":"Delegacion
+        Especial de Isfas Badajoz"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71740,"og":{"codigo_dir":"EA0038751","nombre":"Delegacion
+        de Isfas Caceres"},"ut":{"codigo_dir":"EA0038750","nombre":"Delegacion Especial
+        de Isfas Badajoz"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71741,"og":{"codigo_dir":"EA0038753","nombre":"Delegacion
+        Especial de Isfas Baleares"},"ut":{"codigo_dir":"EA0038753","nombre":"Delegacion
+        Especial de Isfas Baleares"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71742,"og":{"codigo_dir":"EA0038755","nombre":"Delegacion
+        de Isfas Lerida"},"ut":{"codigo_dir":"EA0038755","nombre":"Delegacion de Isfas
+        Lerida"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71743,"og":{"codigo_dir":"EA0038689","nombre":"Delegacion
+        de Isfas Lugo"},"ut":{"codigo_dir":"EA0038757","nombre":"Delegacion Especial
+        de Isfas Coru\u00f1a"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71744,"og":{"codigo_dir":"EA0038697","nombre":"Delegacion
+        de Isfas Pontevedra"},"ut":{"codigo_dir":"EA0038757","nombre":"Delegacion
+        Especial de Isfas Coru\u00f1a"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:27 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003301/relaciones?administracion=E00003301&limit=25.0&page=13
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:27 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71745,"og":{"codigo_dir":"EA0038757","nombre":"Delegacion
+        Especial de Isfas Coru\u00f1a"},"ut":{"codigo_dir":"EA0038757","nombre":"Delegacion
+        Especial de Isfas Coru\u00f1a"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71746,"og":{"codigo_dir":"EA0038758","nombre":"Delegacion
+        de Isfas Orense"},"ut":{"codigo_dir":"EA0038757","nombre":"Delegacion Especial
+        de Isfas Coru\u00f1a"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71747,"og":{"codigo_dir":"EA0038729","nombre":"Delegacion
+        de Isfas Teruel"},"ut":{"codigo_dir":"EA0038729","nombre":"Delegacion de Isfas
+        Teruel"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71748,"og":{"codigo_dir":"EA0038744","nombre":"Delegacion
+        de Isfas Lanzarote"},"ut":{"codigo_dir":"EA0038732","nombre":"Delegacion Especial
+        de Isfas Canarias"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71749,"og":{"codigo_dir":"EA0038733","nombre":"Delegacion
+        de Isfas Albacete"},"ut":{"codigo_dir":"EA0038733","nombre":"Delegacion de
+        Isfas Albacete"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71750,"og":{"codigo_dir":"EA0038733","nombre":"Delegacion
+        de Isfas Albacete"},"ut":{"codigo_dir":"EA0038734","nombre":"Delegacion Especial
+        de Isfas Toledo"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71751,"og":{"codigo_dir":"EA0038734","nombre":"Delegacion
+        Especial de Isfas Toledo"},"ut":{"codigo_dir":"EA0038734","nombre":"Delegacion
+        Especial de Isfas Toledo"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71752,"og":{"codigo_dir":"EA0038742","nombre":"Delegacion
+        de Isfas Cuenca"},"ut":{"codigo_dir":"EA0038734","nombre":"Delegacion Especial
+        de Isfas Toledo"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71753,"og":{"codigo_dir":"EA0038741","nombre":"Delegacion
+        de Isfas Vizcaya"},"ut":{"codigo_dir":"EA0038736","nombre":"Delegacion Especial
+        de Isfas Alava"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71754,"og":{"codigo_dir":"EA0038738","nombre":"Delegacion
+        de Isfas Malaga"},"ut":{"codigo_dir":"EA0038738","nombre":"Delegacion de Isfas
+        Malaga"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71755,"og":{"codigo_dir":"EA0038740","nombre":"Delegacion
+        de Isfas Ciudad Real"},"ut":{"codigo_dir":"EA0038740","nombre":"Delegacion
+        de Isfas Ciudad Real"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71756,"og":{"codigo_dir":"EA0038742","nombre":"Delegacion
+        de Isfas Cuenca"},"ut":{"codigo_dir":"EA0038742","nombre":"Delegacion de Isfas
+        Cuenca"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71757,"og":{"codigo_dir":"EA0038743","nombre":"Delegacion
+        de Isfas Guadalajara"},"ut":{"codigo_dir":"EA0038743","nombre":"Delegacion
+        de Isfas Guadalajara"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71758,"og":{"codigo_dir":"EA0038745","nombre":"Delegacion
+        Especial de Isfas Cantabria"},"ut":{"codigo_dir":"EA0038745","nombre":"Delegacion
+        Especial de Isfas Cantabria"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71759,"og":{"codigo_dir":"EA0038746","nombre":"Delegacion
+        Especial de Isfas La Rioja"},"ut":{"codigo_dir":"EA0038746","nombre":"Delegacion
+        Especial de Isfas La Rioja"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71760,"og":{"codigo_dir":"EA0038749","nombre":"Delegacion
+        de Isfas Fuerteventura"},"ut":{"codigo_dir":"EA0038749","nombre":"Delegacion
+        de Isfas Fuerteventura"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71761,"og":{"codigo_dir":"EA0038751","nombre":"Delegacion
+        de Isfas Caceres"},"ut":{"codigo_dir":"EA0038751","nombre":"Delegacion de
+        Isfas Caceres"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71762,"og":{"codigo_dir":"EA0038754","nombre":"Delegacion
+        de Isfas Ibiza"},"ut":{"codigo_dir":"EA0038753","nombre":"Delegacion Especial
+        de Isfas Baleares"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71763,"og":{"codigo_dir":"EA0038759","nombre":"Delegacion
+        de Isfas Mahon"},"ut":{"codigo_dir":"EA0038753","nombre":"Delegacion Especial
+        de Isfas Baleares"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71764,"og":{"codigo_dir":"EA0038754","nombre":"Delegacion
+        de Isfas Ibiza"},"ut":{"codigo_dir":"EA0038754","nombre":"Delegacion de Isfas
+        Ibiza"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71765,"og":{"codigo_dir":"EA0038698","nombre":"Delegacion
+        de Isfas Ferrol"},"ut":{"codigo_dir":"EA0038757","nombre":"Delegacion Especial
+        de Isfas Coru\u00f1a"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71766,"og":{"codigo_dir":"EA0038760","nombre":"Delegacion
+        de Isfas Tenerife"},"ut":{"codigo_dir":"EA0038760","nombre":"Delegacion de
+        Isfas Tenerife"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71767,"og":{"codigo_dir":"EA0038758","nombre":"Delegacion
+        de Isfas Orense"},"ut":{"codigo_dir":"EA0038758","nombre":"Delegacion de Isfas
+        Orense"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":71768,"og":{"codigo_dir":"EA0038759","nombre":"Delegacion
+        de Isfas Mahon"},"ut":{"codigo_dir":"EA0038759","nombre":"Delegacion de Isfas
+        Mahon"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion Economico-Financiera
+        del Isfas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Defensa","codigo_dir":"E00003301","cifs":[]},"id":83927,"og":{"codigo_dir":"E02796202","nombre":"Subdelegacion
+        del Isfas de Vigo"},"ut":{"codigo_dir":"EA0038757","nombre":"Delegacion Especial
+        de Isfas Coru\u00f1a"},"oc":{"codigo_dir":"E02789501","nombre":"Subdireccion
+        Economico-Financiera del Isfas"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:27 GMT
+recorded_with: VCR 6.0.0

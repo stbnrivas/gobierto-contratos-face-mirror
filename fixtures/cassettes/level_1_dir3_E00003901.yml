@@ -1,0 +1,570 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003901/relaciones?administracion=E00003901&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:33 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S2826007C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57416,"og":{"codigo_dir":"E00130903","nombre":"Abogac\u00eda
+        General del Estado - Direcci\u00f3n del Servicio Jur\u00eddico del Estado"},"ut":{"codigo_dir":"E03136503","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina Contable. I.D.
+        Ministerio de Justicia"}},{"cifs":[{"nif":"Q2813002I"},{"nif":"Q28130021"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":7941,"og":{"codigo_dir":"E00131802","nombre":"Centro
+        de Estudios Juridicos"},"ut":{"codigo_dir":"EA0003224","nombre":"Unidad Tramitadora
+        de Caja del Centro de Estudios Jur\u00eddicos"},"oc":{"codigo_dir":"EA0003225","nombre":"Oficina
+        Contable del Centro de Estudios Jur\u00eddicos"}},{"cifs":[{"nif":"S2813610I"},{"nif":"S2813001A"},{"nif":"E03063803"},{"nif":"S2813610L"},{"nif":"S28136101"},{"nif":"S2826007C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57396,"og":{"codigo_dir":"E00130701","nombre":"Subsecretaria
+        de Justicia"},"ut":{"codigo_dir":"E03134702","nombre":"S.G. de Contratacion
+        y Servicios"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina Contable. I.D.
+        Ministerio de Justicia"}},{"cifs":[{"nif":"S2813610I"},{"nif":"S2813001A"},{"nif":"E03063803"},{"nif":"S2813610L"},{"nif":"S28136101"},{"nif":"S2826007C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57395,"og":{"codigo_dir":"E00130701","nombre":"Subsecretaria
+        de Justicia"},"ut":{"codigo_dir":"E00130701","nombre":"Subsecretaria de Justicia"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56612,"og":{"codigo_dir":"E03146801","nombre":"Gerencia
+        Territorial de Justicia de Catalu\u00f1a en Barcelona"},"ut":{"codigo_dir":"E03146801","nombre":"Gerencia
+        Territorial de Justicia de Catalu\u00f1a en Barcelona"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56307,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03146701","nombre":"Gerencia
+        Territorial de Justicia de Baleares en Palma de Mallorca"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57399,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03146501","nombre":"Gerencia
+        Territorial de Organos Centrales"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57400,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E04677701","nombre":"Oficina
+        Delegada de Apoyo al Fiscal General del Estado"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57398,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03140404","nombre":"S.G.
+        de Recursos Economicos de la Administracion de Justicia"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57274,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03148301","nombre":"Gerencia
+        Territorial de Justicia de la Comunidad Valenciana en Valencia"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56904,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03148001","nombre":"Gerencia
+        Territorial de Justicia de Canarias en Santa Cruz de Tenerife"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56782,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03148201","nombre":"Gerencia
+        Territorial de Justicia de Andalucia en Sevilla"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56319,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03147701","nombre":"Gerencia
+        Territorial de Justicia de Navarra en Pamplona"},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56637,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03147301","nombre":"Gerencia
+        Territorial de Justicia de La Rioja en Logro\u00f1o"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56516,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03147501","nombre":"Gerencia
+        Territorial de Justicia de Andalucia en Malaga"},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Malaga - Intervencion Ter"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56533,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03148401","nombre":"Gerencia
+        Territorial de Justicia de Castilla y Leon en Valladolid"},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Valladolid - Intervencio"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56769,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03146901","nombre":"Gerencia
+        Territorial de Justicia de Castilla y Leon en Burgos"},"oc":{"codigo_dir":"GE0014076","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Burgos - Intervencion Ter"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56642,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03147001","nombre":"Gerencia
+        Territorial de Justicia de Extremadura en Caceres"},"oc":{"codigo_dir":"GE0014077","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Caceres - Intervencion Te"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56608,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03146601","nombre":"Gerencia
+        Territorial de Justicia de Castilla-La Mancha en Albacete"},"oc":{"codigo_dir":"GE0014070","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Albacete - Intervencion T"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56795,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03148501","nombre":"Gerencia
+        Territorial de Justicia del Pais Vasco en Bilbao"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56395,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03147601","nombre":"Gerencia
+        Territorial de Justicia de Murcia"},"oc":{"codigo_dir":"GE0014099","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Intervencion Reg"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56555,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03147801","nombre":"Gerencia
+        Territorial de Justicia de Asturias en Oviedo"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56571,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03146801","nombre":"Gerencia
+        Territorial de Justicia de Catalu\u00f1a en Barcelona"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[{"nif":"Q2801078C"},{"nif":"A2801078C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":11154,"og":{"codigo_dir":"EA0003222","nombre":"Gerencia"},"ut":{"codigo_dir":"EA0003223","nombre":"\u00c1rea
+        de Personal y R\u00e9gimen Interior"},"oc":{"codigo_dir":"E03134002","nombre":"Mutualidad
+        General Judicial"}},{"cifs":[{"nif":"Q2801078C"},{"nif":"A2801078C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":11155,"og":{"codigo_dir":"EA0003222","nombre":"Gerencia"},"ut":{"codigo_dir":"EA0008922","nombre":"Area
+        de Farmacia y Asistencia Sanitaria"},"oc":{"codigo_dir":"E03134002","nombre":"Mutualidad
+        General Judicial"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:01:33 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003901/relaciones?administracion=E00003901&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:33 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"63","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:01:33 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003901/relaciones?administracion=E00003901&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:34 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S2826007C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57416,"og":{"codigo_dir":"E00130903","nombre":"Abogac\u00eda
+        General del Estado - Direcci\u00f3n del Servicio Jur\u00eddico del Estado"},"ut":{"codigo_dir":"E03136503","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina Contable. I.D.
+        Ministerio de Justicia"}},{"cifs":[{"nif":"Q2813002I"},{"nif":"Q28130021"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":7941,"og":{"codigo_dir":"E00131802","nombre":"Centro
+        de Estudios Juridicos"},"ut":{"codigo_dir":"EA0003224","nombre":"Unidad Tramitadora
+        de Caja del Centro de Estudios Jur\u00eddicos"},"oc":{"codigo_dir":"EA0003225","nombre":"Oficina
+        Contable del Centro de Estudios Jur\u00eddicos"}},{"cifs":[{"nif":"S2813610I"},{"nif":"S2813001A"},{"nif":"E03063803"},{"nif":"S2813610L"},{"nif":"S28136101"},{"nif":"S2826007C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57396,"og":{"codigo_dir":"E00130701","nombre":"Subsecretaria
+        de Justicia"},"ut":{"codigo_dir":"E03134702","nombre":"S.G. de Contratacion
+        y Servicios"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina Contable. I.D.
+        Ministerio de Justicia"}},{"cifs":[{"nif":"S2813610I"},{"nif":"S2813001A"},{"nif":"E03063803"},{"nif":"S2813610L"},{"nif":"S28136101"},{"nif":"S2826007C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57395,"og":{"codigo_dir":"E00130701","nombre":"Subsecretaria
+        de Justicia"},"ut":{"codigo_dir":"E00130701","nombre":"Subsecretaria de Justicia"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56612,"og":{"codigo_dir":"E03146801","nombre":"Gerencia
+        Territorial de Justicia de Catalu\u00f1a en Barcelona"},"ut":{"codigo_dir":"E03146801","nombre":"Gerencia
+        Territorial de Justicia de Catalu\u00f1a en Barcelona"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56307,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03146701","nombre":"Gerencia
+        Territorial de Justicia de Baleares en Palma de Mallorca"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57399,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03146501","nombre":"Gerencia
+        Territorial de Organos Centrales"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57400,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E04677701","nombre":"Oficina
+        Delegada de Apoyo al Fiscal General del Estado"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57398,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03140404","nombre":"S.G.
+        de Recursos Economicos de la Administracion de Justicia"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57274,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03148301","nombre":"Gerencia
+        Territorial de Justicia de la Comunidad Valenciana en Valencia"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56904,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03148001","nombre":"Gerencia
+        Territorial de Justicia de Canarias en Santa Cruz de Tenerife"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56782,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03148201","nombre":"Gerencia
+        Territorial de Justicia de Andalucia en Sevilla"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56319,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03147701","nombre":"Gerencia
+        Territorial de Justicia de Navarra en Pamplona"},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56637,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03147301","nombre":"Gerencia
+        Territorial de Justicia de La Rioja en Logro\u00f1o"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56516,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03147501","nombre":"Gerencia
+        Territorial de Justicia de Andalucia en Malaga"},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Malaga - Intervencion Ter"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56533,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03148401","nombre":"Gerencia
+        Territorial de Justicia de Castilla y Leon en Valladolid"},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Valladolid - Intervencio"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56769,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03146901","nombre":"Gerencia
+        Territorial de Justicia de Castilla y Leon en Burgos"},"oc":{"codigo_dir":"GE0014076","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Burgos - Intervencion Ter"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56642,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03147001","nombre":"Gerencia
+        Territorial de Justicia de Extremadura en Caceres"},"oc":{"codigo_dir":"GE0014077","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Caceres - Intervencion Te"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56608,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03146601","nombre":"Gerencia
+        Territorial de Justicia de Castilla-La Mancha en Albacete"},"oc":{"codigo_dir":"GE0014070","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Albacete - Intervencion T"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56795,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03148501","nombre":"Gerencia
+        Territorial de Justicia del Pais Vasco en Bilbao"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56395,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03147601","nombre":"Gerencia
+        Territorial de Justicia de Murcia"},"oc":{"codigo_dir":"GE0014099","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Intervencion Reg"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56555,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03147801","nombre":"Gerencia
+        Territorial de Justicia de Asturias en Oviedo"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":56571,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03146801","nombre":"Gerencia
+        Territorial de Justicia de Catalu\u00f1a en Barcelona"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[{"nif":"Q2801078C"},{"nif":"A2801078C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":11154,"og":{"codigo_dir":"EA0003222","nombre":"Gerencia"},"ut":{"codigo_dir":"EA0003223","nombre":"\u00c1rea
+        de Personal y R\u00e9gimen Interior"},"oc":{"codigo_dir":"E03134002","nombre":"Mutualidad
+        General Judicial"}},{"cifs":[{"nif":"Q2801078C"},{"nif":"A2801078C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":11155,"og":{"codigo_dir":"EA0003222","nombre":"Gerencia"},"ut":{"codigo_dir":"EA0008922","nombre":"Area
+        de Farmacia y Asistencia Sanitaria"},"oc":{"codigo_dir":"E03134002","nombre":"Mutualidad
+        General Judicial"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:01:34 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003901/relaciones?administracion=E00003901&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:36 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S2813610I"},{"nif":"S2813001A"},{"nif":"E03063803"},{"nif":"S2813610L"},{"nif":"S28136101"},{"nif":"S2826007C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57417,"og":{"codigo_dir":"E00130701","nombre":"Subsecretaria
+        de Justicia"},"ut":{"codigo_dir":"E03139805","nombre":"S.G. de Nuevas Tecnologias
+        de la Justicia"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina Contable.
+        I.D. Ministerio de Justicia"}},{"cifs":[{"nif":"S2813610I"},{"nif":"S2813001A"},{"nif":"E03063803"},{"nif":"S2813610L"},{"nif":"S28136101"},{"nif":"S2826007C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57434,"og":{"codigo_dir":"E00130701","nombre":"Subsecretaria
+        de Justicia"},"ut":{"codigo_dir":"E03134901","nombre":"S.G. de Obras y Patrimonio"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[{"nif":"S2813610I"},{"nif":"S2813001A"},{"nif":"E03063803"},{"nif":"S2813610L"},{"nif":"S28136101"},{"nif":"S2826007C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57454,"og":{"codigo_dir":"E00130701","nombre":"Subsecretaria
+        de Justicia"},"ut":{"codigo_dir":"E04613602","nombre":"Division de Tecnologias
+        de la Informacion y las Comunicaciones"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":57455,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[{"nif":"Q2801078C"},{"nif":"A2801078C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":59079,"og":{"codigo_dir":"EA0003222","nombre":"Gerencia"},"ut":{"codigo_dir":"EA0003223","nombre":"\u00c1rea
+        de Personal y R\u00e9gimen Interior"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2813002I"},{"nif":"Q28130021"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":59080,"og":{"codigo_dir":"E00131802","nombre":"Centro
+        de Estudios Juridicos"},"ut":{"codigo_dir":"EA0003224","nombre":"Unidad Tramitadora
+        de Caja del Centro de Estudios Jur\u00eddicos"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":60334,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03147901","nombre":"Gerencia
+        Territorial de Justicia de Canarias en Las Palmas de Gran Canaria"},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":60775,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03148101","nombre":"Gerencia
+        Territorial de Justicia de Cantabria en Santander"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[{"nif":"S2813014D"},{"nif":"S0813105D"},{"nif":"S0713032A"},{"nif":"S2813001A"},{"nif":"S1013021I"},{"nif":"S2813608C"},{"nif":"S2813610I"},{"nif":"S2800661G"},{"nif":"Q2813012H"},{"nif":"S4113063D"},{"nif":"S4713023B"},{"nif":"S2913015J"},{"nif":"S2813600J"},{"nif":"B37033297"},{"nif":"S3013007D"},{"nif":"S3913013C"},{"nif":"S0913012A"},{"nif":"S3813012F"},{"nif":"S0213007H"},{"nif":"S3313026A"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":65544,"og":{"codigo_dir":"E04799402","nombre":"Secretar\u00eda
+        General de la Administracion de Justicia"},"ut":{"codigo_dir":"E03148601","nombre":"Gerencia
+        Territorial de Justicia de Aragon en Zaragoza"},"oc":{"codigo_dir":"GE0014115","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Zaragoza - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":83867,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041070","nombre":"Gerencia
+        Territorial de Justicia de La Rioja en Logro\u00f1o"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84007,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041077","nombre":"Gerencia
+        Territorial de Justicia de Canarias en Santa Cruz de Tenerife"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84048,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041062","nombre":"Gerencia
+        Territorial de Justicia de Castilla-La Mancha en Albacete"},"oc":{"codigo_dir":"GE0014070","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Albacete - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84107,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041075","nombre":"Gerencia
+        Territorial de Justicia de Asturias en Oviedo"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84109,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041066","nombre":"Gerencia
+        Territorial de Justicia de Extremadura en Caceres"},"oc":{"codigo_dir":"GE0014077","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Caceres - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84110,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041078","nombre":"Gerencia
+        Territorial de Justicia de Cantabria en Santander"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84128,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041086","nombre":"Gerencia
+        Territorial de Justicia del Pais Vasco en Bilbao"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84148,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041082","nombre":"Gerencia
+        Territorial de Justicia de Castilla y Leon en Valladolid"},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Valladolid - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84149,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041088","nombre":"Gerencia
+        Territorial de Justicia de Aragon en Zaragoza"},"oc":{"codigo_dir":"GE0014115","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Zaragoza - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84259,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041065","nombre":"Gerencia
+        Territorial de Justicia de Castilla y Leon en Burgos"},"oc":{"codigo_dir":"GE0014076","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Burgos - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84274,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041076","nombre":"Gerencia
+        Territorial de Justicia de Canarias en Las Palmas de Gran Canaria"},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84277,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041079","nombre":"Gerencia
+        Territorial de Justicia de Andalucia en Sevilla"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84280,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041081","nombre":"Gerencia
+        Territorial de Justicia de la Comunidad Valenciana en Valencia"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84327,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041071","nombre":"Gerencia
+        Territorial de Justicia de Andalucia en Malaga"},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Malaga - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84567,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041064","nombre":"Gerencia
+        Territorial de Justicia de Catalu\u00f1a en Barcelona"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84588,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041073","nombre":"Gerencia
+        Territorial de Justicia de Murcia"},"oc":{"codigo_dir":"GE0014099","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Intervencion Reg"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:01:36 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003901/relaciones?administracion=E00003901&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:37 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84707,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041069","nombre":"Gerencia
+        Territorial de Justicia de Andalucia en Granada"},"oc":{"codigo_dir":"GE0014087","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Granada - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":85454,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":85455,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041054","nombre":"Gerencia
+        Territorial de Organos Centrales"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":85456,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"oc":{"codigo_dir":"GE0014115","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Zaragoza - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84649,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041063","nombre":"Gerencia
+        Territorial de Justicia de Baleares en Palma de Mallorca"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84632,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041074","nombre":"Gerencia
+        Territorial de Justicia de Navarra en Pamplona"},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":85439,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041041","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mica del Servicio P\u00fablico
+        de Justicia"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina Contable. I.D.
+        Ministerio de Justicia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":85440,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041055","nombre":"Oficina
+        Delegada de Apoyo al Fiscal General del Estado"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":84687,"og":{"codigo_dir":"E05077001","nombre":"Secretar\u00eda
+        General para la Innovaci\u00f3n y Calidad del Servicio P\u00fablico de Justicia"},"ut":{"codigo_dir":"EA0041068","nombre":"Gerencia
+        Territorial de Justicia de Galicia en A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014065","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en A Coru\u00f1a - Intervencion
+        T"}},{"cifs":[{"nif":"S2813610I"},{"nif":"S2813001A"},{"nif":"E03063803"},{"nif":"S2813610L"},{"nif":"S28136101"},{"nif":"S2826007C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":85422,"og":{"codigo_dir":"E00130701","nombre":"Subsecretaria
+        de Justicia"},"ut":{"codigo_dir":"EA0041029","nombre":"Divisi\u00f3n de Tecnolog\u00edas
+        y Servicios P\u00fablicos Digitales"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[{"nif":"S2813610I"},{"nif":"S2813001A"},{"nif":"E03063803"},{"nif":"S2813610L"},{"nif":"S28136101"},{"nif":"S2826007C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":85487,"og":{"codigo_dir":"E00130701","nombre":"Subsecretaria
+        de Justicia"},"ut":{"codigo_dir":"EA0041028","nombre":"Subdirecci\u00f3n General
+        de Contrataci\u00f3n, Gesti\u00f3n Econ\u00f3mica y Oficial\u00eda Mayor"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[{"nif":"S2813610I"},{"nif":"S2813001A"},{"nif":"E03063803"},{"nif":"S2813610L"},{"nif":"S28136101"},{"nif":"S2826007C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":85467,"og":{"codigo_dir":"E00130701","nombre":"Subsecretaria
+        de Justicia"},"ut":{"codigo_dir":"E05051002","nombre":"Direcci\u00f3n General
+        de Cooperaci\u00f3n Jur\u00eddica Internacional y Derechos Humanos"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}},{"cifs":[{"nif":"S2813610I"},{"nif":"S2813001A"},{"nif":"E03063803"},{"nif":"S2813610L"},{"nif":"S28136101"},{"nif":"S2826007C"}],"administracion":{"nombre":"Ministerio
+        de Justicia","codigo_dir":"E00003901","cifs":[]},"id":85405,"og":{"codigo_dir":"E00130701","nombre":"Subsecretaria
+        de Justicia"},"ut":{"codigo_dir":"EA0041051","nombre":"Subdirecci\u00f3n General
+        de Planificaci\u00f3n y Gesti\u00f3n de Transformaci\u00f3n Digital"},"oc":{"codigo_dir":"GE0014052","nombre":"Oficina
+        Contable. I.D. Ministerio de Justicia"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:01:37 GMT
+recorded_with: VCR 6.0.0

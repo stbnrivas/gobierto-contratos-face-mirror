@@ -1,0 +1,379 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921601/relaciones?administracion=E04921601&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:14 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S2817035E"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":11411,"og":{"codigo_dir":"E00126005","nombre":"Centro
+        Espa\u00f1ol de Metrologia"},"ut":{"codigo_dir":"E04760902","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"E04760902","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":67104,"og":{"codigo_dir":"E04926301","nombre":"S.
+        de E. de Energia"},"ut":{"codigo_dir":"E04926301","nombre":"S. de E. de Energia"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[{"nif":"G60130291"},{"nif":"S2829017I"},{"nif":"S2800214E"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":67087,"og":{"codigo_dir":"E04926601","nombre":"S.
+        de E. de Telecomunicaciones y para la Sociedad de la Informacion"},"ut":{"codigo_dir":"E04903203","nombre":"S.G.
+        de Coordinacion y Ejecucion de Programas"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[{"nif":"Q7855062A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":11536,"og":{"codigo_dir":"E00121103","nombre":"INSTITUTO
+        PARA LA REESTRUC. DE LA MINERIA DEL CARBON Y DESARR. ALTERN. DE LAS COMARCAS
+        MINERAS"},"ut":{"codigo_dir":"EA0003181","nombre":"CONTRATACION DEL IRMC"},"oc":{"codigo_dir":"EA0003239","nombre":"Oficina
+        Contable del Irmc"}},{"cifs":[{"nif":"Q2820005C"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":5805,"og":{"codigo_dir":"E00115003","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas"},"ut":{"codigo_dir":"E00115003","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas"},"oc":{"codigo_dir":"E00115003","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas"}},{"cifs":[{"nif":"Q2820005C"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":5806,"og":{"codigo_dir":"E00115003","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas"},"ut":{"codigo_dir":"E02774803","nombre":"SECRETARIA
+        GENERAL"},"oc":{"codigo_dir":"E00115003","nombre":"Oficina Espa\u00f1ola de
+        Patentes y Marcas"}},{"cifs":[],"administracion":{"nombre":"Ministerio de
+        Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":67086,"og":{"codigo_dir":"E04796203","nombre":"D.G.
+        de Telecomunicaciones y Tecnologias de la Informacion"},"ut":{"codigo_dir":"E04903203","nombre":"S.G.
+        de Coordinacion y Ejecucion de Programas"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2197,"og":{"codigo_dir":"E03187401","nombre":"SECRETARIA"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2199,"og":{"codigo_dir":"E03187601","nombre":"SECRETARIA
+        DEL CONSEJO"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2200,"og":{"codigo_dir":"E03187801","nombre":"GABINETE"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2203,"og":{"codigo_dir":"E03188801","nombre":"GABINETE"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2207,"og":{"codigo_dir":"E03189301","nombre":"GABINETE"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2198,"og":{"codigo_dir":"E03187501","nombre":"GABINETE
+        TECNICO"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2202,"og":{"codigo_dir":"E03188602","nombre":"SUBDIRECCION
+        DE ASESORIA JURIDICA"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2210,"og":{"codigo_dir":"E03189602","nombre":"SUBDIRECCION
+        DE EMERGENCIAS Y PROTECCION FISICA"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2205,"og":{"codigo_dir":"E03189002","nombre":"SUBDIRECCION
+        DE INGENIERIA"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2204,"og":{"codigo_dir":"E03188902","nombre":"SUBDIRECCION
+        DE INSTALACIONES NUCLEARES"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2201,"og":{"codigo_dir":"E03188002","nombre":"SUBDIRECCION
+        DE PERSONAL Y ADMINISTRACION"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2208,"og":{"codigo_dir":"E03189402","nombre":"SUBDIRECCION
+        DE PROTECCION RADIOLOGIA AMBIENTAL"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2209,"og":{"codigo_dir":"E03189502","nombre":"SUBDIRECCION
+        DE PROTECCION RADIOLOGIA OPERACIONAL"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2206,"og":{"codigo_dir":"E03189102","nombre":"SUBDIRECCION
+        DE TECNOLOGIA NUCLEAR"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2214,"og":{"codigo_dir":"E04907501","nombre":"SUBDIRECCION
+        DE TECNOLOGIAS DE LA INFORMACION"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2212,"og":{"codigo_dir":"E04907301","nombre":"UNIDAD
+        DE INSPECCION"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2213,"og":{"codigo_dir":"E04907401","nombre":"UNIDAD
+        DE INVESTIGACION Y GESTION DEL CONOCIMIENTO"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2211,"og":{"codigo_dir":"E04907201","nombre":"UNIDAD
+        DE PLANIFICACION , EVALUACION Y CALIDAD"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:14 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921601/relaciones?administracion=E04921601&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:15 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"27","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:00:15 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921601/relaciones?administracion=E04921601&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:15 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2197,"og":{"codigo_dir":"E03187401","nombre":"SECRETARIA"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2198,"og":{"codigo_dir":"E03187501","nombre":"GABINETE
+        TECNICO"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2199,"og":{"codigo_dir":"E03187601","nombre":"SECRETARIA
+        DEL CONSEJO"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2200,"og":{"codigo_dir":"E03187801","nombre":"GABINETE"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2201,"og":{"codigo_dir":"E03188002","nombre":"SUBDIRECCION
+        DE PERSONAL Y ADMINISTRACION"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2202,"og":{"codigo_dir":"E03188602","nombre":"SUBDIRECCION
+        DE ASESORIA JURIDICA"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2203,"og":{"codigo_dir":"E03188801","nombre":"GABINETE"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2204,"og":{"codigo_dir":"E03188902","nombre":"SUBDIRECCION
+        DE INSTALACIONES NUCLEARES"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2205,"og":{"codigo_dir":"E03189002","nombre":"SUBDIRECCION
+        DE INGENIERIA"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2206,"og":{"codigo_dir":"E03189102","nombre":"SUBDIRECCION
+        DE TECNOLOGIA NUCLEAR"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2207,"og":{"codigo_dir":"E03189301","nombre":"GABINETE"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2208,"og":{"codigo_dir":"E03189402","nombre":"SUBDIRECCION
+        DE PROTECCION RADIOLOGIA AMBIENTAL"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2209,"og":{"codigo_dir":"E03189502","nombre":"SUBDIRECCION
+        DE PROTECCION RADIOLOGIA OPERACIONAL"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2210,"og":{"codigo_dir":"E03189602","nombre":"SUBDIRECCION
+        DE EMERGENCIAS Y PROTECCION FISICA"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2211,"og":{"codigo_dir":"E04907201","nombre":"UNIDAD
+        DE PLANIFICACION , EVALUACION Y CALIDAD"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2212,"og":{"codigo_dir":"E04907301","nombre":"UNIDAD
+        DE INSPECCION"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2213,"og":{"codigo_dir":"E04907401","nombre":"UNIDAD
+        DE INVESTIGACION Y GESTION DEL CONOCIMIENTO"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2801036A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":2214,"og":{"codigo_dir":"E04907501","nombre":"SUBDIRECCION
+        DE TECNOLOGIAS DE LA INFORMACION"},"ut":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"E03188002","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[{"nif":"Q2820005C"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":5805,"og":{"codigo_dir":"E00115003","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas"},"ut":{"codigo_dir":"E00115003","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas"},"oc":{"codigo_dir":"E00115003","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas"}},{"cifs":[{"nif":"Q2820005C"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":5806,"og":{"codigo_dir":"E00115003","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas"},"ut":{"codigo_dir":"E02774803","nombre":"SECRETARIA
+        GENERAL"},"oc":{"codigo_dir":"E00115003","nombre":"Oficina Espa\u00f1ola de
+        Patentes y Marcas"}},{"cifs":[{"nif":"S2817035E"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":11411,"og":{"codigo_dir":"E00126005","nombre":"Centro
+        Espa\u00f1ol de Metrologia"},"ut":{"codigo_dir":"E04760902","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"E04760902","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q7855062A"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":11536,"og":{"codigo_dir":"E00121103","nombre":"INSTITUTO
+        PARA LA REESTRUC. DE LA MINERIA DEL CARBON Y DESARR. ALTERN. DE LAS COMARCAS
+        MINERAS"},"ut":{"codigo_dir":"EA0003181","nombre":"CONTRATACION DEL IRMC"},"oc":{"codigo_dir":"EA0003239","nombre":"Oficina
+        Contable del Irmc"}},{"cifs":[],"administracion":{"nombre":"Ministerio de
+        Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":67086,"og":{"codigo_dir":"E04796203","nombre":"D.G.
+        de Telecomunicaciones y Tecnologias de la Informacion"},"ut":{"codigo_dir":"E04903203","nombre":"S.G.
+        de Coordinacion y Ejecucion de Programas"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[{"nif":"G60130291"},{"nif":"S2829017I"},{"nif":"S2800214E"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":67087,"og":{"codigo_dir":"E04926601","nombre":"S.
+        de E. de Telecomunicaciones y para la Sociedad de la Informacion"},"ut":{"codigo_dir":"E04903203","nombre":"S.G.
+        de Coordinacion y Ejecucion de Programas"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":67104,"og":{"codigo_dir":"E04926301","nombre":"S.
+        de E. de Energia"},"ut":{"codigo_dir":"E04926301","nombre":"S. de E. de Energia"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:16 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921601/relaciones?administracion=E04921601&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:16 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":67108,"og":{"codigo_dir":"E04921601","nombre":"Ministerio
+        de Industria, Energia y Turismo"},"ut":{"codigo_dir":"E04926401","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[{"nif":"S2800214E"},{"nif":"S2800088C"}],"administracion":{"nombre":"Ministerio
+        de Industria, Energia y Turismo","codigo_dir":"E04921601","cifs":[{"nif":"S2826145A"},{"nif":"S2800214E"},{"nif":"S2829017I"},{"nif":"S3916001E"}]},"id":67133,"og":{"codigo_dir":"E00119404","nombre":"D.G.
+        de Politica Energetica y Minas"},"ut":{"codigo_dir":"E00119404","nombre":"D.G.
+        de Politica Energetica y Minas"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:16 GMT
+recorded_with: VCR 6.0.0

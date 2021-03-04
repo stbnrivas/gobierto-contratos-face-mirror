@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 28 Feb 2021 04:03:43 GMT
+      - Thu, 04 Mar 2021 16:52:26 GMT
       Server:
       - Microsoft-IIS/5.0
       Cache-Control:
@@ -43,7 +43,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"pager":{"total":"45","limit":25},"filter":{"fields":["oc","og","ut"]}}'
-  recorded_at: Sun, 28 Feb 2021 04:03:43 GMT
+  recorded_at: Thu, 04 Mar 2021 16:52:26 GMT
 - request:
     method: get
     uri: https://face.gob.es/api/v2/administraciones/E04585801/relaciones?administracion=E04585801&limit=25.0&page=1
@@ -63,7 +63,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 28 Feb 2021 04:03:45 GMT
+      - Thu, 04 Mar 2021 16:52:26 GMT
       Server:
       - Microsoft-IIS/5.0
       Cache-Control:
@@ -117,7 +117,11 @@ http_interactions:
         de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58140,"og":{"codigo_dir":"E04609801","nombre":"D.G.
         del Servicio Exterior"},"ut":{"codigo_dir":"E04681701","nombre":"S.G. de Administracion
         Financiera"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable. I.D.
-        Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[{"nif":"S2812001B"}],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58141,"og":{"codigo_dir":"E04853401","nombre":"S.G.
+        de Obras y Amueblamiento de Inmuebles en el Exterior"},"ut":{"codigo_dir":"E04853401","nombre":"S.G.
+        de Obras y Amueblamiento de Inmuebles en el Exterior"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
         de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58142,"og":{"codigo_dir":"EA0011717","nombre":"Secretar\u00eda
         de Estado de Cooperaci\u00f3n Internacional y para Iberoam\u00e9rica y el
         Caribe"},"ut":{"codigo_dir":"EA0014486","nombre":"Gabinete del Secretario
@@ -149,6 +153,10 @@ http_interactions:
         de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58158,"og":{"codigo_dir":"E04937002","nombre":"D.G.
         de Espa\u00f1oles en el Exterior, Asuntos Consulares y Migratorios"},"ut":{"codigo_dir":"E04610504","nombre":"S.G.
         de Proteccion y Asistencia Consular"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58159,"og":{"codigo_dir":"E04681701","nombre":"S.G.
+        de Administracion Financiera"},"ut":{"codigo_dir":"E04681701","nombre":"S.G.
+        de Administracion Financiera"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
         Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[{"nif":"S2812001B"},{"nif":"B2812001B"},{"nif":"S2821001B"},{"nif":"F2812001B"},{"nif":"S2811001B"},{"nif":"Q2812001B"}],"administracion":{"nombre":"Ministerio
         de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58160,"og":{"codigo_dir":"E04588601","nombre":"Subsecretaria
         de Asuntos Exteriores y de Cooperacion"},"ut":{"codigo_dir":"E04853401","nombre":"S.G.
@@ -157,32 +165,24 @@ http_interactions:
         de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58162,"og":{"codigo_dir":"E04588601","nombre":"Subsecretaria
         de Asuntos Exteriores y de Cooperacion"},"ut":{"codigo_dir":"GE0003419","nombre":"Oficial\u00eda
         Mayor Exterior"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[{"nif":"S2812001B"}],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58174,"og":{"codigo_dir":"E04609301","nombre":"Vicesecretaria
+        General Tecnica"},"ut":{"codigo_dir":"E04609301","nombre":"Vicesecretaria
+        General Tecnica"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
         I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[{"nif":"02812001K"},{"nif":"Q2812001B"},{"nif":"A2812001B"},{"nif":"E04853401"},{"nif":"S2812240F"},{"nif":"S2812017H"},{"nif":"S2812001B"},{"nif":"S2812001D"}],"administracion":{"nombre":"Ministerio
         de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58175,"og":{"codigo_dir":"E04609801","nombre":"D.G.
         del Servicio Exterior"},"ut":{"codigo_dir":"E04610001","nombre":"Oficialia
         Mayor"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable. I.D. Ministerio
-        de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[{"nif":"02812001K"},{"nif":"Q2812001B"},{"nif":"A2812001B"},{"nif":"E04853401"},{"nif":"S2812240F"},{"nif":"S2812017H"},{"nif":"S2812001B"},{"nif":"S2812001D"}],"administracion":{"nombre":"Ministerio
-        de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58177,"og":{"codigo_dir":"E04609801","nombre":"D.G.
-        del Servicio Exterior"},"ut":{"codigo_dir":"E04853401","nombre":"S.G. de Obras
-        y Amueblamiento de Inmuebles en el Exterior"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
-        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[{"nif":"S2812001B"}],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[{"nif":"S2812001B"}],"administracion":{"nombre":"Ministerio
         de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58176,"og":{"codigo_dir":"E04585801","nombre":"Ministerio
         de Asuntos Exteriores y de Cooperaci\u00f3n"},"ut":{"codigo_dir":"E04681701","nombre":"S.G.
         de Administracion Financiera"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
-        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[{"nif":"S2812001B"}],"administracion":{"nombre":"Ministerio
-        de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58141,"og":{"codigo_dir":"E04853401","nombre":"S.G.
-        de Obras y Amueblamiento de Inmuebles en el Exterior"},"ut":{"codigo_dir":"E04853401","nombre":"S.G.
-        de Obras y Amueblamiento de Inmuebles en el Exterior"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
-        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
-        de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58159,"og":{"codigo_dir":"E04681701","nombre":"S.G.
-        de Administracion Financiera"},"ut":{"codigo_dir":"E04681701","nombre":"S.G.
-        de Administracion Financiera"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
-        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[{"nif":"S2812001B"}],"administracion":{"nombre":"Ministerio
-        de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58174,"og":{"codigo_dir":"E04609301","nombre":"Vicesecretaria
-        General Tecnica"},"ut":{"codigo_dir":"E04609301","nombre":"Vicesecretaria
-        General Tecnica"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
-        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}}]}'
-  recorded_at: Sun, 28 Feb 2021 04:03:45 GMT
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[{"nif":"02812001K"},{"nif":"Q2812001B"},{"nif":"A2812001B"},{"nif":"E04853401"},{"nif":"S2812240F"},{"nif":"S2812017H"},{"nif":"S2812001B"},{"nif":"S2812001D"}],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":58177,"og":{"codigo_dir":"E04609801","nombre":"D.G.
+        del Servicio Exterior"},"ut":{"codigo_dir":"E04853401","nombre":"S.G. de Obras
+        y Amueblamiento de Inmuebles en el Exterior"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}}]}'
+  recorded_at: Thu, 04 Mar 2021 16:52:26 GMT
 - request:
     method: get
     uri: https://face.gob.es/api/v2/administraciones/E04585801/relaciones?administracion=E04585801&limit=25.0&page=2
@@ -202,7 +202,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 28 Feb 2021 04:03:47 GMT
+      - Thu, 04 Mar 2021 16:52:28 GMT
       Server:
       - Microsoft-IIS/5.0
       Cache-Control:
@@ -303,5 +303,5 @@ http_interactions:
         de Asuntos Exteriores y de Cooperaci\u00f3n","codigo_dir":"E04585801","cifs":[{"nif":"S2812001B"}]},"id":59364,"og":{"codigo_dir":"EA0008537","nombre":"Vicesecretar\u00eda
         T\u00e9cnica"},"ut":{"codigo_dir":"EA0008539","nombre":"Unidad Tramitadora"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
         Contable. I.D. Ministerio de Hacienda"}}]}'
-  recorded_at: Sun, 28 Feb 2021 04:03:47 GMT
+  recorded_at: Thu, 04 Mar 2021 16:52:28 GMT
 recorded_with: VCR 6.0.0

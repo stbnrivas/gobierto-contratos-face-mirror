@@ -1,0 +1,815 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003601/relaciones?administracion=E00003601&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:47 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q2801671E"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":8,"og":{"codigo_dir":"EA0000845","nombre":"SEPES
+        - Entidad P\u00fablica Empresarial de Suelo"},"ut":{"codigo_dir":"EA0000845","nombre":"SEPES
+        - Entidad P\u00fablica Empresarial de Suelo"},"oc":{"codigo_dir":"EA0000845","nombre":"SEPES
+        - Entidad P\u00fablica Empresarial de Suelo"}},{"cifs":[{"nif":"Q2967003A"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":5507,"og":{"codigo_dir":"EA0001314","nombre":"ORGANO
+        GESTOR"},"ut":{"codigo_dir":"EA0001314","nombre":"UNIDAD TRAMITADORA"},"oc":{"codigo_dir":"EA0001314","nombre":"OFICINA
+        CONTABLE"}},{"cifs":[{"nif":"E04865601"},{"nif":"S2800441D"},{"nif":"Q2801615B"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":8246,"og":{"codigo_dir":"E04865601","nombre":"Agencia
+        Estatal de Seguridad Aerea"},"ut":{"codigo_dir":"EA0003163","nombre":"Division
+        Econ\u00f3mico Financiera"},"oc":{"codigo_dir":"EA0003164","nombre":"Servicio
+        de Contabilidad y Control de Ingresos"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11314,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003182","nombre":"SERVICIO
+        DE GESTI\u00d3N Y ADMINISTRACI\u00d3N"},"oc":{"codigo_dir":"E00125901","nombre":"Centro
+        Nacional de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11315,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003183","nombre":"SERVICIO
+        DE COMERCIALIZACI\u00d3N"},"oc":{"codigo_dir":"E00125901","nombre":"Centro
+        Nacional de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11316,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003184","nombre":"SERVICIO
+        DE INFORM\u00c1TICA"},"oc":{"codigo_dir":"E00125901","nombre":"Centro Nacional
+        de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11317,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003210","nombre":"DIRECCI\u00d3N
+        DEL CNIG"},"oc":{"codigo_dir":"E00125901","nombre":"Centro Nacional de Informacion
+        Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11318,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003211","nombre":"SUBDIRECCI\u00d3N
+        ADJUNTA DEL CNIG"},"oc":{"codigo_dir":"E00125901","nombre":"Centro Nacional
+        de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11319,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003230","nombre":"AREA
+        DE INFORM\u00c1TICA"},"oc":{"codigo_dir":"E00125901","nombre":"Centro Nacional
+        de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11320,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003231","nombre":"AREA
+        DE INFRAESTRUCTURAS DE INFORMACI\u00d3N GEOGR\u00c1FICA"},"oc":{"codigo_dir":"E00125901","nombre":"Centro
+        Nacional de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11321,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003232","nombre":"AREA
+        DE PROYECTOS INTERNACIONALES"},"oc":{"codigo_dir":"E00125901","nombre":"Centro
+        Nacional de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11322,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003233","nombre":"AREA
+        DE PRODUCTOS GEOGRAFICOS"},"oc":{"codigo_dir":"E00125901","nombre":"Centro
+        Nacional de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11323,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003234","nombre":"SERVICIO
+        DE GESTI\u00d3N DE PRODUCTOS"},"oc":{"codigo_dir":"E00125901","nombre":"Centro
+        Nacional de Informacion Geografica"}},{"cifs":[{"nif":"Q2867021D"},{"nif":"Q2837021D"},{"nif":"P2300500B"},{"nif":"Q2667021D"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":17717,"og":{"codigo_dir":"EA0003343","nombre":"SOCIEDAD
+        DE SALVAMENTO Y SEGURIDAD MAR\u00cdTIMA (SASEMAR)"},"ut":{"codigo_dir":"EA0008701","nombre":"JOVE"},"oc":{"codigo_dir":"EA0008701","nombre":"JOVE"}},{"cifs":[{"nif":"Q2867021D"},{"nif":"Q2837021D"},{"nif":"P2300500B"},{"nif":"Q2667021D"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":17718,"og":{"codigo_dir":"EA0003343","nombre":"SOCIEDAD
+        DE SALVAMENTO Y SEGURIDAD MAR\u00cdTIMA (SASEMAR)"},"ut":{"codigo_dir":"EA0008702","nombre":"TIERRA"},"oc":{"codigo_dir":"EA0008702","nombre":"TIERRA"}},{"cifs":[{"nif":"Q2867021D"},{"nif":"Q2837021D"},{"nif":"P2300500B"},{"nif":"Q2667021D"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":17719,"og":{"codigo_dir":"EA0003343","nombre":"SOCIEDAD
+        DE SALVAMENTO Y SEGURIDAD MAR\u00cdTIMA (SASEMAR)"},"ut":{"codigo_dir":"EA0008703","nombre":"FLOTA"},"oc":{"codigo_dir":"EA0008703","nombre":"FLOTA"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":35513,"og":{"codigo_dir":"EA0001304","nombre":"Autoridad
+        Portuaria De Cartagena"},"ut":{"codigo_dir":"EA0001304","nombre":"Autoridad
+        Portuaria De Cartagena"},"oc":{"codigo_dir":"EA0001304","nombre":"Autoridad
+        Portuaria De Cartagena"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":37566,"og":{"codigo_dir":"E04978901","nombre":"Agencia
+        Estatal de Seguridad Ferroviaria"},"ut":{"codigo_dir":"E04978901","nombre":"Agencia
+        Estatal de Seguridad Ferroviaria"},"oc":{"codigo_dir":"E04978901","nombre":"Agencia
+        Estatal de Seguridad Ferroviaria"}},{"cifs":[{"nif":"Q3367005J"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":43860,"og":{"codigo_dir":"EA0001308","nombre":"Autoridad
+        Portuaria de Gij\u00f3n"},"ut":{"codigo_dir":"EA0001308","nombre":"Autoridad
+        Portuaria de Gij\u00f3n"},"oc":{"codigo_dir":"EA0001308","nombre":"Autoridad
+        Portuaria de Gij\u00f3n"}},{"cifs":[{"nif":"Q0767004E"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45279,"og":{"codigo_dir":"GE0012344","nombre":"O.
+        G. Autoridad Portuaria de Baleares"},"ut":{"codigo_dir":"GE0012344","nombre":"U.
+        T. Autoridad Portuaria de Baleares"},"oc":{"codigo_dir":"GE0012344","nombre":"O.
+        C. Autoridad Portuaria de Baleares"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45939,"og":{"codigo_dir":"E03027901","nombre":"Centro
+        de Estudios de Tecnicas Aplicadas"},"ut":{"codigo_dir":"EA0010076","nombre":"Caja
+        Pagadora del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45940,"og":{"codigo_dir":"E03028101","nombre":"Centro
+        de Estudios Hidrograficos"},"ut":{"codigo_dir":"EA0010076","nombre":"Caja
+        Pagadora del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45941,"og":{"codigo_dir":"E03028301","nombre":"Laboratorio
+        Central de Estructuras y Materiales"},"ut":{"codigo_dir":"EA0010076","nombre":"Caja
+        Pagadora del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45942,"og":{"codigo_dir":"E04743501","nombre":"Centro
+        de Estudios Historicos de Obras Publicas y Urbanismo (CEHOPU)"},"ut":{"codigo_dir":"EA0010076","nombre":"Caja
+        Pagadora del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45959,"og":{"codigo_dir":"E03028001","nombre":"Centro
+        de Estudios de Puertos y Costas"},"ut":{"codigo_dir":"EA0010076","nombre":"Caja
+        Pagadora del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:47 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003601/relaciones?administracion=E00003601&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:48 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"112","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 13:59:48 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003601/relaciones?administracion=E00003601&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:49 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q2801671E"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":8,"og":{"codigo_dir":"EA0000845","nombre":"SEPES
+        - Entidad P\u00fablica Empresarial de Suelo"},"ut":{"codigo_dir":"EA0000845","nombre":"SEPES
+        - Entidad P\u00fablica Empresarial de Suelo"},"oc":{"codigo_dir":"EA0000845","nombre":"SEPES
+        - Entidad P\u00fablica Empresarial de Suelo"}},{"cifs":[{"nif":"Q2967003A"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":5507,"og":{"codigo_dir":"EA0001314","nombre":"ORGANO
+        GESTOR"},"ut":{"codigo_dir":"EA0001314","nombre":"UNIDAD TRAMITADORA"},"oc":{"codigo_dir":"EA0001314","nombre":"OFICINA
+        CONTABLE"}},{"cifs":[{"nif":"E04865601"},{"nif":"S2800441D"},{"nif":"Q2801615B"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":8246,"og":{"codigo_dir":"E04865601","nombre":"Agencia
+        Estatal de Seguridad Aerea"},"ut":{"codigo_dir":"EA0003163","nombre":"Division
+        Econ\u00f3mico Financiera"},"oc":{"codigo_dir":"EA0003164","nombre":"Servicio
+        de Contabilidad y Control de Ingresos"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11314,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003182","nombre":"SERVICIO
+        DE GESTI\u00d3N Y ADMINISTRACI\u00d3N"},"oc":{"codigo_dir":"E00125901","nombre":"Centro
+        Nacional de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11315,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003183","nombre":"SERVICIO
+        DE COMERCIALIZACI\u00d3N"},"oc":{"codigo_dir":"E00125901","nombre":"Centro
+        Nacional de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11316,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003184","nombre":"SERVICIO
+        DE INFORM\u00c1TICA"},"oc":{"codigo_dir":"E00125901","nombre":"Centro Nacional
+        de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11317,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003210","nombre":"DIRECCI\u00d3N
+        DEL CNIG"},"oc":{"codigo_dir":"E00125901","nombre":"Centro Nacional de Informacion
+        Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11318,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003211","nombre":"SUBDIRECCI\u00d3N
+        ADJUNTA DEL CNIG"},"oc":{"codigo_dir":"E00125901","nombre":"Centro Nacional
+        de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11319,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003230","nombre":"AREA
+        DE INFORM\u00c1TICA"},"oc":{"codigo_dir":"E00125901","nombre":"Centro Nacional
+        de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11320,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003231","nombre":"AREA
+        DE INFRAESTRUCTURAS DE INFORMACI\u00d3N GEOGR\u00c1FICA"},"oc":{"codigo_dir":"E00125901","nombre":"Centro
+        Nacional de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11321,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003232","nombre":"AREA
+        DE PROYECTOS INTERNACIONALES"},"oc":{"codigo_dir":"E00125901","nombre":"Centro
+        Nacional de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11322,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003233","nombre":"AREA
+        DE PRODUCTOS GEOGRAFICOS"},"oc":{"codigo_dir":"E00125901","nombre":"Centro
+        Nacional de Informacion Geografica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":11323,"og":{"codigo_dir":"E00125901","nombre":"CENTRO
+        NACIONAL DE INFORMACION GEOGRAFICA"},"ut":{"codigo_dir":"EA0003234","nombre":"SERVICIO
+        DE GESTI\u00d3N DE PRODUCTOS"},"oc":{"codigo_dir":"E00125901","nombre":"Centro
+        Nacional de Informacion Geografica"}},{"cifs":[{"nif":"Q2867021D"},{"nif":"Q2837021D"},{"nif":"P2300500B"},{"nif":"Q2667021D"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":17717,"og":{"codigo_dir":"EA0003343","nombre":"SOCIEDAD
+        DE SALVAMENTO Y SEGURIDAD MAR\u00cdTIMA (SASEMAR)"},"ut":{"codigo_dir":"EA0008701","nombre":"JOVE"},"oc":{"codigo_dir":"EA0008701","nombre":"JOVE"}},{"cifs":[{"nif":"Q2867021D"},{"nif":"Q2837021D"},{"nif":"P2300500B"},{"nif":"Q2667021D"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":17718,"og":{"codigo_dir":"EA0003343","nombre":"SOCIEDAD
+        DE SALVAMENTO Y SEGURIDAD MAR\u00cdTIMA (SASEMAR)"},"ut":{"codigo_dir":"EA0008702","nombre":"TIERRA"},"oc":{"codigo_dir":"EA0008702","nombre":"TIERRA"}},{"cifs":[{"nif":"Q2867021D"},{"nif":"Q2837021D"},{"nif":"P2300500B"},{"nif":"Q2667021D"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":17719,"og":{"codigo_dir":"EA0003343","nombre":"SOCIEDAD
+        DE SALVAMENTO Y SEGURIDAD MAR\u00cdTIMA (SASEMAR)"},"ut":{"codigo_dir":"EA0008703","nombre":"FLOTA"},"oc":{"codigo_dir":"EA0008703","nombre":"FLOTA"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":35513,"og":{"codigo_dir":"EA0001304","nombre":"Autoridad
+        Portuaria De Cartagena"},"ut":{"codigo_dir":"EA0001304","nombre":"Autoridad
+        Portuaria De Cartagena"},"oc":{"codigo_dir":"EA0001304","nombre":"Autoridad
+        Portuaria De Cartagena"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":37566,"og":{"codigo_dir":"E04978901","nombre":"Agencia
+        Estatal de Seguridad Ferroviaria"},"ut":{"codigo_dir":"E04978901","nombre":"Agencia
+        Estatal de Seguridad Ferroviaria"},"oc":{"codigo_dir":"E04978901","nombre":"Agencia
+        Estatal de Seguridad Ferroviaria"}},{"cifs":[{"nif":"Q3367005J"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":43860,"og":{"codigo_dir":"EA0001308","nombre":"Autoridad
+        Portuaria de Gij\u00f3n"},"ut":{"codigo_dir":"EA0001308","nombre":"Autoridad
+        Portuaria de Gij\u00f3n"},"oc":{"codigo_dir":"EA0001308","nombre":"Autoridad
+        Portuaria de Gij\u00f3n"}},{"cifs":[{"nif":"Q0767004E"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45279,"og":{"codigo_dir":"GE0012344","nombre":"O.
+        G. Autoridad Portuaria de Baleares"},"ut":{"codigo_dir":"GE0012344","nombre":"U.
+        T. Autoridad Portuaria de Baleares"},"oc":{"codigo_dir":"GE0012344","nombre":"O.
+        C. Autoridad Portuaria de Baleares"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45939,"og":{"codigo_dir":"E03027901","nombre":"Centro
+        de Estudios de Tecnicas Aplicadas"},"ut":{"codigo_dir":"EA0010076","nombre":"Caja
+        Pagadora del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45940,"og":{"codigo_dir":"E03028101","nombre":"Centro
+        de Estudios Hidrograficos"},"ut":{"codigo_dir":"EA0010076","nombre":"Caja
+        Pagadora del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45941,"og":{"codigo_dir":"E03028301","nombre":"Laboratorio
+        Central de Estructuras y Materiales"},"ut":{"codigo_dir":"EA0010076","nombre":"Caja
+        Pagadora del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45942,"og":{"codigo_dir":"E04743501","nombre":"Centro
+        de Estudios Historicos de Obras Publicas y Urbanismo (CEHOPU)"},"ut":{"codigo_dir":"EA0010076","nombre":"Caja
+        Pagadora del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45959,"og":{"codigo_dir":"E03028001","nombre":"Centro
+        de Estudios de Puertos y Costas"},"ut":{"codigo_dir":"EA0010076","nombre":"Caja
+        Pagadora del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:49 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003601/relaciones?administracion=E00003601&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:50 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45960,"og":{"codigo_dir":"E03028401","nombre":"Laboratorio
+        de Geotecnia"},"ut":{"codigo_dir":"EA0010076","nombre":"Caja Pagadora del
+        Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45961,"og":{"codigo_dir":"E04885001","nombre":"Laboratorio
+        de Interoperatibilidad Ferroviaria"},"ut":{"codigo_dir":"EA0010076","nombre":"Caja
+        Pagadora del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45979,"og":{"codigo_dir":"E04679901","nombre":"Centro
+        de Estudios del Transporte"},"ut":{"codigo_dir":"EA0010076","nombre":"Caja
+        Pagadora del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":45999,"og":{"codigo_dir":"E04903101","nombre":"Secretaria
+        Cedex"},"ut":{"codigo_dir":"EA0010076","nombre":"Caja Pagadora del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria
+        Cedex"}},{"cifs":[{"nif":"Q3967003I"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":46245,"og":{"codigo_dir":"EA0001318","nombre":"Contabilidad"},"ut":{"codigo_dir":"EA0001318","nombre":"Financiero"},"oc":{"codigo_dir":"EA0001318","nombre":"Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":46686,"og":{"codigo_dir":"E03028001","nombre":"Centro
+        de Estudios de Puertos y Costas"},"ut":{"codigo_dir":"EA0010077","nombre":"Expedientes
+        de Contrataci\u00f3n del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria
+        Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Fomento","codigo_dir":"E00003601","cifs":[]},"id":46687,"og":{"codigo_dir":"E03028301","nombre":"Laboratorio
+        Central de Estructuras y Materiales"},"ut":{"codigo_dir":"EA0010077","nombre":"Expedientes
+        de Contrataci\u00f3n del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria
+        Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Fomento","codigo_dir":"E00003601","cifs":[]},"id":46688,"og":{"codigo_dir":"E03028401","nombre":"Laboratorio
+        de Geotecnia"},"ut":{"codigo_dir":"EA0010077","nombre":"Expedientes de Contrataci\u00f3n
+        del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":46705,"og":{"codigo_dir":"E03027901","nombre":"Centro
+        de Estudios de Tecnicas Aplicadas"},"ut":{"codigo_dir":"EA0010077","nombre":"Expedientes
+        de Contrataci\u00f3n del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria
+        Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Fomento","codigo_dir":"E00003601","cifs":[]},"id":46706,"og":{"codigo_dir":"E04679901","nombre":"Centro
+        de Estudios del Transporte"},"ut":{"codigo_dir":"EA0010077","nombre":"Expedientes
+        de Contrataci\u00f3n del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria
+        Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Fomento","codigo_dir":"E00003601","cifs":[]},"id":46707,"og":{"codigo_dir":"E04903101","nombre":"Secretaria
+        Cedex"},"ut":{"codigo_dir":"EA0010077","nombre":"Expedientes de Contrataci\u00f3n
+        del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":46723,"og":{"codigo_dir":"E04743501","nombre":"Centro
+        de Estudios Historicos de Obras Publicas y Urbanismo (CEHOPU)"},"ut":{"codigo_dir":"EA0010077","nombre":"Expedientes
+        de Contrataci\u00f3n del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria
+        Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Fomento","codigo_dir":"E00003601","cifs":[]},"id":46724,"og":{"codigo_dir":"E04885001","nombre":"Laboratorio
+        de Interoperatibilidad Ferroviaria"},"ut":{"codigo_dir":"EA0010077","nombre":"Expedientes
+        de Contrataci\u00f3n del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria
+        Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Fomento","codigo_dir":"E00003601","cifs":[]},"id":46741,"og":{"codigo_dir":"E03028101","nombre":"Centro
+        de Estudios Hidrograficos"},"ut":{"codigo_dir":"EA0010077","nombre":"Expedientes
+        de Contrataci\u00f3n del Cedex"},"oc":{"codigo_dir":"E04903101","nombre":"Secretaria
+        Cedex"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Fomento","codigo_dir":"E00003601","cifs":[]},"id":48701,"og":{"codigo_dir":"EA0001317","nombre":"Autoridad
+        Portuaria De Santa Cruz De Tenerife"},"ut":{"codigo_dir":"EA0001317","nombre":"Autoridad
+        Portuaria De Santa Cruz De Tenerife"},"oc":{"codigo_dir":"EA0001317","nombre":"Autoridad
+        Portuaria De Santa Cruz De Tenerife"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":50413,"og":{"codigo_dir":"GE0013140","nombre":"U.G.E
+        Autoridad Portuaria de Valencia"},"ut":{"codigo_dir":"GE0013140","nombre":"U.G.E
+        Autoridad Portuaria de Valencia"},"oc":{"codigo_dir":"GE0013140","nombre":"U.G.E
+        Autoridad Portuaria de Valencia"}},{"cifs":[{"nif":"S5017007E"},{"nif":"S2800441D"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56299,"og":{"codigo_dir":"E03037801","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Arag\u00f3n (ZARAGOZA)"},"ut":{"codigo_dir":"E03037801","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Arag\u00f3n (ZARAGOZA)"},"oc":{"codigo_dir":"GE0014115","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Zaragoza - Intervencion T"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56305,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03036501","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Catalu\u00f1a (BARCELONA)"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[{"nif":"S3917005E"},{"nif":"S2817032B"},{"nif":"S0317002D"},{"nif":"S0817007H"},{"nif":"S3317008E"},{"nif":"S4217002G"},{"nif":"S4710007A"},{"nif":"S2800159B"},{"nif":"S1817007F"},{"nif":"02817040E"},{"nif":"S4747007A"},{"nif":"S1517008G"},{"nif":"S2817015G"},{"nif":"S4717007A"},{"nif":"A4517005G"},{"nif":"S0617004G"},{"nif":"S5017007E"},{"nif":"S2817040E"},{"nif":"S0917003F"},{"nif":"S4917002J"},{"nif":"S2829004G"},{"nif":"S4617008J"},{"nif":"S4417008E"},{"nif":"S2617004C"},{"nif":"S3617002E"},{"nif":"S3017006B"},{"nif":"S2800441D"},{"nif":"S4517005G"},{"nif":"S1617004C"},{"nif":"E4717007A"},{"nif":"S2517001J"},{"nif":"S1617001A"},{"nif":"S5015007E"},{"nif":"S4117008E"},{"nif":"A28220168"},{"nif":"S1117001F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56327,"og":{"codigo_dir":"E00124905","nombre":"D.G.
+        de Carreteras"},"ut":{"codigo_dir":"E03036501","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Catalu\u00f1a (BARCELONA)"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56333,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03037101","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Murcia"},"oc":{"codigo_dir":"GE0014099","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Intervencion Reg"}},{"cifs":[{"nif":"S0817007H"},{"nif":"S2517001J"},{"nif":"S4317002F"},{"nif":"S4317003D"},{"nif":"S1717002H"},{"nif":"S2817015G"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56351,"og":{"codigo_dir":"E03036501","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Catalu\u00f1a (BARCELONA)"},"ut":{"codigo_dir":"E03036501","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Catalu\u00f1a (BARCELONA)"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[{"nif":"S2717002F"},{"nif":"S1517008G"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56369,"og":{"codigo_dir":"E03036701","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Galicia (A CORU\u00d1A)"},"ut":{"codigo_dir":"E03036701","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Galicia (A CORU\u00d1A)"},"oc":{"codigo_dir":"GE0014065","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en A Coru\u00f1a - Intervencion
+        T"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56370,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03037201","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Asturias (OVIEDO)"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[{"nif":"S3017006B"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56381,"og":{"codigo_dir":"E03037101","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Murcia"},"ut":{"codigo_dir":"E03037101","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Murcia"},"oc":{"codigo_dir":"GE0014099","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Intervencion Reg"}},{"cifs":[{"nif":"S4717007A"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56561,"og":{"codigo_dir":"E03037701","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Castilla y Le\u00f3n Occidental (VALLADOLID)"},"ut":{"codigo_dir":"E03037701","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Castilla y Le\u00f3n Occidental (VALLADOLID)"},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Valladolid - Intervencio"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:50 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003601/relaciones?administracion=E00003601&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:51 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S3317008E"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56641,"og":{"codigo_dir":"E03037201","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Asturias (OVIEDO)"},"ut":{"codigo_dir":"E03037201","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Asturias (OVIEDO)"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[{"nif":"S3917005E"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56643,"og":{"codigo_dir":"E03037301","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Cantabria (SANTANDER)"},"ut":{"codigo_dir":"E03037301","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Cantabria (SANTANDER)"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[{"nif":"S40170021"},{"nif":"S0917003F"},{"nif":"S4017002I"},{"nif":"S0517002B"},{"nif":"S4217002G"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56797,"og":{"codigo_dir":"E03036601","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Castilla y Le\u00f3n Oriental (BURGOS)"},"ut":{"codigo_dir":"E03036601","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Castilla y Le\u00f3n Oriental (BURGOS)"},"oc":{"codigo_dir":"GE0014076","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Burgos - Intervencion Ter"}},{"cifs":[{"nif":"S2617004C"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56679,"og":{"codigo_dir":"E03036901","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en La Rioja (LOGRO\u00d1O)"},"ut":{"codigo_dir":"E03036901","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en La Rioja (LOGRO\u00d1O)"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[{"nif":"S2817032B"},{"nif":"S2817040E"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57334,"og":{"codigo_dir":"E03037001","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Madrid"},"ut":{"codigo_dir":"E03037001","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Madrid"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[{"nif":"S1117001F"},{"nif":"S2800441D"},{"nif":"S2117001D"},{"nif":"S1417002A"},{"nif":"S4117008E"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56738,"og":{"codigo_dir":"E03037401","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Andaluc\u00eda Occidental (SEVILLA)"},"ut":{"codigo_dir":"E03037401","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Andaluc\u00eda Occidental (SEVILLA)"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[{"nif":"S2917005G"},{"nif":"S0417002C"},{"nif":"S2317002J"},{"nif":"S1817007F"},{"nif":"S2817015G"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56818,"og":{"codigo_dir":"E03036801","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Andaluc\u00eda Oriental (GRANADA)"},"ut":{"codigo_dir":"E03036801","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Andaluc\u00eda Oriental (GRANADA)"},"oc":{"codigo_dir":"GE0014087","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Granada - Intervencion Te"}},{"cifs":[{"nif":"S2817040E"},{"nif":"S2800159B"},{"nif":"S2829004G"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57477,"og":{"codigo_dir":"E04870602","nombre":"S.
+        de E. de Infraestructuras, Transporte y Vivienda"},"ut":{"codigo_dir":"E04611704","nombre":"Subdel.Gob.
+        en las Sociedades Concesionarias de Autopistas Nacionales de Peaje"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S2817040E"},{"nif":"S2800159B"},{"nif":"S2829004G"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57480,"og":{"codigo_dir":"E04870602","nombre":"S.
+        de E. de Infraestructuras, Transporte y Vivienda"},"ut":{"codigo_dir":"E04979401","nombre":"S.G.
+        de Planificacion Ferroviaria"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S2801152F"},{"nif":"S2800812F"},{"nif":"S2817029H"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57500,"og":{"codigo_dir":"E04933602","nombre":"D.G.
+        de Arquitectura, Vivienda y Suelo"},"ut":{"codigo_dir":"E04910002","nombre":"S.G.
+        de Coordinaci\u00f3n y Gesti\u00f3n Administrativa (DGAVS)"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"Q2801287J"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57535,"og":{"codigo_dir":"E00124703","nombre":"D.G.
+        de Programacion Economica y Presupuestos"},"ut":{"codigo_dir":"E00124703","nombre":"D.G.
+        de Programacion Economica y Presupuestos"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S2811003I"},{"nif":"S2811003L"},{"nif":"Q2817024I"},{"nif":"Q2811003L"},{"nif":"S28110031"},{"nif":"S2800441D"},{"nif":"Q28170241"},{"nif":"00828780K"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57498,"og":{"codigo_dir":"E00125104","nombre":"D.G.
+        del Instituto Geogr\u00e1fico Nacional"},"ut":{"codigo_dir":"E03036304","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina Contable. I.D.
+        Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S2811003I"},{"nif":"S2811003L"},{"nif":"Q2817024I"},{"nif":"Q2811003L"},{"nif":"S28110031"},{"nif":"S2800441D"},{"nif":"Q28170241"},{"nif":"00828780K"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57482,"og":{"codigo_dir":"E00125104","nombre":"D.G.
+        del Instituto Geogr\u00e1fico Nacional"},"ut":{"codigo_dir":"EA0008138","nombre":"Secretaria
+        Gral de la D.G. del Instituto Geogr\u00e1fico Nacional - Caja"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S2811003I"},{"nif":"S2811003L"},{"nif":"Q2817024I"},{"nif":"Q2811003L"},{"nif":"S28110031"},{"nif":"S2800441D"},{"nif":"Q28170241"},{"nif":"00828780K"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57483,"og":{"codigo_dir":"E00125104","nombre":"D.G.
+        del Instituto Geogr\u00e1fico Nacional"},"ut":{"codigo_dir":"EA0008743","nombre":"Centro
+        Geof\u00edsico de Canarias - Caja"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S2817040E"},{"nif":"Q2801110D"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57515,"og":{"codigo_dir":"E00124102","nombre":"S.G.T.
+        de Fomento"},"ut":{"codigo_dir":"E03031002","nombre":"Centro de Publicaciones"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56935,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03037301","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Cantabria (SANTANDER)"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57495,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57503,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"EA0008138","nombre":"Secretaria
+        Gral de la D.G. del Instituto Geogr\u00e1fico Nacional - Caja"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57502,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"EA0005802","nombre":"S.G.
+        de Coordinaci\u00f3n y Gesti\u00f3n Administrativa - Caja Pagadora"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57481,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"EA0005803","nombre":"S.G.
+        de Administracion y Gestion Financiera - Caja Central"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S2800115D"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57475,"og":{"codigo_dir":"E00124305","nombre":"D.G.
+        de Aviacion Civil"},"ut":{"codigo_dir":"E00124305","nombre":"D.G. de Aviacion
+        Civil"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina Contable. I.D. Ministerio
+        de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S3917005E"},{"nif":"S2817032B"},{"nif":"S0317002D"},{"nif":"S0817007H"},{"nif":"S3317008E"},{"nif":"S4217002G"},{"nif":"S4710007A"},{"nif":"S2800159B"},{"nif":"S1817007F"},{"nif":"02817040E"},{"nif":"S4747007A"},{"nif":"S1517008G"},{"nif":"S2817015G"},{"nif":"S4717007A"},{"nif":"A4517005G"},{"nif":"S0617004G"},{"nif":"S5017007E"},{"nif":"S2817040E"},{"nif":"S0917003F"},{"nif":"S4917002J"},{"nif":"S2829004G"},{"nif":"S4617008J"},{"nif":"S4417008E"},{"nif":"S2617004C"},{"nif":"S3617002E"},{"nif":"S3017006B"},{"nif":"S2800441D"},{"nif":"S4517005G"},{"nif":"S1617004C"},{"nif":"E4717007A"},{"nif":"S2517001J"},{"nif":"S1617001A"},{"nif":"S5015007E"},{"nif":"S4117008E"},{"nif":"A28220168"},{"nif":"S1117001F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":56700,"og":{"codigo_dir":"E00124905","nombre":"D.G.
+        de Carreteras"},"ut":{"codigo_dir":"E03037201","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Asturias (OVIEDO)"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[{"nif":"S2800441D"},{"nif":"S2829008H"},{"nif":"S2817015G"},{"nif":"S2928008H"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57536,"og":{"codigo_dir":"E00124505","nombre":"D.G.
+        de la Marina Mercante"},"ut":{"codigo_dir":"E03033106","nombre":"S.G. de Coordinaci\u00f3n
+        y Gesti\u00f3n Administrativa (DGMM)"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S2800441D"},{"nif":"S2829008H"},{"nif":"S2817015G"},{"nif":"S2928008H"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57501,"og":{"codigo_dir":"E00124505","nombre":"D.G.
+        de la Marina Mercante"},"ut":{"codigo_dir":"EA0005802","nombre":"S.G. de Coordinaci\u00f3n
+        y Gesti\u00f3n Administrativa - Caja Pagadora"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S2800113I"},{"nif":"S2829008H"},{"nif":"S2829004G"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57496,"og":{"codigo_dir":"E00124405","nombre":"D.G.
+        de Transporte Terrestre"},"ut":{"codigo_dir":"E03032408","nombre":"S.G. de
+        Gestion, Analisis e Innovacion del Transporte Terrestre"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:51 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003601/relaciones?administracion=E00003601&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:52 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S2817040E"},{"nif":"S2800159B"},{"nif":"S2829004G"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57537,"og":{"codigo_dir":"E04870602","nombre":"S.
+        de E. de Infraestructuras, Transporte y Vivienda"},"ut":{"codigo_dir":"E04872502","nombre":"Gabinete
+        de la Secretaria de Estado"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S3917005E"},{"nif":"S2817032B"},{"nif":"S0317002D"},{"nif":"S0817007H"},{"nif":"S3317008E"},{"nif":"S4217002G"},{"nif":"S4710007A"},{"nif":"S2800159B"},{"nif":"S1817007F"},{"nif":"02817040E"},{"nif":"S4747007A"},{"nif":"S1517008G"},{"nif":"S2817015G"},{"nif":"S4717007A"},{"nif":"A4517005G"},{"nif":"S0617004G"},{"nif":"S5017007E"},{"nif":"S2817040E"},{"nif":"S0917003F"},{"nif":"S4917002J"},{"nif":"S2829004G"},{"nif":"S4617008J"},{"nif":"S4417008E"},{"nif":"S2617004C"},{"nif":"S3617002E"},{"nif":"S3017006B"},{"nif":"S2800441D"},{"nif":"S4517005G"},{"nif":"S1617004C"},{"nif":"E4717007A"},{"nif":"S2517001J"},{"nif":"S1617001A"},{"nif":"S5015007E"},{"nif":"S4117008E"},{"nif":"A28220168"},{"nif":"S1117001F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57538,"og":{"codigo_dir":"E00124905","nombre":"D.G.
+        de Carreteras"},"ut":{"codigo_dir":"EA0010479","nombre":"S.G. de Coordinaci\u00f3n"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57709,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03037701","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Castilla y Le\u00f3n Occidental (VALLADOLID)"},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Valladolid - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57751,"og":{"codigo_dir":"E00124001","nombre":"Subsecretaria
+        de Fomento"},"ut":{"codigo_dir":"E03036901","nombre":"Demarcaci\u00f3n de
+        Carreteras del Estado en La Rioja (LOGRO\u00d1O)"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[{"nif":"S3917005E"},{"nif":"S2817032B"},{"nif":"S0317002D"},{"nif":"S0817007H"},{"nif":"S3317008E"},{"nif":"S4217002G"},{"nif":"S4710007A"},{"nif":"S2800159B"},{"nif":"S1817007F"},{"nif":"02817040E"},{"nif":"S4747007A"},{"nif":"S1517008G"},{"nif":"S2817015G"},{"nif":"S4717007A"},{"nif":"A4517005G"},{"nif":"S0617004G"},{"nif":"S5017007E"},{"nif":"S2817040E"},{"nif":"S0917003F"},{"nif":"S4917002J"},{"nif":"S2829004G"},{"nif":"S4617008J"},{"nif":"S4417008E"},{"nif":"S2617004C"},{"nif":"S3617002E"},{"nif":"S3017006B"},{"nif":"S2800441D"},{"nif":"S4517005G"},{"nif":"S1617004C"},{"nif":"E4717007A"},{"nif":"S2517001J"},{"nif":"S1617001A"},{"nif":"S5015007E"},{"nif":"S4117008E"},{"nif":"A28220168"},{"nif":"S1117001F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":57752,"og":{"codigo_dir":"E00124905","nombre":"D.G.
+        de Carreteras"},"ut":{"codigo_dir":"E03036901","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en La Rioja (LOGRO\u00d1O)"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[{"nif":"S4517005G"},{"nif":"S4571005G"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":58228,"og":{"codigo_dir":"E03037501","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Castilla La Mancha (TOLEDO)"},"ut":{"codigo_dir":"E03037501","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Castilla La Mancha (TOLEDO)"},"oc":{"codigo_dir":"GE0014111","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Toledo - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":58383,"og":{"codigo_dir":"EA0001307","nombre":"Autoridad
+        Portuaria de Ferrol - San Cibrao"},"ut":{"codigo_dir":"EA0001307","nombre":"\u00c1rea
+        Econ\u00f3mico - Financiera"},"oc":{"codigo_dir":"EA0001307","nombre":"Area
+        Econ\u00f3mico - Financiera"}},{"cifs":[{"nif":"S4617008J"},{"nif":"S1217001E"},{"nif":"S0317002D"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":58854,"og":{"codigo_dir":"E03037601","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en la Comunidad Valenciana (VALENCIA)"},"ut":{"codigo_dir":"E03037601","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en la Comunidad Valenciana (VALENCIA)"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":59062,"og":{"codigo_dir":"E04978901","nombre":"Agencia
+        Estatal de Seguridad Ferroviaria"},"ut":{"codigo_dir":"E04978901","nombre":"Agencia
+        Estatal de Seguridad Ferroviaria"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"E04865601"},{"nif":"S2800441D"},{"nif":"Q2801615B"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":59072,"og":{"codigo_dir":"E04865601","nombre":"Agencia
+        Estatal de Seguridad Aerea"},"ut":{"codigo_dir":"EA0003163","nombre":"Division
+        Econ\u00f3mico Financiera"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":59082,"og":{"codigo_dir":"E04903101","nombre":"Secretaria
+        Cedex"},"ut":{"codigo_dir":"EA0010077","nombre":"Expedientes de Contrataci\u00f3n
+        del Cedex"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2967002C"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":59617,"og":{"codigo_dir":"EA0001312","nombre":"Autoridad
+        Portuaria de M\u00e1laga"},"ut":{"codigo_dir":"EA0001312","nombre":"Autoridad
+        Portuaria de M\u00e1laga"},"oc":{"codigo_dir":"EA0001312","nombre":"Autoridad
+        Portuaria de M\u00e1laga"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":59798,"og":{"codigo_dir":"GE0013093","nombre":"U.G.E.
+        Autoridad Portuaria de a Coru\u00f1a"},"ut":{"codigo_dir":"GE0013093","nombre":"U.G.E.
+        Autoridad Portuaria de a Coru\u00f1a"},"oc":{"codigo_dir":"GE0013093","nombre":"U.G.E.
+        Autoridad Portuaria de a Coru\u00f1a"}},{"cifs":[{"nif":"S1017001G"},{"nif":"S0617004G"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":63535,"og":{"codigo_dir":"E03036401","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Extremadura (BADAJOZ)"},"ut":{"codigo_dir":"E03036401","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Extremadura (BADAJOZ)"},"oc":{"codigo_dir":"GE0014073","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Badajoz - Intervencion Re"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":68268,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03037801","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Arag\u00f3n (ZARAGOZA)"},"oc":{"codigo_dir":"GE0014115","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Zaragoza - Intervencion T"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":68287,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03037401","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Andaluc\u00eda Occidental (SEVILLA)"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":68392,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03036701","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Galicia (A CORU\u00d1A)"},"oc":{"codigo_dir":"GE0014065","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en A Coru\u00f1a - Intervencion
+        T"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":68393,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03036401","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Extremadura (BADAJOZ)"},"oc":{"codigo_dir":"GE0014073","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Badajoz - Intervencion Re"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":68394,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03036601","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Castilla y Le\u00f3n Oriental (BURGOS)"},"oc":{"codigo_dir":"GE0014076","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Burgos - Intervencion Ter"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":68707,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03036801","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Andaluc\u00eda Oriental (GRANADA)"},"oc":{"codigo_dir":"GE0014087","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Granada - Intervencion Te"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":68774,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03037001","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Madrid"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":68827,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03037501","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Castilla La Mancha (TOLEDO)"},"oc":{"codigo_dir":"GE0014111","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Toledo - Intervencion Te"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":68987,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"E03037601","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en la Comunidad Valenciana (VALENCIA)"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":73647,"og":{"codigo_dir":"EA0001320","nombre":"Autoridad
+        Portuaria de Tarragona"},"ut":{"codigo_dir":"EA0001320","nombre":"Autoridad
+        Portuaria de Tarragona"},"oc":{"codigo_dir":"EA0001320","nombre":"Autoridad
+        Portuaria de Tarragona"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":75247,"og":{"codigo_dir":"GE0015820","nombre":"U.G.E.
+        Autoridad Portuaria de Castell\u00f3n"},"ut":{"codigo_dir":"GE0015820","nombre":"U.G.E.
+        Autoridad Portuaria de Castell\u00f3n"},"oc":{"codigo_dir":"GE0015820","nombre":"U.G.E.
+        Autoridad Portuaria de Castell\u00f3n"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:52 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00003601/relaciones?administracion=E00003601&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:52 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q0367005F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":82387,"og":{"codigo_dir":"EA0001296","nombre":"Autoridad
+        Portuaria de Alicante"},"ut":{"codigo_dir":"EA0001296","nombre":"Autoridad
+        Portuaria de Alicante"},"oc":{"codigo_dir":"EA0001296","nombre":"Autoridad
+        Portuaria de Alicante"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":83547,"og":{"codigo_dir":"EA0001323","nombre":"Autoridad
+        Portuaria de Vilagarcia de Arousa"},"ut":{"codigo_dir":"EA0001323","nombre":"Autoridad
+        Portuaria de Vilagarcia de Arousa"},"oc":{"codigo_dir":"EA0001323","nombre":"Autoridad
+        Portuaria de Vilagarcia de Arousa"}},{"cifs":[{"nif":"Q1167005F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":83567,"og":{"codigo_dir":"EA0001306","nombre":"Autoridad
+        Portuaria de Ceuta"},"ut":{"codigo_dir":"EA0001306","nombre":"Autoridad Portuaria
+        de Ceuta"},"oc":{"codigo_dir":"EA0001306","nombre":"Autoridad Porturia de
+        Ceuta"}},{"cifs":[{"nif":"Q3667004J"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":83887,"og":{"codigo_dir":"EA0001313","nombre":"Autoridad
+        Portuaria Mar\u00edn y Ria de Pontevedra"},"ut":{"codigo_dir":"EA0001313","nombre":"Autoridad
+        Portuaria Mar\u00edn y Ria de Pontevedra"},"oc":{"codigo_dir":"EA0001313","nombre":"Autoridad
+        Portuaria Mar\u00edn y Ria de Pontevedra"}},{"cifs":[{"nif":"Q2867022B"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":84150,"og":{"codigo_dir":"EA0001277","nombre":"EA0001277"},"ut":{"codigo_dir":"EA0001277","nombre":"EA0028023"},"oc":{"codigo_dir":"EA0001277","nombre":"EA0001277"}},{"cifs":[{"nif":"Q4167008D"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":85707,"og":{"codigo_dir":"EA0001319","nombre":"Autoridad
+        Portuaria de Sevilla"},"ut":{"codigo_dir":"EA0001319","nombre":"Autoridad
+        Portuaria de Sevilla"},"oc":{"codigo_dir":"EA0001319","nombre":"Autoridad
+        Portuaria de Sevilla"}},{"cifs":[{"nif":"Q0400106A"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":86870,"og":{"codigo_dir":"EA0001297","nombre":"Autoridad
+        Portuaria de Almer\u00eda"},"ut":{"codigo_dir":"EA0001297","nombre":"Autoridad
+        Portuaria de Almer\u00eda"},"oc":{"codigo_dir":"EA0001297","nombre":"Autoridad
+        Portuaria de Almer\u00eda"}},{"cifs":[{"nif":"Q1800650B"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":94949,"og":{"codigo_dir":"EA0001315","nombre":"Autoridad
+        Portuaria de Motril"},"ut":{"codigo_dir":"EA0001315","nombre":"Autoridad Portuaria
+        de Motril"},"oc":{"codigo_dir":"EA0001315","nombre":"Autoridad Portuaria de
+        Motril"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Fomento","codigo_dir":"E00003601","cifs":[]},"id":95927,"og":{"codigo_dir":"EA0001316","nombre":"Autoridad
+        Portuaria de Pasaia"},"ut":{"codigo_dir":"EA0001316","nombre":"Autoridad Portuaria
+        de Pasaia"},"oc":{"codigo_dir":"EA0001316","nombre":"Autoridad Portuaria de
+        Pasaia"}},{"cifs":[{"nif":"Q1167004I"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":96427,"og":{"codigo_dir":"EA0001300","nombre":"Autoridad
+        Portuaria de Bah\u00eda de C\u00e1diz"},"ut":{"codigo_dir":"EA0001300","nombre":"Autoridad
+        Portuaria de Bah\u00eda de C\u00e1diz"},"oc":{"codigo_dir":"EA0001300","nombre":"Autoridad
+        Portuaria de Bah\u00eda de C\u00e1diz"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":98107,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"EA0045031","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Asturias (OVIEDO)"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[{"nif":"S3017006B"},{"nif":"S2829008H"},{"nif":"S2817040E"},{"nif":"Q2801287J"},{"nif":"Q2801110D"},{"nif":"S2500441D"},{"nif":"S2817001G"},{"nif":"S2817015G"},{"nif":"S2800441D"},{"nif":"S5017007E"},{"nif":"S2811003I"},{"nif":"S3317008E"},{"nif":"S2829004G"},{"nif":"S2800154C"},{"nif":"S2801152F"}],"administracion":{"nombre":"Ministerio
+        de Fomento","codigo_dir":"E00003601","cifs":[]},"id":98147,"og":{"codigo_dir":"E03031404","nombre":"S.G.
+        de Administracion y Gestion Financiera"},"ut":{"codigo_dir":"EA0045033","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Castilla La Mancha (TOLEDO)"},"oc":{"codigo_dir":"GE0014111","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Toledo - Intervencion Te"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:52 GMT
+recorded_with: VCR 6.0.0

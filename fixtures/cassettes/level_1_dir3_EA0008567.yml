@@ -1,0 +1,183 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/EA0008567/relaciones?administracion=EA0008567&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:03 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S2811001C"}],"administracion":{"nombre":"Presidencia
+        del Gobierno","codigo_dir":"EA0008567","cifs":[]},"id":62495,"og":{"codigo_dir":"E00136403","nombre":"Secretar\u00eda
+        General de la Presidencia del Gobierno"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[{"nif":"S2811001C"}],"administracion":{"nombre":"Presidencia
+        del Gobierno","codigo_dir":"EA0008567","cifs":[]},"id":57710,"og":{"codigo_dir":"E00136403","nombre":"Secretar\u00eda
+        General de la Presidencia del Gobierno"},"ut":{"codigo_dir":"EA0014592","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[{"nif":"S2811001C"}],"administracion":{"nombre":"Presidencia
+        del Gobierno","codigo_dir":"EA0008567","cifs":[]},"id":85401,"og":{"codigo_dir":"E00136403","nombre":"Secretar\u00eda
+        General de la Presidencia del Gobierno"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Presidencia
+        del Gobierno","codigo_dir":"EA0008567","cifs":[]},"id":62496,"og":{"codigo_dir":"E04995201","nombre":"Secretar\u00eda
+        de Estado de Comunicaci\u00f3n"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Presidencia
+        del Gobierno","codigo_dir":"EA0008567","cifs":[]},"id":85451,"og":{"codigo_dir":"E04995201","nombre":"Secretar\u00eda
+        de Estado de Comunicaci\u00f3n"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Presidencia
+        del Gobierno","codigo_dir":"EA0008567","cifs":[]},"id":57711,"og":{"codigo_dir":"E04995201","nombre":"Secretar\u00eda
+        de Estado de Comunicaci\u00f3n"},"ut":{"codigo_dir":"EA0014592","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:03 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/EA0008567/relaciones?administracion=EA0008567&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:03 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"6","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:02:03 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/EA0008567/relaciones?administracion=EA0008567&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:04 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S2811001C"}],"administracion":{"nombre":"Presidencia
+        del Gobierno","codigo_dir":"EA0008567","cifs":[]},"id":62495,"og":{"codigo_dir":"E00136403","nombre":"Secretar\u00eda
+        General de la Presidencia del Gobierno"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[{"nif":"S2811001C"}],"administracion":{"nombre":"Presidencia
+        del Gobierno","codigo_dir":"EA0008567","cifs":[]},"id":57710,"og":{"codigo_dir":"E00136403","nombre":"Secretar\u00eda
+        General de la Presidencia del Gobierno"},"ut":{"codigo_dir":"EA0014592","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[{"nif":"S2811001C"}],"administracion":{"nombre":"Presidencia
+        del Gobierno","codigo_dir":"EA0008567","cifs":[]},"id":85401,"og":{"codigo_dir":"E00136403","nombre":"Secretar\u00eda
+        General de la Presidencia del Gobierno"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Presidencia
+        del Gobierno","codigo_dir":"EA0008567","cifs":[]},"id":62496,"og":{"codigo_dir":"E04995201","nombre":"Secretar\u00eda
+        de Estado de Comunicaci\u00f3n"},"ut":{"codigo_dir":"EA0022242","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Presidencia
+        del Gobierno","codigo_dir":"EA0008567","cifs":[]},"id":85451,"og":{"codigo_dir":"E04995201","nombre":"Secretar\u00eda
+        de Estado de Comunicaci\u00f3n"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Presidencia
+        del Gobierno","codigo_dir":"EA0008567","cifs":[]},"id":57711,"og":{"codigo_dir":"E04995201","nombre":"Secretar\u00eda
+        de Estado de Comunicaci\u00f3n"},"ut":{"codigo_dir":"EA0014592","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:04 GMT
+recorded_with: VCR 6.0.0

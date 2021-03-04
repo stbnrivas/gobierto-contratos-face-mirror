@@ -1,0 +1,599 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025001/relaciones?administracion=E05025001&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:41 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Sanidad,
+        Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67999,"og":{"codigo_dir":"E05051101","nombre":"Direcci\u00f3n
+        General de Servicios para las Familias y la Infancia"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68012,"og":{"codigo_dir":"E05051101","nombre":"Direcci\u00f3n
+        General de Servicios para las Familias y la Infancia"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67990,"og":{"codigo_dir":"E05051301","nombre":"Direcci\u00f3n
+        General de Pol\u00edticas de Discapacidad"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68017,"og":{"codigo_dir":"E05051301","nombre":"Direcci\u00f3n
+        General de Pol\u00edticas de Discapacidad"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68000,"og":{"codigo_dir":"EA0022196","nombre":"Subdirecci\u00f3n
+        General de Oficial\u00eda Mayor"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67993,"og":{"codigo_dir":"EA0022196","nombre":"Subdirecci\u00f3n
+        General de Oficial\u00eda Mayor"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68013,"og":{"codigo_dir":"EA0022197","nombre":"Subdirecci\u00f3n
+        General de Tecnolog\u00edas de la Informaci\u00f3n"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68014,"og":{"codigo_dir":"EA0022198","nombre":"Subdirecci\u00f3n
+        General de Atenci\u00f3n al Ciudadano"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67991,"og":{"codigo_dir":"EA0022103","nombre":"Direcci\u00f3n
+        General de Consumo"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de
+        Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67994,"og":{"codigo_dir":"EA0022225","nombre":"Subdirecci\u00f3n
+        General de Ordenaci\u00f3n Profesional"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67987,"og":{"codigo_dir":"E04601906","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67988,"og":{"codigo_dir":"E04938702","nombre":"Secretar\u00eda
+        General Tecnica"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68016,"og":{"codigo_dir":"E04938702","nombre":"Secretar\u00eda
+        General Tecnica"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67996,"og":{"codigo_dir":"E04939103","nombre":"Direcci\u00f3n
+        General de Salud P\u00fablica, Calidad e Innovaci\u00f3n"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68007,"og":{"codigo_dir":"E04939103","nombre":"Direcci\u00f3n
+        General de Salud P\u00fablica, Calidad e Innovaci\u00f3n"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68008,"og":{"codigo_dir":"E04939303","nombre":"Direcci\u00f3n
+        General de Cartera B\u00e1sica de Servicios del Sistema Nacional de Salud
+        y Farmacia"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68009,"og":{"codigo_dir":"E04939503","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n Profesional"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67992,"og":{"codigo_dir":"EA0022188","nombre":"Subdirecci\u00f3n
+        General de Relaciones Internacionales"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67995,"og":{"codigo_dir":"EA0022233","nombre":"Divisi\u00f3n
+        del Gabinete T\u00e9cnico"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68015,"og":{"codigo_dir":"EA0022234","nombre":"Secretar\u00eda
+        del Secretario General"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67989,"og":{"codigo_dir":"E05027401","nombre":"Gabinete
+        de la Ministra"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67997,"og":{"codigo_dir":"E05027401","nombre":"Gabinete
+        de la Ministra"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67998,"og":{"codigo_dir":"E05033301","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68010,"og":{"codigo_dir":"E05033301","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68011,"og":{"codigo_dir":"E05033401","nombre":"Secretaria
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:41 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025001/relaciones?administracion=E05025001&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:41 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"68","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:05:41 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025001/relaciones?administracion=E05025001&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:42 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Sanidad,
+        Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67987,"og":{"codigo_dir":"E04601906","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67988,"og":{"codigo_dir":"E04938702","nombre":"Secretar\u00eda
+        General Tecnica"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67989,"og":{"codigo_dir":"E05027401","nombre":"Gabinete
+        de la Ministra"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67990,"og":{"codigo_dir":"E05051301","nombre":"Direcci\u00f3n
+        General de Pol\u00edticas de Discapacidad"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67991,"og":{"codigo_dir":"EA0022103","nombre":"Direcci\u00f3n
+        General de Consumo"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de
+        Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67992,"og":{"codigo_dir":"EA0022188","nombre":"Subdirecci\u00f3n
+        General de Relaciones Internacionales"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67993,"og":{"codigo_dir":"EA0022196","nombre":"Subdirecci\u00f3n
+        General de Oficial\u00eda Mayor"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67994,"og":{"codigo_dir":"EA0022225","nombre":"Subdirecci\u00f3n
+        General de Ordenaci\u00f3n Profesional"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67995,"og":{"codigo_dir":"EA0022233","nombre":"Divisi\u00f3n
+        del Gabinete T\u00e9cnico"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67996,"og":{"codigo_dir":"E04939103","nombre":"Direcci\u00f3n
+        General de Salud P\u00fablica, Calidad e Innovaci\u00f3n"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67997,"og":{"codigo_dir":"E05027401","nombre":"Gabinete
+        de la Ministra"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67998,"og":{"codigo_dir":"E05033301","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":67999,"og":{"codigo_dir":"E05051101","nombre":"Direcci\u00f3n
+        General de Servicios para las Familias y la Infancia"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68000,"og":{"codigo_dir":"EA0022196","nombre":"Subdirecci\u00f3n
+        General de Oficial\u00eda Mayor"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68007,"og":{"codigo_dir":"E04939103","nombre":"Direcci\u00f3n
+        General de Salud P\u00fablica, Calidad e Innovaci\u00f3n"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68008,"og":{"codigo_dir":"E04939303","nombre":"Direcci\u00f3n
+        General de Cartera B\u00e1sica de Servicios del Sistema Nacional de Salud
+        y Farmacia"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68009,"og":{"codigo_dir":"E04939503","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n Profesional"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68010,"og":{"codigo_dir":"E05033301","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68011,"og":{"codigo_dir":"E05033401","nombre":"Secretaria
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68012,"og":{"codigo_dir":"E05051101","nombre":"Direcci\u00f3n
+        General de Servicios para las Familias y la Infancia"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68013,"og":{"codigo_dir":"EA0022197","nombre":"Subdirecci\u00f3n
+        General de Tecnolog\u00edas de la Informaci\u00f3n"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68014,"og":{"codigo_dir":"EA0022198","nombre":"Subdirecci\u00f3n
+        General de Atenci\u00f3n al Ciudadano"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68015,"og":{"codigo_dir":"EA0022234","nombre":"Secretar\u00eda
+        del Secretario General"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68016,"og":{"codigo_dir":"E04938702","nombre":"Secretar\u00eda
+        General Tecnica"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68017,"og":{"codigo_dir":"E05051301","nombre":"Direcci\u00f3n
+        General de Pol\u00edticas de Discapacidad"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:42 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025001/relaciones?administracion=E05025001&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:43 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Sanidad,
+        Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68018,"og":{"codigo_dir":"EA0022188","nombre":"Subdirecci\u00f3n
+        General de Relaciones Internacionales"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68019,"og":{"codigo_dir":"EA0022192","nombre":"Gabinete
+        T\u00e9cnico de la Subsecretar\u00eda"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68020,"og":{"codigo_dir":"EA0022198","nombre":"Subdirecci\u00f3n
+        General de Atenci\u00f3n al Ciudadano"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68021,"og":{"codigo_dir":"EA0022225","nombre":"Subdirecci\u00f3n
+        General de Ordenaci\u00f3n Profesional"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68022,"og":{"codigo_dir":"EA0022234","nombre":"Secretar\u00eda
+        del Secretario General"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68027,"og":{"codigo_dir":"EA0022187","nombre":"Subdirecci\u00f3n
+        General de Recursos y Publicaciones"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68028,"og":{"codigo_dir":"EA0022192","nombre":"Gabinete
+        T\u00e9cnico de la Subsecretar\u00eda"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68029,"og":{"codigo_dir":"EA0022193","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68030,"og":{"codigo_dir":"E04601906","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68031,"og":{"codigo_dir":"E04939303","nombre":"Direcci\u00f3n
+        General de Cartera B\u00e1sica de Servicios del Sistema Nacional de Salud
+        y Farmacia"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n y
+        Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68032,"og":{"codigo_dir":"E04939503","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n Profesional"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68033,"og":{"codigo_dir":"E05033401","nombre":"Secretaria
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68034,"og":{"codigo_dir":"EA0022103","nombre":"Direcci\u00f3n
+        General de Consumo"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68035,"og":{"codigo_dir":"EA0022187","nombre":"Subdirecci\u00f3n
+        General de Recursos y Publicaciones"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68036,"og":{"codigo_dir":"EA0022193","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68037,"og":{"codigo_dir":"EA0022197","nombre":"Subdirecci\u00f3n
+        General de Tecnolog\u00edas de la Informaci\u00f3n"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68038,"og":{"codigo_dir":"EA0022233","nombre":"Divisi\u00f3n
+        del Gabinete T\u00e9cnico"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68147,"og":{"codigo_dir":"E04601906","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68148,"og":{"codigo_dir":"E04939103","nombre":"Direcci\u00f3n
+        General de Salud P\u00fablica, Calidad e Innovaci\u00f3n"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68149,"og":{"codigo_dir":"EA0022193","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68150,"og":{"codigo_dir":"EA0022197","nombre":"Subdirecci\u00f3n
+        General de Tecnolog\u00edas de la Informaci\u00f3n"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68151,"og":{"codigo_dir":"EA0022198","nombre":"Subdirecci\u00f3n
+        General de Atenci\u00f3n al Ciudadano"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68152,"og":{"codigo_dir":"EA0022233","nombre":"Divisi\u00f3n
+        del Gabinete T\u00e9cnico"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68153,"og":{"codigo_dir":"EA0022234","nombre":"Secretar\u00eda
+        del Secretario General"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68167,"og":{"codigo_dir":"E04938702","nombre":"Secretar\u00eda
+        General Tecnica"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:43 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05025001/relaciones?administracion=E05025001&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:44 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Sanidad,
+        Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68209,"og":{"codigo_dir":"E05051101","nombre":"Direcci\u00f3n
+        General de Servicios para las Familias y la Infancia"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68190,"og":{"codigo_dir":"E05051301","nombre":"Direcci\u00f3n
+        General de Pol\u00edticas de Discapacidad"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68168,"og":{"codigo_dir":"EA0022192","nombre":"Gabinete
+        T\u00e9cnico de la Subsecretar\u00eda"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68192,"og":{"codigo_dir":"EA0022196","nombre":"Subdirecci\u00f3n
+        General de Oficial\u00eda Mayor"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68191,"og":{"codigo_dir":"EA0022103","nombre":"Direcci\u00f3n
+        General de Consumo"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68212,"og":{"codigo_dir":"EA0022225","nombre":"Subdirecci\u00f3n
+        General de Ordenaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68187,"og":{"codigo_dir":"E04939303","nombre":"Direcci\u00f3n
+        General de Cartera B\u00e1sica de Servicios del Sistema Nacional de Salud
+        y Farmacia"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n General
+        de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68188,"og":{"codigo_dir":"E04939503","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68210,"og":{"codigo_dir":"EA0022187","nombre":"Subdirecci\u00f3n
+        General de Recursos y Publicaciones"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68211,"og":{"codigo_dir":"EA0022188","nombre":"Subdirecci\u00f3n
+        General de Relaciones Internacionales"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":72707,"og":{"codigo_dir":"EA0023102","nombre":"INGESA
+        - Direcci\u00f3n del Instituto Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0023099","nombre":"Atenci\u00f3n
+        Primaria. Gerencia de Atenci\u00f3n Sanitaria Ceuta"},"oc":{"codigo_dir":"EA0023099","nombre":"Atenci\u00f3n
+        Primaria. Gerencia de Atenci\u00f3n Sanitaria Ceuta"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":72688,"og":{"codigo_dir":"EA0023102","nombre":"INGESA
+        - Direcci\u00f3n del Instituto Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0023098","nombre":"Atenci\u00f3n
+        Especializada. Gerencia de Atenci\u00f3n Sanitaria Melilla"},"oc":{"codigo_dir":"EA0023098","nombre":"Atenci\u00f3n
+        Especializada. Gerencia de Atenci\u00f3n Sanitaria Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":72687,"og":{"codigo_dir":"EA0023102","nombre":"INGESA
+        - Direcci\u00f3n del Instituto Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0023097","nombre":"Atenci\u00f3n
+        Especializada. Gerencia de Atenci\u00f3n Sanitaria Ceuta"},"oc":{"codigo_dir":"EA0023097","nombre":"Atenci\u00f3n
+        Especializada. Gerencia de Atenci\u00f3n Sanitaria Ceuta"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":72727,"og":{"codigo_dir":"EA0023102","nombre":"INGESA
+        - Direcci\u00f3n del Instituto Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0023101","nombre":"INGESA
+        - Centro Nacional de Dosimetr\u00eda"},"oc":{"codigo_dir":"EA0023101","nombre":"INGESA
+        - Centro Nacional de Dosimetr\u00eda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":72728,"og":{"codigo_dir":"EA0023102","nombre":"INGESA
+        - Direcci\u00f3n del Instituto Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0023100","nombre":"Atenci\u00f3n
+        Primaria. Gerencia de Atenci\u00f3n Sanitaria Melilla"},"oc":{"codigo_dir":"EA0023100","nombre":"Atenci\u00f3n
+        Primaria. Gerencia de Atenci\u00f3n Sanitaria Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68207,"og":{"codigo_dir":"E05027401","nombre":"Gabinete
+        de la Ministra"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68189,"og":{"codigo_dir":"E05033301","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Consumo y Bienestar Social","codigo_dir":"E05025001","cifs":[]},"id":68208,"og":{"codigo_dir":"E05033401","nombre":"Secretaria
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0022195","nombre":"Subdirecci\u00f3n
+        General de Programaci\u00f3n y Gesti\u00f3n Econ\u00f3mico -Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:44 GMT
+recorded_with: VCR 6.0.0

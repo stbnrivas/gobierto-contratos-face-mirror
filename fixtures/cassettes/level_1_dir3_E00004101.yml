@@ -1,0 +1,390 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00004101/relaciones?administracion=E00004101&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:32 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q2811010D"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":736,"og":{"codigo_dir":"E00136301","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"E03165201","nombre":"S.G.
+        DE ESTUDIOS E INVESTIGACION"},"oc":{"codigo_dir":"E03165401","nombre":"Gerencia"}},{"cifs":[{"nif":"Q2811010D"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":737,"og":{"codigo_dir":"E00136301","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"E03165301","nombre":"S.G.
+        DE PUBLICACIONES Y DOCUMENTACION"},"oc":{"codigo_dir":"E03165401","nombre":"Gerencia"}},{"cifs":[{"nif":"Q2811010D"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":739,"og":{"codigo_dir":"E00136301","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"E03165401","nombre":"Gerencia"},"oc":{"codigo_dir":"E03165401","nombre":"Gerencia"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":9297,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"EA0002691","nombre":"GERENCIA DE CAPN"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":9326,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"EA0002690","nombre":"PRESIDENCIA DE CAPN"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2330132C"},{"nif":"S2800155J"},{"nif":"S2830132C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":11192,"og":{"codigo_dir":"EA0003111","nombre":"CENTRO
+        NACIONAL DE INTELIGENCIA"},"ut":{"codigo_dir":"EA0003111","nombre":"Centro
+        Nacional de Inteligencia"},"oc":{"codigo_dir":"EA0003111","nombre":"Centro
+        Nacional de Inteligencia"}},{"cifs":[{"nif":"S2800155J"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":11193,"og":{"codigo_dir":"EA0003112","nombre":"CENTRO
+        CRIPTOLOGICO NACIONAL"},"ut":{"codigo_dir":"EA0003112","nombre":"Centro Criptologico
+        Nacional"},"oc":{"codigo_dir":"EA0003112","nombre":"Centro Criptologico Nacional"}},{"cifs":[{"nif":"A2811004G"},{"nif":"S2811004G"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":11771,"og":{"codigo_dir":"E00136201","nombre":"Centro
+        de Investigaciones Sociol\u00f3gicas"},"ut":{"codigo_dir":"EA0003267","nombre":"Unidad
+        Tramitadora Fd Cis - Expedientes\/Pagos en Firme"},"oc":{"codigo_dir":"E03164801","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"A2811004G"},{"nif":"S2811004G"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":11772,"og":{"codigo_dir":"E00136201","nombre":"Centro
+        de Investigaciones Sociol\u00f3gicas"},"ut":{"codigo_dir":"EA0003268","nombre":"UNIDAD
+        TRAMITADORA FD CIS - PAGOS A JUSTIFICAR"},"oc":{"codigo_dir":"E03164801","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"A2811004G"},{"nif":"S2811004G"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":11773,"og":{"codigo_dir":"E00136201","nombre":"Centro
+        de Investigaciones Sociol\u00f3gicas"},"ut":{"codigo_dir":"EA0003269","nombre":"UNIDAD
+        TRAMITADORA FD CIS - CAJA PAGADORA"},"oc":{"codigo_dir":"E03164801","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37432,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0001857","nombre":"DEPARTAMENTO DE EXPOSICIONES
+        Y PUBLICACIONES"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37434,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011558","nombre":"DELEGACI\u00d3N DE ARANJUEZ"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37436,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011559","nombre":"DELEGACI\u00d3N DE SAN
+        LORENZO DE EL ESCORIAL"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37438,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011560","nombre":"DELEGACI\u00d3N DE EL PARDO"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37440,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011561","nombre":"DELEGACI\u00d3N DE LA GRANJA
+        DE SAN ILDEFONSO"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37442,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011562","nombre":"DELEGACI\u00d3N DE BALEARES"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37444,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011563","nombre":"DELEGACI\u00d3N DE YUSTE"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37446,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011564","nombre":"REALES ALCAZ\u00c1RES DE
+        SEVILLA"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37448,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011565","nombre":"COORDINACI\u00d3N DE INFORM\u00c1TICA
+        Y COMUNICACIONES"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37450,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011566","nombre":"DEPARTAMENTO DE PRENSA"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37452,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011567","nombre":"VOCAL\u00cdA DE SEGURIDAD"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37454,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011568","nombre":"DELEGACI\u00d3N DE EL VALLE
+        DE LOS CA\u00cdDOS"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio de
+        Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37456,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011569","nombre":"SERVICIO DE CONTABILIDAD"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37458,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011570","nombre":"CAJA DE SERVICIOS CENTRALES"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37460,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011572","nombre":"\u00c1REA DE ASUNTOS ECON\u00d3MICOS"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:32 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00004101/relaciones?administracion=E00004101&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:33 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"42","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:00:33 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00004101/relaciones?administracion=E00004101&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:33 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q2811010D"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":736,"og":{"codigo_dir":"E00136301","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"E03165201","nombre":"S.G.
+        DE ESTUDIOS E INVESTIGACION"},"oc":{"codigo_dir":"E03165401","nombre":"Gerencia"}},{"cifs":[{"nif":"Q2811010D"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":737,"og":{"codigo_dir":"E00136301","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"E03165301","nombre":"S.G.
+        DE PUBLICACIONES Y DOCUMENTACION"},"oc":{"codigo_dir":"E03165401","nombre":"Gerencia"}},{"cifs":[{"nif":"Q2811010D"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":739,"og":{"codigo_dir":"E00136301","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"E03165401","nombre":"Gerencia"},"oc":{"codigo_dir":"E03165401","nombre":"Gerencia"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":9297,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"EA0002691","nombre":"GERENCIA DE CAPN"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":9326,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"EA0002690","nombre":"PRESIDENCIA DE CAPN"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2330132C"},{"nif":"S2800155J"},{"nif":"S2830132C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":11192,"og":{"codigo_dir":"EA0003111","nombre":"CENTRO
+        NACIONAL DE INTELIGENCIA"},"ut":{"codigo_dir":"EA0003111","nombre":"Centro
+        Nacional de Inteligencia"},"oc":{"codigo_dir":"EA0003111","nombre":"Centro
+        Nacional de Inteligencia"}},{"cifs":[{"nif":"S2800155J"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":11193,"og":{"codigo_dir":"EA0003112","nombre":"CENTRO
+        CRIPTOLOGICO NACIONAL"},"ut":{"codigo_dir":"EA0003112","nombre":"Centro Criptologico
+        Nacional"},"oc":{"codigo_dir":"EA0003112","nombre":"Centro Criptologico Nacional"}},{"cifs":[{"nif":"A2811004G"},{"nif":"S2811004G"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":11771,"og":{"codigo_dir":"E00136201","nombre":"Centro
+        de Investigaciones Sociol\u00f3gicas"},"ut":{"codigo_dir":"EA0003267","nombre":"Unidad
+        Tramitadora Fd Cis - Expedientes\/Pagos en Firme"},"oc":{"codigo_dir":"E03164801","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"A2811004G"},{"nif":"S2811004G"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":11772,"og":{"codigo_dir":"E00136201","nombre":"Centro
+        de Investigaciones Sociol\u00f3gicas"},"ut":{"codigo_dir":"EA0003268","nombre":"UNIDAD
+        TRAMITADORA FD CIS - PAGOS A JUSTIFICAR"},"oc":{"codigo_dir":"E03164801","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"A2811004G"},{"nif":"S2811004G"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":11773,"og":{"codigo_dir":"E00136201","nombre":"Centro
+        de Investigaciones Sociol\u00f3gicas"},"ut":{"codigo_dir":"EA0003269","nombre":"UNIDAD
+        TRAMITADORA FD CIS - CAJA PAGADORA"},"oc":{"codigo_dir":"E03164801","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37432,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0001857","nombre":"DEPARTAMENTO DE EXPOSICIONES
+        Y PUBLICACIONES"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37434,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011558","nombre":"DELEGACI\u00d3N DE ARANJUEZ"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37436,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011559","nombre":"DELEGACI\u00d3N DE SAN
+        LORENZO DE EL ESCORIAL"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37438,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011560","nombre":"DELEGACI\u00d3N DE EL PARDO"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37440,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011561","nombre":"DELEGACI\u00d3N DE LA GRANJA
+        DE SAN ILDEFONSO"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37442,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011562","nombre":"DELEGACI\u00d3N DE BALEARES"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37444,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011563","nombre":"DELEGACI\u00d3N DE YUSTE"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37446,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011564","nombre":"REALES ALCAZ\u00c1RES DE
+        SEVILLA"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37448,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011565","nombre":"COORDINACI\u00d3N DE INFORM\u00c1TICA
+        Y COMUNICACIONES"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37450,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011566","nombre":"DEPARTAMENTO DE PRENSA"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37452,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011567","nombre":"VOCAL\u00cdA DE SEGURIDAD"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37454,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011568","nombre":"DELEGACI\u00d3N DE EL VALLE
+        DE LOS CA\u00cdDOS"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio de
+        Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37456,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011569","nombre":"SERVICIO DE CONTABILIDAD"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37458,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011570","nombre":"CAJA DE SERVICIOS CENTRALES"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37460,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011572","nombre":"\u00c1REA DE ASUNTOS ECON\u00d3MICOS"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:33 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E00004101/relaciones?administracion=E00004101&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:34 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37462,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011573","nombre":"ACTIVIDADES COMERCIALES"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37464,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011575","nombre":"COORDINADOR DE PROGRAMAS
+        ESPECIALES"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37466,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011576","nombre":"DEPARTAMENTO DE MUSEOS"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37468,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011577","nombre":"COORDINACI\u00d3N DE RECURSOS
+        HUMANOS"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37470,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011578","nombre":"SERVICIO DE FORMACI\u00d3N"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37472,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011579","nombre":"SERVICIO DE PREVENCI\u00d3N"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37474,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011580","nombre":"Servicios Generales"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37476,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011581","nombre":"SERVICIO DE PROGRAMACI\u00d3N"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37478,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011584","nombre":"ARCHIVO GENERAL DE PALACIO"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37480,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011585","nombre":"REAL BIBLIOTECA"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37482,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011586","nombre":"DEPARTAMENTO DE CONSERVACI\u00d3N"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37484,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011587","nombre":"DEPARTAMENTO DE RESTAURACI\u00d3N"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37486,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011588","nombre":"MUSEO DE LAS COLECCIONES
+        REALES"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37488,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011589","nombre":"DEPARTAMENTO DE ARQUITECTURA"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37490,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011590","nombre":"DEPARTAMENTO DE JARDINES"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37492,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011591","nombre":"ACTOS OFICIALES Y CULTURALES"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"S2801002C"},{"nif":"S2801002E"},{"nif":"52801002C"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia","codigo_dir":"E00004101","cifs":[]},"id":37494,"og":{"codigo_dir":"EA0002691","nombre":"Gerencia
+        de Capn"},"ut":{"codigo_dir":"GE0011592","nombre":"DEPARTAMENTO DE INMUEBLES"},"oc":{"codigo_dir":"EA0002702","nombre":"Servicio
+        de Contabilidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:34 GMT
+recorded_with: VCR 6.0.0

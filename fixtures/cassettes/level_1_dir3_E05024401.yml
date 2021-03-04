@@ -1,0 +1,469 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024401/relaciones?administracion=E05024401&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:17 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura,
+        Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":62675,"og":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"},"ut":{"codigo_dir":"EA0022363","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0022362","nombre":"Fondo Espa\u00f1ol de Garantia
+        Agraria"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura,
+        Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":62677,"og":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"},"ut":{"codigo_dir":"EA0022368","nombre":"S.G.
+        de Sectores Especiales"},"oc":{"codigo_dir":"EA0022362","nombre":"Fondo Espa\u00f1ol
+        de Garantia Agraria"}},{"cifs":[],"administracion":{"nombre":"Ministerio de
+        Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":62696,"og":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"},"ut":{"codigo_dir":"EA0022365","nombre":"S.G.
+        de Ayudas Directas"},"oc":{"codigo_dir":"EA0022362","nombre":"Fondo Espa\u00f1ol
+        de Garantia Agraria"}},{"cifs":[],"administracion":{"nombre":"Ministerio de
+        Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":62715,"og":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"},"ut":{"codigo_dir":"EA0022364","nombre":"S.G
+        de Auditoria Interna y Evaluacion"},"oc":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":62716,"og":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"},"ut":{"codigo_dir":"EA0022367","nombre":"S.G.
+        de Regulacion de Mercados"},"oc":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":62717,"og":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"},"ut":{"codigo_dir":"EA0022369","nombre":"S.G
+        Economico-Financiera"},"oc":{"codigo_dir":"EA0022362","nombre":"Fondo Espa\u00f1ol
+        de Garantia Agraria"}},{"cifs":[],"administracion":{"nombre":"Ministerio de
+        Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":63539,"og":{"codigo_dir":"EA0022324","nombre":"Secretaria
+        General Enesa"},"ut":{"codigo_dir":"EA0022326","nombre":"Servicio Econ\u00f3mico-Financiero"},"oc":{"codigo_dir":"EA0022325","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura,
+        Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68231,"og":{"codigo_dir":"EA0022308","nombre":"D.G.
+        de Servicios"},"ut":{"codigo_dir":"EA0022311","nombre":"S.G. de Recursos Humanos"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68233,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022302","nombre":"S.G.
+        de Gestion"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina Contable. I.D.
+        Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68234,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022327","nombre":"Subdirecci\u00f3n
+        General de An\u00e1lisis, Coordinaci\u00f3n y Estad\u00edstica"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68235,"og":{"codigo_dir":"E04932403","nombre":"Direcci\u00f3n
+        General de Sanidad de la Producci\u00f3n Agraria"},"ut":{"codigo_dir":"EA0022359","nombre":"S.G.
+        de Acuerdos Sanitarios y Control en Frontera"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68247,"og":{"codigo_dir":"EA0022308","nombre":"D.G.
+        de Servicios"},"ut":{"codigo_dir":"EA0022309","nombre":"Oficialia Mayor"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68269,"og":{"codigo_dir":"E04932803","nombre":"Direcci\u00f3n
+        General de Desarrollo Rural, Innovaci\u00f3n y Pol\u00edtica Forestal"},"ut":{"codigo_dir":"EA0022346","nombre":"S.G.
+        de Programacion y Coordinacion"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68270,"og":{"codigo_dir":"E04932603","nombre":"Direcci\u00f3n
+        General de la Industria Alimentaria"},"ut":{"codigo_dir":"EA0022349","nombre":"Sg
+        Calidad Diferenciada y Produccion Ecologica"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68271,"og":{"codigo_dir":"E04932603","nombre":"Direcci\u00f3n
+        General de la Industria Alimentaria"},"ut":{"codigo_dir":"EA0022352","nombre":"S.G.
+        Fomento Industrial y Asociacionismo Agrario"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68272,"og":{"codigo_dir":"E04932603","nombre":"Direcci\u00f3n
+        General de la Industria Alimentaria"},"ut":{"codigo_dir":"EA0022353","nombre":"S.G.
+        de Promocion Alimentaria"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68273,"og":{"codigo_dir":"E04932203","nombre":"Direcci\u00f3n
+        General de Producciones y Mercados Agrarios"},"ut":{"codigo_dir":"EA0022355","nombre":"S.G.
+        de Frutas y Hortalizas y Vitivinicultura"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68274,"og":{"codigo_dir":"E04932203","nombre":"Direcci\u00f3n
+        General de Producciones y Mercados Agrarios"},"ut":{"codigo_dir":"EA0022357","nombre":"S.G.
+        de Medios de Produccion Ganaderos"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68275,"og":{"codigo_dir":"E04932403","nombre":"Direcci\u00f3n
+        General de Sanidad de la Producci\u00f3n Agraria"},"ut":{"codigo_dir":"EA0022360","nombre":"S.G.
+        de Sanidad e Higiene Animal y Trazabilidad"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68276,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022371","nombre":"S.G.
+        de Apoyo y Coordinacion"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68288,"og":{"codigo_dir":"E05009402","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n Pesquera y Acuicultura"},"ut":{"codigo_dir":"EA0022302","nombre":"S.G.
+        de Gestion"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina Contable. I.D.
+        Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68289,"og":{"codigo_dir":"EA0022315","nombre":"Secretaria
+        General T\u00e9cnica"},"ut":{"codigo_dir":"EA0022316","nombre":"Division de
+        Estudios y Publicaciones"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68290,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022345","nombre":"S.G.
+        de Pol\u00edtica Forestal"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68291,"og":{"codigo_dir":"E04932803","nombre":"Direcci\u00f3n
+        General de Desarrollo Rural, Innovaci\u00f3n y Pol\u00edtica Forestal"},"ut":{"codigo_dir":"EA0022347","nombre":"S.G.
+        de Regadios e Infraestructuras Rurales"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68292,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022347","nombre":"S.G.
+        de Regadios e Infraestructuras Rurales"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:17 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024401/relaciones?administracion=E05024401&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:18 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"49","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:00:18 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024401/relaciones?administracion=E05024401&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:19 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura,
+        Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":62675,"og":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"},"ut":{"codigo_dir":"EA0022363","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0022362","nombre":"Fondo Espa\u00f1ol de Garantia
+        Agraria"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura,
+        Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":62677,"og":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"},"ut":{"codigo_dir":"EA0022368","nombre":"S.G.
+        de Sectores Especiales"},"oc":{"codigo_dir":"EA0022362","nombre":"Fondo Espa\u00f1ol
+        de Garantia Agraria"}},{"cifs":[],"administracion":{"nombre":"Ministerio de
+        Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":62696,"og":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"},"ut":{"codigo_dir":"EA0022365","nombre":"S.G.
+        de Ayudas Directas"},"oc":{"codigo_dir":"EA0022362","nombre":"Fondo Espa\u00f1ol
+        de Garantia Agraria"}},{"cifs":[],"administracion":{"nombre":"Ministerio de
+        Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":62715,"og":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"},"ut":{"codigo_dir":"EA0022364","nombre":"S.G
+        de Auditoria Interna y Evaluacion"},"oc":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":62716,"og":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"},"ut":{"codigo_dir":"EA0022367","nombre":"S.G.
+        de Regulacion de Mercados"},"oc":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":62717,"og":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"},"ut":{"codigo_dir":"EA0022369","nombre":"S.G
+        Economico-Financiera"},"oc":{"codigo_dir":"EA0022362","nombre":"Fondo Espa\u00f1ol
+        de Garantia Agraria"}},{"cifs":[],"administracion":{"nombre":"Ministerio de
+        Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":63539,"og":{"codigo_dir":"EA0022324","nombre":"Secretaria
+        General Enesa"},"ut":{"codigo_dir":"EA0022326","nombre":"Servicio Econ\u00f3mico-Financiero"},"oc":{"codigo_dir":"EA0022325","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura,
+        Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68231,"og":{"codigo_dir":"EA0022308","nombre":"D.G.
+        de Servicios"},"ut":{"codigo_dir":"EA0022311","nombre":"S.G. de Recursos Humanos"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68233,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022302","nombre":"S.G.
+        de Gestion"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina Contable. I.D.
+        Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68234,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022327","nombre":"Subdirecci\u00f3n
+        General de An\u00e1lisis, Coordinaci\u00f3n y Estad\u00edstica"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68235,"og":{"codigo_dir":"E04932403","nombre":"Direcci\u00f3n
+        General de Sanidad de la Producci\u00f3n Agraria"},"ut":{"codigo_dir":"EA0022359","nombre":"S.G.
+        de Acuerdos Sanitarios y Control en Frontera"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68247,"og":{"codigo_dir":"EA0022308","nombre":"D.G.
+        de Servicios"},"ut":{"codigo_dir":"EA0022309","nombre":"Oficialia Mayor"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68269,"og":{"codigo_dir":"E04932803","nombre":"Direcci\u00f3n
+        General de Desarrollo Rural, Innovaci\u00f3n y Pol\u00edtica Forestal"},"ut":{"codigo_dir":"EA0022346","nombre":"S.G.
+        de Programacion y Coordinacion"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68270,"og":{"codigo_dir":"E04932603","nombre":"Direcci\u00f3n
+        General de la Industria Alimentaria"},"ut":{"codigo_dir":"EA0022349","nombre":"Sg
+        Calidad Diferenciada y Produccion Ecologica"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68271,"og":{"codigo_dir":"E04932603","nombre":"Direcci\u00f3n
+        General de la Industria Alimentaria"},"ut":{"codigo_dir":"EA0022352","nombre":"S.G.
+        Fomento Industrial y Asociacionismo Agrario"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68272,"og":{"codigo_dir":"E04932603","nombre":"Direcci\u00f3n
+        General de la Industria Alimentaria"},"ut":{"codigo_dir":"EA0022353","nombre":"S.G.
+        de Promocion Alimentaria"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68273,"og":{"codigo_dir":"E04932203","nombre":"Direcci\u00f3n
+        General de Producciones y Mercados Agrarios"},"ut":{"codigo_dir":"EA0022355","nombre":"S.G.
+        de Frutas y Hortalizas y Vitivinicultura"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68274,"og":{"codigo_dir":"E04932203","nombre":"Direcci\u00f3n
+        General de Producciones y Mercados Agrarios"},"ut":{"codigo_dir":"EA0022357","nombre":"S.G.
+        de Medios de Produccion Ganaderos"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68275,"og":{"codigo_dir":"E04932403","nombre":"Direcci\u00f3n
+        General de Sanidad de la Producci\u00f3n Agraria"},"ut":{"codigo_dir":"EA0022360","nombre":"S.G.
+        de Sanidad e Higiene Animal y Trazabilidad"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68276,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022371","nombre":"S.G.
+        de Apoyo y Coordinacion"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68288,"og":{"codigo_dir":"E05009402","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n Pesquera y Acuicultura"},"ut":{"codigo_dir":"EA0022302","nombre":"S.G.
+        de Gestion"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina Contable. I.D.
+        Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68289,"og":{"codigo_dir":"EA0022315","nombre":"Secretaria
+        General T\u00e9cnica"},"ut":{"codigo_dir":"EA0022316","nombre":"Division de
+        Estudios y Publicaciones"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68290,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022345","nombre":"S.G.
+        de Pol\u00edtica Forestal"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68291,"og":{"codigo_dir":"E04932803","nombre":"Direcci\u00f3n
+        General de Desarrollo Rural, Innovaci\u00f3n y Pol\u00edtica Forestal"},"ut":{"codigo_dir":"EA0022347","nombre":"S.G.
+        de Regadios e Infraestructuras Rurales"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68292,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022347","nombre":"S.G.
+        de Regadios e Infraestructuras Rurales"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:19 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024401/relaciones?administracion=E05024401&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:20 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura,
+        Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68547,"og":{"codigo_dir":"EA0022362","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"},"ut":{"codigo_dir":"EA0022363","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68323,"og":{"codigo_dir":"E04932203","nombre":"Direcci\u00f3n
+        General de Producciones y Mercados Agrarios"},"ut":{"codigo_dir":"EA0022358","nombre":"S.G.
+        de Productos Ganaderos"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68321,"og":{"codigo_dir":"E04932203","nombre":"Direcci\u00f3n
+        General de Producciones y Mercados Agrarios"},"ut":{"codigo_dir":"EA0022354","nombre":"S.G.
+        de Cultivos Herb\u00e1ceos e Industriales y Aceite de Oliva"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68322,"og":{"codigo_dir":"E04932203","nombre":"Direcci\u00f3n
+        General de Producciones y Mercados Agrarios"},"ut":{"codigo_dir":"EA0022356","nombre":"S.G.
+        de Medios de Produccion Agricolas y Oficina Espa\u00f1ola de Variedades Vegetales"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68324,"og":{"codigo_dir":"E04932403","nombre":"Direcci\u00f3n
+        General de Sanidad de la Producci\u00f3n Agraria"},"ut":{"codigo_dir":"EA0022361","nombre":"S.G.
+        de Sanidad e Higiene Vegetal y Forestal"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68319,"og":{"codigo_dir":"E04932603","nombre":"Direcci\u00f3n
+        General de la Industria Alimentaria"},"ut":{"codigo_dir":"EA0022350","nombre":"S.G.
+        de Control y de Laboratorios Alimentarios"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68320,"og":{"codigo_dir":"E04932603","nombre":"Direcci\u00f3n
+        General de la Industria Alimentaria"},"ut":{"codigo_dir":"EA0022351","nombre":"S.G.
+        de Estructura de la Cadena Alimentaria"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68317,"og":{"codigo_dir":"E04932803","nombre":"Direcci\u00f3n
+        General de Desarrollo Rural, Innovaci\u00f3n y Pol\u00edtica Forestal"},"ut":{"codigo_dir":"EA0022345","nombre":"S.G.
+        de Pol\u00edtica Forestal"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68313,"og":{"codigo_dir":"E04932803","nombre":"Direcci\u00f3n
+        General de Desarrollo Rural, Innovaci\u00f3n y Pol\u00edtica Forestal"},"ut":{"codigo_dir":"EA0022342","nombre":"Dreccion
+        Tecnica de la Dg de Desarrollo Rural, Innovacion y  Politica Forestal"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68315,"og":{"codigo_dir":"E04932803","nombre":"Direcci\u00f3n
+        General de Desarrollo Rural, Innovaci\u00f3n y Pol\u00edtica Forestal"},"ut":{"codigo_dir":"EA0022343","nombre":"Sg
+        de Dinamizaci\u00f3n del Medio Rural"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68449,"og":{"codigo_dir":"E04932803","nombre":"Direcci\u00f3n
+        General de Desarrollo Rural, Innovaci\u00f3n y Pol\u00edtica Forestal"},"ut":{"codigo_dir":"EA0022344","nombre":"S.G.
+        Innovacion  y Digitalizacion"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68307,"og":{"codigo_dir":"E04933003","nombre":"Secretar\u00eda
+        General de Pesca"},"ut":{"codigo_dir":"EA0022302","nombre":"S.G. de Gestion"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68308,"og":{"codigo_dir":"E05009202","nombre":"Direcci\u00f3n
+        General de Recursos Pesqueros"},"ut":{"codigo_dir":"EA0022302","nombre":"S.G.
+        de Gestion"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina Contable. I.D.
+        Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68310,"og":{"codigo_dir":"EA0022315","nombre":"Secretaria
+        General T\u00e9cnica"},"ut":{"codigo_dir":"EA0022309","nombre":"Oficialia
+        Mayor"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina Contable. I.D. Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":94807,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0045508","nombre":"Unidad
+        Gestora del Plan de Recuperaci\u00f3n, Transformaci\u00f3n y Resiliencia.
+        Competitividad y Calidad de la Sanidad Agraria."},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68312,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022330","nombre":"S.G.
+        de Relaciones Internacionales y Asuntos Comunitarios"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68318,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022346","nombre":"S.G.
+        de Programacion y Coordinacion"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68309,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022309","nombre":"Oficialia
+        Mayor"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina Contable. I.D. Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68311,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022316","nombre":"Division
+        de Estudios y Publicaciones"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":76787,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"GE0016102","nombre":"S.
+        G. de Estad\u00edstica"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68314,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022342","nombre":"Dreccion
+        Tecnica de la Dg de Desarrollo Rural, Innovacion y  Politica Forestal"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68316,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022343","nombre":"Sg
+        de Dinamizaci\u00f3n del Medio Rural"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68325,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"GE0003625","nombre":"Caja
+        Pagadora I del Magrama"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Pesca y Alimentaci\u00f3n","codigo_dir":"E05024401","cifs":[]},"id":68428,"og":{"codigo_dir":"E05034901","nombre":"Subsecretar\u00eda
+        de Agricultura, Pesca y Alimentaci\u00f3n"},"ut":{"codigo_dir":"EA0022344","nombre":"S.G.
+        Innovacion  y Digitalizacion"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:20 GMT
+recorded_with: VCR 6.0.0

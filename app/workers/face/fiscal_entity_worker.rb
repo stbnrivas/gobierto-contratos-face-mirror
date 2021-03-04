@@ -1,45 +1,51 @@
 require 'pry'
+require 'vcr'
+require_relative 'fiscal_entity_processing_counter'
+
 class Face::FiscalEntityWorker
   include Sidekiq::Worker
 
   def perform(*args)
     level = args.first['level']
     dir3_list = args.first['dir3_to_import']
-    processed = 0
-    imported = 0
-    ignored = 0
-    # binding.pry
+    counter = FiscalEntityProcessingCounter.new
 
     dir3_list.each do |dir3|
-      entities = Face::Dir3Entities.entities(level,dir3)
-      entities.each do |entity|
-        processed += 1
-        process_entity(entity,imported,ignored)
-      end
+      process_dir3(level,dir3,counter)
     end
 
+    processed, imported, ignored = counter.status
     puts "#{processed.to_s.rjust(7,' ')} processed"
     puts "#{imported.to_s.rjust(7,' ')} imported"
     puts "#{ignored.to_s.rjust(7,' ')} ignored"
   end
 
-  private
-  def process_entity(entity,imported,ignored)
-    non_exist = FiscalEntity.find_by(name: entity[:name]).nil?
-    if non_exist
-      FiscalEntity.create!(
-        id: entity[:id],
-        name: entity[:name],
-        administration_level: entity[:administration_level],
-        dir3: entity[:dir3],
-        nifs: entity[:nifs],
-        country_name: entity[:country_name],
-        country_code: entity[:country_code],
-        import_pending: entity[:import_pending]
-      )
-      imported += 1
-    else
-      ignored += 1
+  def process_dir3(level,dir3,counter)
+    parent_from_api = Face::Dir3Entities.parent_for_entities(level,dir3)
+    parent, result = process_entity(parent_from_api) # needs id for children's insertions
+    counter.increment_imported if result == :imported
+    counter.increment_ignored if result == :ignored
+    counter.increment_processed
+
+    entities = Face::Dir3Entities.entities(level,dir3,parent[:id])
+    entities.each do |entity|
+      entity, result = process_entity(entity)
+      counter.increment_imported if result == :imported
+      counter.increment_ignored if result == :ignored
+      counter.increment_processed
     end
+  end
+
+  def process_entity(entity)
+    entity_from_db = FiscalEntity.where(name: entity[:name]).limit(1).first
+    if entity_from_db.nil?
+      entity_from_db = FiscalEntity.new(entity)
+      nifs_invalid = entity_from_db.remove_invalid_nifs!
+      entity_from_db.save!
+      [entity_from_db, :imported]
+    else
+      [entity_from_db, :ignored]
+    end
+
   end
 end

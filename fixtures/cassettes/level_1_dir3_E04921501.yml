@@ -1,0 +1,579 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921501/relaciones?administracion=E04921501&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:27 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"A78062593"},{"nif":"Q2819014H"},{"nif":"S2819014H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":8958,"og":{"codigo_dir":"E00143003","nombre":"Fondo
+        de Garantia Salarial"},"ut":{"codigo_dir":"EA0002934","nombre":"\u00c1rea
+        Econ\u00f3mico Financiera"},"oc":{"codigo_dir":"EA0002971","nombre":"Oficina
+        de Contabilidad del Fondo de Garantia Salarial"}},{"cifs":[{"nif":"Q2869095F"},{"nif":"Q2869095E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":11576,"og":{"codigo_dir":"EA0003139","nombre":"CONSEJO
+        ECONOMICO Y SOCIAL"},"ut":{"codigo_dir":"EA0003142","nombre":"CAJA CENTRAL"},"oc":{"codigo_dir":"EA0003141","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[{"nif":"Q2869095F"},{"nif":"Q2869095E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":11577,"og":{"codigo_dir":"EA0003139","nombre":"CONSEJO
+        ECONOMICO Y SOCIAL"},"ut":{"codigo_dir":"EA0003143","nombre":"CAJA PERSONAL"},"oc":{"codigo_dir":"EA0003141","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[{"nif":"Q2869095F"},{"nif":"Q2869095E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":11578,"og":{"codigo_dir":"EA0003139","nombre":"CONSEJO
+        ECONOMICO Y SOCIAL"},"ut":{"codigo_dir":"EA0003144","nombre":"RECURSOS HUMANOS"},"oc":{"codigo_dir":"EA0003141","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[{"nif":"Q2869095F"},{"nif":"Q2869095E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":11579,"og":{"codigo_dir":"EA0003139","nombre":"CONSEJO
+        ECONOMICO Y SOCIAL"},"ut":{"codigo_dir":"EA0003145","nombre":"CONTRATACI\u00d3N"},"oc":{"codigo_dir":"EA0003141","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[{"nif":"Q2869092C"},{"nif":"S2819001E"},{"nif":"Q5100002D"},{"nif":"S2819013J"},{"nif":"Q2869093A"},{"nif":"A2819001E"},{"nif":"Q4653001J"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":56783,"og":{"codigo_dir":"E04939901","nombre":"S.Gral.
+        de Inmigracion y Emigracion"},"ut":{"codigo_dir":"E03691605","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Sevilla"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":57305,"og":{"codigo_dir":"E03691405","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Vallecas - Madrid"},"ut":{"codigo_dir":"E03691405","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Vallecas - Madrid"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[{"nif":"Q2819020E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":59066,"og":{"codigo_dir":"E03697904","nombre":"Direccion
+        Provincial del SEPE de Madrid"},"ut":{"codigo_dir":"EA0002802","nombre":"Direccion
+        Provincial del SEPE de Madrid Secretario Provincial"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"A78062593"},{"nif":"Q2819014H"},{"nif":"S2819014H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":59068,"og":{"codigo_dir":"E00143003","nombre":"Fondo
+        de Garantia Salarial"},"ut":{"codigo_dir":"EA0002934","nombre":"\u00c1rea
+        Econ\u00f3mico Financiera"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2819009H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":59069,"og":{"codigo_dir":"E03694405","nombre":"S.G.
+        de Gestion Financiera"},"ut":{"codigo_dir":"EA0002941","nombre":"\u00c1rea
+        de Gesti\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":59070,"og":{"codigo_dir":"EA0011314","nombre":"Instituto
+        Nacional de Seguridad, Salud y Bienestar en el Trabajo"},"ut":{"codigo_dir":"EA0003149","nombre":"Administracion
+        Instituto Nacional de Seguridad, Salud y Bienestar en el Trabajo"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2819009H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60034,"og":{"codigo_dir":"E03694405","nombre":"S.G.
+        de Gestion Financiera"},"ut":{"codigo_dir":"EA0002941","nombre":"\u00c1rea
+        de Gesti\u00f3n Financiera"},"oc":{"codigo_dir":"E03694405","nombre":"S.G.
+        de Gestion Financiera"}},{"cifs":[{"nif":"Q2819009H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60054,"og":{"codigo_dir":"E03694405","nombre":"S.G.
+        de Gestion Financiera"},"ut":{"codigo_dir":"EA0002970","nombre":"\u00c1rea
+        de Contrataci\u00f3n"},"oc":{"codigo_dir":"E03694405","nombre":"S.G. de Gestion
+        Financiera"}},{"cifs":[{"nif":"Q0719008E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60218,"og":{"codigo_dir":"E03695804","nombre":"Direccion
+        Provincial del SEPE de Baleares"},"ut":{"codigo_dir":"E03695804","nombre":"Direccion
+        Provincial del SEPE de Baleares"},"oc":{"codigo_dir":"E03695804","nombre":"Direccion
+        Provincial del SEPE de Baleares"}},{"cifs":[{"nif":"Q0919005I"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60219,"og":{"codigo_dir":"E03696004","nombre":"Direccion
+        Provincial del SEPE de Burgos"},"ut":{"codigo_dir":"E03696004","nombre":"Direccion
+        Provincial del SEPE de Burgos"},"oc":{"codigo_dir":"E03696004","nombre":"Direccion
+        Provincial del SEPE de Burgos"}},{"cifs":[{"nif":"Q2819009H"},{"nif":"Q1319002J"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60220,"og":{"codigo_dir":"E03696404","nombre":"Direccion
+        Provincial del SEPE de Ciudad Real"},"ut":{"codigo_dir":"E03696404","nombre":"Direccion
+        Provincial del SEPE de Ciudad Real"},"oc":{"codigo_dir":"E03696404","nombre":"Direccion
+        Provincial del SEPE de Ciudad Real"}},{"cifs":[{"nif":"Q1619005J"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60221,"og":{"codigo_dir":"E03696704","nombre":"Direccion
+        Provincial del SEPE de Cuenca"},"ut":{"codigo_dir":"E03696704","nombre":"Direccion
+        Provincial del SEPE de Cuenca"},"oc":{"codigo_dir":"E03696704","nombre":"Direccion
+        Provincial del SEPE de Cuenca"}},{"cifs":[{"nif":"Q1819003C"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60222,"og":{"codigo_dir":"E03696904","nombre":"Direccion
+        Provincial del SEPE de Granada"},"ut":{"codigo_dir":"E03696904","nombre":"Direccion
+        Provincial del SEPE de Granada"},"oc":{"codigo_dir":"E03696904","nombre":"Direccion
+        Provincial del SEPE de Granada"}},{"cifs":[{"nif":"Q2119008G"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60223,"og":{"codigo_dir":"E03697204","nombre":"Direccion
+        Provincial del SEPE de Huelva"},"ut":{"codigo_dir":"E03697204","nombre":"Direccion
+        Provincial del SEPE de Huelva"},"oc":{"codigo_dir":"E03697204","nombre":"Direccion
+        Provincial del SEPE de Huelva"}},{"cifs":[{"nif":"Q2519004B"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60224,"og":{"codigo_dir":"E03697604","nombre":"Direccion
+        Provincial del SEPE de Lleida"},"ut":{"codigo_dir":"E03697604","nombre":"Direccion
+        Provincial del SEPE de Lleida"},"oc":{"codigo_dir":"E03697604","nombre":"Direccion
+        Provincial del SEPE de Lleida"}},{"cifs":[{"nif":"Q2719002D"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60225,"og":{"codigo_dir":"E03697804","nombre":"Direccion
+        Provincial del SEPE de Lugo"},"ut":{"codigo_dir":"E03697804","nombre":"Direccion
+        Provincial del SEPE de Lugo"},"oc":{"codigo_dir":"E03697804","nombre":"Direccion
+        Provincial del SEPE de Lugo"}},{"cifs":[{"nif":"Q3419007D"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60226,"og":{"codigo_dir":"E03698504","nombre":"Direccion
+        Provincial del SEPE de Palencia"},"ut":{"codigo_dir":"E03698504","nombre":"Direccion
+        Provincial del SEPE de Palencia"},"oc":{"codigo_dir":"E03698504","nombre":"Direccion
+        Provincial del SEPE de Palencia"}},{"cifs":[{"nif":"Q3819005D"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60227,"og":{"codigo_dir":"E03698904","nombre":"Direccion
+        Provincial del SEPE de Tenerife"},"ut":{"codigo_dir":"E03698904","nombre":"Direccion
+        Provincial del SEPE de Tenerife"},"oc":{"codigo_dir":"E03698904","nombre":"Direcci\u00f3n
+        Provincial del SEPE de Santa Cruz de Tenerife"}},{"cifs":[{"nif":"Q0219007B"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60255,"og":{"codigo_dir":"E03695304","nombre":"Direccion
+        Provincial del SEPE de Albacete"},"ut":{"codigo_dir":"E03695304","nombre":"Direccion
+        Provincial del SEPE de Albacete"},"oc":{"codigo_dir":"E03695304","nombre":"Direccion
+        Provincial del SEPE de Albacete"}},{"cifs":[{"nif":"Q0319005E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60256,"og":{"codigo_dir":"E03695404","nombre":"Direccion
+        Provincial del SEPE de Alicante"},"ut":{"codigo_dir":"E03695404","nombre":"Direccion
+        Provincial del SEPE de Alicante"},"oc":{"codigo_dir":"E03695404","nombre":"Direcci\u00f3n
+        Provincial del SEPE de Alacant\/Alicante"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:27 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921501/relaciones?administracion=E04921501&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:28 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"66","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:00:28 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921501/relaciones?administracion=E04921501&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:29 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"A78062593"},{"nif":"Q2819014H"},{"nif":"S2819014H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":8958,"og":{"codigo_dir":"E00143003","nombre":"Fondo
+        de Garantia Salarial"},"ut":{"codigo_dir":"EA0002934","nombre":"\u00c1rea
+        Econ\u00f3mico Financiera"},"oc":{"codigo_dir":"EA0002971","nombre":"Oficina
+        de Contabilidad del Fondo de Garantia Salarial"}},{"cifs":[{"nif":"Q2869095F"},{"nif":"Q2869095E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":11576,"og":{"codigo_dir":"EA0003139","nombre":"CONSEJO
+        ECONOMICO Y SOCIAL"},"ut":{"codigo_dir":"EA0003142","nombre":"CAJA CENTRAL"},"oc":{"codigo_dir":"EA0003141","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[{"nif":"Q2869095F"},{"nif":"Q2869095E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":11577,"og":{"codigo_dir":"EA0003139","nombre":"CONSEJO
+        ECONOMICO Y SOCIAL"},"ut":{"codigo_dir":"EA0003143","nombre":"CAJA PERSONAL"},"oc":{"codigo_dir":"EA0003141","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[{"nif":"Q2869095F"},{"nif":"Q2869095E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":11578,"og":{"codigo_dir":"EA0003139","nombre":"CONSEJO
+        ECONOMICO Y SOCIAL"},"ut":{"codigo_dir":"EA0003144","nombre":"RECURSOS HUMANOS"},"oc":{"codigo_dir":"EA0003141","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[{"nif":"Q2869095F"},{"nif":"Q2869095E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":11579,"og":{"codigo_dir":"EA0003139","nombre":"CONSEJO
+        ECONOMICO Y SOCIAL"},"ut":{"codigo_dir":"EA0003145","nombre":"CONTRATACI\u00d3N"},"oc":{"codigo_dir":"EA0003141","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[{"nif":"Q2869092C"},{"nif":"S2819001E"},{"nif":"Q5100002D"},{"nif":"S2819013J"},{"nif":"Q2869093A"},{"nif":"A2819001E"},{"nif":"Q4653001J"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":56783,"og":{"codigo_dir":"E04939901","nombre":"S.Gral.
+        de Inmigracion y Emigracion"},"ut":{"codigo_dir":"E03691605","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Sevilla"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":57305,"og":{"codigo_dir":"E03691405","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Vallecas - Madrid"},"ut":{"codigo_dir":"E03691405","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Vallecas - Madrid"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[{"nif":"Q2819020E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":59066,"og":{"codigo_dir":"E03697904","nombre":"Direccion
+        Provincial del SEPE de Madrid"},"ut":{"codigo_dir":"EA0002802","nombre":"Direccion
+        Provincial del SEPE de Madrid Secretario Provincial"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"A78062593"},{"nif":"Q2819014H"},{"nif":"S2819014H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":59068,"og":{"codigo_dir":"E00143003","nombre":"Fondo
+        de Garantia Salarial"},"ut":{"codigo_dir":"EA0002934","nombre":"\u00c1rea
+        Econ\u00f3mico Financiera"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2819009H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":59069,"og":{"codigo_dir":"E03694405","nombre":"S.G.
+        de Gestion Financiera"},"ut":{"codigo_dir":"EA0002941","nombre":"\u00c1rea
+        de Gesti\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":59070,"og":{"codigo_dir":"EA0011314","nombre":"Instituto
+        Nacional de Seguridad, Salud y Bienestar en el Trabajo"},"ut":{"codigo_dir":"EA0003149","nombre":"Administracion
+        Instituto Nacional de Seguridad, Salud y Bienestar en el Trabajo"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2819009H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60034,"og":{"codigo_dir":"E03694405","nombre":"S.G.
+        de Gestion Financiera"},"ut":{"codigo_dir":"EA0002941","nombre":"\u00c1rea
+        de Gesti\u00f3n Financiera"},"oc":{"codigo_dir":"E03694405","nombre":"S.G.
+        de Gestion Financiera"}},{"cifs":[{"nif":"Q2819009H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60054,"og":{"codigo_dir":"E03694405","nombre":"S.G.
+        de Gestion Financiera"},"ut":{"codigo_dir":"EA0002970","nombre":"\u00c1rea
+        de Contrataci\u00f3n"},"oc":{"codigo_dir":"E03694405","nombre":"S.G. de Gestion
+        Financiera"}},{"cifs":[{"nif":"Q0719008E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60218,"og":{"codigo_dir":"E03695804","nombre":"Direccion
+        Provincial del SEPE de Baleares"},"ut":{"codigo_dir":"E03695804","nombre":"Direccion
+        Provincial del SEPE de Baleares"},"oc":{"codigo_dir":"E03695804","nombre":"Direccion
+        Provincial del SEPE de Baleares"}},{"cifs":[{"nif":"Q0919005I"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60219,"og":{"codigo_dir":"E03696004","nombre":"Direccion
+        Provincial del SEPE de Burgos"},"ut":{"codigo_dir":"E03696004","nombre":"Direccion
+        Provincial del SEPE de Burgos"},"oc":{"codigo_dir":"E03696004","nombre":"Direccion
+        Provincial del SEPE de Burgos"}},{"cifs":[{"nif":"Q2819009H"},{"nif":"Q1319002J"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60220,"og":{"codigo_dir":"E03696404","nombre":"Direccion
+        Provincial del SEPE de Ciudad Real"},"ut":{"codigo_dir":"E03696404","nombre":"Direccion
+        Provincial del SEPE de Ciudad Real"},"oc":{"codigo_dir":"E03696404","nombre":"Direccion
+        Provincial del SEPE de Ciudad Real"}},{"cifs":[{"nif":"Q1619005J"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60221,"og":{"codigo_dir":"E03696704","nombre":"Direccion
+        Provincial del SEPE de Cuenca"},"ut":{"codigo_dir":"E03696704","nombre":"Direccion
+        Provincial del SEPE de Cuenca"},"oc":{"codigo_dir":"E03696704","nombre":"Direccion
+        Provincial del SEPE de Cuenca"}},{"cifs":[{"nif":"Q1819003C"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60222,"og":{"codigo_dir":"E03696904","nombre":"Direccion
+        Provincial del SEPE de Granada"},"ut":{"codigo_dir":"E03696904","nombre":"Direccion
+        Provincial del SEPE de Granada"},"oc":{"codigo_dir":"E03696904","nombre":"Direccion
+        Provincial del SEPE de Granada"}},{"cifs":[{"nif":"Q2119008G"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60223,"og":{"codigo_dir":"E03697204","nombre":"Direccion
+        Provincial del SEPE de Huelva"},"ut":{"codigo_dir":"E03697204","nombre":"Direccion
+        Provincial del SEPE de Huelva"},"oc":{"codigo_dir":"E03697204","nombre":"Direccion
+        Provincial del SEPE de Huelva"}},{"cifs":[{"nif":"Q2519004B"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60224,"og":{"codigo_dir":"E03697604","nombre":"Direccion
+        Provincial del SEPE de Lleida"},"ut":{"codigo_dir":"E03697604","nombre":"Direccion
+        Provincial del SEPE de Lleida"},"oc":{"codigo_dir":"E03697604","nombre":"Direccion
+        Provincial del SEPE de Lleida"}},{"cifs":[{"nif":"Q2719002D"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60225,"og":{"codigo_dir":"E03697804","nombre":"Direccion
+        Provincial del SEPE de Lugo"},"ut":{"codigo_dir":"E03697804","nombre":"Direccion
+        Provincial del SEPE de Lugo"},"oc":{"codigo_dir":"E03697804","nombre":"Direccion
+        Provincial del SEPE de Lugo"}},{"cifs":[{"nif":"Q3419007D"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60226,"og":{"codigo_dir":"E03698504","nombre":"Direccion
+        Provincial del SEPE de Palencia"},"ut":{"codigo_dir":"E03698504","nombre":"Direccion
+        Provincial del SEPE de Palencia"},"oc":{"codigo_dir":"E03698504","nombre":"Direccion
+        Provincial del SEPE de Palencia"}},{"cifs":[{"nif":"Q3819005D"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60227,"og":{"codigo_dir":"E03698904","nombre":"Direccion
+        Provincial del SEPE de Tenerife"},"ut":{"codigo_dir":"E03698904","nombre":"Direccion
+        Provincial del SEPE de Tenerife"},"oc":{"codigo_dir":"E03698904","nombre":"Direcci\u00f3n
+        Provincial del SEPE de Santa Cruz de Tenerife"}},{"cifs":[{"nif":"Q0219007B"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60255,"og":{"codigo_dir":"E03695304","nombre":"Direccion
+        Provincial del SEPE de Albacete"},"ut":{"codigo_dir":"E03695304","nombre":"Direccion
+        Provincial del SEPE de Albacete"},"oc":{"codigo_dir":"E03695304","nombre":"Direccion
+        Provincial del SEPE de Albacete"}},{"cifs":[{"nif":"Q0319005E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60256,"og":{"codigo_dir":"E03695404","nombre":"Direccion
+        Provincial del SEPE de Alicante"},"ut":{"codigo_dir":"E03695404","nombre":"Direccion
+        Provincial del SEPE de Alicante"},"oc":{"codigo_dir":"E03695404","nombre":"Direcci\u00f3n
+        Provincial del SEPE de Alacant\/Alicante"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:29 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921501/relaciones?administracion=E04921501&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:30 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q1519008E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60275,"og":{"codigo_dir":"E03696604","nombre":"Direccion
+        Provincial del SEPE de A Coru\u00f1a"},"ut":{"codigo_dir":"E03696604","nombre":"Direccion
+        Provincial del SEPE de A Coru\u00f1a"},"oc":{"codigo_dir":"E03696604","nombre":"Direccion
+        Provincial del SEPE de A Coru\u00f1a"}},{"cifs":[{"nif":"Q0119006E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60274,"og":{"codigo_dir":"E03695204","nombre":"Direccion
+        Provincial del SEPE de Alava"},"ut":{"codigo_dir":"E03695204","nombre":"Direccion
+        Provincial del SEPE de Alava"},"oc":{"codigo_dir":"E03695204","nombre":"Direcci\u00f3n
+        Provincial del SEPE de Araba\/\u00c1lava"}},{"cifs":[{"nif":"Q0419005D"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60257,"og":{"codigo_dir":"E03695504","nombre":"Direccion
+        Provincial del SEPE de Almeria"},"ut":{"codigo_dir":"E03695504","nombre":"Direccion
+        Provincial del SEPE de Almeria"},"oc":{"codigo_dir":"E03695504","nombre":"Direccion
+        Provincial del SEPE de Almeria"}},{"cifs":[{"nif":"Q3319015H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60279,"og":{"codigo_dir":"E03698404","nombre":"Direccion
+        Provincial del SEPE de Asturias"},"ut":{"codigo_dir":"E03698404","nombre":"Direccion
+        Provincial del SEPE de Asturias"},"oc":{"codigo_dir":"E03698404","nombre":"Direccion
+        Provincial del SEPE de Asturias"}},{"cifs":[{"nif":"Q0819005J"},{"nif":"Q0819005I"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60258,"og":{"codigo_dir":"E03695904","nombre":"Direccion
+        Provincial del SEPE de Barcelona"},"ut":{"codigo_dir":"E03695904","nombre":"Direccion
+        Provincial del SEPE de Barcelona"},"oc":{"codigo_dir":"E03695904","nombre":"Direccion
+        Provincial del SEPE de Barcelona"}},{"cifs":[{"nif":"S3916001E"},{"nif":"Q3919010C"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60265,"og":{"codigo_dir":"E03699004","nombre":"Direccion
+        Provincial del SEPE de Cantabria"},"ut":{"codigo_dir":"E03699004","nombre":"Direccion
+        Provincial del SEPE de Cantabria"},"oc":{"codigo_dir":"E03699004","nombre":"Direccion
+        Provincial del SEPE de Cantabria"}},{"cifs":[{"nif":"Q1219005D"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60259,"og":{"codigo_dir":"E03696304","nombre":"Direccion
+        Provincial del SEPE de Castellon"},"ut":{"codigo_dir":"E03696304","nombre":"Direccion
+        Provincial del SEPE de Castellon"},"oc":{"codigo_dir":"E03696304","nombre":"Direcci\u00f3n
+        Provincial del SEPE de Castell\u00f3\/Castell\u00f3n"}},{"cifs":[{"nif":"Q1119009G"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60273,"og":{"codigo_dir":"E03700204","nombre":"Direccion
+        Provincial del SEPE de Ceuta"},"ut":{"codigo_dir":"E03700204","nombre":"Direccion
+        Provincial del SEPE de Ceuta"},"oc":{"codigo_dir":"E03700204","nombre":"Direccion
+        Provincial del SEPE de Ceuta"}},{"cifs":[{"nif":"Q2019005D"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60276,"og":{"codigo_dir":"E03697104","nombre":"Direccion
+        Provincial del SEPE de Guipuzcoa"},"ut":{"codigo_dir":"E03697104","nombre":"Direccion
+        Provincial del SEPE de Guipuzcoa"},"oc":{"codigo_dir":"E03697104","nombre":"Direcci\u00f3n
+        Provincial del SEPE de Gipuzkoa"}},{"cifs":[{"nif":"Q2319002H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60277,"og":{"codigo_dir":"E03697404","nombre":"Direccion
+        Provincial del SEPE de Jaen"},"ut":{"codigo_dir":"E03697404","nombre":"Direccion
+        Provincial del SEPE de Jaen"},"oc":{"codigo_dir":"E03697404","nombre":"Direccion
+        Provincial del SEPE de Jaen"}},{"cifs":[{"nif":"Q3519009I"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60262,"og":{"codigo_dir":"E03698604","nombre":"Direccion
+        Provincial del SEPE de Las Palmas"},"ut":{"codigo_dir":"E03698604","nombre":"Direccion
+        Provincial del SEPE de Las Palmas"},"oc":{"codigo_dir":"E03698604","nombre":"Direccion
+        Provincial del SEPE de Las Palmas"}},{"cifs":[{"nif":"Q2419006H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60260,"og":{"codigo_dir":"E03697504","nombre":"Direccion
+        Provincial del SEPE de Leon"},"ut":{"codigo_dir":"E03697504","nombre":"Direccion
+        Provincial del SEPE de Leon"},"oc":{"codigo_dir":"E03697504","nombre":"Direccion
+        Provincial del SEPE de Leon"}},{"cifs":[{"nif":"Q3169005J"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60261,"og":{"codigo_dir":"E03698204","nombre":"Direccion
+        Provincial del SEPE de Navarra"},"ut":{"codigo_dir":"E03698204","nombre":"Direccion
+        Provincial del SEPE de Navarra"},"oc":{"codigo_dir":"E03698204","nombre":"Direccion
+        Provincial del SEPE de Navarra"}},{"cifs":[{"nif":"Q3219002G"},{"nif":"Q2819009H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60278,"og":{"codigo_dir":"E03698304","nombre":"Direccion
+        Provincial del SEPE de Ourense"},"ut":{"codigo_dir":"E03698304","nombre":"Direccion
+        Provincial del SEPE de Ourense"},"oc":{"codigo_dir":"E03698304","nombre":"Direccion
+        Provincial del SEPE de Ourense"}},{"cifs":[{"nif":"Q3619006D"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60263,"og":{"codigo_dir":"E03698704","nombre":"Direccion
+        Provincial del SEPE de Pontevedra (Sede Vigo)"},"ut":{"codigo_dir":"E03698704","nombre":"Direccion
+        Provincial del SEPE de Pontevedra (Sede Vigo)"},"oc":{"codigo_dir":"E03698704","nombre":"Direccion
+        Provincial del SEPE de Pontevedra (Sede Vigo)"}},{"cifs":[{"nif":"Q3719006C"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60264,"og":{"codigo_dir":"E03698804","nombre":"Direccion
+        Provincial del SEPE de Salamanca"},"ut":{"codigo_dir":"E03698804","nombre":"Direccion
+        Provincial del SEPE de Salamanca"},"oc":{"codigo_dir":"E03698804","nombre":"Direccion
+        Provincial del SEPE de Salamanca"}},{"cifs":[{"nif":"Q4019002G"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60266,"og":{"codigo_dir":"E03699104","nombre":"Direccion
+        Provincial del SEPE de Segovia"},"ut":{"codigo_dir":"E03699104","nombre":"Direccion
+        Provincial del SEPE de Segovia"},"oc":{"codigo_dir":"E03699104","nombre":"Direccion
+        Provincial del SEPE de Segovia"}},{"cifs":[{"nif":"Q4119005I"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60267,"og":{"codigo_dir":"E03699204","nombre":"Direccion
+        Provincial del SEPE de Sevilla"},"ut":{"codigo_dir":"E03699204","nombre":"Direccion
+        Provincial del SEPE de Sevilla"},"oc":{"codigo_dir":"E03699204","nombre":"Direccion
+        Provincial del SEPE de Sevilla"}},{"cifs":[{"nif":"Q4219004A"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60268,"og":{"codigo_dir":"E03699304","nombre":"Direccion
+        Provincial del SEPE de Soria"},"ut":{"codigo_dir":"E03699304","nombre":"Direccion
+        Provincial del SEPE de Soria"},"oc":{"codigo_dir":"E03699304","nombre":"Direccion
+        Provincial del SEPE de Soria"}},{"cifs":[{"nif":"Q4319002D"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60269,"og":{"codigo_dir":"E03699404","nombre":"Direccion
+        Provincial del SEPE de Tarragona"},"ut":{"codigo_dir":"E03699404","nombre":"Direccion
+        Provincial del SEPE de Tarragona"},"oc":{"codigo_dir":"E03699404","nombre":"Direccion
+        Provincial del SEPE de Tarragona"}},{"cifs":[{"nif":"Q4419006D"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60280,"og":{"codigo_dir":"E03699504","nombre":"Direccion
+        Provincial del SEPE de Teruel"},"ut":{"codigo_dir":"E03699504","nombre":"Direccion
+        Provincial del SEPE de Teruel"},"oc":{"codigo_dir":"E03699504","nombre":"Direccion
+        Provincial del SEPE de Teruel"}},{"cifs":[{"nif":"Q4519005E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60270,"og":{"codigo_dir":"E03699604","nombre":"Direccion
+        Provincial del SEPE de Toledo"},"ut":{"codigo_dir":"E03699604","nombre":"Direccion
+        Provincial del SEPE de Toledo"},"oc":{"codigo_dir":"E03699604","nombre":"Direccion
+        Provincial del SEPE de Toledo"}},{"cifs":[{"nif":"Q4619007J"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60271,"og":{"codigo_dir":"E03699704","nombre":"Direccion
+        Provincial del SEPE de Valencia"},"ut":{"codigo_dir":"E03699704","nombre":"Direccion
+        Provincial del SEPE de Valencia"},"oc":{"codigo_dir":"E03699704","nombre":"Direcci\u00f3n
+        Provincial del SEPE de Val\u00e8ncia\/Valencia"}},{"cifs":[{"nif":"Q4719004F"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60272,"og":{"codigo_dir":"E03699804","nombre":"Direccion
+        Provincial del SEPE de Valladolid"},"ut":{"codigo_dir":"E03699804","nombre":"Direccion
+        Provincial del SEPE de Valladolid"},"oc":{"codigo_dir":"E03699804","nombre":"Direccion
+        Provincial del SEPE de Valladolid"}},{"cifs":[{"nif":"Q4919007G"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60281,"og":{"codigo_dir":"E03700004","nombre":"Direccion
+        Provincial del SEPE de Zamora"},"ut":{"codigo_dir":"E03700004","nombre":"Direccion
+        Provincial del SEPE de Zamora"},"oc":{"codigo_dir":"E03700004","nombre":"Direccion
+        Provincial del SEPE de Zamora"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:30 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921501/relaciones?administracion=E04921501&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:31 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q2919004H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60282,"og":{"codigo_dir":"E03700304","nombre":"Direccion
+        Provincial del SEPE de Melilla"},"ut":{"codigo_dir":"E03700304","nombre":"Direccion
+        Provincial del SEPE de Melilla"},"oc":{"codigo_dir":"E03700304","nombre":"Direccion
+        Provincial del SEPE de Melilla"}},{"cifs":[{"nif":"Q0519002J"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60294,"og":{"codigo_dir":"E03695604","nombre":"Direccion
+        Provincial del SEPE de Avila"},"ut":{"codigo_dir":"E03695604","nombre":"Direccion
+        Provincial del SEPE de Avila"},"oc":{"codigo_dir":"E03695604","nombre":"Direccion
+        Provincial del SEPE de Avila"}},{"cifs":[{"nif":"Q0619007H"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60295,"og":{"codigo_dir":"E03695704","nombre":"Direccion
+        Provincial del SEPE de Badajoz"},"ut":{"codigo_dir":"E03695704","nombre":"Direccion
+        Provincial del SEPE de Badajoz"},"oc":{"codigo_dir":"E03695704","nombre":"Direccion
+        Provincial del SEPE de Badajoz"}},{"cifs":[{"nif":"Q1019007B"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60296,"og":{"codigo_dir":"E03696104","nombre":"Direccion
+        Provincial del SEPE de Caceres"},"ut":{"codigo_dir":"E03696104","nombre":"Direccion
+        Provincial del SEPE de Caceres"},"oc":{"codigo_dir":"E03696104","nombre":"Direccion
+        Provincial del SEPE de Caceres"}},{"cifs":[{"nif":"Q1419004E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60297,"og":{"codigo_dir":"E03696504","nombre":"Direccion
+        Provincial del SEPE de Cordoba"},"ut":{"codigo_dir":"E03696504","nombre":"Direccion
+        Provincial del SEPE de Cordoba"},"oc":{"codigo_dir":"E03696504","nombre":"Direccion
+        Provincial del SEPE de Cordoba"}},{"cifs":[{"nif":"Q1719005I"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60298,"og":{"codigo_dir":"E03696804","nombre":"Direccion
+        Provincial del SEPE de Girona"},"ut":{"codigo_dir":"E03696804","nombre":"Direccion
+        Provincial del SEPE de Girona"},"oc":{"codigo_dir":"E03696804","nombre":"Direccion
+        Provincial del SEPE de Girona"}},{"cifs":[{"nif":"Q1919005G"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60299,"og":{"codigo_dir":"E03697004","nombre":"Direccion
+        Provincial del SEPE de Guadalajara"},"ut":{"codigo_dir":"E03697004","nombre":"Direccion
+        Provincial del SEPE de Guadalajara"},"oc":{"codigo_dir":"E03697004","nombre":"Direccion
+        Provincial del SEPE de Guadalajara"}},{"cifs":[{"nif":"Q2219005B"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60300,"og":{"codigo_dir":"E03697304","nombre":"Direccion
+        Provincial del SEPE de Huesca"},"ut":{"codigo_dir":"E03697304","nombre":"Direccion
+        Provincial del SEPE de Huesca"},"oc":{"codigo_dir":"E03697304","nombre":"Direccion
+        Provincial del SEPE de Huesca"}},{"cifs":[{"nif":"Q2619002E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60301,"og":{"codigo_dir":"E03697704","nombre":"Direccion
+        Provincial del SEPE de La Rioja"},"ut":{"codigo_dir":"E03697704","nombre":"Direccion
+        Provincial del SEPE de La Rioja"},"oc":{"codigo_dir":"E03697704","nombre":"Direccion
+        Provincial del SEPE de La Rioja"}},{"cifs":[{"nif":"Q2819020E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60302,"og":{"codigo_dir":"E03697904","nombre":"Direccion
+        Provincial del SEPE de Madrid"},"ut":{"codigo_dir":"E03697904","nombre":"Direccion
+        Provincial del SEPE de Madrid"},"oc":{"codigo_dir":"E03697904","nombre":"Direccion
+        Provincial del SEPE de Madrid"}},{"cifs":[{"nif":"Q2919012A"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60303,"og":{"codigo_dir":"E03698004","nombre":"Direccion
+        Provincial del SEPE de Malaga"},"ut":{"codigo_dir":"E03698004","nombre":"Direccion
+        Provincial del SEPE de Malaga"},"oc":{"codigo_dir":"E03698004","nombre":"Direccion
+        Provincial del SEPE de Malaga"}},{"cifs":[{"nif":"Q3019006J"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60304,"og":{"codigo_dir":"E03698104","nombre":"Direccion
+        Provincial del SEPE de Murcia"},"ut":{"codigo_dir":"E03698104","nombre":"Direccion
+        Provincial del SEPE de Murcia"},"oc":{"codigo_dir":"E03698104","nombre":"Direccion
+        Provincial del SEPE de Murcia"}},{"cifs":[{"nif":"Q3719006C"},{"nif":"Q2819009H"},{"nif":"Q4819006J"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60305,"og":{"codigo_dir":"E03699904","nombre":"Direccion
+        Provincial del SEPE de Bizkaia"},"ut":{"codigo_dir":"E03699904","nombre":"Direccion
+        Provincial del SEPE de Bizkaia"},"oc":{"codigo_dir":"E03699904","nombre":"Direccion
+        Provincial del SEPE de Bizkaia"}},{"cifs":[{"nif":"Q5019003B"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60306,"og":{"codigo_dir":"E03700104","nombre":"Direccion
+        Provincial del SEPE de Zaragoza"},"ut":{"codigo_dir":"E03700104","nombre":"Direccion
+        Provincial del SEPE de Zaragoza"},"oc":{"codigo_dir":"E03700104","nombre":"Direccion
+        Provincial del SEPE de Zaragoza"}},{"cifs":[{"nif":"Q1119010E"}],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":60354,"og":{"codigo_dir":"E03696204","nombre":"Direccion
+        Provincial del SEPE de Cadiz"},"ut":{"codigo_dir":"E03696204","nombre":"Direccion
+        Provincial del SEPE de Cadiz"},"oc":{"codigo_dir":"E03696204","nombre":"Direccion
+        Provincial del SEPE de Cadiz"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Empleo y Seguridad Social","codigo_dir":"E04921501","cifs":[]},"id":66341,"og":{"codigo_dir":"E04627803","nombre":"S.G.
+        de Integracion de los Inmigrantes"},"ut":{"codigo_dir":"E03694005","nombre":"Centro
+        de Estancia Temporal de Inmigrantes (C.E.T.I.) de Melilla"},"oc":{"codigo_dir":"GE0014097","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Melilla - Intervencion Te"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:31 GMT
+recorded_with: VCR 6.0.0

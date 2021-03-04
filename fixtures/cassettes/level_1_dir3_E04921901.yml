@@ -1,0 +1,801 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921901/relaciones?administracion=E04921901&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:38 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q2861010C"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11605,"og":{"codigo_dir":"E00142005","nombre":"Real
+        Patronato sobre Discapacidad"},"ut":{"codigo_dir":"E00142005","nombre":"Real
+        Patronato sobre Discapacidad"},"oc":{"codigo_dir":"E00142005","nombre":"Real
+        Patronato sobre Discapacidad"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11774,"og":{"codigo_dir":"E03175205","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia
+        Espa\u00f1ola de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11775,"og":{"codigo_dir":"E03175305","nombre":"DEPARTAMENTO
+        DE MEDICAMENTOS DE USO HUMANO"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11776,"og":{"codigo_dir":"E03175505","nombre":"DEPARTAMENTO
+        DE MEDICAMENTOS VETERINARIOS"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11777,"og":{"codigo_dir":"E03181805","nombre":"DEPARTAMENTO
+        DE PRODUCTOS SANITARIOS"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11778,"og":{"codigo_dir":"E04426904","nombre":"DEPARTAMENTO
+        DE INSPECCION Y CONTROL DE MEDICAMENTOS"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"B28954170"},{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11781,"og":{"codigo_dir":"EA0003160","nombre":"R\u00e9gimen
+        Interior"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia
+        Espa\u00f1ola de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11782,"og":{"codigo_dir":"EA0003161","nombre":"DIVISION
+        DE SISTEMAS Y TECNOLOG\u00cdAS INFORMACI\u00d3N"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11783,"og":{"codigo_dir":"EA0003162","nombre":"UNIDAD
+        DE APOYO A LA DIRECCI\u00d3N"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11784,"og":{"codigo_dir":"EA0003165","nombre":"DIRECCI\u00d3N"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11792,"og":{"codigo_dir":"E03574704","nombre":"Direccion
+        General -Injuve-"},"ut":{"codigo_dir":"EA0003170","nombre":"Ceulaj  -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11793,"og":{"codigo_dir":"E03574704","nombre":"Direccion
+        General -Injuve-"},"ut":{"codigo_dir":"GE0003260","nombre":"Caja Pagadora
+        Servicios Centrales"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto de
+        la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11794,"og":{"codigo_dir":"E03574704","nombre":"Direccion
+        General -Injuve-"},"ut":{"codigo_dir":"GE0003261","nombre":"Caja Pagadora
+        Ceulaj"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11795,"og":{"codigo_dir":"E03574805","nombre":"Secretaria
+        General -Injuve-"},"ut":{"codigo_dir":"EA0003171","nombre":"Servicio de Personal  -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11796,"og":{"codigo_dir":"E03574805","nombre":"Secretaria
+        General -Injuve-"},"ut":{"codigo_dir":"EA0003172","nombre":"Servicio Asuntos
+        Generales  -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto de
+        la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11797,"og":{"codigo_dir":"E03574805","nombre":"Secretaria
+        General -Injuve-"},"ut":{"codigo_dir":"EA0003173","nombre":"Servicio de Informatica  -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11798,"og":{"codigo_dir":"E03574805","nombre":"Secretaria
+        General -Injuve-"},"ut":{"codigo_dir":"GE0003260","nombre":"Caja Pagadora
+        Servicios Centrales"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto de
+        la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11799,"og":{"codigo_dir":"E04667304","nombre":"S.G.
+        DE COOPERACION INTERIOR Y EXTERIOR -INJUVE-"},"ut":{"codigo_dir":"EA0003174","nombre":"Agencia
+        Nacional U.E. -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11800,"og":{"codigo_dir":"E04667304","nombre":"S.G.
+        DE COOPERACION INTERIOR Y EXTERIOR -INJUVE-"},"ut":{"codigo_dir":"EA0003175","nombre":"Area
+        Cooperacion Internacional -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11801,"og":{"codigo_dir":"E04667304","nombre":"S.G.
+        DE COOPERACION INTERIOR Y EXTERIOR -INJUVE-"},"ut":{"codigo_dir":"GE0003260","nombre":"Caja
+        Pagadora Servicios Centrales"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11802,"og":{"codigo_dir":"E04667404","nombre":"DIVISION
+        DE PROGRAMAS -INJUVE-"},"ut":{"codigo_dir":"EA0003176","nombre":"Servicio
+        Gesti\u00f3n Programas  -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11803,"og":{"codigo_dir":"E04667404","nombre":"DIVISION
+        DE PROGRAMAS -INJUVE-"},"ut":{"codigo_dir":"GE0003260","nombre":"Caja Pagadora
+        Servicios Centrales"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto de
+        la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11804,"og":{"codigo_dir":"EA0003166","nombre":"ADJUNTIA
+        DIRECCION GENERAL -INJUVE-"},"ut":{"codigo_dir":"EA0003167","nombre":"Observatorio
+        de la Juventud -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11805,"og":{"codigo_dir":"EA0003166","nombre":"ADJUNTIA
+        DIRECCION GENERAL -INJUVE-"},"ut":{"codigo_dir":"EA0003168","nombre":"Servicio
+        Gesti\u00f3n Adjuntia  -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11806,"og":{"codigo_dir":"EA0003166","nombre":"ADJUNTIA
+        DIRECCION GENERAL -INJUVE-"},"ut":{"codigo_dir":"GE0003260","nombre":"Caja
+        Pagadora Servicios Centrales"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:01:38 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921901/relaciones?administracion=E04921901&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:38 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"102","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:01:38 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921901/relaciones?administracion=E04921901&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:39 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q2861010C"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11605,"og":{"codigo_dir":"E00142005","nombre":"Real
+        Patronato sobre Discapacidad"},"ut":{"codigo_dir":"E00142005","nombre":"Real
+        Patronato sobre Discapacidad"},"oc":{"codigo_dir":"E00142005","nombre":"Real
+        Patronato sobre Discapacidad"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11774,"og":{"codigo_dir":"E03175205","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia
+        Espa\u00f1ola de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11775,"og":{"codigo_dir":"E03175305","nombre":"DEPARTAMENTO
+        DE MEDICAMENTOS DE USO HUMANO"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11776,"og":{"codigo_dir":"E03175505","nombre":"DEPARTAMENTO
+        DE MEDICAMENTOS VETERINARIOS"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11777,"og":{"codigo_dir":"E03181805","nombre":"DEPARTAMENTO
+        DE PRODUCTOS SANITARIOS"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11778,"og":{"codigo_dir":"E04426904","nombre":"DEPARTAMENTO
+        DE INSPECCION Y CONTROL DE MEDICAMENTOS"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"B28954170"},{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11781,"og":{"codigo_dir":"EA0003160","nombre":"R\u00e9gimen
+        Interior"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia
+        Espa\u00f1ola de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11782,"og":{"codigo_dir":"EA0003161","nombre":"DIVISION
+        DE SISTEMAS Y TECNOLOG\u00cdAS INFORMACI\u00d3N"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11783,"og":{"codigo_dir":"EA0003162","nombre":"UNIDAD
+        DE APOYO A LA DIRECCI\u00d3N"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11784,"og":{"codigo_dir":"EA0003165","nombre":"DIRECCI\u00d3N"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11792,"og":{"codigo_dir":"E03574704","nombre":"Direccion
+        General -Injuve-"},"ut":{"codigo_dir":"EA0003170","nombre":"Ceulaj  -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11793,"og":{"codigo_dir":"E03574704","nombre":"Direccion
+        General -Injuve-"},"ut":{"codigo_dir":"GE0003260","nombre":"Caja Pagadora
+        Servicios Centrales"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto de
+        la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11794,"og":{"codigo_dir":"E03574704","nombre":"Direccion
+        General -Injuve-"},"ut":{"codigo_dir":"GE0003261","nombre":"Caja Pagadora
+        Ceulaj"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11795,"og":{"codigo_dir":"E03574805","nombre":"Secretaria
+        General -Injuve-"},"ut":{"codigo_dir":"EA0003171","nombre":"Servicio de Personal  -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11796,"og":{"codigo_dir":"E03574805","nombre":"Secretaria
+        General -Injuve-"},"ut":{"codigo_dir":"EA0003172","nombre":"Servicio Asuntos
+        Generales  -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto de
+        la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11797,"og":{"codigo_dir":"E03574805","nombre":"Secretaria
+        General -Injuve-"},"ut":{"codigo_dir":"EA0003173","nombre":"Servicio de Informatica  -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11798,"og":{"codigo_dir":"E03574805","nombre":"Secretaria
+        General -Injuve-"},"ut":{"codigo_dir":"GE0003260","nombre":"Caja Pagadora
+        Servicios Centrales"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto de
+        la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11799,"og":{"codigo_dir":"E04667304","nombre":"S.G.
+        DE COOPERACION INTERIOR Y EXTERIOR -INJUVE-"},"ut":{"codigo_dir":"EA0003174","nombre":"Agencia
+        Nacional U.E. -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11800,"og":{"codigo_dir":"E04667304","nombre":"S.G.
+        DE COOPERACION INTERIOR Y EXTERIOR -INJUVE-"},"ut":{"codigo_dir":"EA0003175","nombre":"Area
+        Cooperacion Internacional -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11801,"og":{"codigo_dir":"E04667304","nombre":"S.G.
+        DE COOPERACION INTERIOR Y EXTERIOR -INJUVE-"},"ut":{"codigo_dir":"GE0003260","nombre":"Caja
+        Pagadora Servicios Centrales"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11802,"og":{"codigo_dir":"E04667404","nombre":"DIVISION
+        DE PROGRAMAS -INJUVE-"},"ut":{"codigo_dir":"EA0003176","nombre":"Servicio
+        Gesti\u00f3n Programas  -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11803,"og":{"codigo_dir":"E04667404","nombre":"DIVISION
+        DE PROGRAMAS -INJUVE-"},"ut":{"codigo_dir":"GE0003260","nombre":"Caja Pagadora
+        Servicios Centrales"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto de
+        la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11804,"og":{"codigo_dir":"EA0003166","nombre":"ADJUNTIA
+        DIRECCION GENERAL -INJUVE-"},"ut":{"codigo_dir":"EA0003167","nombre":"Observatorio
+        de la Juventud -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11805,"og":{"codigo_dir":"EA0003166","nombre":"ADJUNTIA
+        DIRECCION GENERAL -INJUVE-"},"ut":{"codigo_dir":"EA0003168","nombre":"Servicio
+        Gesti\u00f3n Adjuntia  -Injuve-"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":11806,"og":{"codigo_dir":"EA0003166","nombre":"ADJUNTIA
+        DIRECCION GENERAL -INJUVE-"},"ut":{"codigo_dir":"GE0003260","nombre":"Caja
+        Pagadora Servicios Centrales"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto
+        de la Juventud"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:01:39 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921901/relaciones?administracion=E04921901&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:40 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":49798,"og":{"codigo_dir":"E03574805","nombre":"Secretaria
+        General -Injuve-"},"ut":{"codigo_dir":"EA0010298","nombre":"Servicio de R\u00e9gimen
+        Interior"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto de la Juventud"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":49843,"og":{"codigo_dir":"E03574805","nombre":"Secretaria
+        General -Injuve-"},"ut":{"codigo_dir":"GE0011543","nombre":"Gestion Comisiones
+        Secretaria"},"oc":{"codigo_dir":"E00142204","nombre":"Instituto de la Juventud"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58224,"og":{"codigo_dir":"E03183205","nombre":"S.G
+        de Relaciones Internacionales"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58225,"og":{"codigo_dir":"E04620205","nombre":"Division
+        Gabinete Tecnico"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58226,"og":{"codigo_dir":"E04928801","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58246,"og":{"codigo_dir":"E03181105","nombre":"S.G.
+        de Recursos y Publicaciones"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"},{"nif":"S2818001F"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58247,"og":{"codigo_dir":"E03181207","nombre":"S.G.
+        de Tecnologias de la Informacion"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2800560A"},{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58248,"og":{"codigo_dir":"E03183306","nombre":"S.G.
+        de Oficialia Mayor"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58249,"og":{"codigo_dir":"E03183506","nombre":"S.G.
+        de Recursos Humanos"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58250,"og":{"codigo_dir":"E04797503","nombre":"Delegacion
+        del Gobierno para la Violencia de Genero"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58251,"og":{"codigo_dir":"E04930901","nombre":"Gabinete
+        Tecnico del Subsecretario"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58252,"og":{"codigo_dir":"E04938301","nombre":"D.G.
+        de Servicios para la Familia y la Infancia"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58253,"og":{"codigo_dir":"E04938501","nombre":"D.G.
+        de Politicas de Apoyo a la Discapacidad"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58259,"og":{"codigo_dir":"E03185807","nombre":"S.G.
+        de Atencion al Ciudadano"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58260,"og":{"codigo_dir":"E03185905","nombre":"Secretaria
+        del Secretario General"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"},{"nif":"S2816030G"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58261,"og":{"codigo_dir":"E04601905","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58262,"og":{"codigo_dir":"E04928901","nombre":"Secretaria
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58263,"og":{"codigo_dir":"E04938701","nombre":"Secretaria
+        General Tecnica"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58284,"og":{"codigo_dir":"E03184007","nombre":"S.G.
+        de Ordenacion Profesional"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58285,"og":{"codigo_dir":"E04923401","nombre":"Gabinete
+        del Ministro"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58286,"og":{"codigo_dir":"E04939502","nombre":"D.G.
+        de Ordenacion Profesional"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58294,"og":{"codigo_dir":"E04939102","nombre":"D.G.
+        de Salud Publica, Calidad e Innovacion"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58295,"og":{"codigo_dir":"E04939302","nombre":"D.G.
+        de Cartera Basica de Servicios del Sistema Nacional de Salud y Farmacia"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58316,"og":{"codigo_dir":"E03181105","nombre":"S.G.
+        de Recursos y Publicaciones"},"ut":{"codigo_dir":"E03183806","nombre":"S.G.
+        de Programacion y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58317,"og":{"codigo_dir":"E04797503","nombre":"Delegacion
+        del Gobierno para la Violencia de Genero"},"ut":{"codigo_dir":"E03183806","nombre":"S.G.
+        de Programacion y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:01:40 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921901/relaciones?administracion=E04921901&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:41 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Sanidad,
+        Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58318,"og":{"codigo_dir":"E04928801","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"E03183806","nombre":"S.G. de
+        Programacion y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58319,"og":{"codigo_dir":"E04930901","nombre":"Gabinete
+        Tecnico del Subsecretario"},"ut":{"codigo_dir":"E03183806","nombre":"S.G.
+        de Programacion y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58320,"og":{"codigo_dir":"E04938301","nombre":"D.G.
+        de Servicios para la Familia y la Infancia"},"ut":{"codigo_dir":"E03183806","nombre":"S.G.
+        de Programacion y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58321,"og":{"codigo_dir":"E04939302","nombre":"D.G.
+        de Cartera Basica de Servicios del Sistema Nacional de Salud y Farmacia"},"ut":{"codigo_dir":"E03183806","nombre":"S.G.
+        de Programacion y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"},{"nif":"S2816030G"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58322,"og":{"codigo_dir":"E04601905","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"ut":{"codigo_dir":"E04617805","nombre":"S.G.
+        de Gesti\u00f3n"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58323,"og":{"codigo_dir":"EA0010566","nombre":"S.G.
+        de Di\u00e1logo Civil"},"ut":{"codigo_dir":"E04628606","nombre":"S.G. de Coordinacion
+        y Ordenacion"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58324,"og":{"codigo_dir":"E03184007","nombre":"S.G.
+        de Ordenacion Profesional"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58325,"og":{"codigo_dir":"E03185807","nombre":"S.G.
+        de Atencion al Ciudadano"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58326,"og":{"codigo_dir":"E04620205","nombre":"Division
+        Gabinete Tecnico"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"},{"nif":"S2818001F"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58336,"og":{"codigo_dir":"E03181207","nombre":"S.G.
+        de Tecnologias de la Informacion"},"ut":{"codigo_dir":"E03183806","nombre":"S.G.
+        de Programacion y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2800560A"},{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58337,"og":{"codigo_dir":"E03183306","nombre":"S.G.
+        de Oficialia Mayor"},"ut":{"codigo_dir":"E03183806","nombre":"S.G. de Programacion
+        y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58338,"og":{"codigo_dir":"E03183506","nombre":"S.G.
+        de Recursos Humanos"},"ut":{"codigo_dir":"E03183806","nombre":"S.G. de Programacion
+        y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58339,"og":{"codigo_dir":"E04620205","nombre":"Division
+        Gabinete Tecnico"},"ut":{"codigo_dir":"E03183806","nombre":"S.G. de Programacion
+        y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58340,"og":{"codigo_dir":"E04928901","nombre":"Secretaria
+        del Secretario de Estado"},"ut":{"codigo_dir":"E03183806","nombre":"S.G. de
+        Programacion y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58341,"og":{"codigo_dir":"E04938501","nombre":"D.G.
+        de Politicas de Apoyo a la Discapacidad"},"ut":{"codigo_dir":"E03183806","nombre":"S.G.
+        de Programacion y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58342,"og":{"codigo_dir":"E04928701","nombre":"S.
+        de E. de Servicios Sociales e Igualdad"},"ut":{"codigo_dir":"E04617805","nombre":"S.G.
+        de Gesti\u00f3n"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58343,"og":{"codigo_dir":"E04797503","nombre":"Delegacion
+        del Gobierno para la Violencia de Genero"},"ut":{"codigo_dir":"E04797503","nombre":"Delegacion
+        del Gobierno para la Violencia de Genero"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58344,"og":{"codigo_dir":"E03181105","nombre":"S.G.
+        de Recursos y Publicaciones"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"},{"nif":"S2818001F"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58345,"og":{"codigo_dir":"E03181207","nombre":"S.G.
+        de Tecnologias de la Informacion"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"},{"nif":"S2816030G"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58346,"og":{"codigo_dir":"E04601905","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58347,"og":{"codigo_dir":"E04797503","nombre":"Delegacion
+        del Gobierno para la Violencia de Genero"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58348,"og":{"codigo_dir":"E04928901","nombre":"Secretaria
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58349,"og":{"codigo_dir":"E04930901","nombre":"Gabinete
+        Tecnico del Subsecretario"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58350,"og":{"codigo_dir":"E04939102","nombre":"D.G.
+        de Salud Publica, Calidad e Innovacion"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58351,"og":{"codigo_dir":"E04939502","nombre":"D.G.
+        de Ordenacion Profesional"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:01:41 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921901/relaciones?administracion=E04921901&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:42 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q2861010C"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":59074,"og":{"codigo_dir":"E00142005","nombre":"Real
+        Patronato sobre Discapacidad"},"ut":{"codigo_dir":"E00142005","nombre":"Real
+        Patronato sobre Discapacidad"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58356,"og":{"codigo_dir":"E04923401","nombre":"Gabinete
+        del Ministro"},"ut":{"codigo_dir":"E03183806","nombre":"S.G. de Programacion
+        y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58363,"og":{"codigo_dir":"E04923401","nombre":"Gabinete
+        del Ministro"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58380,"og":{"codigo_dir":"E04939302","nombre":"D.G.
+        de Cartera Basica de Servicios del Sistema Nacional de Salud y Farmacia"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58376,"og":{"codigo_dir":"E04939502","nombre":"D.G.
+        de Ordenacion Profesional"},"ut":{"codigo_dir":"E03183806","nombre":"S.G.
+        de Programacion y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58358,"og":{"codigo_dir":"E04938501","nombre":"D.G.
+        de Politicas de Apoyo a la Discapacidad"},"ut":{"codigo_dir":"E04628606","nombre":"S.G.
+        de Coordinacion y Ordenacion"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58378,"og":{"codigo_dir":"E04938501","nombre":"D.G.
+        de Politicas de Apoyo a la Discapacidad"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58357,"og":{"codigo_dir":"E04939102","nombre":"D.G.
+        de Salud Publica, Calidad e Innovacion"},"ut":{"codigo_dir":"E03183806","nombre":"S.G.
+        de Programacion y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58359,"og":{"codigo_dir":"E04938301","nombre":"D.G.
+        de Servicios para la Familia y la Infancia"},"ut":{"codigo_dir":"E04938301","nombre":"D.G.
+        de Servicios para la Familia y la Infancia"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58365,"og":{"codigo_dir":"E04938301","nombre":"D.G.
+        de Servicios para la Familia y la Infancia"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58364,"og":{"codigo_dir":"E04928801","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58355,"og":{"codigo_dir":"E03185905","nombre":"Secretaria
+        del Secretario General"},"ut":{"codigo_dir":"E03183806","nombre":"S.G. de
+        Programacion y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58362,"og":{"codigo_dir":"E03185905","nombre":"Secretaria
+        del Secretario General"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58379,"og":{"codigo_dir":"E04938701","nombre":"Secretaria
+        General Tecnica"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58375,"og":{"codigo_dir":"E03185807","nombre":"S.G.
+        de Atencion al Ciudadano"},"ut":{"codigo_dir":"E03183806","nombre":"S.G. de
+        Programacion y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2800560A"},{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58377,"og":{"codigo_dir":"E03183306","nombre":"S.G.
+        de Oficialia Mayor"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de
+        Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"S2827001E"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58361,"og":{"codigo_dir":"E03183506","nombre":"S.G.
+        de Recursos Humanos"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de
+        Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":59078,"og":{"codigo_dir":"E03574805","nombre":"Secretaria
+        General -Injuve-"},"ut":{"codigo_dir":"EA0003172","nombre":"Servicio Asuntos
+        Generales  -Injuve-"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2828002B"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":59083,"og":{"codigo_dir":"E03574805","nombre":"Secretaria
+        General -Injuve-"},"ut":{"codigo_dir":"EA0010298","nombre":"Servicio de R\u00e9gimen
+        Interior"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58360,"og":{"codigo_dir":"E03183205","nombre":"S.G
+        de Relaciones Internacionales"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":58374,"og":{"codigo_dir":"E03183205","nombre":"S.G
+        de Relaciones Internacionales"},"ut":{"codigo_dir":"E03183806","nombre":"S.G.
+        de Programacion y Gestion Economico-Financiera"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[{"nif":"B28954170"},{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":59071,"og":{"codigo_dir":"EA0003160","nombre":"R\u00e9gimen
+        Interior"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion Economica"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2802157D"},{"nif":"Q2801255G"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":59067,"og":{"codigo_dir":"E04970101","nombre":"Agencia
+        Espa\u00f1ola de Consumo, Seguridad Alimentaria y Nutricion"},"ut":{"codigo_dir":"EA0002926","nombre":"Contrataci\u00f3n
+        R\u00e9gimen Interior"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2802157D"},{"nif":"Q2801255G"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":59201,"og":{"codigo_dir":"E04970101","nombre":"Agencia
+        Espa\u00f1ola de Consumo, Seguridad Alimentaria y Nutricion"},"ut":{"codigo_dir":"GE0003382","nombre":"Contratacion
+        Consumo"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2802157D"},{"nif":"Q2801255G"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":59200,"og":{"codigo_dir":"E04970101","nombre":"Agencia
+        Espa\u00f1ola de Consumo, Seguridad Alimentaria y Nutricion"},"ut":{"codigo_dir":"GE0001591","nombre":"Contrataci\u00f3n
+        Laboratorios"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:01:42 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921901/relaciones?administracion=E04921901&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:43 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Sanidad,
+        Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":60014,"og":{"codigo_dir":"E04985601","nombre":"Area
+        de Organismo Notificado"},"ut":{"codigo_dir":"EA0003159","nombre":"Gestion
+        Economica"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia Espa\u00f1ola
+        de Medicamentos y Productos Sanitarios"}},{"cifs":[{"nif":"Q2827023I"}],"administracion":{"nombre":"Ministerio
+        de Sanidad, Servicios Sociales e Igualdad","codigo_dir":"E04921901","cifs":[]},"id":93107,"og":{"codigo_dir":"E03175205","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0017619","nombre":"Coordinaci\u00f3n General"},"oc":{"codigo_dir":"E04919401","nombre":"Agencia
+        Espa\u00f1ola de Medicamentos y Productos Sanitarios"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:01:43 GMT
+recorded_with: VCR 6.0.0

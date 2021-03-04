@@ -1,0 +1,1302 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990301/relaciones?administracion=E04990301&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:36 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":55798,"og":{"codigo_dir":"EA0018801","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0003148","nombre":"Secretar\u00eda General.
+        Unidad Tramitadora"},"oc":{"codigo_dir":"EA0003147","nombre":"Secretar\u00eda
+        General. Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":55799,"og":{"codigo_dir":"EA0018805","nombre":"Unidad
+        Tecnica de Seguimiento de la Cadena e Inspeccion"},"ut":{"codigo_dir":"EA0003148","nombre":"Secretar\u00eda
+        General. Unidad Tramitadora"},"oc":{"codigo_dir":"EA0003147","nombre":"Secretar\u00eda
+        General. Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":55817,"og":{"codigo_dir":"EA0018800","nombre":"Agencia
+        de Informaci\u00f3n y Control Alimentarios, O.A."},"ut":{"codigo_dir":"EA0003148","nombre":"Secretar\u00eda
+        General. Unidad Tramitadora"},"oc":{"codigo_dir":"EA0003147","nombre":"Secretar\u00eda
+        General. Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":55818,"og":{"codigo_dir":"EA0018804","nombre":"Unidad
+        Tecnica de Mercados"},"ut":{"codigo_dir":"EA0003148","nombre":"Secretar\u00eda
+        General. Unidad Tramitadora"},"oc":{"codigo_dir":"EA0003147","nombre":"Secretar\u00eda
+        General. Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56038,"og":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0018659","nombre":"Oficina
+        de Planificacion Hidrologica"},"oc":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56039,"og":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0018661","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0018656","nombre":"Confederacion Hidrografica
+        del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56076,"og":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0018657","nombre":"Comisaria
+        de Aguas"},"oc":{"codigo_dir":"EA0018656","nombre":"Confederacion Hidrografica
+        del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56077,"og":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0018658","nombre":"Direccion
+        Tecnica"},"oc":{"codigo_dir":"EA0018656","nombre":"Confederacion Hidrografica
+        del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56078,"og":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0018660","nombre":"Presidencia"},"oc":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56311,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018730","nombre":"Demarcacion
+        de Costas de Baleares"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina Contable.
+        Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56312,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018730","nombre":"Demarcacion
+        de Costas de Baleares"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina Contable.
+        Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56325,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018729","nombre":"Demarcacion
+        de Costas de Asturias Oviedo"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56326,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018729","nombre":"Demarcacion
+        de Costas de Asturias Oviedo"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56353,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018743","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56355,"og":{"codigo_dir":"EA0018743","nombre":"Servicio
+        Provincial de Costas Huelva"},"ut":{"codigo_dir":"EA0018743","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56576,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018745","nombre":"Servicio
+        Provincial de Costas Pontevedra"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56640,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018742","nombre":"Servicio
+        Provincial de Costas Guipuzcoa"},"oc":{"codigo_dir":"GE0014062","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Guipuzcoa - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56677,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018741","nombre":"Servicio
+        Provincial de Costas Girona"},"oc":{"codigo_dir":"GE0014086","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Girona - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56697,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018745","nombre":"Servicio
+        Provincial de Costas Pontevedra"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56714,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018742","nombre":"Servicio
+        Provincial de Costas Guipuzcoa"},"oc":{"codigo_dir":"GE0014062","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Guipuzcoa - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56716,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018728","nombre":"Demarcacion
+        de Costas Cantabria"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina Contable.
+        Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56749,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018727","nombre":"Servicio
+        Provincial de Costas Alicante"},"oc":{"codigo_dir":"GE0014116","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alicante - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56750,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018727","nombre":"Servicio
+        Provincial de Costas Alicante"},"oc":{"codigo_dir":"GE0014116","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alicante - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56796,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018736","nombre":"Demarcacion
+        de Costas del Pais Vasco Bizkaia"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56834,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018736","nombre":"Demarcacion
+        de Costas del Pais Vasco Bizkaia"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:36 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990301/relaciones?administracion=E04990301&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:36 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"193","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:00:36 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990301/relaciones?administracion=E04990301&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:37 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":55798,"og":{"codigo_dir":"EA0018801","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0003148","nombre":"Secretar\u00eda General.
+        Unidad Tramitadora"},"oc":{"codigo_dir":"EA0003147","nombre":"Secretar\u00eda
+        General. Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":55799,"og":{"codigo_dir":"EA0018805","nombre":"Unidad
+        Tecnica de Seguimiento de la Cadena e Inspeccion"},"ut":{"codigo_dir":"EA0003148","nombre":"Secretar\u00eda
+        General. Unidad Tramitadora"},"oc":{"codigo_dir":"EA0003147","nombre":"Secretar\u00eda
+        General. Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":55817,"og":{"codigo_dir":"EA0018800","nombre":"Agencia
+        de Informaci\u00f3n y Control Alimentarios, O.A."},"ut":{"codigo_dir":"EA0003148","nombre":"Secretar\u00eda
+        General. Unidad Tramitadora"},"oc":{"codigo_dir":"EA0003147","nombre":"Secretar\u00eda
+        General. Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":55818,"og":{"codigo_dir":"EA0018804","nombre":"Unidad
+        Tecnica de Mercados"},"ut":{"codigo_dir":"EA0003148","nombre":"Secretar\u00eda
+        General. Unidad Tramitadora"},"oc":{"codigo_dir":"EA0003147","nombre":"Secretar\u00eda
+        General. Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56038,"og":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0018659","nombre":"Oficina
+        de Planificacion Hidrologica"},"oc":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56039,"og":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0018661","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0018656","nombre":"Confederacion Hidrografica
+        del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56076,"og":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0018657","nombre":"Comisaria
+        de Aguas"},"oc":{"codigo_dir":"EA0018656","nombre":"Confederacion Hidrografica
+        del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56077,"og":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0018658","nombre":"Direccion
+        Tecnica"},"oc":{"codigo_dir":"EA0018656","nombre":"Confederacion Hidrografica
+        del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56078,"og":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0018660","nombre":"Presidencia"},"oc":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56311,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018730","nombre":"Demarcacion
+        de Costas de Baleares"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina Contable.
+        Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56312,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018730","nombre":"Demarcacion
+        de Costas de Baleares"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina Contable.
+        Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56325,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018729","nombre":"Demarcacion
+        de Costas de Asturias Oviedo"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56326,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018729","nombre":"Demarcacion
+        de Costas de Asturias Oviedo"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56353,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018743","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56355,"og":{"codigo_dir":"EA0018743","nombre":"Servicio
+        Provincial de Costas Huelva"},"ut":{"codigo_dir":"EA0018743","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56576,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018745","nombre":"Servicio
+        Provincial de Costas Pontevedra"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56640,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018742","nombre":"Servicio
+        Provincial de Costas Guipuzcoa"},"oc":{"codigo_dir":"GE0014062","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Guipuzcoa - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56677,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018741","nombre":"Servicio
+        Provincial de Costas Girona"},"oc":{"codigo_dir":"GE0014086","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Girona - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56697,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018745","nombre":"Servicio
+        Provincial de Costas Pontevedra"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56714,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018742","nombre":"Servicio
+        Provincial de Costas Guipuzcoa"},"oc":{"codigo_dir":"GE0014062","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Guipuzcoa - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56716,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018728","nombre":"Demarcacion
+        de Costas Cantabria"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina Contable.
+        Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56749,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018727","nombre":"Servicio
+        Provincial de Costas Alicante"},"oc":{"codigo_dir":"GE0014116","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alicante - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56750,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018727","nombre":"Servicio
+        Provincial de Costas Alicante"},"oc":{"codigo_dir":"GE0014116","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alicante - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56796,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018736","nombre":"Demarcacion
+        de Costas del Pais Vasco Bizkaia"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56834,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018736","nombre":"Demarcacion
+        de Costas del Pais Vasco Bizkaia"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:37 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990301/relaciones?administracion=E04990301&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:38 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58166,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018721","nombre":"Unidad
+        de Apoyo de la D.G. de Calidad y Evaluaci\u00f3n Ambiental y Medio Natural"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58167,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018749","nombre":"S.G.
+        de Apoyo y Coordinacion"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58171,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018788","nombre":"S.G.
+        de Programacion y Coordinacion"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":57076,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018734","nombre":"Demarcacion
+        de Costas de Catalu\u00f1a"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":57074,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018731","nombre":"Demarcacion
+        de Costas. Andalucia-Mediterraneo Malaga"},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Malaga - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":57147,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018748","nombre":"Servicio
+        Provincial de Costas Tenerife"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56928,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018733","nombre":"Demarcacion
+        de Costas. Andalucia-Atlantico Cadiz"},"oc":{"codigo_dir":"GE0014078","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cadiz - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58149,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018713","nombre":"S.G.
+        de Coordinacion de Acciones Frente al Cambio Climatico"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58151,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018792","nombre":"S.G.
+        de Pol\u00edtica Forestal"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58163,"og":{"codigo_dir":"E04737005","nombre":"Oficina
+        Espa\u00f1ola del Cambio Clim\u00e1tico"},"ut":{"codigo_dir":"EA0018712","nombre":"S.G.
+        de Comercio de Emisiones y Mecanismos de Flexibilidad"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58148,"og":{"codigo_dir":"E04737005","nombre":"Oficina
+        Espa\u00f1ola del Cambio Clim\u00e1tico"},"ut":{"codigo_dir":"EA0018713","nombre":"S.G.
+        de Coordinacion de Acciones Frente al Cambio Climatico"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58153,"og":{"codigo_dir":"E04932602","nombre":"D.G.
+        de la Industria Alimentaria"},"ut":{"codigo_dir":"EA0018797","nombre":"S.G.
+        Calidad Diferenciada y Agricultura Ecologica"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58152,"og":{"codigo_dir":"E04932602","nombre":"D.G.
+        de la Industria Alimentaria"},"ut":{"codigo_dir":"EA0018796","nombre":"S.G.
+        de Estructura de la Cadena Alimentaria"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58170,"og":{"codigo_dir":"E04932202","nombre":"D.G.
+        de Producciones y Mercados Agrarios"},"ut":{"codigo_dir":"EA0018754","nombre":"S.G.
+        de Medios de Produccion Agricolas y Oficina Espa\u00f1ola de Variedades Vegetales"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58168,"og":{"codigo_dir":"E04932202","nombre":"D.G.
+        de Producciones y Mercados Agrarios"},"ut":{"codigo_dir":"EA0018752","nombre":"S.G.
+        de Productos Ganaderos"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58169,"og":{"codigo_dir":"E04932202","nombre":"D.G.
+        de Producciones y Mercados Agrarios"},"ut":{"codigo_dir":"EA0018753","nombre":"S.G.
+        de Medios de Produccion Ganaderos"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58145,"og":{"codigo_dir":"E04595804","nombre":"D.G.
+        del Agua"},"ut":{"codigo_dir":"EA0018402","nombre":"Confederacion Hidrografica
+        del Ebro"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable. I.D.
+        Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58146,"og":{"codigo_dir":"E04595804","nombre":"D.G.
+        del Agua"},"ut":{"codigo_dir":"EA0018656","nombre":"Confederacion Hidrografica
+        del Jucar, O.A."},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58147,"og":{"codigo_dir":"E04595804","nombre":"D.G.
+        del Agua"},"ut":{"codigo_dir":"EA0018710","nombre":"S.G. de Programacion Economica"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58015,"og":{"codigo_dir":"EA0018389","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"ut":{"codigo_dir":"EA0018389","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"oc":{"codigo_dir":"EA0018389","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58165,"og":{"codigo_dir":"E04933202","nombre":"D.G.
+        de Calidad y Evaluaci\u00f3n Ambiental y Medio Natural"},"ut":{"codigo_dir":"EA0018721","nombre":"Unidad
+        de Apoyo de la D.G. de Calidad y Evaluaci\u00f3n Ambiental y Medio Natural"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58164,"og":{"codigo_dir":"E04933202","nombre":"D.G.
+        de Calidad y Evaluaci\u00f3n Ambiental y Medio Natural"},"ut":{"codigo_dir":"EA0018719","nombre":"S.G.
+        de Medio Natural"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":56911,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018733","nombre":"Demarcacion
+        de Costas. Andalucia-Atlantico Cadiz"},"oc":{"codigo_dir":"GE0014078","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cadiz - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":57075,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018734","nombre":"Demarcacion
+        de Costas de Catalu\u00f1a"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58150,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018724","nombre":"S.G.
+        para la Proteccion de la Costa"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:38 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990301/relaciones?administracion=E04990301&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:39 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58173,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018791","nombre":"S.G.
+        de Innovaci\u00f3n y Modernizaci\u00f3n del Medio Rural"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58188,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"E04993101","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58189,"og":{"codigo_dir":"E04595804","nombre":"D.G.
+        del Agua"},"ut":{"codigo_dir":"EA0018395","nombre":"Confederacion Hidrografica
+        del Duero"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable. I.D.
+        Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58190,"og":{"codigo_dir":"E04595804","nombre":"D.G.
+        del Agua"},"ut":{"codigo_dir":"EA0018695","nombre":"Direcci\u00f3n T\u00e9cnica"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58191,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018710","nombre":"S.G.
+        de Programacion Economica"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58192,"og":{"codigo_dir":"E04932202","nombre":"D.G.
+        de Producciones y Mercados Agrarios"},"ut":{"codigo_dir":"EA0018750","nombre":"S.G.
+        de Frutas y Hortalizas y Vitivinicultura"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58193,"og":{"codigo_dir":"E04932202","nombre":"D.G.
+        de Producciones y Mercados Agrarios"},"ut":{"codigo_dir":"EA0018751","nombre":"S.G.
+        de Cultivos Herb\u00e1ceos e Industriales y Aceite de Oliva"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58202,"og":{"codigo_dir":"E04993001","nombre":"S.
+        de E. de Medio Ambiente"},"ut":{"codigo_dir":"E04993101","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58203,"og":{"codigo_dir":"E04595804","nombre":"D.G.
+        del Agua"},"ut":{"codigo_dir":"EA0018389","nombre":"Confederacion Hidrografica
+        del Cantabrico, O.A."},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58204,"og":{"codigo_dir":"E04595804","nombre":"D.G.
+        del Agua"},"ut":{"codigo_dir":"EA0018448","nombre":"Confederacion Hidrografica
+        del Guadalquivir"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58205,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018712","nombre":"S.G.
+        de Comercio de Emisiones y Mecanismos de Flexibilidad"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58206,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018724","nombre":"S.G.
+        para la Proteccion de la Costa"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58207,"og":{"codigo_dir":"E04932402","nombre":"D.G.
+        de Sanidad de la Producci\u00f3n Agraria"},"ut":{"codigo_dir":"EA0018785","nombre":"S.G.
+        de Sanidad e Higiene Animal y Trazabilidad"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58208,"og":{"codigo_dir":"E04932402","nombre":"D.G.
+        de Sanidad de la Producci\u00f3n Agraria"},"ut":{"codigo_dir":"EA0018786","nombre":"S.G.
+        de Sanidad e Higiene Vegetal y Forestal"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58209,"og":{"codigo_dir":"E04932402","nombre":"D.G.
+        de Sanidad de la Producci\u00f3n Agraria"},"ut":{"codigo_dir":"EA0018787","nombre":"S.G.
+        de Acuerdos Sanitarios y Control en Frontera"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58210,"og":{"codigo_dir":"E04932802","nombre":"D.G.
+        de Desarrollo Rural y Pol\u00edtica Forestal"},"ut":{"codigo_dir":"EA0018788","nombre":"S.G.
+        de Programacion y Coordinacion"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58212,"og":{"codigo_dir":"E04932602","nombre":"D.G.
+        de la Industria Alimentaria"},"ut":{"codigo_dir":"EA0018795","nombre":"S.G.
+        de Fomento Industrial e Innovacion"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58213,"og":{"codigo_dir":"E04794603","nombre":"Secretaria
+        General T\u00e9cnica"},"ut":{"codigo_dir":"EA0018815","nombre":"Oficialia
+        Mayor"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable. I.D. Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58216,"og":{"codigo_dir":"E04932802","nombre":"D.G.
+        de Desarrollo Rural y Pol\u00edtica Forestal"},"ut":{"codigo_dir":"EA0018791","nombre":"S.G.
+        de Innovaci\u00f3n y Modernizaci\u00f3n del Medio Rural"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58217,"og":{"codigo_dir":"E04932602","nombre":"D.G.
+        de la Industria Alimentaria"},"ut":{"codigo_dir":"EA0018798","nombre":"S.G.
+        de Promocion Alimentaria"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58218,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018815","nombre":"Oficialia
+        Mayor"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable. I.D. Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58219,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018828","nombre":"S.G.
+        de Analisis, Prospectiva y Coordinacion"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58220,"og":{"codigo_dir":"EA0018833","nombre":"D.G.
+        de Ordenaci\u00f3n Pesquera y Acuicultura"},"ut":{"codigo_dir":"EA0018835","nombre":"S.G.
+        de Gestion"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable. I.D.
+        Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58221,"og":{"codigo_dir":"E04595804","nombre":"D.G.
+        del Agua"},"ut":{"codigo_dir":"GE0011648","nombre":"Caja Pagos a Justificar
+        Expropiaciones y Obras Emergencia Chg"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58234,"og":{"codigo_dir":"E04932802","nombre":"D.G.
+        de Desarrollo Rural y Pol\u00edtica Forestal"},"ut":{"codigo_dir":"EA0018792","nombre":"S.G.
+        de Pol\u00edtica Forestal"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:39 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990301/relaciones?administracion=E04990301&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:40 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58235,"og":{"codigo_dir":"E04932802","nombre":"D.G.
+        de Desarrollo Rural y Pol\u00edtica Forestal"},"ut":{"codigo_dir":"EA0018794","nombre":"Direccion
+        T\u00e9cnica de la D.G Desarrollo Rural y Pol\u00edtica Forestal"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58236,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018794","nombre":"Direccion
+        T\u00e9cnica de la D.G Desarrollo Rural y Pol\u00edtica Forestal"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58237,"og":{"codigo_dir":"E04932602","nombre":"D.G.
+        de la Industria Alimentaria"},"ut":{"codigo_dir":"EA0018799","nombre":"S.G.
+        de Control y de Laboratorios Alimentarios"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58238,"og":{"codigo_dir":"EA0018834","nombre":"D.G.
+        de Recursos Pesqueros"},"ut":{"codigo_dir":"EA0018835","nombre":"S.G. de Gestion"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58239,"og":{"codigo_dir":"E04595804","nombre":"D.G.
+        del Agua"},"ut":{"codigo_dir":"GE0001931","nombre":"Confederacion Hidrografica
+        del Mi\u00f1o-Sil (CAJA)"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58241,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"GE0010520","nombre":"Servicio
+        Gesti\u00f3n Patrimonial"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58254,"og":{"codigo_dir":"E04794803","nombre":"D.G.
+        de Servicios"},"ut":{"codigo_dir":"EA0018815","nombre":"Oficialia Mayor"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58255,"og":{"codigo_dir":"E04794603","nombre":"Secretaria
+        General T\u00e9cnica"},"ut":{"codigo_dir":"EA0018819","nombre":"Division de
+        Estudios y Publicaciones"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58256,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018824","nombre":"S.G.
+        de Relaciones Internacionales y Asuntos Comunitarios"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58257,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"GE0003626","nombre":"Caja
+        Pagadora MITERD"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58274,"og":{"codigo_dir":"E04794803","nombre":"D.G.
+        de Servicios"},"ut":{"codigo_dir":"EA0018817","nombre":"S.G. de Recursos Humanos"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58275,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018819","nombre":"Division
+        de Estudios y Publicaciones"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58276,"og":{"codigo_dir":"E04794603","nombre":"Secretaria
+        General T\u00e9cnica"},"ut":{"codigo_dir":"EA0018821","nombre":"S.G. de Estadistica"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58277,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018821","nombre":"S.G.
+        de Estadistica"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58278,"og":{"codigo_dir":"E04933002","nombre":"S.Gral.
+        de Pesca"},"ut":{"codigo_dir":"EA0018835","nombre":"S.G. de Gestion"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58279,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018835","nombre":"S.G.
+        de Gestion"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable. I.D.
+        Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58280,"og":{"codigo_dir":"E04595804","nombre":"D.G.
+        del Agua"},"ut":{"codigo_dir":"GE0003626","nombre":"Caja Pagadora MITERD"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58281,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018739","nombre":"Servicio
+        Provincial de Costas Castellon"},"oc":{"codigo_dir":"GE0014081","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Castellon - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58391,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018845","nombre":"\u00c1rea
+        de Gesti\u00f3n Econ\u00f3mica y Presupuestaria"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58392,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018854","nombre":"Centro
+        del Lince el Acebuche"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio de
+        Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58393,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018859","nombre":"Finca
+        Granadilla"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina Contable Parques
+        Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58397,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018850","nombre":"Centro
+        de Cr\u00eda Granadilla"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58398,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018851","nombre":"\u00c1rea
+        de Actuaciones Singulares en Red, Centros y Fincas"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58399,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018853","nombre":"Centro
+        de Montes y Aserradero de Valsain"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58400,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018858","nombre":"Direcci\u00f3n"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:40 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990301/relaciones?administracion=E04990301&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:41 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58882,"og":{"codigo_dir":"EA0018687","nombre":"Confederacion
+        Hidrografica del Segura, O.A."},"ut":{"codigo_dir":"EA0018688","nombre":"Comisar\u00eda
+        de Aguas"},"oc":{"codigo_dir":"EA0018698","nombre":"Secretar\u00eda General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58867,"og":{"codigo_dir":"EA0018687","nombre":"Confederacion
+        Hidrografica del Segura, O.A."},"ut":{"codigo_dir":"EA0018696","nombre":"Oficina
+        de Planificaci\u00f3n Hidrol\u00f3gica"},"oc":{"codigo_dir":"EA0018698","nombre":"Secretar\u00eda
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58868,"og":{"codigo_dir":"EA0018687","nombre":"Confederacion
+        Hidrografica del Segura, O.A."},"ut":{"codigo_dir":"EA0018698","nombre":"Secretar\u00eda
+        General"},"oc":{"codigo_dir":"EA0018698","nombre":"Secretar\u00eda General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58438,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018844","nombre":"Convenios
+        y Casas Forestales"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio de
+        Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58440,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018847","nombre":"\u00c1rea
+        de Relaciones Internacionales y Reservas de la Biosfera"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58442,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018852","nombre":"Centro
+        de Encomienda de Mudela"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58443,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018856","nombre":"Centro
+        Quintos de Mora"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio de
+        Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58446,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018868","nombre":"Parque
+        Nacional de Daimiel"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio de
+        Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58439,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018846","nombre":"Caja
+        Fija y Habilitaci\u00f3n Oa Parques Nacionales"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58441,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018849","nombre":"\u00c1rea
+        de Conservaci\u00f3n, Seguimiento y Programas de la Red"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58447,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018869","nombre":"Refugio
+        Nacional de Caza Islas Chafarinas"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58444,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018860","nombre":"Finca
+        las Marismillas (PN DO\u00d1ANA)"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58445,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018862","nombre":"Finca
+        Lugar Nuevo de Monfrag\u00fce (PN MONFRAG\u00dcE)"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58448,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018870","nombre":"Unidad
+        de Apoyo a Direcci\u00f3n"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58463,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018855","nombre":"Centro
+        Lugar Nuevo y Selladores"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58464,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018857","nombre":"Centro
+        Valsain (CENTRO NACIONAL DE EDUCACION AMBIENTAL)"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58462,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018848","nombre":"\u00c1rea
+        Jur\u00eddica y de Gestion de Recursos Humanos"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58461,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018843","nombre":"Finca
+        Dehesa de San Juan (PN SIERRA NEVADA)"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58401,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018861","nombre":"Finca
+        los Realejos"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina Contable Parques
+        Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58404,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018871","nombre":"Vivero
+        Escuela Rio Guadarrama (NAVALCARNERO)"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58403,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018867","nombre":"Parque
+        Nacional de Caba\u00f1eros"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58402,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018864","nombre":"Fincas
+        de Representaci\u00f3n Institucional"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58475,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018865","nombre":"Isla
+        Graciosa de Teguise"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio de
+        Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58474,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018863","nombre":"Finca
+        Ribavellosa"},"oc":{"codigo_dir":"EA0018866","nombre":"Oficina Contable Parques
+        Nacionales"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58775,"og":{"codigo_dir":"EA0018725","nombre":"Demarcaciones
+        y Servicios de Costas"},"ut":{"codigo_dir":"EA0018738","nombre":"Servicio
+        Provincial de Costas Almeria"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:41 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990301/relaciones?administracion=E04990301&limit=25.0&page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:42 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58883,"og":{"codigo_dir":"EA0018687","nombre":"Confederacion
+        Hidrografica del Segura, O.A."},"ut":{"codigo_dir":"EA0018695","nombre":"Direcci\u00f3n
+        T\u00e9cnica"},"oc":{"codigo_dir":"EA0018698","nombre":"Secretar\u00eda General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58884,"og":{"codigo_dir":"EA0018687","nombre":"Confederacion
+        Hidrografica del Segura, O.A."},"ut":{"codigo_dir":"EA0018697","nombre":"Presidencia"},"oc":{"codigo_dir":"EA0018698","nombre":"Secretar\u00eda
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58954,"og":{"codigo_dir":"EA0018448","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"EA0018449","nombre":"Comisaria
+        de Aguas"},"oc":{"codigo_dir":"EA0018448","nombre":"Confederacion Hidrografica
+        del Guadalquivir"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58955,"og":{"codigo_dir":"EA0018448","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"EA0018585","nombre":"Direccion
+        Tecnica"},"oc":{"codigo_dir":"EA0018448","nombre":"Confederacion Hidrografica
+        del Guadalquivir"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58956,"og":{"codigo_dir":"EA0018448","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"EA0018617","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0018448","nombre":"Confederacion Hidrografica
+        del Guadalquivir"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58974,"og":{"codigo_dir":"EA0018448","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"EA0018615","nombre":"Oficina
+        de Planificacion Hidrologica"},"oc":{"codigo_dir":"EA0018448","nombre":"Confederacion
+        Hidrografica del Guadalquivir"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":58994,"og":{"codigo_dir":"EA0018448","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"EA0018616","nombre":"Presidencia"},"oc":{"codigo_dir":"EA0018448","nombre":"Confederacion
+        Hidrografica del Guadalquivir"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59014,"og":{"codigo_dir":"EA0018448","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"GE0003612","nombre":"Confederaci\u00f3n
+        Hidrogr\u00e1fica del Guadalquivir-Caja de Sevilla"},"oc":{"codigo_dir":"EA0018448","nombre":"Confederacion
+        Hidrografica del Guadalquivir"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59169,"og":{"codigo_dir":"EA0018389","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"ut":{"codigo_dir":"EA0018389","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59170,"og":{"codigo_dir":"EA0018395","nombre":"Confederacion
+        Hidrografica del Duero"},"ut":{"codigo_dir":"EA0018401","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59171,"og":{"codigo_dir":"EA0018402","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0018447","nombre":"Secretar\u00eda
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59172,"og":{"codigo_dir":"EA0018448","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"EA0018617","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59173,"og":{"codigo_dir":"EA0018650","nombre":"Confederacion
+        Hidrografica del Guadiana"},"ut":{"codigo_dir":"EA0018655","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59175,"og":{"codigo_dir":"EA0019198","nombre":"Area
+        Juridica y Patrimonial"},"ut":{"codigo_dir":"EA0018755","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59176,"og":{"codigo_dir":"EA0018807","nombre":"Fondo
+        Espa\u00f1ol de Garantia Agraria"},"ut":{"codigo_dir":"EA0018808","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59177,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018871","nombre":"Vivero
+        Escuela Rio Guadarrama (NAVALCARNERO)"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59179,"og":{"codigo_dir":"EA0018699","nombre":"Mancomunidad
+        de los Canales del Taibilla"},"ut":{"codigo_dir":"GE0012171","nombre":"Unidad
+        Tramitadora Canales del Taibilla"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59194,"og":{"codigo_dir":"EA0018656","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0018661","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59195,"og":{"codigo_dir":"EA0018662","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"EA0018680","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59196,"og":{"codigo_dir":"EA0018681","nombre":"Confederacion
+        Hidrografica del Tajo"},"ut":{"codigo_dir":"EA0018686","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59197,"og":{"codigo_dir":"EA0018687","nombre":"Confederacion
+        Hidrografica del Segura, O.A."},"ut":{"codigo_dir":"EA0018698","nombre":"Secretar\u00eda
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59198,"og":{"codigo_dir":"EA0018801","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0018803","nombre":"Secretar\u00eda General.
+        Unidad Tramitadora"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59199,"og":{"codigo_dir":"EA0018842","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0018870","nombre":"Unidad
+        de Apoyo a Direcci\u00f3n"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59674,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018735","nombre":"Demarcacion
+        de Costas de Galicia A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014065","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en A Coru\u00f1a - Intervencion
+        T"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura y Pesca,
+        Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":59694,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018735","nombre":"Demarcacion
+        de Costas de Galicia A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014065","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en A Coru\u00f1a - Intervencion
+        T"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:42 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990301/relaciones?administracion=E04990301&limit=25.0&page=7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:43 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":63756,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018726","nombre":"Demarcacion
+        de Costas Valencia"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina Contable.
+        Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":68609,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018790","nombre":"S.G.
+        de Fomento del Desarrollo Rural"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":68607,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018789","nombre":"S.G.
+        de Regadios y Economia del Agua"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":60718,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0018738","nombre":"Servicio
+        Provincial de Costas Almeria"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":63857,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0022595","nombre":"Servicio
+        Provincial de Costas Alicante"},"oc":{"codigo_dir":"GE0014116","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alicante - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":68570,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"GE0003625","nombre":"Caja
+        Pagadora I del Magrama"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":68608,"og":{"codigo_dir":"E04932802","nombre":"D.G.
+        de Desarrollo Rural y Pol\u00edtica Forestal"},"ut":{"codigo_dir":"EA0018790","nombre":"S.G.
+        de Fomento del Desarrollo Rural"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":68587,"og":{"codigo_dir":"E04932802","nombre":"D.G.
+        de Desarrollo Rural y Pol\u00edtica Forestal"},"ut":{"codigo_dir":"EA0018789","nombre":"S.G.
+        de Regadios y Economia del Agua"},"oc":{"codigo_dir":"GE0015294","nombre":"Oficina
+        Contable. I.D. Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":67951,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022608","nombre":"S.G.
+        para la Proteccion de la Costa"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":60697,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018738","nombre":"Servicio
+        Provincial de Costas Almeria"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":63856,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022595","nombre":"Servicio
+        Provincial de Costas Alicante"},"oc":{"codigo_dir":"GE0014116","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alicante - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":65663,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022600","nombre":"Servicio
+        Provincial de Costas Guipuzcoa"},"oc":{"codigo_dir":"GE0014062","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Guipuzcoa - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70367,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022584","nombre":"Demarcacion
+        de Costas. Andalucia-Atlantico Cadiz"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70383,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022603","nombre":"Servicio
+        Provincial de Costas Pontevedra"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70369,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022586","nombre":"Demarcacion
+        de Costas Cantabria"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70373,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022591","nombre":"Demarcacion
+        de Costas de Galicia A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70381,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022584","nombre":"Demarcacion
+        de Costas. Andalucia-Atlantico Cadiz"},"oc":{"codigo_dir":"GE0014078","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cadiz - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70372,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022590","nombre":"Demarcacion
+        de Costas de Catalu\u00f1a"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70376,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022604","nombre":"Servicio
+        Provincial de Costas Sevilla"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70378,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022606","nombre":"Servicio
+        Provincial de Costas Tenerife"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70379,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022591","nombre":"Demarcacion
+        de Costas de Galicia A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014065","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en A Coru\u00f1a - Intervencion
+        T"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura y Pesca,
+        Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70380,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022589","nombre":"Demarcacion
+        de Costas de Canarias Las Palmas"},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70387,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022585","nombre":"Demarcacion
+        de Costas. Andalucia-Mediterraneo Malaga"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70391,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022592","nombre":"Demarcacion
+        de Costas del Pais Vasco Bizkaia"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70388,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022588","nombre":"Demarcacion
+        de Costas de Baleares"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:43 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990301/relaciones?administracion=E04990301&limit=25.0&page=8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:00:44 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura
+        y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70394,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022595","nombre":"Servicio
+        Provincial de Costas Alicante"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70396,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022596","nombre":"Servicio
+        Provincial de Costas Almeria"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70397,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022597","nombre":"Servicio
+        Provincial de Costas Castellon"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70398,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022598","nombre":"Servicio
+        Provincial de Costas de Granada"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70403,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022603","nombre":"Servicio
+        Provincial de Costas Pontevedra"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70406,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022605","nombre":"Servicio
+        Provincial de Costas Tarragona"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70409,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022589","nombre":"Demarcacion
+        de Costas de Canarias Las Palmas"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70411,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022594","nombre":"Demarcacion
+        de Costas Valencia"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70412,"og":{"codigo_dir":"E04997301","nombre":"Subsecretaria
+        de Agricultura y Pesca, Alimentacion y Medio Ambiente"},"ut":{"codigo_dir":"EA0022595","nombre":"Servicio
+        Provincial de Costas Alicante"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70415,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022600","nombre":"Servicio
+        Provincial de Costas Guipuzcoa"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70416,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022601","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70427,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022587","nombre":"Demarcacion
+        de Costas de Asturias Oviedo"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70429,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022596","nombre":"Servicio
+        Provincial de Costas Almeria"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70447,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022587","nombre":"Demarcacion
+        de Costas de Asturias Oviedo"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70448,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022590","nombre":"Demarcacion
+        de Costas de Catalu\u00f1a"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70449,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022592","nombre":"Demarcacion
+        de Costas del Pais Vasco Bizkaia"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70450,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022601","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente","codigo_dir":"E04990301","cifs":[]},"id":70451,"og":{"codigo_dir":"E04795204","nombre":"D.G.
+        de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022588","nombre":"Demarcacion
+        de Costas de Baleares"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina Contable.
+        Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:00:44 GMT
+recorded_with: VCR 6.0.0

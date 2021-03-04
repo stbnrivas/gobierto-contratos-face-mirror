@@ -1,0 +1,748 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05070101/relaciones?administracion=E05070101&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:24 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94835,"og":{"codigo_dir":"E05070201","nombre":"Gabinete
+        del Ministro"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94836,"og":{"codigo_dir":"E05070301","nombre":"Secretaria
+        del Ministro"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86252,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042512","nombre":"ATENCI\u00d3N
+        ESPECIALIZADA. GERENCIA DE ATENCION SANITARIA CEUTA"},"oc":{"codigo_dir":"EA0042512","nombre":"ATENCI\u00d3N
+        ESPECIALIZADA. GERENCIA DE ATENCION SANITARIA CEUTA"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86253,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042516","nombre":"ATENCION
+        ESPECIALIZADA. GERENCIA DE ATENCION SANITARIA MELILLA"},"oc":{"codigo_dir":"EA0042516","nombre":"ATENCION
+        ESPECIALIZADA. GERENCIA DE ATENCION SANITARIA MELILLA"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86254,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042513","nombre":"ATENCION
+        PRIMARIA. GERENCIA DE ATENCION SANITARIA CEUTA"},"oc":{"codigo_dir":"EA0042513","nombre":"ATENCION
+        PRIMARIA. GERENCIA DE ATENCION SANITARIA CEUTA"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86255,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042514","nombre":"Direcci\u00f3n
+        Territorial de Melilla"},"oc":{"codigo_dir":"EA0042274","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86256,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042508","nombre":"Centro
+        Nacional de Dosimetr\u00eda"},"oc":{"codigo_dir":"EA0042508","nombre":"Centro
+        Nacional de Dosimetr\u00eda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86257,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042509","nombre":"Direcci\u00f3n
+        del Instituto Nacional de Gesti\u00f3n Sanitaria"},"oc":{"codigo_dir":"EA0042237","nombre":"Intervencion
+        Delegada en los Servicios Centrales del Instituto Nacional de Gestion Sanitaria"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86258,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042510","nombre":"Direcci\u00f3n
+        Territorial de Ceuta"},"oc":{"codigo_dir":"EA0042255","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Ceuta"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86259,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042517","nombre":"ATENCION
+        PRIMARIA. GERENCIA DE ATENCION SANITARIA MELILLA"},"oc":{"codigo_dir":"EA0042517","nombre":"ATENCION
+        PRIMARIA. GERENCIA DE ATENCION SANITARIA MELILLA"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94837,"og":{"codigo_dir":"E05174001","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":89007,"og":{"codigo_dir":"EA0044080","nombre":"Organizacion
+        Nacional de Trasplantes"},"ut":{"codigo_dir":"EA0044080","nombre":"Organizacion
+        Nacional de Trasplantes"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":89008,"og":{"codigo_dir":"EA0044080","nombre":"Organizacion
+        Nacional de Trasplantes"},"ut":{"codigo_dir":"EA0044080","nombre":"Organizacion
+        Nacional de Trasplantes"},"oc":{"codigo_dir":"EA0044080","nombre":"Organizacion
+        Nacional de Trasplantes"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94832,"og":{"codigo_dir":"EA0042291","nombre":"Subdirecci\u00f3n
+        General de Atenci\u00f3n al Ciudadano"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94827,"og":{"codigo_dir":"EA0044150","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n de Programas"},"ut":{"codigo_dir":"E04601908","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94828,"og":{"codigo_dir":"EA0044151","nombre":"Subdirecci\u00f3n
+        General de Relaciones Institucionales"},"ut":{"codigo_dir":"E04601908","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94829,"og":{"codigo_dir":"EA0044152","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n"},"ut":{"codigo_dir":"E04601908","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94830,"og":{"codigo_dir":"E03185908","nombre":"Secretar\u00eda
+        del Secretario General"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94833,"og":{"codigo_dir":"E03185908","nombre":"Secretar\u00eda
+        del Secretario General"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94834,"og":{"codigo_dir":"E04939505","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n Profesional"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94831,"og":{"codigo_dir":"E05174601","nombre":"Direcci\u00f3n
+        General de Salud Digital y Sistemas de informaci\u00f3n para el Sistema Nacional
+        de Salud"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n General
+        de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86707,"og":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"},"ut":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86467,"og":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"},"ut":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"},"oc":{"codigo_dir":"EA0000096","nombre":"I.D. Organizacion
+        Nacional de Trasplantes"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86447,"og":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"},"ut":{"codigo_dir":"EA0000096","nombre":"I.D. Organizacion
+        Nacional de Trasplantes"},"oc":{"codigo_dir":"EA0000096","nombre":"I.D. Organizacion
+        Nacional de Trasplantes"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86448,"og":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"},"ut":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"},"oc":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:24 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05070101/relaciones?administracion=E05070101&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:24 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"94","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:05:24 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05070101/relaciones?administracion=E05070101&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:25 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94835,"og":{"codigo_dir":"E05070201","nombre":"Gabinete
+        del Ministro"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94836,"og":{"codigo_dir":"E05070301","nombre":"Secretaria
+        del Ministro"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86252,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042512","nombre":"ATENCI\u00d3N
+        ESPECIALIZADA. GERENCIA DE ATENCION SANITARIA CEUTA"},"oc":{"codigo_dir":"EA0042512","nombre":"ATENCI\u00d3N
+        ESPECIALIZADA. GERENCIA DE ATENCION SANITARIA CEUTA"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86253,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042516","nombre":"ATENCION
+        ESPECIALIZADA. GERENCIA DE ATENCION SANITARIA MELILLA"},"oc":{"codigo_dir":"EA0042516","nombre":"ATENCION
+        ESPECIALIZADA. GERENCIA DE ATENCION SANITARIA MELILLA"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86254,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042513","nombre":"ATENCION
+        PRIMARIA. GERENCIA DE ATENCION SANITARIA CEUTA"},"oc":{"codigo_dir":"EA0042513","nombre":"ATENCION
+        PRIMARIA. GERENCIA DE ATENCION SANITARIA CEUTA"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86255,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042514","nombre":"Direcci\u00f3n
+        Territorial de Melilla"},"oc":{"codigo_dir":"EA0042274","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86256,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042508","nombre":"Centro
+        Nacional de Dosimetr\u00eda"},"oc":{"codigo_dir":"EA0042508","nombre":"Centro
+        Nacional de Dosimetr\u00eda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86257,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042509","nombre":"Direcci\u00f3n
+        del Instituto Nacional de Gesti\u00f3n Sanitaria"},"oc":{"codigo_dir":"EA0042237","nombre":"Intervencion
+        Delegada en los Servicios Centrales del Instituto Nacional de Gestion Sanitaria"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86258,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042510","nombre":"Direcci\u00f3n
+        Territorial de Ceuta"},"oc":{"codigo_dir":"EA0042255","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Ceuta"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86259,"og":{"codigo_dir":"EA0042507","nombre":"Instituto
+        Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0042517","nombre":"ATENCION
+        PRIMARIA. GERENCIA DE ATENCION SANITARIA MELILLA"},"oc":{"codigo_dir":"EA0042517","nombre":"ATENCION
+        PRIMARIA. GERENCIA DE ATENCION SANITARIA MELILLA"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94837,"og":{"codigo_dir":"E05174001","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":89007,"og":{"codigo_dir":"EA0044080","nombre":"Organizacion
+        Nacional de Trasplantes"},"ut":{"codigo_dir":"EA0044080","nombre":"Organizacion
+        Nacional de Trasplantes"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":89008,"og":{"codigo_dir":"EA0044080","nombre":"Organizacion
+        Nacional de Trasplantes"},"ut":{"codigo_dir":"EA0044080","nombre":"Organizacion
+        Nacional de Trasplantes"},"oc":{"codigo_dir":"EA0044080","nombre":"Organizacion
+        Nacional de Trasplantes"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94832,"og":{"codigo_dir":"EA0042291","nombre":"Subdirecci\u00f3n
+        General de Atenci\u00f3n al Ciudadano"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94827,"og":{"codigo_dir":"EA0044150","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n de Programas"},"ut":{"codigo_dir":"E04601908","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94828,"og":{"codigo_dir":"EA0044151","nombre":"Subdirecci\u00f3n
+        General de Relaciones Institucionales"},"ut":{"codigo_dir":"E04601908","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94829,"og":{"codigo_dir":"EA0044152","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n"},"ut":{"codigo_dir":"E04601908","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94830,"og":{"codigo_dir":"E03185908","nombre":"Secretar\u00eda
+        del Secretario General"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94833,"og":{"codigo_dir":"E03185908","nombre":"Secretar\u00eda
+        del Secretario General"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94834,"og":{"codigo_dir":"E04939505","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n Profesional"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94831,"og":{"codigo_dir":"E05174601","nombre":"Direcci\u00f3n
+        General de Salud Digital y Sistemas de informaci\u00f3n para el Sistema Nacional
+        de Salud"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n General
+        de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86707,"og":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"},"ut":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86467,"og":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"},"ut":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"},"oc":{"codigo_dir":"EA0000096","nombre":"I.D. Organizacion
+        Nacional de Trasplantes"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86447,"og":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"},"ut":{"codigo_dir":"EA0000096","nombre":"I.D. Organizacion
+        Nacional de Trasplantes"},"oc":{"codigo_dir":"EA0000096","nombre":"I.D. Organizacion
+        Nacional de Trasplantes"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":86448,"og":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"},"ut":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"},"oc":{"codigo_dir":"EA0042547","nombre":"Organizacion
+        Nacional de Trasplantes"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:25 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05070101/relaciones?administracion=E05070101&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:26 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94838,"og":{"codigo_dir":"E05174301","nombre":"Direcci\u00f3n
+        General de Salud P\u00fablica"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94839,"og":{"codigo_dir":"EA0044085","nombre":"Divisi\u00f3n
+        de Tecnolog\u00edas de la Informaci\u00f3n"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94840,"og":{"codigo_dir":"E04939505","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n Profesional"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94841,"og":{"codigo_dir":"E05074701","nombre":"Subsecretar\u00eda
+        de Sanidad"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n y
+        Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94842,"og":{"codigo_dir":"E05079201","nombre":"Secretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94843,"og":{"codigo_dir":"E05174501","nombre":"Secretar\u00eda
+        General de Salud Digital, Informaci\u00f3n e Innovaci\u00f3n del Sistema Nacional
+        de salud"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n y Pagadur\u00eda
+        Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable. I.D. Ministerio
+        de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94844,"og":{"codigo_dir":"EA0042374","nombre":"Relacion
+        Especial de Puestos del Ministerio de Sanidad y Pol\u00edtica Social (acuerdo
+        C. DE M. 2\/7\/10)"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94845,"og":{"codigo_dir":"EA0042375","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos e Inspecci\u00f3n de Servicios"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94846,"og":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94847,"og":{"codigo_dir":"EA0044153","nombre":"Unidad
+        de Sistemas de Informaci\u00f3n y Documentaci\u00f3n Adjunta al Delegado del
+        Gobierno"},"ut":{"codigo_dir":"E04601908","nombre":"Delegaci\u00f3n del Gobierno
+        para el Plan Nacional sobre Drogas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94848,"og":{"codigo_dir":"E04939305","nombre":"Direcci\u00f3n
+        General de Cartera Com\u00fan de Servicios del Sistema Nacional de Salud y
+        Farmacia"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n General
+        de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94849,"og":{"codigo_dir":"E05173901","nombre":"Secretar\u00eda
+        de Estado de Sanidad"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94850,"og":{"codigo_dir":"E05174001","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94851,"og":{"codigo_dir":"E05174101","nombre":"Secretar\u00eda
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94852,"og":{"codigo_dir":"E04620209","nombre":"Gabinete
+        T\u00e9cnico"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94853,"og":{"codigo_dir":"E05074701","nombre":"Subsecretar\u00eda
+        de Sanidad"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94854,"og":{"codigo_dir":"E05074801","nombre":"Secretar\u00eda
+        del Subsecretario"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94855,"og":{"codigo_dir":"E05079201","nombre":"Secretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de
+        Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94856,"og":{"codigo_dir":"E05174601","nombre":"Direcci\u00f3n
+        General de Salud Digital y Sistemas de informaci\u00f3n para el Sistema Nacional
+        de Salud"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94857,"og":{"codigo_dir":"EA0042291","nombre":"Subdirecci\u00f3n
+        General de Atenci\u00f3n al Ciudadano"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94858,"og":{"codigo_dir":"EA0042372","nombre":"Gabinete
+        T\u00e9cnico de la Subsecretar\u00eda"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94859,"og":{"codigo_dir":"E04620209","nombre":"Gabinete
+        T\u00e9cnico"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94860,"og":{"codigo_dir":"E05174101","nombre":"Secretar\u00eda
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94861,"og":{"codigo_dir":"E05174601","nombre":"Direcci\u00f3n
+        General de Salud Digital y Sistemas de informaci\u00f3n para el Sistema Nacional
+        de Salud"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n y Pagadur\u00eda
+        Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable. I.D. Ministerio
+        de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94867,"og":{"codigo_dir":"E04620209","nombre":"Gabinete
+        T\u00e9cnico"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:26 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05070101/relaciones?administracion=E05070101&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:27 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94868,"og":{"codigo_dir":"E04939505","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94869,"og":{"codigo_dir":"E05070201","nombre":"Gabinete
+        del Ministro"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94870,"og":{"codigo_dir":"E05074801","nombre":"Secretar\u00eda
+        del Subsecretario"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94871,"og":{"codigo_dir":"EA0042375","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos e Inspecci\u00f3n de Servicios"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94872,"og":{"codigo_dir":"EA0042380","nombre":"Subdirecci\u00f3n
+        General de Relaciones Internacionales y Publicaciones"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94873,"og":{"codigo_dir":"E04601908","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94874,"og":{"codigo_dir":"E04939305","nombre":"Direcci\u00f3n
+        General de Cartera Com\u00fan de Servicios del Sistema Nacional de Salud y
+        Farmacia"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94875,"og":{"codigo_dir":"E05173901","nombre":"Secretar\u00eda
+        de Estado de Sanidad"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de
+        Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94876,"og":{"codigo_dir":"EA0044082","nombre":"Subdirecci\u00f3n
+        General de Informaci\u00f3n Sanitaria"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94877,"og":{"codigo_dir":"E04601908","nombre":"Delegaci\u00f3n
+        del Gobierno para el Plan Nacional sobre Drogas"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94878,"og":{"codigo_dir":"E05070201","nombre":"Gabinete
+        del Ministro"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94879,"og":{"codigo_dir":"E05173901","nombre":"Secretar\u00eda
+        de Estado de Sanidad"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94880,"og":{"codigo_dir":"E05174001","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94881,"og":{"codigo_dir":"EA0042291","nombre":"Subdirecci\u00f3n
+        General de Atenci\u00f3n al Ciudadano"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94882,"og":{"codigo_dir":"EA0044081","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n de Proyectos e Innovaci\u00f3n"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94883,"og":{"codigo_dir":"EA0044082","nombre":"Subdirecci\u00f3n
+        General de Informaci\u00f3n Sanitaria"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94887,"og":{"codigo_dir":"E05174301","nombre":"Direcci\u00f3n
+        General de Salud P\u00fablica"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94888,"og":{"codigo_dir":"E05174501","nombre":"Secretar\u00eda
+        General de Salud Digital, Informaci\u00f3n e Innovaci\u00f3n del Sistema Nacional
+        de salud"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n General
+        de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94889,"og":{"codigo_dir":"EA0042372","nombre":"Gabinete
+        T\u00e9cnico de la Subsecretar\u00eda"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94890,"og":{"codigo_dir":"EA0044085","nombre":"Divisi\u00f3n
+        de Tecnolog\u00edas de la Informaci\u00f3n"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94891,"og":{"codigo_dir":"E05174101","nombre":"Secretar\u00eda
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94892,"og":{"codigo_dir":"E05174501","nombre":"Secretar\u00eda
+        General de Salud Digital, Informaci\u00f3n e Innovaci\u00f3n del Sistema Nacional
+        de salud"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de Habilitaci\u00f3n
+        y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable.
+        I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94893,"og":{"codigo_dir":"EA0042374","nombre":"Relacion
+        Especial de Puestos del Ministerio de Sanidad y Pol\u00edtica Social (acuerdo
+        C. DE M. 2\/7\/10)"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio de
+        Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94894,"og":{"codigo_dir":"EA0042375","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos e Inspecci\u00f3n de Servicios"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94895,"og":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:27 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05070101/relaciones?administracion=E05070101&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:28 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94899,"og":{"codigo_dir":"E05070301","nombre":"Secretaria
+        del Ministro"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94907,"og":{"codigo_dir":"EA0044085","nombre":"Divisi\u00f3n
+        de Tecnolog\u00edas de la Informaci\u00f3n"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94896,"og":{"codigo_dir":"EA0044081","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n de Proyectos e Innovaci\u00f3n"},"ut":{"codigo_dir":"GE0000236","nombre":"Servicio
+        de Habilitaci\u00f3n y Pagadur\u00eda"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94900,"og":{"codigo_dir":"E05074801","nombre":"Secretar\u00eda
+        del Subsecretario"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94902,"og":{"codigo_dir":"EA0042372","nombre":"Gabinete
+        T\u00e9cnico de la Subsecretar\u00eda"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":96838,"og":{"codigo_dir":"EA0044127","nombre":"EA0044127
+        Instituto Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0044133","nombre":"EA0044133
+        Atenci\u00f3n Primaria. Gerencia de Atenci\u00f3n Sanitaria Ceuta"},"oc":{"codigo_dir":"EA0044133","nombre":"EA0044133
+        Atenci\u00f3n Primaria. Gerencia de Atenci\u00f3n Sanitaria Ceuta"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":96839,"og":{"codigo_dir":"EA0044127","nombre":"EA0044127
+        Instituto Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0044134","nombre":"EA0044134
+        Direcci\u00f3n Territorial de Melilla"},"oc":{"codigo_dir":"EA0042274","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":96740,"og":{"codigo_dir":"EA0044127","nombre":"EA0044127
+        Instituto Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0044128","nombre":"EA0044128
+        Centro Nacional de Dosimetr\u00eda"},"oc":{"codigo_dir":"EA0044128","nombre":"EA0044128
+        Centro Nacional de Dosimetr\u00eda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":96742,"og":{"codigo_dir":"EA0044127","nombre":"EA0044127
+        Instituto Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0044130","nombre":"EA0044130
+        Direcci\u00f3n Territorial de Ceuta"},"oc":{"codigo_dir":"EA0042255","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Ceuta"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":96741,"og":{"codigo_dir":"EA0044127","nombre":"EA0044127
+        Instituto Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0044129","nombre":"EA0044129
+        Direcci\u00f3n del Instituto Nacional de Gesti\u00f3n Sanitaria"},"oc":{"codigo_dir":"EA0042237","nombre":"Intervencion
+        Delegada en los Servicios Centrales del Instituto Nacional de Gestion Sanitaria"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":96867,"og":{"codigo_dir":"EA0044127","nombre":"EA0044127
+        Instituto Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0044137","nombre":"EA0044137
+        Atenci\u00f3n Primaria. Gerencia de Atenci\u00f3n Sanitaria Melilla"},"oc":{"codigo_dir":"EA0044137","nombre":"EA0044137
+        Atenci\u00f3n Primaria. Gerencia de Atenci\u00f3n Sanitaria Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":96821,"og":{"codigo_dir":"EA0044127","nombre":"EA0044127
+        Instituto Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0044132","nombre":"EA0044132
+        Atenci\u00f3n Especializada. Gerencia de Atenci\u00f3n Sanitaria Ceuta"},"oc":{"codigo_dir":"EA0044132","nombre":"EA0044132
+        Atenci\u00f3n Especializada. Gerencia de Atenci\u00f3n Sanitaria Ceuta"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":96822,"og":{"codigo_dir":"EA0044127","nombre":"EA0044127
+        Instituto Nacional de Gesti\u00f3n Sanitaria"},"ut":{"codigo_dir":"EA0044136","nombre":"EA0044136
+        Atenci\u00f3n Especializada. Gerencia de Atenci\u00f3n Sanitaria Melilla"},"oc":{"codigo_dir":"EA0044136","nombre":"EA0044136
+        Atenci\u00f3n Especializada. Gerencia de Atenci\u00f3n Sanitaria Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94897,"og":{"codigo_dir":"E03185908","nombre":"Secretar\u00eda
+        del Secretario General"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94898,"og":{"codigo_dir":"E04939305","nombre":"Direcci\u00f3n
+        General de Cartera Com\u00fan de Servicios del Sistema Nacional de Salud y
+        Farmacia"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n y Pagadur\u00eda
+        Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina Contable. I.D. Ministerio
+        de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":94901,"og":{"codigo_dir":"E05174301","nombre":"Direcci\u00f3n
+        General de Salud P\u00fablica"},"ut":{"codigo_dir":"GE0014432","nombre":"Habilitaci\u00f3n
+        y Pagadur\u00eda Dietas"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":96108,"og":{"codigo_dir":"EA0044086","nombre":"Subdirecci\u00f3n
+        General de Normativa"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":96109,"og":{"codigo_dir":"EA0044087","nombre":"Subdirecci\u00f3n
+        General de Recursos y Relaciones con la Administraci\u00f3n de Justicia"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Sanidad","codigo_dir":"E05070101","cifs":[]},"id":96107,"og":{"codigo_dir":"EA0042378","nombre":"Vicesecretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"EA0042376","nombre":"Subdirecci\u00f3n
+        General de Asuntos Generales y Econ\u00f3mico Presupuestarios"},"oc":{"codigo_dir":"GE0014051","nombre":"Oficina
+        Contable. I.D. Ministerio de Sanidad"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:28 GMT
+recorded_with: VCR 6.0.0

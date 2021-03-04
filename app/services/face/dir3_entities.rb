@@ -19,40 +19,61 @@ module Face
       (count(level,dir3) / PAGINATION_SIZE).ceil
     end
 
-    def self.entities_for(level,dir3,page)
-      entities = []
+    def self.parent_for_entities(level,dir3)
+      begin
+        resp = JSON.parse(Faraday.get("https://face.gob.es/api/v2/administraciones/#{dir3}/relaciones?administracion=#{dir3}&page=1&limit=#{PAGINATION_SIZE}").body, symbolize_names: true)
+        parent(resp[:items].first,level)
+      rescue JSON::ParserError => pe
+        puts "  FAIL while json parsing response"
+      end
+    end
+
+    def self.entities_for(level,dir3,parent_id,page)
+      children = []
       begin
         resp = JSON.parse(Faraday.get("https://face.gob.es/api/v2/administraciones/#{dir3}/relaciones?administracion=#{dir3}&page=#{page}&limit=#{PAGINATION_SIZE}").body, symbolize_names: true)
         resp[:items].each do |entity|
-          entities << entity_refactor(entity,level,dir3)
+          children << children(entity,level,parent_id)
         end
       rescue JSON::ParserError => pe
         puts "  FAIL while json parsing response"
       end
-      entities
+      return children
     end
 
 
-    def self.entities(level,dir3)
-      entities = []
+    def self.entities(level,dir3,parent_id)
+      children = []
       1.upto(Face::Dir3Entities.last_page(level,dir3)) do |page|
-        entities += entities_for(level,dir3,page)
+        children += entities_for(level,dir3,parent_id,page)
       end
-      entities
+      children
     end
 
     private
 
-    def self.entity_refactor(entity,level,dir3)
+    def self.parent(entity,level)
       {
-        id: entity[:id],
         name: entity[:administracion][:nombre],
         administration_level: level,
-        dir3: dir3,
+        dir3: entity[:administracion][:codigo_dir],
         nifs: entity[:administracion][:cifs].map{ |nif| nif[:nif] },
         country_name: 'España',
         country_code: 'ES',
-        import_pending: true
+        import_pending: false
+      }
+    end
+
+    def self.children(entity,level,parent_id)
+      {
+        name: entity[:ut][:nombre],
+        administration_level: level,
+        dir3: entity[:ut][:codigo_dir],
+        parent_id: parent_id,
+        nifs: entity[:administracion][:cifs].map{ |nif| nif[:nif] },
+        country_name: 'España',
+        country_code: 'ES',
+        import_pending: false
       }
     end
   end

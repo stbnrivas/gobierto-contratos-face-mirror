@@ -1,0 +1,227 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05065601/relaciones?administracion=E05065601&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:28 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Transportes,
+        Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":88327,"og":{"codigo_dir":"E05078401","nombre":"Direcci\u00f3n
+        General de Agenda Urbana y Arquitectura"},"ut":{"codigo_dir":"EA0043931","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n y Gesti\u00f3n Administrativa"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":88347,"og":{"codigo_dir":"E05078601","nombre":"Direcci\u00f3n
+        General de Vivienda y Suelo"},"ut":{"codigo_dir":"EA0043931","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n y Gesti\u00f3n Administrativa"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":94747,"og":{"codigo_dir":"EA0044010","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n y Gesti\u00f3n Financiera"},"ut":{"codigo_dir":"EA0045042","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Murcia"},"oc":{"codigo_dir":"GE0014099","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":94767,"og":{"codigo_dir":"EA0045042","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Murcia"},"ut":{"codigo_dir":"EA0045042","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Murcia"},"oc":{"codigo_dir":"GE0014099","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":98087,"og":{"codigo_dir":"E00124906","nombre":"Direcci\u00f3n
+        General de Carreteras"},"ut":{"codigo_dir":"EA0045031","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Asturias (OVIEDO)"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":98108,"og":{"codigo_dir":"EA0045031","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Asturias (OVIEDO)"},"ut":{"codigo_dir":"EA0045031","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Asturias (OVIEDO)"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":98109,"og":{"codigo_dir":"EA0044010","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n y Gesti\u00f3n Financiera"},"ut":{"codigo_dir":"EA0045032","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Cantabria (SANTANDER)"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":98110,"og":{"codigo_dir":"EA0045032","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Cantabria (SANTANDER)"},"ut":{"codigo_dir":"EA0045032","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Cantabria (SANTANDER)"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":98127,"og":{"codigo_dir":"E00124906","nombre":"Direcci\u00f3n
+        General de Carreteras"},"ut":{"codigo_dir":"EA0045040","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en La Rioja (LOGRO\u00d1O)"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Transportes, Movilidad
+        y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":98128,"og":{"codigo_dir":"EA0045040","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en La Rioja (LOGRO\u00d1O)"},"ut":{"codigo_dir":"EA0045040","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en La Rioja (LOGRO\u00d1O)"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Transportes, Movilidad
+        y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":98129,"og":{"codigo_dir":"EA0045033","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Castilla La Mancha (TOLEDO)"},"ut":{"codigo_dir":"EA0045033","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Castilla La Mancha (TOLEDO)"},"oc":{"codigo_dir":"GE0014111","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Toledo - Intervencion Te"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:28 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05065601/relaciones?administracion=E05065601&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:28 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"11","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:03:28 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05065601/relaciones?administracion=E05065601&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:29 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Transportes,
+        Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":88327,"og":{"codigo_dir":"E05078401","nombre":"Direcci\u00f3n
+        General de Agenda Urbana y Arquitectura"},"ut":{"codigo_dir":"EA0043931","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n y Gesti\u00f3n Administrativa"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":88347,"og":{"codigo_dir":"E05078601","nombre":"Direcci\u00f3n
+        General de Vivienda y Suelo"},"ut":{"codigo_dir":"EA0043931","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n y Gesti\u00f3n Administrativa"},"oc":{"codigo_dir":"GE0014056","nombre":"Oficina
+        Contable. I.D. Ministerio de Transportes, Movilidad y Agenda Urbana"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":94747,"og":{"codigo_dir":"EA0044010","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n y Gesti\u00f3n Financiera"},"ut":{"codigo_dir":"EA0045042","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Murcia"},"oc":{"codigo_dir":"GE0014099","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":94767,"og":{"codigo_dir":"EA0045042","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Murcia"},"ut":{"codigo_dir":"EA0045042","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Murcia"},"oc":{"codigo_dir":"GE0014099","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":98087,"og":{"codigo_dir":"E00124906","nombre":"Direcci\u00f3n
+        General de Carreteras"},"ut":{"codigo_dir":"EA0045031","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Asturias (OVIEDO)"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":98108,"og":{"codigo_dir":"EA0045031","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Asturias (OVIEDO)"},"ut":{"codigo_dir":"EA0045031","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Asturias (OVIEDO)"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":98109,"og":{"codigo_dir":"EA0044010","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n y Gesti\u00f3n Financiera"},"ut":{"codigo_dir":"EA0045032","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Cantabria (SANTANDER)"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":98110,"og":{"codigo_dir":"EA0045032","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Cantabria (SANTANDER)"},"ut":{"codigo_dir":"EA0045032","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Cantabria (SANTANDER)"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Transportes, Movilidad y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":98127,"og":{"codigo_dir":"E00124906","nombre":"Direcci\u00f3n
+        General de Carreteras"},"ut":{"codigo_dir":"EA0045040","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en La Rioja (LOGRO\u00d1O)"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Transportes, Movilidad
+        y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":98128,"og":{"codigo_dir":"EA0045040","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en La Rioja (LOGRO\u00d1O)"},"ut":{"codigo_dir":"EA0045040","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en La Rioja (LOGRO\u00d1O)"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Transportes, Movilidad
+        y Agenda Urbana","codigo_dir":"E05065601","cifs":[]},"id":98129,"og":{"codigo_dir":"EA0045033","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Castilla La Mancha (TOLEDO)"},"ut":{"codigo_dir":"EA0045033","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Castilla La Mancha (TOLEDO)"},"oc":{"codigo_dir":"GE0014111","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Toledo - Intervencion Te"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:29 GMT
+recorded_with: VCR 6.0.0

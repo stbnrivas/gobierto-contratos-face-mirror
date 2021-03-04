@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 27 Feb 2021 19:19:06 GMT
+      - Sat, 27 Feb 2021 19:22:38 GMT
       Server:
       - Microsoft-IIS/5.0
       Cache-Control:
@@ -62,5 +62,5 @@ http_interactions:
         Consumo y Bienestar Social"},{"codigo_dir":"E05070401","nombre_admon":"Ministerio
         de Derechos Sociales y Agenda 2030"},{"codigo_dir":"E05073401","nombre_admon":"Ministerio
         de Universidades"}]}'
-  recorded_at: Sat, 27 Feb 2021 19:19:06 GMT
+  recorded_at: Sat, 27 Feb 2021 19:22:38 GMT
 recorded_with: VCR 6.0.0

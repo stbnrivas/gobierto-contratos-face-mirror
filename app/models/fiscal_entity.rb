@@ -93,6 +93,12 @@ class FiscalEntity < ApplicationRecord
     name.gsub(/[^\w\d]*/,'').parameterize if name.present?
   end
 
+  def remove_invalid_nifs!
+    partition = nifs.partition { |nif| nif.match?(NIF_FORMAT) || nif.match?(CIF_FORMAT) || nif.match?(NIE_FORMAT) }
+    self.nifs = partition.first
+    partition.last
+  end
+
   private
 
   def validate_nifs_format

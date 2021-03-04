@@ -1,0 +1,540 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921401/relaciones?administracion=E04921401&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:43 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Educaci\u00f3n,
+        Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":2893,"og":{"codigo_dir":"EA0008544","nombre":"CONSORCIO
+        CIUDAD DE TOLEDO"},"ut":{"codigo_dir":"EA0008544","nombre":"CONSORCIO CIUDAD
+        DE TOLEDO"},"oc":{"codigo_dir":"EA0008544","nombre":"CONSORCIO CIUDAD DE TOLEDO"}},{"cifs":[{"nif":"Q1600452A"},{"nif":"Q1600425A"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":6965,"og":{"codigo_dir":"EA0008545","nombre":"GEMMA
+        VALENCIA SORIANO"},"ut":{"codigo_dir":"EA0008545","nombre":"GEMMA VALENCIA
+        SORIANO"},"oc":{"codigo_dir":"EA0008545","nombre":"CARMEN MU\u00d1OZ L\u00d3PEZ"}},{"cifs":[{"nif":"E04789202"},{"nif":"S2800578C"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11332,"og":{"codigo_dir":"EA0003256","nombre":"Organo
+        Gestor Contratacion Aepsad"},"ut":{"codigo_dir":"EA0003254","nombre":"Unidad
+        Tramitadora Contratacion Aepsad"},"oc":{"codigo_dir":"E04789202","nombre":"Agencia
+        Espa\u00f1ola de Proteccion de la Salud en el Deporte (AEPSAD)"}},{"cifs":[{"nif":"Q2828001D"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11348,"og":{"codigo_dir":"E03004207","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0003252","nombre":"Pagos en Firme CSD"},"oc":{"codigo_dir":"E00122805","nombre":"Consejo
+        Superior de Deportes"}},{"cifs":[{"nif":"Q2828001D"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11350,"og":{"codigo_dir":"E03004207","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0003253","nombre":"Caja Central CSD"},"oc":{"codigo_dir":"E00122805","nombre":"Consejo
+        Superior de Deportes"}},{"cifs":[{"nif":"W2828018H"},{"nif":"Q2818002D"},{"nif":"Q2828018H"},{"nif":"B84527977"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11820,"og":{"codigo_dir":"EA0003258","nombre":"AREA
+        ECON\u00d3MICO FINANCIERA DEL MUSEO NACIONAL DEL PRADO"},"ut":{"codigo_dir":"EA0003260","nombre":"SERVICIO
+        ECON\u00d3MICO Y PROCEDIMIENTOS ESPECIALES DE GASTO DEL MUSEO NACIONAL DEL
+        PRADO"},"oc":{"codigo_dir":"EA0003259","nombre":"Servicio de Contabilidad
+        del Museo Nacional del Prado"}},{"cifs":[{"nif":"Q2828032I"},{"nif":"Q2828031I"},{"nif":"Q28280321"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11822,"og":{"codigo_dir":"E03009104","nombre":"Subdireccion
+        de Gerencia"},"ut":{"codigo_dir":"EA0003217","nombre":"Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"EA0003218","nombre":"Contabilidad"}},{"cifs":[{"nif":"Q2828032I"},{"nif":"Q2828031I"},{"nif":"Q28280321"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11824,"og":{"codigo_dir":"E03009104","nombre":"Subdireccion
+        de Gerencia"},"ut":{"codigo_dir":"EA0003219","nombre":"Servicio de Personal"},"oc":{"codigo_dir":"EA0003218","nombre":"Contabilidad"}},{"cifs":[{"nif":"Q2828032I"},{"nif":"Q2828031I"},{"nif":"Q28280321"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11826,"og":{"codigo_dir":"E03009104","nombre":"Subdireccion
+        de Gerencia"},"ut":{"codigo_dir":"EA0003220","nombre":"Caja Fija"},"oc":{"codigo_dir":"EA0003218","nombre":"Contabilidad"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11828,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002886","nombre":"ADQUISICIONES
+        E INCREMENTO DEL PATRIMONIO"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11829,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002888","nombre":"BELLAS
+        ARTES Y CARTOGRAFIA"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11830,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002889","nombre":"CONTROL
+        BIBLIOGRAFICO DE REVISTAS"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11831,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002890","nombre":"COORDINACION
+        DE COLECCIONES"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11832,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002891","nombre":"COORDINACION
+        DE PROYECTOS"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11833,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002892","nombre":"MUSICA
+        Y AUDIOVISUALES"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11834,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002893","nombre":"MANUSCRITOS,
+        INCUNABLES Y RAROS"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11835,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002894","nombre":"PRESERVACION
+        Y CONSERVACION DE FONDOS"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11836,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002895","nombre":"PROCESO
+        TECNICO"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional de
+        Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11837,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002896","nombre":"REFERENCIA"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11838,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002898","nombre":"UNIDAD
+        DE COORDINACION INFORMATICA"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11839,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002899","nombre":"GESTION
+        ECONOMICA Y PRESUPUESTARIA"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11840,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002900","nombre":"RECURSOS
+        HUMANOS Y MATERIALES"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11842,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002901","nombre":"Seguridad
+        y Mantenimiento"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11843,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002904","nombre":"DIFUSION"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11844,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002905","nombre":"MUSEO BNE"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:43 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921401/relaciones?administracion=E04921401&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:44 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"63","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 13:59:44 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921401/relaciones?administracion=E04921401&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:44 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Educaci\u00f3n,
+        Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":2893,"og":{"codigo_dir":"EA0008544","nombre":"CONSORCIO
+        CIUDAD DE TOLEDO"},"ut":{"codigo_dir":"EA0008544","nombre":"CONSORCIO CIUDAD
+        DE TOLEDO"},"oc":{"codigo_dir":"EA0008544","nombre":"CONSORCIO CIUDAD DE TOLEDO"}},{"cifs":[{"nif":"Q1600452A"},{"nif":"Q1600425A"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":6965,"og":{"codigo_dir":"EA0008545","nombre":"GEMMA
+        VALENCIA SORIANO"},"ut":{"codigo_dir":"EA0008545","nombre":"GEMMA VALENCIA
+        SORIANO"},"oc":{"codigo_dir":"EA0008545","nombre":"CARMEN MU\u00d1OZ L\u00d3PEZ"}},{"cifs":[{"nif":"E04789202"},{"nif":"S2800578C"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11332,"og":{"codigo_dir":"EA0003256","nombre":"Organo
+        Gestor Contratacion Aepsad"},"ut":{"codigo_dir":"EA0003254","nombre":"Unidad
+        Tramitadora Contratacion Aepsad"},"oc":{"codigo_dir":"E04789202","nombre":"Agencia
+        Espa\u00f1ola de Proteccion de la Salud en el Deporte (AEPSAD)"}},{"cifs":[{"nif":"Q2828001D"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11348,"og":{"codigo_dir":"E03004207","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0003252","nombre":"Pagos en Firme CSD"},"oc":{"codigo_dir":"E00122805","nombre":"Consejo
+        Superior de Deportes"}},{"cifs":[{"nif":"Q2828001D"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11350,"og":{"codigo_dir":"E03004207","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0003253","nombre":"Caja Central CSD"},"oc":{"codigo_dir":"E00122805","nombre":"Consejo
+        Superior de Deportes"}},{"cifs":[{"nif":"W2828018H"},{"nif":"Q2818002D"},{"nif":"Q2828018H"},{"nif":"B84527977"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11820,"og":{"codigo_dir":"EA0003258","nombre":"AREA
+        ECON\u00d3MICO FINANCIERA DEL MUSEO NACIONAL DEL PRADO"},"ut":{"codigo_dir":"EA0003260","nombre":"SERVICIO
+        ECON\u00d3MICO Y PROCEDIMIENTOS ESPECIALES DE GASTO DEL MUSEO NACIONAL DEL
+        PRADO"},"oc":{"codigo_dir":"EA0003259","nombre":"Servicio de Contabilidad
+        del Museo Nacional del Prado"}},{"cifs":[{"nif":"Q2828032I"},{"nif":"Q2828031I"},{"nif":"Q28280321"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11822,"og":{"codigo_dir":"E03009104","nombre":"Subdireccion
+        de Gerencia"},"ut":{"codigo_dir":"EA0003217","nombre":"Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"EA0003218","nombre":"Contabilidad"}},{"cifs":[{"nif":"Q2828032I"},{"nif":"Q2828031I"},{"nif":"Q28280321"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11824,"og":{"codigo_dir":"E03009104","nombre":"Subdireccion
+        de Gerencia"},"ut":{"codigo_dir":"EA0003219","nombre":"Servicio de Personal"},"oc":{"codigo_dir":"EA0003218","nombre":"Contabilidad"}},{"cifs":[{"nif":"Q2828032I"},{"nif":"Q2828031I"},{"nif":"Q28280321"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11826,"og":{"codigo_dir":"E03009104","nombre":"Subdireccion
+        de Gerencia"},"ut":{"codigo_dir":"EA0003220","nombre":"Caja Fija"},"oc":{"codigo_dir":"EA0003218","nombre":"Contabilidad"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11828,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002886","nombre":"ADQUISICIONES
+        E INCREMENTO DEL PATRIMONIO"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11829,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002888","nombre":"BELLAS
+        ARTES Y CARTOGRAFIA"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11830,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002889","nombre":"CONTROL
+        BIBLIOGRAFICO DE REVISTAS"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11831,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002890","nombre":"COORDINACION
+        DE COLECCIONES"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11832,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002891","nombre":"COORDINACION
+        DE PROYECTOS"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11833,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002892","nombre":"MUSICA
+        Y AUDIOVISUALES"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11834,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002893","nombre":"MANUSCRITOS,
+        INCUNABLES Y RAROS"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11835,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002894","nombre":"PRESERVACION
+        Y CONSERVACION DE FONDOS"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11836,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002895","nombre":"PROCESO
+        TECNICO"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional de
+        Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11837,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002896","nombre":"REFERENCIA"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11838,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002898","nombre":"UNIDAD
+        DE COORDINACION INFORMATICA"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11839,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002899","nombre":"GESTION
+        ECONOMICA Y PRESUPUESTARIA"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11840,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002900","nombre":"RECURSOS
+        HUMANOS Y MATERIALES"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11842,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002901","nombre":"Seguridad
+        y Mantenimiento"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11843,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002904","nombre":"DIFUSION"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11844,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002905","nombre":"MUSEO BNE"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:44 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921401/relaciones?administracion=E04921401&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:45 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11845,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002906","nombre":"PUBLICACIONES
+        Y EXTENSION BIBLIOTECARIA"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11846,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002907","nombre":"DIRECCION
+        DE BIBLIOTECA DIGITAL Y SISTEMAS DE INFORMACION"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11847,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0002912","nombre":"BIBLIOTECA
+        DIGITAL"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional de
+        Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11848,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0003243","nombre":"UNIDAD
+        DE CAJA FIJA"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11849,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0008781","nombre":"SEGURMANT
+        GE"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11850,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0008782","nombre":"UCI GE"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":11851,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0008783","nombre":"DIF GE"},"oc":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[{"nif":"G15392319"},{"nif":"V15392319"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":18531,"og":{"codigo_dir":"EA0008565","nombre":"EA0008565"},"ut":{"codigo_dir":"EA0008565","nombre":"EA0008565"},"oc":{"codigo_dir":"EA0008565","nombre":"EA0008565"}},{"cifs":[{"nif":"Q2801566G"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":18621,"og":{"codigo_dir":"E04739905","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"},"ut":{"codigo_dir":"E04739905","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"},"oc":{"codigo_dir":"E04739905","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"}},{"cifs":[{"nif":"E04789202"},{"nif":"S2800578C"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":47399,"og":{"codigo_dir":"EA0003256","nombre":"Organo
+        Gestor Contratacion Aepsad"},"ut":{"codigo_dir":"EA0003255","nombre":"Unidad
+        Tramitadora Caja Fija Aepsad"},"oc":{"codigo_dir":"E04789202","nombre":"Agencia
+        Espa\u00f1ola de Proteccion de la Salud en el Deporte (AEPSAD)"}},{"cifs":[{"nif":"Q2968034E"},{"nif":"E03020005"},{"nif":"S2918002C"},{"nif":"Q2968014G"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":56380,"og":{"codigo_dir":"E03020005","nombre":"Direcci\u00f3n
+        Provincial de Educaci\u00f3n de Melilla"},"ut":{"codigo_dir":"E03020005","nombre":"Direcci\u00f3n
+        Provincial de Educaci\u00f3n de Melilla"},"oc":{"codigo_dir":"GE0014097","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Melilla - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":56563,"og":{"codigo_dir":"E03014804","nombre":"Archivo
+        General de Simancas"},"ut":{"codigo_dir":"GE0003105","nombre":"Caja Pagadora
+        del Archivo General de Simancas"},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Valladolid - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":56564,"og":{"codigo_dir":"E04669002","nombre":"Museo
+        Casa de Cervantes"},"ut":{"codigo_dir":"GE0003114","nombre":"Caja Pagadora
+        Museo Escultura\/Casa Cervantes"},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Valladolid - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":56577,"og":{"codigo_dir":"E03014704","nombre":"Archivo
+        de la Real Chancilleria Valladolid"},"ut":{"codigo_dir":"E03014704","nombre":"Archivo
+        de la Real Chancilleria Valladolid"},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Valladolid - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":56578,"og":{"codigo_dir":"E03012506","nombre":"Museo
+        Nacional de Escultura"},"ut":{"codigo_dir":"GE0003114","nombre":"Caja Pagadora
+        Museo Escultura\/Casa Cervantes"},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Valladolid - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":56703,"og":{"codigo_dir":"E03012204","nombre":"Museo
+        de Altamira"},"ut":{"codigo_dir":"E03012204","nombre":"Museo de Altamira"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":56779,"og":{"codigo_dir":"E03014604","nombre":"Archivo
+        General de Indias"},"ut":{"codigo_dir":"E03014604","nombre":"Archivo General
+        de Indias"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina Contable. Delegacion
+        de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":56932,"og":{"codigo_dir":"E03012304","nombre":"Casa
+        Museo de el Greco (TOLEDO)"},"ut":{"codigo_dir":"E03012704","nombre":"Museo
+        Sefardi de Toledo"},"oc":{"codigo_dir":"GE0014111","nombre":"Oficina Contable.
+        Delegacion  de Economia y Hacienda en Toledo - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":56934,"og":{"codigo_dir":"E03014104","nombre":"Archivo
+        Corona de Aragon"},"ut":{"codigo_dir":"E03014104","nombre":"Archivo Corona
+        de Aragon"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina Contable. Delegacion
+        de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":56948,"og":{"codigo_dir":"E03012704","nombre":"Museo
+        Sefardi de Toledo"},"ut":{"codigo_dir":"E03012704","nombre":"Museo Sefardi
+        de Toledo"},"oc":{"codigo_dir":"GE0014111","nombre":"Oficina Contable. Delegacion  de
+        Economia y Hacienda en Toledo - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":56949,"og":{"codigo_dir":"EA0003345","nombre":"Archivo
+        Historico de la Nobleza"},"ut":{"codigo_dir":"EA0003345","nombre":"Archivo
+        Historico de la Nobleza"},"oc":{"codigo_dir":"GE0014111","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Toledo - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":57301,"og":{"codigo_dir":"E03014404","nombre":"Archivo
+        General de la Administracion"},"ut":{"codigo_dir":"E03014404","nombre":"Archivo
+        General de la Administracion"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":57308,"og":{"codigo_dir":"E04579104","nombre":"Museo
+        del Traje - Centro de Investigacion del Patrimonio Etnologico"},"ut":{"codigo_dir":"GE0000104","nombre":"Caja
+        Pagadora del Museo del Traje. Cipe"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":57309,"og":{"codigo_dir":"E03014304","nombre":"Archivo
+        Historico Nacional"},"ut":{"codigo_dir":"GE0003108","nombre":"Caja Pagadora
+        del Archivo Historico Nacional"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":57314,"og":{"codigo_dir":"E03012004","nombre":"Museo
+        Arqueologico Nacional"},"ut":{"codigo_dir":"E03012004","nombre":"Museo Arqueologico
+        Nacional"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina Contable. Delegacion
+        de Economia y Hacienda en Madrid - Intervencion Reg"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:45 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921401/relaciones?administracion=E04921401&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:46 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Educaci\u00f3n,
+        Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":57343,"og":{"codigo_dir":"E03012004","nombre":"Museo
+        Arqueologico Nacional"},"ut":{"codigo_dir":"GE0003110","nombre":"Caja Pagadora
+        del Museo Arqueologico Nacional"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":57346,"og":{"codigo_dir":"E03012105","nombre":"Museo
+        Nacional de Arqueologia Subacuatica"},"ut":{"codigo_dir":"E03012105","nombre":"Museo
+        Nacional de Arqueologia Subacuatica"},"oc":{"codigo_dir":"GE0014098","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Cartagena-Interv"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":57362,"og":{"codigo_dir":"E04579104","nombre":"Museo
+        del Traje - Centro de Investigacion del Patrimonio Etnologico"},"ut":{"codigo_dir":"E04579104","nombre":"Museo
+        del Traje - Centro de Investigacion del Patrimonio Etnologico"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":58840,"og":{"codigo_dir":"E03012404","nombre":"Museo
+        Ceramica de Valencia"},"ut":{"codigo_dir":"E03012404","nombre":"Museo Ceramica
+        de Valencia"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina Contable. Delegacion
+        de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[{"nif":"Q2888017J"},{"nif":"Q2828017J"},{"nif":"Q2828031A"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":59057,"og":{"codigo_dir":"E00123403","nombre":"Instituto
+        de la Cinematografia y de las Artes Audiovisuales"},"ut":{"codigo_dir":"E03008403","nombre":"Filmoteca
+        Espa\u00f1ola"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2801566G"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":59059,"og":{"codigo_dir":"E04739905","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"},"ut":{"codigo_dir":"E04739905","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":59063,"og":{"codigo_dir":"E04985001","nombre":"Agencia
+        Nacional de Evaluacion de la Calidad y Acreditacion (ANECA)"},"ut":{"codigo_dir":"E04985201","nombre":"Gerencia
+        - Aneca"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2828032I"},{"nif":"Q2828031I"},{"nif":"Q28280321"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":59073,"og":{"codigo_dir":"E03009104","nombre":"Subdireccion
+        de Gerencia"},"ut":{"codigo_dir":"EA0003217","nombre":"Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2828005E"},{"nif":"S2828001D"},{"nif":"E00123904"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":59075,"og":{"codigo_dir":"E00123904","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"E03009604","nombre":"Gerencia"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"E04789202"},{"nif":"S2800578C"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":59081,"og":{"codigo_dir":"EA0003256","nombre":"Organo
+        Gestor Contratacion Aepsad"},"ut":{"codigo_dir":"EA0003254","nombre":"Unidad
+        Tramitadora Contratacion Aepsad"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":59084,"og":{"codigo_dir":"EA0010418","nombre":"OA
+        Gerencia de Infraestructuras y Equipamientos de Cultura"},"ut":{"codigo_dir":"EA0010422","nombre":"S.G.
+        Economico-Administrativa"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2828001D"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":59094,"og":{"codigo_dir":"E03004207","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0003252","nombre":"Pagos en Firme CSD"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"Q2818022B"}],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n, Cultura y Deporte","codigo_dir":"E04921401","cifs":[{"nif":"S2818001F"},{"nif":"S2800194I"}]},"id":59204,"og":{"codigo_dir":"E03763502","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0011621","nombre":"Gesti\u00f3n de Expedientes"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:46 GMT
+recorded_with: VCR 6.0.0

@@ -1,0 +1,1196 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024101/relaciones?administracion=E05024101&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:35 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Educaci\u00f3n
+        y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67089,"og":{"codigo_dir":"EA0022048","nombre":"CEIP
+        Reina Sof\u00eda"},"ut":{"codigo_dir":"EA0022048","nombre":"CEIP Reina Sof\u00eda"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67090,"og":{"codigo_dir":"EA0022049","nombre":"CEIP
+        Rey Juan Carlos I"},"ut":{"codigo_dir":"EA0022049","nombre":"CEIP Rey Juan
+        Carlos I"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67091,"og":{"codigo_dir":"EA0022051","nombre":"CEIP
+        Federico Garc\u00eda Lorca"},"ut":{"codigo_dir":"EA0022051","nombre":"CEIP
+        Federico Garc\u00eda Lorca"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67092,"og":{"codigo_dir":"EA0022052","nombre":"CEIP
+        Jos\u00e9 Ortega y Gasset"},"ut":{"codigo_dir":"EA0022052","nombre":"CEIP
+        Jos\u00e9 Ortega y Gasset"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67093,"og":{"codigo_dir":"EA0022054","nombre":"CEIP
+        Lope de Vega"},"ut":{"codigo_dir":"EA0022054","nombre":"CEIP Lope de Vega"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67094,"og":{"codigo_dir":"EA0022056","nombre":"CEIP
+        Maestro Jos\u00e9 Acosta"},"ut":{"codigo_dir":"EA0022056","nombre":"CEIP Maestro
+        Jos\u00e9 Acosta"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67095,"og":{"codigo_dir":"EA0022058","nombre":"CEIP
+        Mare Nostrum"},"ut":{"codigo_dir":"EA0022058","nombre":"CEIP Mare Nostrum"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67096,"og":{"codigo_dir":"EA0022061","nombre":"CEIP
+        Ram\u00f3n Mar\u00eda del Valle-Incl\u00e1n"},"ut":{"codigo_dir":"EA0022061","nombre":"CEIP
+        Ram\u00f3n Mar\u00eda del Valle-Incl\u00e1n"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67097,"og":{"codigo_dir":"EA0022062","nombre":"CEIP
+        Rosal\u00eda de Castro"},"ut":{"codigo_dir":"EA0022062","nombre":"CEIP Rosal\u00eda
+        de Castro"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67098,"og":{"codigo_dir":"EA0022063","nombre":"CEIP
+        Santa Amelia"},"ut":{"codigo_dir":"EA0022063","nombre":"CEIP Santa Amelia"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67099,"og":{"codigo_dir":"EA0022065","nombre":"CEIP
+        Vicente Aleixandre"},"ut":{"codigo_dir":"EA0022065","nombre":"CEIP Vicente
+        Aleixandre"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67100,"og":{"codigo_dir":"EA0022066","nombre":"Cepa
+        Edrissis"},"ut":{"codigo_dir":"EA0022066","nombre":"Cepa Edrissis"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67101,"og":{"codigo_dir":"EA0022068","nombre":"Escuela
+        Oficial de Idiomas de Ceuta"},"ut":{"codigo_dir":"EA0022068","nombre":"Escuela
+        Oficial de Idiomas de Ceuta"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67102,"og":{"codigo_dir":"EA0022070","nombre":"IES
+        Almina"},"ut":{"codigo_dir":"EA0022070","nombre":"IES Almina"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67103,"og":{"codigo_dir":"EA0022073","nombre":"IES
+        Puertas del Campo"},"ut":{"codigo_dir":"EA0022073","nombre":"IES Puertas del
+        Campo"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D. Ministerio
+        de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67109,"og":{"codigo_dir":"EA0022076","nombre":"CEIP
+        Reyes Cat\u00f3licos de Melilla"},"ut":{"codigo_dir":"EA0022076","nombre":"CEIP
+        Reyes Cat\u00f3licos de Melilla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67110,"og":{"codigo_dir":"EA0022090","nombre":"Centro
+        de Profesores y de Recursos Melilla"},"ut":{"codigo_dir":"EA0022090","nombre":"Centro
+        de Profesores y de Recursos Melilla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67111,"og":{"codigo_dir":"EA0022093","nombre":"Escuela
+        de Arte Miguel Emilio Marmolejo Fern\u00e1ndez"},"ut":{"codigo_dir":"EA0022093","nombre":"Escuela
+        de Arte Miguel Emilio Marmolejo Fern\u00e1ndez"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67126,"og":{"codigo_dir":"EA0022050","nombre":"CEIP
+        Ciudad de Ceuta"},"ut":{"codigo_dir":"EA0022050","nombre":"CEIP Ciudad de
+        Ceuta"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D. Ministerio
+        de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67127,"og":{"codigo_dir":"EA0022053","nombre":"CEIP
+        Andr\u00e9s Manj\u00f3n"},"ut":{"codigo_dir":"EA0022053","nombre":"CEIP Andr\u00e9s
+        Manj\u00f3n"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67128,"og":{"codigo_dir":"EA0022055","nombre":"Cee
+        San Antonio"},"ut":{"codigo_dir":"EA0022055","nombre":"Cee San Antonio"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67129,"og":{"codigo_dir":"EA0022060","nombre":"CEIP
+        Pr\u00edncipe Felipe"},"ut":{"codigo_dir":"EA0022060","nombre":"CEIP Pr\u00edncipe
+        Felipe"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D. Ministerio
+        de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67130,"og":{"codigo_dir":"EA0022064","nombre":"CEIP
+        Santiago Ram\u00f3n y Cajal"},"ut":{"codigo_dir":"EA0022064","nombre":"CEIP
+        Santiago Ram\u00f3n y Cajal"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67131,"og":{"codigo_dir":"EA0022067","nombre":"Cepa
+        Miguel Hern\u00e1ndez"},"ut":{"codigo_dir":"EA0022067","nombre":"Cepa Miguel
+        Hern\u00e1ndez"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67132,"og":{"codigo_dir":"EA0022069","nombre":"IES
+        Abyla"},"ut":{"codigo_dir":"EA0022069","nombre":"IES Abyla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:35 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024101/relaciones?administracion=E05024101&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:35 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"176","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 13:59:35 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024101/relaciones?administracion=E05024101&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:36 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Educaci\u00f3n
+        y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67089,"og":{"codigo_dir":"EA0022048","nombre":"CEIP
+        Reina Sof\u00eda"},"ut":{"codigo_dir":"EA0022048","nombre":"CEIP Reina Sof\u00eda"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67090,"og":{"codigo_dir":"EA0022049","nombre":"CEIP
+        Rey Juan Carlos I"},"ut":{"codigo_dir":"EA0022049","nombre":"CEIP Rey Juan
+        Carlos I"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67091,"og":{"codigo_dir":"EA0022051","nombre":"CEIP
+        Federico Garc\u00eda Lorca"},"ut":{"codigo_dir":"EA0022051","nombre":"CEIP
+        Federico Garc\u00eda Lorca"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67092,"og":{"codigo_dir":"EA0022052","nombre":"CEIP
+        Jos\u00e9 Ortega y Gasset"},"ut":{"codigo_dir":"EA0022052","nombre":"CEIP
+        Jos\u00e9 Ortega y Gasset"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67093,"og":{"codigo_dir":"EA0022054","nombre":"CEIP
+        Lope de Vega"},"ut":{"codigo_dir":"EA0022054","nombre":"CEIP Lope de Vega"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67094,"og":{"codigo_dir":"EA0022056","nombre":"CEIP
+        Maestro Jos\u00e9 Acosta"},"ut":{"codigo_dir":"EA0022056","nombre":"CEIP Maestro
+        Jos\u00e9 Acosta"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67095,"og":{"codigo_dir":"EA0022058","nombre":"CEIP
+        Mare Nostrum"},"ut":{"codigo_dir":"EA0022058","nombre":"CEIP Mare Nostrum"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67096,"og":{"codigo_dir":"EA0022061","nombre":"CEIP
+        Ram\u00f3n Mar\u00eda del Valle-Incl\u00e1n"},"ut":{"codigo_dir":"EA0022061","nombre":"CEIP
+        Ram\u00f3n Mar\u00eda del Valle-Incl\u00e1n"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67097,"og":{"codigo_dir":"EA0022062","nombre":"CEIP
+        Rosal\u00eda de Castro"},"ut":{"codigo_dir":"EA0022062","nombre":"CEIP Rosal\u00eda
+        de Castro"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67098,"og":{"codigo_dir":"EA0022063","nombre":"CEIP
+        Santa Amelia"},"ut":{"codigo_dir":"EA0022063","nombre":"CEIP Santa Amelia"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67099,"og":{"codigo_dir":"EA0022065","nombre":"CEIP
+        Vicente Aleixandre"},"ut":{"codigo_dir":"EA0022065","nombre":"CEIP Vicente
+        Aleixandre"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67100,"og":{"codigo_dir":"EA0022066","nombre":"Cepa
+        Edrissis"},"ut":{"codigo_dir":"EA0022066","nombre":"Cepa Edrissis"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67101,"og":{"codigo_dir":"EA0022068","nombre":"Escuela
+        Oficial de Idiomas de Ceuta"},"ut":{"codigo_dir":"EA0022068","nombre":"Escuela
+        Oficial de Idiomas de Ceuta"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67102,"og":{"codigo_dir":"EA0022070","nombre":"IES
+        Almina"},"ut":{"codigo_dir":"EA0022070","nombre":"IES Almina"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67103,"og":{"codigo_dir":"EA0022073","nombre":"IES
+        Puertas del Campo"},"ut":{"codigo_dir":"EA0022073","nombre":"IES Puertas del
+        Campo"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D. Ministerio
+        de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67109,"og":{"codigo_dir":"EA0022076","nombre":"CEIP
+        Reyes Cat\u00f3licos de Melilla"},"ut":{"codigo_dir":"EA0022076","nombre":"CEIP
+        Reyes Cat\u00f3licos de Melilla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67110,"og":{"codigo_dir":"EA0022090","nombre":"Centro
+        de Profesores y de Recursos Melilla"},"ut":{"codigo_dir":"EA0022090","nombre":"Centro
+        de Profesores y de Recursos Melilla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67111,"og":{"codigo_dir":"EA0022093","nombre":"Escuela
+        de Arte Miguel Emilio Marmolejo Fern\u00e1ndez"},"ut":{"codigo_dir":"EA0022093","nombre":"Escuela
+        de Arte Miguel Emilio Marmolejo Fern\u00e1ndez"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67126,"og":{"codigo_dir":"EA0022050","nombre":"CEIP
+        Ciudad de Ceuta"},"ut":{"codigo_dir":"EA0022050","nombre":"CEIP Ciudad de
+        Ceuta"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D. Ministerio
+        de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67127,"og":{"codigo_dir":"EA0022053","nombre":"CEIP
+        Andr\u00e9s Manj\u00f3n"},"ut":{"codigo_dir":"EA0022053","nombre":"CEIP Andr\u00e9s
+        Manj\u00f3n"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67128,"og":{"codigo_dir":"EA0022055","nombre":"Cee
+        San Antonio"},"ut":{"codigo_dir":"EA0022055","nombre":"Cee San Antonio"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67129,"og":{"codigo_dir":"EA0022060","nombre":"CEIP
+        Pr\u00edncipe Felipe"},"ut":{"codigo_dir":"EA0022060","nombre":"CEIP Pr\u00edncipe
+        Felipe"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D. Ministerio
+        de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67130,"og":{"codigo_dir":"EA0022064","nombre":"CEIP
+        Santiago Ram\u00f3n y Cajal"},"ut":{"codigo_dir":"EA0022064","nombre":"CEIP
+        Santiago Ram\u00f3n y Cajal"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67131,"og":{"codigo_dir":"EA0022067","nombre":"Cepa
+        Miguel Hern\u00e1ndez"},"ut":{"codigo_dir":"EA0022067","nombre":"Cepa Miguel
+        Hern\u00e1ndez"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67132,"og":{"codigo_dir":"EA0022069","nombre":"IES
+        Abyla"},"ut":{"codigo_dir":"EA0022069","nombre":"IES Abyla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:36 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024101/relaciones?administracion=E05024101&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:37 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Educaci\u00f3n
+        y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67135,"og":{"codigo_dir":"E04996502","nombre":"Direcci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n Educativa"},"ut":{"codigo_dir":"E04996502","nombre":"Direcci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n Educativa"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67137,"og":{"codigo_dir":"EA0022078","nombre":"CEIP
+        Anselmo Pardo"},"ut":{"codigo_dir":"EA0022078","nombre":"CEIP Anselmo Pardo"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67138,"og":{"codigo_dir":"EA0022080","nombre":"CEIP
+        Espa\u00f1a"},"ut":{"codigo_dir":"EA0022080","nombre":"CEIP Espa\u00f1a"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67139,"og":{"codigo_dir":"EA0022086","nombre":"CEIP
+        Pedro de Estopi\u00f1\u00e1n"},"ut":{"codigo_dir":"EA0022086","nombre":"CEIP
+        Pedro de Estopi\u00f1\u00e1n"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67140,"og":{"codigo_dir":"EA0022089","nombre":"Centro
+        de Educaci\u00f3n de Personas Adultas"},"ut":{"codigo_dir":"EA0022089","nombre":"Centro
+        de Educaci\u00f3n de Personas Adultas"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67141,"og":{"codigo_dir":"EA0022092","nombre":"Conservatorio
+        Profesional de M\u00fasica de Melilla"},"ut":{"codigo_dir":"EA0022092","nombre":"Conservatorio
+        Profesional de M\u00fasica de Melilla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67142,"og":{"codigo_dir":"EA0022094","nombre":"Escuela
+        Oficial de Idiomas de Melilla"},"ut":{"codigo_dir":"EA0022094","nombre":"Escuela
+        Oficial de Idiomas de Melilla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67143,"og":{"codigo_dir":"EA0022100","nombre":"IES
+        Virgen de la Victoria"},"ut":{"codigo_dir":"EA0022100","nombre":"IES Virgen
+        de la Victoria"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67144,"og":{"codigo_dir":"E04801004","nombre":"Direcci\u00f3n
+        General de Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0022105","nombre":"S.G.
+        de Orientaci\u00f3n y Aprendizaje a lo Largo de la Vida"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67145,"og":{"codigo_dir":"E04996502","nombre":"Direcci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n Educativa"},"ut":{"codigo_dir":"EA0022107","nombre":"S.G.
+        de Cooperaci\u00f3n Internacional y Promoci\u00f3n Exterior Educativa"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67146,"og":{"codigo_dir":"EA0022057","nombre":"CEIP
+        Maestro Juan Morej\u00f3n"},"ut":{"codigo_dir":"EA0022057","nombre":"CEIP
+        Maestro Juan Morej\u00f3n"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67147,"og":{"codigo_dir":"EA0022059","nombre":"CEIP
+        Pablo Ru\u00edz Picasso"},"ut":{"codigo_dir":"EA0022059","nombre":"CEIP Pablo
+        Ru\u00edz Picasso"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67148,"og":{"codigo_dir":"EA0022071","nombre":"IES
+        Clara Campoamor"},"ut":{"codigo_dir":"EA0022071","nombre":"IES Clara Campoamor"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67149,"og":{"codigo_dir":"EA0022072","nombre":"IES
+        Lu\u00eds de Camoens"},"ut":{"codigo_dir":"EA0022072","nombre":"IES Lu\u00eds
+        de Camoens"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67150,"og":{"codigo_dir":"EA0022074","nombre":"IES
+        Siete Colinas"},"ut":{"codigo_dir":"EA0022074","nombre":"IES Siete Colinas"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67169,"og":{"codigo_dir":"E04874803","nombre":"Direcci\u00f3n
+        General de Evaluaci\u00f3n y Cooperaci\u00f3n Territorial"},"ut":{"codigo_dir":"EA0022043","nombre":"Centro
+        Nacional de Innovacion e Investigacion Educativa"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67170,"og":{"codigo_dir":"E04874803","nombre":"Direcci\u00f3n
+        General de Evaluaci\u00f3n y Cooperaci\u00f3n Territorial"},"ut":{"codigo_dir":"EA0022044","nombre":"Instituto
+        Nacional de Evaluacion Educativa"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67171,"og":{"codigo_dir":"E04874803","nombre":"Direcci\u00f3n
+        General de Evaluaci\u00f3n y Cooperaci\u00f3n Territorial"},"ut":{"codigo_dir":"EA0022045","nombre":"Instituto
+        Nacional de Tecnologias Educativas y de Formacion del Profesorado"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67172,"og":{"codigo_dir":"E04874803","nombre":"Direcci\u00f3n
+        General de Evaluaci\u00f3n y Cooperaci\u00f3n Territorial"},"ut":{"codigo_dir":"EA0022046","nombre":"S.G.
+        de Cooperacion Territorial"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67173,"og":{"codigo_dir":"EA0022077","nombre":"CEIP
+        Vel\u00e1zquez"},"ut":{"codigo_dir":"EA0022077","nombre":"CEIP Vel\u00e1zquez"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67174,"og":{"codigo_dir":"EA0022079","nombre":"CEIP
+        Constitucion"},"ut":{"codigo_dir":"EA0022079","nombre":"CEIP Constitucion"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67175,"og":{"codigo_dir":"EA0022081","nombre":"CEIP  Juan
+        Caro Romero de Melilla"},"ut":{"codigo_dir":"EA0022081","nombre":"CEIP  Juan
+        Caro Romero de Melilla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67176,"og":{"codigo_dir":"EA0022082","nombre":"CEIP
+        Hipodromo"},"ut":{"codigo_dir":"EA0022082","nombre":"CEIP Hipodromo"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67177,"og":{"codigo_dir":"EA0022083","nombre":"Cee
+        Reina Sof\u00eda"},"ut":{"codigo_dir":"EA0022083","nombre":"Cee Reina Sof\u00eda"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67178,"og":{"codigo_dir":"EA0022084","nombre":"CEIP
+        Le\u00f3n Sol\u00e1"},"ut":{"codigo_dir":"EA0022084","nombre":"CEIP Le\u00f3n
+        Sol\u00e1"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:37 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024101/relaciones?administracion=E05024101&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:38 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Educaci\u00f3n
+        y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67179,"og":{"codigo_dir":"EA0022085","nombre":"CEIP
+        Mediterr\u00e1neo"},"ut":{"codigo_dir":"EA0022085","nombre":"CEIP Mediterr\u00e1neo"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67180,"og":{"codigo_dir":"EA0022087","nombre":"CEIP
+        Pintor Eduardo Morillas"},"ut":{"codigo_dir":"EA0022087","nombre":"CEIP Pintor
+        Eduardo Morillas"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67181,"og":{"codigo_dir":"EA0022088","nombre":"CEIP
+        Real"},"ut":{"codigo_dir":"EA0022088","nombre":"CEIP Real"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67182,"og":{"codigo_dir":"EA0022091","nombre":"Cifp
+        Reina Victoria Eugenia"},"ut":{"codigo_dir":"EA0022091","nombre":"Cifp Reina
+        Victoria Eugenia"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67183,"og":{"codigo_dir":"EA0022095","nombre":"IES
+        Enrique Nieto"},"ut":{"codigo_dir":"EA0022095","nombre":"IES Enrique Nieto"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67184,"og":{"codigo_dir":"EA0022096","nombre":"IES
+        Juan Antonio Fern\u00e1ndez P\u00e9rez"},"ut":{"codigo_dir":"EA0022096","nombre":"IES
+        Juan Antonio Fern\u00e1ndez P\u00e9rez"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67185,"og":{"codigo_dir":"EA0022097","nombre":"IES
+        Leopoldo Queipo"},"ut":{"codigo_dir":"EA0022097","nombre":"IES Leopoldo Queipo"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67186,"og":{"codigo_dir":"EA0022098","nombre":"IES
+        Miguel Fern\u00e1ndez"},"ut":{"codigo_dir":"EA0022098","nombre":"IES Miguel
+        Fern\u00e1ndez"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67187,"og":{"codigo_dir":"EA0022099","nombre":"IES
+        Rusadir"},"ut":{"codigo_dir":"EA0022099","nombre":"IES Rusadir"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67188,"og":{"codigo_dir":"E04801004","nombre":"Direcci\u00f3n
+        General de Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0022104","nombre":"Instituto
+        Nacional de las Cualificaciones"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67189,"og":{"codigo_dir":"E04996502","nombre":"Direcci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n Educativa"},"ut":{"codigo_dir":"EA0022106","nombre":"S.G.
+        de Becas, Ayuda al Estudio y Promoci\u00f3n Educativa"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67190,"og":{"codigo_dir":"E04801004","nombre":"Direcci\u00f3n
+        General de Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0022167","nombre":"S.G.
+        de Ordenaci\u00f3n e Innovaci\u00f3n de la Formaci\u00f3n Profesional"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":67206,"og":{"codigo_dir":"E04996502","nombre":"Direcci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n Educativa"},"ut":{"codigo_dir":"EA0022108","nombre":"S.G.
+        de Programaci\u00f3n, Gesti\u00f3n y Control del Fondo Social Europeo"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":71887,"og":{"codigo_dir":"E05034201","nombre":"Subsecretar\u00eda
+        de Educaci\u00f3n y Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"E04936202","nombre":"Secretar\u00eda
+        General T\u00e9cnica (MEFP)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":71888,"og":{"codigo_dir":"E05029901","nombre":"Secretar\u00eda
+        de Estado de Educacion y Formacion Profesional"},"ut":{"codigo_dir":"E05030001","nombre":"Gabinete
+        del Secretario de Estado (SEEFP)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":71889,"og":{"codigo_dir":"E05034201","nombre":"Subsecretar\u00eda
+        de Educaci\u00f3n y Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0022032","nombre":"Gabinete
+        Tecnico del Subsecretario (MEFP)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":71890,"og":{"codigo_dir":"E05034201","nombre":"Subsecretar\u00eda
+        de Educaci\u00f3n y Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0022039","nombre":"Oficialia
+        Mayor"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D. Ministerio
+        de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":71891,"og":{"codigo_dir":"E05034201","nombre":"Subsecretar\u00eda
+        de Educaci\u00f3n y Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0022041","nombre":"S.G.
+        de Personal"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":71892,"og":{"codigo_dir":"E05034201","nombre":"Subsecretar\u00eda
+        de Educaci\u00f3n y Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0022042","nombre":"S.G.
+        de Tecnologias de la Informacion y Comunicaciones"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":71893,"og":{"codigo_dir":"E05029901","nombre":"Secretar\u00eda
+        de Estado de Educacion y Formacion Profesional"},"ut":{"codigo_dir":"EA0022168","nombre":"Consejo
+        Escolar del Estado"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":73707,"og":{"codigo_dir":"E04996502","nombre":"Direcci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n Educativa"},"ut":{"codigo_dir":"EA0022170","nombre":"Unidad
+        de Apoyo (DGPGE)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87967,"og":{"codigo_dir":"E05034201","nombre":"Subsecretar\u00eda
+        de Educaci\u00f3n y Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0041427","nombre":"S.G.
+        de Gesti\u00f3n Econ\u00f3mica y Financiera"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87968,"og":{"codigo_dir":"EA0022041","nombre":"S.G.
+        de Personal"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja Pagadora Central
+        (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D. Ministerio
+        de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87969,"og":{"codigo_dir":"E04996503","nombre":"Direcci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n Educativa"},"ut":{"codigo_dir":"E04996503","nombre":"Direcci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n Educativa"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87970,"og":{"codigo_dir":"E04874804","nombre":"Direcci\u00f3n
+        General de Evaluaci\u00f3n y Cooperaci\u00f3n Territorial"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:38 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024101/relaciones?administracion=E05024101&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:38 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Educaci\u00f3n
+        y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87971,"og":{"codigo_dir":"E04996503","nombre":"Direcci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n Educativa"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87972,"og":{"codigo_dir":"E05078801","nombre":"Secretar\u00eda
+        General de Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87973,"og":{"codigo_dir":"EA0041857","nombre":"S.G.
+        de Ordenacion Academica"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja Pagadora
+        Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87974,"og":{"codigo_dir":"EA0042010","nombre":"Gabinete
+        T\u00e9cnico de la Secretar\u00eda General (MEFP)"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87975,"og":{"codigo_dir":"E04874804","nombre":"Direcci\u00f3n
+        General de Evaluaci\u00f3n y Cooperaci\u00f3n Territorial"},"ut":{"codigo_dir":"EA0041854","nombre":"Instituto
+        Nacional de Evaluacion Educativa"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87976,"og":{"codigo_dir":"E04874804","nombre":"Direcci\u00f3n
+        General de Evaluaci\u00f3n y Cooperaci\u00f3n Territorial"},"ut":{"codigo_dir":"EA0041856","nombre":"Instituto
+        Nacional de Tecnologias Educativas y de Formacion del Profesorado"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87977,"og":{"codigo_dir":"EA0042575","nombre":"CEIP
+        Lope de Vega"},"ut":{"codigo_dir":"EA0042575","nombre":"CEIP Lope de Vega"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87978,"og":{"codigo_dir":"EA0042579","nombre":"CEIP
+        Pablo Ru\u00edz Picasso"},"ut":{"codigo_dir":"EA0042579","nombre":"CEIP Pablo
+        Ru\u00edz Picasso"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87979,"og":{"codigo_dir":"EA0042581","nombre":"CEIP
+        Ram\u00f3n Mar\u00eda del Valle-Incl\u00e1n"},"ut":{"codigo_dir":"EA0042581","nombre":"CEIP
+        Ram\u00f3n Mar\u00eda del Valle-Incl\u00e1n"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87980,"og":{"codigo_dir":"EA0042584","nombre":"CEIP
+        Rosal\u00eda de Castro"},"ut":{"codigo_dir":"EA0042584","nombre":"CEIP Rosal\u00eda
+        de Castro"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87981,"og":{"codigo_dir":"EA0042585","nombre":"CEIP
+        Santa Amelia"},"ut":{"codigo_dir":"EA0042585","nombre":"CEIP Santa Amelia"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87982,"og":{"codigo_dir":"EA0042590","nombre":"Escuela
+        Oficial de Idiomas de Ceuta"},"ut":{"codigo_dir":"EA0042590","nombre":"Escuela
+        Oficial de Idiomas de Ceuta"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87983,"og":{"codigo_dir":"EA0042591","nombre":"IES
+        Abyla"},"ut":{"codigo_dir":"EA0042591","nombre":"IES Abyla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87984,"og":{"codigo_dir":"EA0042592","nombre":"IES
+        Almina"},"ut":{"codigo_dir":"EA0042592","nombre":"IES Almina"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87985,"og":{"codigo_dir":"EA0042594","nombre":"IES
+        Lu\u00eds de Camoens"},"ut":{"codigo_dir":"EA0042594","nombre":"IES Lu\u00eds
+        de Camoens"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87986,"og":{"codigo_dir":"EA0042599","nombre":"CEIP  Juan
+        Caro Romero de Melilla"},"ut":{"codigo_dir":"EA0042599","nombre":"CEIP  Juan
+        Caro Romero de Melilla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87987,"og":{"codigo_dir":"E04936202","nombre":"Secretar\u00eda
+        General T\u00e9cnica (MEFP)"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87988,"og":{"codigo_dir":"EA0022034","nombre":"S.G.
+        Atenci\u00f3n al Ciudadano, Documentaci\u00f3n y Publicaciones (MEFP)"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87989,"og":{"codigo_dir":"EA0022035","nombre":"S.G.
+        de Estadistica y Estudios"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":87990,"og":{"codigo_dir":"EA0022042","nombre":"S.G.
+        de Tecnologias de la Informacion y Comunicaciones"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88007,"og":{"codigo_dir":"EA0022032","nombre":"Gabinete
+        Tecnico del Subsecretario (MEFP)"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88027,"og":{"codigo_dir":"EA0022039","nombre":"Oficialia
+        Mayor"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88028,"og":{"codigo_dir":"EA0041427","nombre":"S.G.
+        de Gesti\u00f3n Econ\u00f3mica y Financiera"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88047,"og":{"codigo_dir":"E05066201","nombre":"Secretar\u00eda
+        de Estado de Educaci\u00f3n"},"ut":{"codigo_dir":"E05066301","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88048,"og":{"codigo_dir":"EA0041843","nombre":"Consejo
+        Escolar del Estado"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja Pagadora
+        Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:38 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024101/relaciones?administracion=E05024101&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:39 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Educaci\u00f3n
+        y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88049,"og":{"codigo_dir":"EA0041854","nombre":"Instituto
+        Nacional de Evaluacion Educativa"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88050,"og":{"codigo_dir":"EA0041886","nombre":"S.G.
+        de Centros, Inspecci\u00f3n y Programas"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88051,"og":{"codigo_dir":"EA0041887","nombre":"S.G.
+        de Becas, Ayuda al Estudio y Promoci\u00f3n Educativa"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88052,"og":{"codigo_dir":"EA0042006","nombre":"S.G.
+        de Fondo Social Europeo en el \u00c1mbito Educativo"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88053,"og":{"codigo_dir":"E05078801","nombre":"Secretar\u00eda
+        General de Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0041834","nombre":"S.G.
+        de Ordenaci\u00f3n e Innovaci\u00f3n de la Formaci\u00f3n Profesional"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88054,"og":{"codigo_dir":"E05078801","nombre":"Secretar\u00eda
+        General de Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0041836","nombre":"Instituto
+        Nacional de las Cualificaciones"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88056,"og":{"codigo_dir":"E04996503","nombre":"Direcci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n Educativa"},"ut":{"codigo_dir":"EA0041887","nombre":"S.G.
+        de Becas, Ayuda al Estudio y Promoci\u00f3n Educativa"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88057,"og":{"codigo_dir":"E04874804","nombre":"Direcci\u00f3n
+        General de Evaluaci\u00f3n y Cooperaci\u00f3n Territorial"},"ut":{"codigo_dir":"EA0041889","nombre":"S.G.
+        de Cooperaci\u00f3n Territorial e Innovaci\u00f3n Educativa"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88058,"og":{"codigo_dir":"E04996503","nombre":"Direcci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n Educativa"},"ut":{"codigo_dir":"EA0041944","nombre":"Unidad
+        de Acci\u00f3n Educativa Exterior"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88059,"og":{"codigo_dir":"EA0042570","nombre":"Cee
+        San Antonio"},"ut":{"codigo_dir":"EA0042570","nombre":"Cee San Antonio"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88060,"og":{"codigo_dir":"EA0042572","nombre":"CEIP
+        Ciudad de Ceuta"},"ut":{"codigo_dir":"EA0042572","nombre":"CEIP Ciudad de
+        Ceuta"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D. Ministerio
+        de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88061,"og":{"codigo_dir":"EA0042573","nombre":"CEIP
+        Federico Garc\u00eda Lorca"},"ut":{"codigo_dir":"EA0042573","nombre":"CEIP
+        Federico Garc\u00eda Lorca"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88062,"og":{"codigo_dir":"EA0042576","nombre":"CEIP
+        Maestro Jos\u00e9 Acosta"},"ut":{"codigo_dir":"EA0042576","nombre":"CEIP Maestro
+        Jos\u00e9 Acosta"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88063,"og":{"codigo_dir":"EA0042578","nombre":"CEIP
+        Mare Nostrum"},"ut":{"codigo_dir":"EA0042578","nombre":"CEIP Mare Nostrum"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88064,"og":{"codigo_dir":"EA0042582","nombre":"CEIP
+        Reina Sof\u00eda"},"ut":{"codigo_dir":"EA0042582","nombre":"CEIP Reina Sof\u00eda"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88065,"og":{"codigo_dir":"EA0042583","nombre":"CEIP
+        Rey Juan Carlos I"},"ut":{"codigo_dir":"EA0042583","nombre":"CEIP Rey Juan
+        Carlos I"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88066,"og":{"codigo_dir":"EA0042586","nombre":"CEIP
+        Santiago Ram\u00f3n y Cajal"},"ut":{"codigo_dir":"EA0042586","nombre":"CEIP
+        Santiago Ram\u00f3n y Cajal"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88067,"og":{"codigo_dir":"E05066301","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja Pagadora
+        Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88068,"og":{"codigo_dir":"EA0041836","nombre":"Instituto
+        Nacional de las Cualificaciones"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88069,"og":{"codigo_dir":"EA0041837","nombre":"S.G.De.
+        Planificaci\u00f3n y Gesti\u00f3n de la Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88070,"og":{"codigo_dir":"EA0041889","nombre":"S.G.
+        de Cooperaci\u00f3n Territorial e Innovaci\u00f3n Educativa"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88071,"og":{"codigo_dir":"E05066201","nombre":"Secretar\u00eda
+        de Estado de Educaci\u00f3n"},"ut":{"codigo_dir":"EA0041843","nombre":"Consejo
+        Escolar del Estado"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88072,"og":{"codigo_dir":"E04996503","nombre":"Direcci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n Educativa"},"ut":{"codigo_dir":"EA0042006","nombre":"S.G.
+        de Fondo Social Europeo en el \u00c1mbito Educativo"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88073,"og":{"codigo_dir":"EA0042588","nombre":"Cepa
+        Edrissis"},"ut":{"codigo_dir":"EA0042588","nombre":"Cepa Edrissis"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88074,"og":{"codigo_dir":"EA0042593","nombre":"IES
+        Clara Campoamor"},"ut":{"codigo_dir":"EA0042593","nombre":"IES Clara Campoamor"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:39 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024101/relaciones?administracion=E05024101&limit=25.0&page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:40 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Educaci\u00f3n
+        y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88087,"og":{"codigo_dir":"E05078901","nombre":"Secretar\u00eda
+        del Secretario General"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja Pagadora
+        Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88088,"og":{"codigo_dir":"EA0041834","nombre":"S.G.
+        de Ordenaci\u00f3n e Innovaci\u00f3n de la Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88089,"og":{"codigo_dir":"EA0041835","nombre":"S.G.
+        de Orientaci\u00f3n y Aprendizaje a lo Largo de la Vida"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88090,"og":{"codigo_dir":"EA0041856","nombre":"Instituto
+        Nacional de Tecnologias Educativas y de Formacion del Profesorado"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88091,"og":{"codigo_dir":"EA0041944","nombre":"Unidad
+        de Acci\u00f3n Educativa Exterior"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja
+        Pagadora Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88092,"og":{"codigo_dir":"E05078801","nombre":"Secretar\u00eda
+        General de Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0041835","nombre":"S.G.
+        de Orientaci\u00f3n y Aprendizaje a lo Largo de la Vida"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88093,"og":{"codigo_dir":"EA0042571","nombre":"CEIP
+        Andr\u00e9s Manj\u00f3n"},"ut":{"codigo_dir":"EA0042571","nombre":"CEIP Andr\u00e9s
+        Manj\u00f3n"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88094,"og":{"codigo_dir":"EA0042574","nombre":"CEIP
+        Jos\u00e9 Ortega y Gasset"},"ut":{"codigo_dir":"EA0042574","nombre":"CEIP
+        Jos\u00e9 Ortega y Gasset"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88095,"og":{"codigo_dir":"EA0042577","nombre":"CEIP
+        Maestro Juan Morej\u00f3n"},"ut":{"codigo_dir":"EA0042577","nombre":"CEIP
+        Maestro Juan Morej\u00f3n"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88096,"og":{"codigo_dir":"EA0042580","nombre":"CEIP
+        Pr\u00edncipe Felipe"},"ut":{"codigo_dir":"EA0042580","nombre":"CEIP Pr\u00edncipe
+        Felipe"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D. Ministerio
+        de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88097,"og":{"codigo_dir":"EA0042596","nombre":"IES
+        Siete Colinas"},"ut":{"codigo_dir":"EA0042596","nombre":"IES Siete Colinas"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88098,"og":{"codigo_dir":"EA0042598","nombre":"Cee
+        Reina Sof\u00eda"},"ut":{"codigo_dir":"EA0042598","nombre":"Cee Reina Sof\u00eda"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88099,"og":{"codigo_dir":"EA0042602","nombre":"CEIP
+        Espa\u00f1a"},"ut":{"codigo_dir":"EA0042602","nombre":"CEIP Espa\u00f1a"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88100,"og":{"codigo_dir":"EA0042604","nombre":"CEIP
+        Le\u00f3n Sol\u00e1"},"ut":{"codigo_dir":"EA0042604","nombre":"CEIP Le\u00f3n
+        Sol\u00e1"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88101,"og":{"codigo_dir":"EA0042605","nombre":"CEIP
+        Mediterr\u00e1neo"},"ut":{"codigo_dir":"EA0042605","nombre":"CEIP Mediterr\u00e1neo"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88102,"og":{"codigo_dir":"EA0042608","nombre":"CEIP
+        Real"},"ut":{"codigo_dir":"EA0042608","nombre":"CEIP Real"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88103,"og":{"codigo_dir":"EA0042610","nombre":"CEIP
+        Vel\u00e1zquez"},"ut":{"codigo_dir":"EA0042610","nombre":"CEIP Vel\u00e1zquez"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88107,"og":{"codigo_dir":"EA0042587","nombre":"CEIP
+        Vicente Aleixandre"},"ut":{"codigo_dir":"EA0042587","nombre":"CEIP Vicente
+        Aleixandre"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88108,"og":{"codigo_dir":"EA0042589","nombre":"Cepa
+        Miguel Hern\u00e1ndez"},"ut":{"codigo_dir":"EA0042589","nombre":"Cepa Miguel
+        Hern\u00e1ndez"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88109,"og":{"codigo_dir":"EA0042595","nombre":"IES
+        Puertas del Campo"},"ut":{"codigo_dir":"EA0042595","nombre":"IES Puertas del
+        Campo"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D. Ministerio
+        de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88110,"og":{"codigo_dir":"EA0042600","nombre":"CEIP
+        Anselmo Pardo"},"ut":{"codigo_dir":"EA0042600","nombre":"CEIP Anselmo Pardo"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88111,"og":{"codigo_dir":"EA0042601","nombre":"CEIP
+        Constitucion"},"ut":{"codigo_dir":"EA0042601","nombre":"CEIP Constitucion"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88112,"og":{"codigo_dir":"EA0042607","nombre":"CEIP
+        Pintor Eduardo Morillas"},"ut":{"codigo_dir":"EA0042607","nombre":"CEIP Pintor
+        Eduardo Morillas"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88113,"og":{"codigo_dir":"EA0042609","nombre":"CEIP
+        Reyes Cat\u00f3licos de Melilla"},"ut":{"codigo_dir":"EA0042609","nombre":"CEIP
+        Reyes Cat\u00f3licos de Melilla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88114,"og":{"codigo_dir":"EA0042612","nombre":"Centro
+        de Profesores y de Recursos Melilla"},"ut":{"codigo_dir":"EA0042612","nombre":"Centro
+        de Profesores y de Recursos Melilla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:40 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024101/relaciones?administracion=E05024101&limit=25.0&page=7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:41 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Educaci\u00f3n
+        y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88115,"og":{"codigo_dir":"EA0042613","nombre":"Cifp
+        Reina Victoria Eugenia"},"ut":{"codigo_dir":"EA0042613","nombre":"Cifp Reina
+        Victoria Eugenia"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88116,"og":{"codigo_dir":"EA0042616","nombre":"Escuela
+        Oficial de Idiomas de Melilla"},"ut":{"codigo_dir":"EA0042616","nombre":"Escuela
+        Oficial de Idiomas de Melilla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88117,"og":{"codigo_dir":"EA0042620","nombre":"IES
+        Miguel Fern\u00e1ndez"},"ut":{"codigo_dir":"EA0042620","nombre":"IES Miguel
+        Fern\u00e1ndez"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88127,"og":{"codigo_dir":"EA0042603","nombre":"CEIP
+        Hipodromo"},"ut":{"codigo_dir":"EA0042603","nombre":"CEIP Hipodromo"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88128,"og":{"codigo_dir":"EA0042606","nombre":"CEIP
+        Pedro de Estopi\u00f1\u00e1n"},"ut":{"codigo_dir":"EA0042606","nombre":"CEIP
+        Pedro de Estopi\u00f1\u00e1n"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88129,"og":{"codigo_dir":"EA0042611","nombre":"Centro
+        de Educaci\u00f3n de Personas Adultas"},"ut":{"codigo_dir":"EA0042611","nombre":"Centro
+        de Educaci\u00f3n de Personas Adultas"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88130,"og":{"codigo_dir":"EA0042614","nombre":"Conservatorio
+        Profesional de M\u00fasica de Melilla"},"ut":{"codigo_dir":"EA0042614","nombre":"Conservatorio
+        Profesional de M\u00fasica de Melilla"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88131,"og":{"codigo_dir":"EA0042615","nombre":"Escuela
+        de Arte Miguel Emilio Marmolejo Fern\u00e1ndez"},"ut":{"codigo_dir":"EA0042615","nombre":"Escuela
+        de Arte Miguel Emilio Marmolejo Fern\u00e1ndez"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88132,"og":{"codigo_dir":"EA0042617","nombre":"IES
+        Enrique Nieto"},"ut":{"codigo_dir":"EA0042617","nombre":"IES Enrique Nieto"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88133,"og":{"codigo_dir":"EA0042618","nombre":"IES
+        Juan Antonio Fern\u00e1ndez P\u00e9rez"},"ut":{"codigo_dir":"EA0042618","nombre":"IES
+        Juan Antonio Fern\u00e1ndez P\u00e9rez"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88134,"og":{"codigo_dir":"EA0042619","nombre":"IES
+        Leopoldo Queipo"},"ut":{"codigo_dir":"EA0042619","nombre":"IES Leopoldo Queipo"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88135,"og":{"codigo_dir":"EA0042621","nombre":"IES
+        Rusadir"},"ut":{"codigo_dir":"EA0042621","nombre":"IES Rusadir"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88136,"og":{"codigo_dir":"EA0042622","nombre":"IES
+        Virgen de la Victoria"},"ut":{"codigo_dir":"EA0042622","nombre":"IES Virgen
+        de la Victoria"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88387,"og":{"codigo_dir":"E05078801","nombre":"Secretar\u00eda
+        General de Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"E05078901","nombre":"Secretar\u00eda
+        del Secretario General"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88388,"og":{"codigo_dir":"E05078801","nombre":"Secretar\u00eda
+        General de Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0042010","nombre":"Gabinete
+        T\u00e9cnico de la Secretar\u00eda General (MEFP)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88407,"og":{"codigo_dir":"E05078801","nombre":"Secretar\u00eda
+        General de Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0041837","nombre":"S.G.De.
+        Planificaci\u00f3n y Gesti\u00f3n de la Formaci\u00f3n Profesional"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88427,"og":{"codigo_dir":"E04996503","nombre":"Direcci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n Educativa"},"ut":{"codigo_dir":"EA0041886","nombre":"S.G.
+        de Centros, Inspecci\u00f3n y Programas"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":88967,"og":{"codigo_dir":"EA0041886","nombre":"S.G.
+        de Centros, Inspecci\u00f3n y Programas"},"ut":{"codigo_dir":"EA0041886","nombre":"S.G.
+        de Centros, Inspecci\u00f3n y Programas"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":89292,"og":{"codigo_dir":"EA0043212","nombre":"Unidad
+        de Apoyo (DGECT)"},"ut":{"codigo_dir":"EA0041816","nombre":"Caja Pagadora
+        Central (Mefp)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":89349,"og":{"codigo_dir":"E04874804","nombre":"Direcci\u00f3n
+        General de Evaluaci\u00f3n y Cooperaci\u00f3n Territorial"},"ut":{"codigo_dir":"EA0043212","nombre":"Unidad
+        de Apoyo (DGECT)"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable.
+        I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":89367,"og":{"codigo_dir":"EA0042569","nombre":"Direcci\u00f3n
+        Provincial de Educaci\u00f3n de Ceuta"},"ut":{"codigo_dir":"EA0042569","nombre":"Direcci\u00f3n
+        Provincial de Educaci\u00f3n de Ceuta"},"oc":{"codigo_dir":"GE0014082","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ceuta - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":89467,"og":{"codigo_dir":"EA0043887","nombre":"CEIP
+        Gabriel de Morales"},"ut":{"codigo_dir":"EA0043887","nombre":"CEIP Gabriel
+        de Morales"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina Contable. I.D.
+        Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":92607,"og":{"codigo_dir":"E04874804","nombre":"Direcci\u00f3n
+        General de Evaluaci\u00f3n y Cooperaci\u00f3n Territorial"},"ut":{"codigo_dir":"EA0041427","nombre":"S.G.
+        de Gesti\u00f3n Econ\u00f3mica y Financiera"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":92627,"og":{"codigo_dir":"E04996503","nombre":"Direcci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n Educativa"},"ut":{"codigo_dir":"EA0041427","nombre":"S.G.
+        de Gesti\u00f3n Econ\u00f3mica y Financiera"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Educaci\u00f3n y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":92647,"og":{"codigo_dir":"E05066201","nombre":"Secretar\u00eda
+        de Estado de Educaci\u00f3n"},"ut":{"codigo_dir":"EA0041427","nombre":"S.G.
+        de Gesti\u00f3n Econ\u00f3mica y Financiera"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:41 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024101/relaciones?administracion=E05024101&limit=25.0&page=8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 13:59:42 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Educaci\u00f3n
+        y Formaci\u00f3n Profesional","codigo_dir":"E05024101","cifs":[]},"id":92667,"og":{"codigo_dir":"E05078801","nombre":"Secretar\u00eda
+        General de Formaci\u00f3n Profesional"},"ut":{"codigo_dir":"EA0041427","nombre":"S.G.
+        de Gesti\u00f3n Econ\u00f3mica y Financiera"},"oc":{"codigo_dir":"GE0014058","nombre":"Oficina
+        Contable. I.D. Ministerio de Educacion y Formaci\u00f3n Profesional"}}]}'
+  recorded_at: Thu, 04 Mar 2021 13:59:42 GMT
+recorded_with: VCR 6.0.0

@@ -1,0 +1,891 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024801/relaciones?administracion=E05024801&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:07 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61421,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019779","nombre":"Servicio
+        de Difusi\u00f3n de Contenidos Digitales, Portales y Redes Sociales"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61423,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019784","nombre":"Control
+        Bibliografico de Revistas"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61426,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019791","nombre":"Referencia"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61427,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019793","nombre":"Gerencia"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61429,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019797","nombre":"Contratacion
+        Gestion Economica"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61415,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019770","nombre":"Divisi\u00f3n
+        Cultural"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional de
+        Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61417,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019772","nombre":"Difusion"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61420,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019778","nombre":"Proyectos
+        y Desarrollos Bibliotecarios"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61424,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019786","nombre":"Archivo"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61425,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019789","nombre":"Preservacion
+        y Conservacion de Fondos"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61428,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019795","nombre":"Seguridad
+        y Mantenimiento"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61430,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019800","nombre":"Dif Ge"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61416,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019771","nombre":"Actividades
+        Editoriales"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61418,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019774","nombre":"Divisi\u00f3n
+        de Procesos y Servicios Digitales"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61419,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019776","nombre":"Gesti\u00f3n
+        del dep\u00f3sito de publicaciones en l\u00ednea"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61422,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019781","nombre":"Manuscritos,
+        Incunables y Raros"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61235,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019793","nombre":"Gerencia"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61395,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019792","nombre":"Subdireccion
+        Adjunta"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional de
+        Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61396,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019794","nombre":"Segurmant
+        Ge"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61397,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019799","nombre":"Relacion
+        Especial de Puestos de la Biblioteca Nacional de Espa\u00f1a (ACUERDO CONSEJO
+        MINISTROS 2\/7\/10)"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61398,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019806","nombre":"Unidad
+        de Formacion"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":60975,"og":{"codigo_dir":"EA0019842","nombre":"OA
+        Gerencia de Infraestructuras y Equipamientos de Cultura"},"ut":{"codigo_dir":"EA0019844","nombre":"Secretaria
+        Tecnica de Infraestructuras"},"oc":{"codigo_dir":"EA0019847","nombre":"Oficina
+        de Contabilidad de la Gerencia de Infraestructuras y Equipamientos de Cultura"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":60977,"og":{"codigo_dir":"EA0019842","nombre":"OA
+        Gerencia de Infraestructuras y Equipamientos de Cultura"},"ut":{"codigo_dir":"EA0019848","nombre":"S.G.De
+        Contratacion y Gestion Patrimonial"},"oc":{"codigo_dir":"EA0019847","nombre":"Oficina
+        de Contabilidad de la Gerencia de Infraestructuras y Equipamientos de Cultura"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":60976,"og":{"codigo_dir":"EA0019842","nombre":"OA
+        Gerencia de Infraestructuras y Equipamientos de Cultura"},"ut":{"codigo_dir":"EA0019845","nombre":"S.G.
+        de Obras"},"oc":{"codigo_dir":"EA0019847","nombre":"Oficina de Contabilidad
+        de la Gerencia de Infraestructuras y Equipamientos de Cultura"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":60994,"og":{"codigo_dir":"EA0019842","nombre":"OA
+        Gerencia de Infraestructuras y Equipamientos de Cultura"},"ut":{"codigo_dir":"EA0019846","nombre":"S.G.
+        Economico-Administrativa"},"oc":{"codigo_dir":"EA0019847","nombre":"Oficina
+        de Contabilidad de la Gerencia de Infraestructuras y Equipamientos de Cultura"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:07 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024801/relaciones?administracion=E05024801&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:08 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"125","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:03:08 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024801/relaciones?administracion=E05024801&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:09 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":60975,"og":{"codigo_dir":"EA0019842","nombre":"OA
+        Gerencia de Infraestructuras y Equipamientos de Cultura"},"ut":{"codigo_dir":"EA0019844","nombre":"Secretaria
+        Tecnica de Infraestructuras"},"oc":{"codigo_dir":"EA0019847","nombre":"Oficina
+        de Contabilidad de la Gerencia de Infraestructuras y Equipamientos de Cultura"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":60976,"og":{"codigo_dir":"EA0019842","nombre":"OA
+        Gerencia de Infraestructuras y Equipamientos de Cultura"},"ut":{"codigo_dir":"EA0019845","nombre":"S.G.
+        de Obras"},"oc":{"codigo_dir":"EA0019847","nombre":"Oficina de Contabilidad
+        de la Gerencia de Infraestructuras y Equipamientos de Cultura"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":60977,"og":{"codigo_dir":"EA0019842","nombre":"OA
+        Gerencia de Infraestructuras y Equipamientos de Cultura"},"ut":{"codigo_dir":"EA0019848","nombre":"S.G.De
+        Contratacion y Gestion Patrimonial"},"oc":{"codigo_dir":"EA0019847","nombre":"Oficina
+        de Contabilidad de la Gerencia de Infraestructuras y Equipamientos de Cultura"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":60994,"og":{"codigo_dir":"EA0019842","nombre":"OA
+        Gerencia de Infraestructuras y Equipamientos de Cultura"},"ut":{"codigo_dir":"EA0019846","nombre":"S.G.
+        Economico-Administrativa"},"oc":{"codigo_dir":"EA0019847","nombre":"Oficina
+        de Contabilidad de la Gerencia de Infraestructuras y Equipamientos de Cultura"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61235,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019793","nombre":"Gerencia"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61395,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019792","nombre":"Subdireccion
+        Adjunta"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional de
+        Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61396,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019794","nombre":"Segurmant
+        Ge"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61397,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019799","nombre":"Relacion
+        Especial de Puestos de la Biblioteca Nacional de Espa\u00f1a (ACUERDO CONSEJO
+        MINISTROS 2\/7\/10)"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61398,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019806","nombre":"Unidad
+        de Formacion"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61415,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019770","nombre":"Divisi\u00f3n
+        Cultural"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional de
+        Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61416,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019771","nombre":"Actividades
+        Editoriales"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61417,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019772","nombre":"Difusion"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61418,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019774","nombre":"Divisi\u00f3n
+        de Procesos y Servicios Digitales"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61419,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019776","nombre":"Gesti\u00f3n
+        del dep\u00f3sito de publicaciones en l\u00ednea"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61420,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019778","nombre":"Proyectos
+        y Desarrollos Bibliotecarios"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61421,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019779","nombre":"Servicio
+        de Difusi\u00f3n de Contenidos Digitales, Portales y Redes Sociales"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61422,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019781","nombre":"Manuscritos,
+        Incunables y Raros"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61423,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019784","nombre":"Control
+        Bibliografico de Revistas"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61424,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019786","nombre":"Archivo"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61425,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019789","nombre":"Preservacion
+        y Conservacion de Fondos"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61426,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019791","nombre":"Referencia"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61427,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019793","nombre":"Gerencia"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61428,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019795","nombre":"Seguridad
+        y Mantenimiento"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61429,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019797","nombre":"Contratacion
+        Gestion Economica"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61430,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019800","nombre":"Dif Ge"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:09 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024801/relaciones?administracion=E05024801&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:10 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61431,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019802","nombre":"Uci Ge"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61432,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019803","nombre":"Unidad
+        de Caja Fija - Bne"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61433,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019804","nombre":"Unidad
+        de Contratacion"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61434,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019769","nombre":"Direccion"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61435,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019773","nombre":"Museo Bne"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61436,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019775","nombre":"Biblioteca
+        Digital"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional de
+        Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61437,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019777","nombre":"Gesti\u00f3n
+        Sistemas Bibliotecarios"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61438,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019780","nombre":"Direccion
+        Tecnica"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional de
+        Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61439,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019782","nombre":"Coordinacion
+        de Proyectos"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61440,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019783","nombre":"Bellas
+        Artes y Cartografia"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61441,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019785","nombre":"Coordinacion
+        de Colecciones"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61442,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019788","nombre":"Musica
+        y Audiovisuales"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional
+        de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61443,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019790","nombre":"Proceso
+        Tecnico"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional de
+        Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61444,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019796","nombre":"Gestion
+        Economica y Presupuestaria"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61454,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019787","nombre":"Adquisiciones
+        e Incremento del Patrimonio"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61455,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019798","nombre":"Recursos
+        Humanos y Materiales"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61456,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019801","nombre":"Asuntos
+        Juridicos"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca Nacional de
+        Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61474,"og":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"},"ut":{"codigo_dir":"EA0019805","nombre":"Unidad
+        de Coordinacion Informatica"},"oc":{"codigo_dir":"EA0019768","nombre":"Biblioteca
+        Nacional de Espa\u00f1a"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":61635,"og":{"codigo_dir":"EA0019842","nombre":"OA
+        Gerencia de Infraestructuras y Equipamientos de Cultura"},"ut":{"codigo_dir":"EA0019846","nombre":"S.G.
+        Economico-Administrativa"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":63474,"og":{"codigo_dir":"EA0019749","nombre":"Museo
+        de Altamira"},"ut":{"codigo_dir":"EA0019749","nombre":"Museo de Altamira"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":63614,"og":{"codigo_dir":"EA0019743","nombre":"Museo
+        Arte Romano de Merida"},"ut":{"codigo_dir":"EA0019743","nombre":"Museo Arte
+        Romano de Merida"},"oc":{"codigo_dir":"GE0014073","nombre":"Oficina Contable.
+        Delegacion de Economia y Hacienda en Badajoz - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":63774,"og":{"codigo_dir":"GE0015126","nombre":"Area
+        Econ\u00f3mico Financiera del Museo Nacional del Prado. Gestor Fact. Electronica"},"ut":{"codigo_dir":"GE0015128","nombre":"Servicio
+        Econ\u00f3mico del Museo Nacional del Prado.Tramit. Fact. Electronica"},"oc":{"codigo_dir":"GE0015127","nombre":"Servicio
+        de Contabilidad del Museo Nacional del Prado.Registro. Contable de Fact."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":65402,"og":{"codigo_dir":"EA0019767","nombre":"Centro
+        Documental de la Memoria Historica"},"ut":{"codigo_dir":"EA0019767","nombre":"Centro
+        Documental de la Memoria Historica"},"oc":{"codigo_dir":"GE0014104","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Salamanca - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":65403,"og":{"codigo_dir":"EA0019710","nombre":"D.G.
+        de Deportes"},"ut":{"codigo_dir":"EA0019713","nombre":"Pagos en Firme CSD"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":65442,"og":{"codigo_dir":"EA0019710","nombre":"D.G.
+        de Deportes"},"ut":{"codigo_dir":"EA0019712","nombre":"Caja Central CSD"},"oc":{"codigo_dir":"E00122806","nombre":"Consejo
+        Superior de Deportes"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:10 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024801/relaciones?administracion=E05024801&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:11 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":65461,"og":{"codigo_dir":"EA0019710","nombre":"D.G.
+        de Deportes"},"ut":{"codigo_dir":"EA0019713","nombre":"Pagos en Firme CSD"},"oc":{"codigo_dir":"E00122806","nombre":"Consejo
+        Superior de Deportes"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":66564,"og":{"codigo_dir":"EA0019850","nombre":"Instituto
+        de la Cinematograf\u00eda y de las Artes Audiovisuales"},"ut":{"codigo_dir":"EA0019851","nombre":"Filmoteca
+        Espa\u00f1ola"},"oc":{"codigo_dir":"EA0019850","nombre":"Instituto de la Cinematograf\u00eda
+        y de las Artes Audiovisuales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":66622,"og":{"codigo_dir":"EA0019850","nombre":"Instituto
+        de la Cinematograf\u00eda y de las Artes Audiovisuales"},"ut":{"codigo_dir":"EA0019854","nombre":"Caja
+        Pagadora Central (ICAA)"},"oc":{"codigo_dir":"EA0019850","nombre":"Instituto
+        de la Cinematograf\u00eda y de las Artes Audiovisuales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":66623,"og":{"codigo_dir":"EA0019850","nombre":"Instituto
+        de la Cinematograf\u00eda y de las Artes Audiovisuales"},"ut":{"codigo_dir":"EA0019856","nombre":"S.G
+        de Fomento de la Industria Cinematografica y Audiovisual"},"oc":{"codigo_dir":"EA0019850","nombre":"Instituto
+        de la Cinematograf\u00eda y de las Artes Audiovisuales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":66624,"og":{"codigo_dir":"EA0019850","nombre":"Instituto
+        de la Cinematograf\u00eda y de las Artes Audiovisuales"},"ut":{"codigo_dir":"EA0019857","nombre":"S.G
+        de Promocion y Relaciones Internacionales"},"oc":{"codigo_dir":"EA0019850","nombre":"Instituto
+        de la Cinematograf\u00eda y de las Artes Audiovisuales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":66642,"og":{"codigo_dir":"EA0019850","nombre":"Instituto
+        de la Cinematograf\u00eda y de las Artes Audiovisuales"},"ut":{"codigo_dir":"EA0019852","nombre":"Caja
+        Pagadora Filmoteca (ICAA)"},"oc":{"codigo_dir":"EA0019850","nombre":"Instituto
+        de la Cinematograf\u00eda y de las Artes Audiovisuales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":66661,"og":{"codigo_dir":"EA0019850","nombre":"Instituto
+        de la Cinematograf\u00eda y de las Artes Audiovisuales"},"ut":{"codigo_dir":"EA0019853","nombre":"Secretaria
+        General (ICAA)"},"oc":{"codigo_dir":"EA0019850","nombre":"Instituto de la
+        Cinematograf\u00eda y de las Artes Audiovisuales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":66662,"og":{"codigo_dir":"EA0019850","nombre":"Instituto
+        de la Cinematograf\u00eda y de las Artes Audiovisuales"},"ut":{"codigo_dir":"EA0019858","nombre":"Caja
+        Pagadora Promocion (ICAA)"},"oc":{"codigo_dir":"EA0019850","nombre":"Instituto
+        de la Cinematograf\u00eda y de las Artes Audiovisuales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68232,"og":{"codigo_dir":"EA0019850","nombre":"Instituto
+        de la Cinematograf\u00eda y de las Artes Audiovisuales"},"ut":{"codigo_dir":"EA0019851","nombre":"Filmoteca
+        Espa\u00f1ola"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68368,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019808","nombre":"Compa\u00f1ia
+        Nacional de Teatro Clasico"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68369,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019810","nombre":"Ballet
+        Nacional de Espa\u00f1a"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68370,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019813","nombre":"Auditorio
+        Nacional de Musica"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto Nacional
+        de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68372,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019815","nombre":"Apoyo
+        a la Direcci\u00f3n General Inaem"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68373,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019817","nombre":"Centro
+        Dramatico Nacional"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto Nacional
+        de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68374,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019818","nombre":"Centro
+        Nacional de Difusion Musical"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68375,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019819","nombre":"Compa\u00f1ia
+        Nacional de Danza"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto Nacional
+        de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68376,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019824","nombre":"Secretar\u00eda
+        General Inaem"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto Nacional
+        de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68377,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019826","nombre":"S.G.
+        de Musica y Danza"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto Nacional
+        de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68378,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019828","nombre":"S.G.
+        de Teatro"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto Nacional de
+        las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68379,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019831","nombre":"Unidad
+        Informatica Inaem"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto Nacional
+        de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68388,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019820","nombre":"Joven
+        Orquesta Nacional de Espa\u00f1a"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68389,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019823","nombre":"Orquesta
+        y Coro Nacionales de Espa\u00f1a"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68390,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019827","nombre":"S.G.
+        de Personal Inaem"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto Nacional
+        de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68391,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019829","nombre":"S.G.
+        Economico-Administrativa Inaem"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68408,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019811","nombre":"Castillo
+        Palacio de Magalia"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto Nacional
+        de las Artes Esc\u00e9nicas y de la M\u00fasica"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:11 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024801/relaciones?administracion=E05024801&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:12 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68410,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019816","nombre":"Centro
+        de Tecnologias del Espectaculo"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68411,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019830","nombre":"Teatro
+        Lirico Nacional de la Zarzuela"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":68427,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019821","nombre":"Museo
+        Nacional del Teatro - Almagro"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":69327,"og":{"codigo_dir":"EA0019838","nombre":"Divisi\u00f3n
+        de Tecnolog\u00edas de la Informaci\u00f3n"},"ut":{"codigo_dir":"EA0019838","nombre":"Divisi\u00f3n
+        de Tecnolog\u00edas de la Informaci\u00f3n"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":70548,"og":{"codigo_dir":"EA0019752","nombre":"Museo
+        Nacional de Arqueologia Subacuatica"},"ut":{"codigo_dir":"EA0019752","nombre":"Museo
+        Nacional de Arqueologia Subacuatica"},"oc":{"codigo_dir":"GE0014098","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Cartagena-Interv"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":70867,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0039188","nombre":"Centro
+        de Documentaci\u00f3n de las Artes Esc\u00e9nicas y de la M\u00fasica"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":72407,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0019824","nombre":"Secretar\u00eda
+        General Inaem"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":88747,"og":{"codigo_dir":"EA0019807","nombre":"Instituto
+        Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica"},"ut":{"codigo_dir":"EA0044167","nombre":"Departamento
+        de Prensa del INAEM"},"oc":{"codigo_dir":"EA0019807","nombre":"Instituto Nacional
+        de las Artes Esc\u00e9nicas y de la M\u00fasica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89647,"og":{"codigo_dir":"E05024801","nombre":"Ministerio
+        de Cultura y Deporte"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja Pagadora
+        Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina Contable.
+        I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89648,"og":{"codigo_dir":"E05042102","nombre":"Direcci\u00f3n
+        General de Industrias Culturales, Propiedad Intelectual y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89649,"og":{"codigo_dir":"EA0019835","nombre":"S.G.
+        de Recursos Humanos e Inspecci\u00f3n de los Servicios"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89650,"og":{"codigo_dir":"EA0042015","nombre":"S.G.
+        de Promoci\u00f3n de Industrias Culturales"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89651,"og":{"codigo_dir":"EA0042018","nombre":"S.G
+        de Cooperacion Cultural con las Comunidades Autonomas"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89652,"og":{"codigo_dir":"EA0042019","nombre":"S.G.
+        de Museos Estatales"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja Pagadora
+        Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina Contable.
+        I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89653,"og":{"codigo_dir":"EA0042046","nombre":"S.G.
+        del Instituto del Patrimonio Cultural de Espa\u00f1a"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89654,"og":{"codigo_dir":"EA0042049","nombre":"S.G.
+        de Gesti\u00f3n y Coordinaci\u00f3n de los Bienes Culturales"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89655,"og":{"codigo_dir":"EA0019833","nombre":"S.G.
+        de Atenci\u00f3n al Ciudadano, Documentaci\u00f3n y Publicaciones (MCD)"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad
+        de Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89656,"og":{"codigo_dir":"EA0019835","nombre":"S.G.
+        de Recursos Humanos e Inspecci\u00f3n de los Servicios"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad
+        de Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89657,"og":{"codigo_dir":"EA0019838","nombre":"Divisi\u00f3n
+        de Tecnolog\u00edas de la Informaci\u00f3n"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad
+        de Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89658,"og":{"codigo_dir":"EA0042037","nombre":"S.G.
+        de los Archivos Estatales"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad
+        de Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89659,"og":{"codigo_dir":"EA0042046","nombre":"S.G.
+        del Instituto del Patrimonio Cultural de Espa\u00f1a"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad
+        de Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89660,"og":{"codigo_dir":"EA0042049","nombre":"S.G.
+        de Gesti\u00f3n y Coordinaci\u00f3n de los Bienes Culturales"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad
+        de Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89661,"og":{"codigo_dir":"EA0042027","nombre":"Museo
+        de Altamira"},"ut":{"codigo_dir":"EA0042027","nombre":"Museo de Altamira"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89667,"og":{"codigo_dir":"E05035701","nombre":"Subsecretar\u00eda
+        de Cultura y Deporte"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja Pagadora
+        Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina Contable.
+        I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89668,"og":{"codigo_dir":"EA0042012","nombre":"S.G.
+        de Promoci\u00f3n del Libro, la Lectura y las Letras Espa\u00f1olas"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:12 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024801/relaciones?administracion=E05024801&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:12 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Cultura
+        y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89669,"og":{"codigo_dir":"EA0042011","nombre":"S.G.
+        de Coordinacion Bibliotecaria"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad
+        de Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89670,"og":{"codigo_dir":"EA0042018","nombre":"S.G
+        de Cooperacion Cultural con las Comunidades Autonomas"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad
+        de Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89671,"og":{"codigo_dir":"EA0042019","nombre":"S.G.
+        de Museos Estatales"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad de Expedientes
+        en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina Contable.
+        I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89672,"og":{"codigo_dir":"EA0042048","nombre":"S.G.
+        de Registros y  Documentaci\u00f3n del Patrimonio Hist\u00f3rico"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad
+        de Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89673,"og":{"codigo_dir":"EA0042232","nombre":"S.G.
+        de Relaciones Internacionales y Uni\u00f3n Europea"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad
+        de Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89687,"og":{"codigo_dir":"E05041701","nombre":"Secretar\u00eda
+        General T\u00e9cnica (MCD)"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89688,"og":{"codigo_dir":"E05041902","nombre":"Direcci\u00f3n
+        General del Libro y Fomento de la Lectura"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89689,"og":{"codigo_dir":"E05081001","nombre":"Secretar\u00eda
+        General de Cultura"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja Pagadora
+        Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina Contable.
+        I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89690,"og":{"codigo_dir":"EA0019833","nombre":"S.G.
+        de Atenci\u00f3n al Ciudadano, Documentaci\u00f3n y Publicaciones (MCD)"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89691,"og":{"codigo_dir":"EA0019834","nombre":"S.G.
+        de Gesti\u00f3n Econ\u00f3mica y Asuntos Generales"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89692,"og":{"codigo_dir":"EA0042011","nombre":"S.G.
+        de Coordinacion Bibliotecaria"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89693,"og":{"codigo_dir":"EA0042016","nombre":"S.G.
+        de Propiedad Intelectual"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja Pagadora
+        Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina Contable.
+        I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89694,"og":{"codigo_dir":"EA0019834","nombre":"S.G.
+        de Gesti\u00f3n Econ\u00f3mica y Asuntos Generales"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad
+        de Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89695,"og":{"codigo_dir":"EA0042016","nombre":"S.G.
+        de Propiedad Intelectual"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad
+        de Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89707,"og":{"codigo_dir":"E05042302","nombre":"Direcci\u00f3n
+        General de Bellas Artes"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja Pagadora
+        Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina Contable.
+        I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89708,"og":{"codigo_dir":"EA0019838","nombre":"Divisi\u00f3n
+        de Tecnolog\u00edas de la Informaci\u00f3n"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89709,"og":{"codigo_dir":"EA0019839","nombre":"Divisi\u00f3n
+        de Estad\u00edsticas y Estudios"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89710,"og":{"codigo_dir":"EA0042037","nombre":"S.G.
+        de los Archivos Estatales"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89711,"og":{"codigo_dir":"EA0042048","nombre":"S.G.
+        de Registros y  Documentaci\u00f3n del Patrimonio Hist\u00f3rico"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89712,"og":{"codigo_dir":"EA0042232","nombre":"S.G.
+        de Relaciones Internacionales y Uni\u00f3n Europea"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja
+        Pagadora Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89713,"og":{"codigo_dir":"E05024801","nombre":"Ministerio
+        de Cultura y Deporte"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad de
+        Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89714,"og":{"codigo_dir":"EA0042012","nombre":"S.G.
+        de Promoci\u00f3n del Libro, la Lectura y las Letras Espa\u00f1olas"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad
+        de Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":89715,"og":{"codigo_dir":"EA0042015","nombre":"S.G.
+        de Promoci\u00f3n de Industrias Culturales"},"ut":{"codigo_dir":"EA0022204","nombre":"Unidad
+        de Expedientes en Firme, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina
+        Contable. I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":90887,"og":{"codigo_dir":"E05027001","nombre":"Gabinete
+        del Ministro (MCD)"},"ut":{"codigo_dir":"EA0022203","nombre":"Caja Pagadora
+        Central, Secult"},"oc":{"codigo_dir":"GE0014046","nombre":"Oficina Contable.
+        I.D. Ministerio de Cultura y Deporte"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Cultura y Deporte","codigo_dir":"E05024801","cifs":[]},"id":93747,"og":{"codigo_dir":"GE0015126","nombre":"Area
+        Econ\u00f3mico Financiera del Museo Nacional del Prado. Gestor Fact. Electronica"},"ut":{"codigo_dir":"GE0015128","nombre":"Servicio
+        Econ\u00f3mico del Museo Nacional del Prado.Tramit. Fact. Electronica"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:12 GMT
+recorded_with: VCR 6.0.0

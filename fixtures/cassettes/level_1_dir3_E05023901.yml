@@ -1,0 +1,839 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05023901/relaciones?administracion=E05023901&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:45 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos
+        Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68727,"og":{"codigo_dir":"E05028601","nombre":"Secretar\u00eda
+        de Estado de Cooperaci\u00f3n Internacional y para Iberoam\u00e9rica y el
+        Caribe"},"ut":{"codigo_dir":"E05003502","nombre":"Direcci\u00f3n General de
+        Pol\u00edticas de Desarrollo Sostenible."},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68728,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"E05003903","nombre":"Direcci\u00f3n
+        General de Comunicaci\u00f3n e Informaci\u00f3n Diplom\u00e1tica"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68729,"og":{"codigo_dir":"E05028401","nombre":"Secretar\u00eda
+        de Estado de Asuntos Exteriores"},"ut":{"codigo_dir":"E05028701","nombre":"Gabinete
+        del Secretario de Estado de Asuntos Exteriores"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68730,"og":{"codigo_dir":"E05028701","nombre":"Gabinete
+        del Secretario de Estado de Asuntos Exteriores"},"ut":{"codigo_dir":"E05028701","nombre":"Gabinete
+        del Secretario de Estado de Asuntos Exteriores"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68731,"og":{"codigo_dir":"E05028501","nombre":"Secretar\u00eda
+        de Estado para la Uni\u00f3n Europea"},"ut":{"codigo_dir":"E05028901","nombre":"Gabinete
+        del Secretario de Estado para la Uni\u00f3n Europea"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68732,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"EA0033985","nombre":"Vicesecretaria
+        General Tecnica"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68733,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0033990","nombre":"Oficialia
+        Mayor"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable. I.D. Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68734,"og":{"codigo_dir":"EA0033990","nombre":"Oficialia
+        Mayor"},"ut":{"codigo_dir":"EA0033990","nombre":"Oficialia Mayor"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68735,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0033992","nombre":"Subdirecci\u00f3n
+        General de Asuntos Patrimoniales"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68736,"og":{"codigo_dir":"E05023901","nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0033993","nombre":"S.G.
+        de Administracion Financiera"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68737,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"EA0033994","nombre":"S.G.
+        de Informatica, Comunicaciones y Redes"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68738,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"GE0003418","nombre":"Oficial\u00eda
+        Mayor Caja Pagadora"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68739,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"GE0003479","nombre":"Sugicyr-Cf"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68740,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"GE0003806","nombre":"Vicesecretar\u00eda
+        General T\u00e9cnica-Coordinaci\u00f3n"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68741,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"GE0003819","nombre":"Escuela
+        Diplom\u00e1tica Acf"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68742,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"GE0003823","nombre":"Oficina
+        de Informaci\u00f3n Diplom\u00e1tica - Acf"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68743,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"GE0005937","nombre":"Unidad
+        de Caja Pagadora 1"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68744,"og":{"codigo_dir":"E05028501","nombre":"Secretar\u00eda
+        de Estado para la Uni\u00f3n Europea"},"ut":{"codigo_dir":"GE0012470","nombre":"Representaci\u00f3n
+        Permantente ante la Uni\u00f3n Europea en Bruselas (REPER)"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68747,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"E05003903","nombre":"Direcci\u00f3n
+        General de Comunicaci\u00f3n e Informaci\u00f3n Diplom\u00e1tica"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68748,"og":{"codigo_dir":"E05028601","nombre":"Secretar\u00eda
+        de Estado de Cooperaci\u00f3n Internacional y para Iberoam\u00e9rica y el
+        Caribe"},"ut":{"codigo_dir":"E05029101","nombre":"Gabinete del Secretario
+        de Estado de Cooperaci\u00f3n Internacional, para Iberoamerica y el Caribe"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68749,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0033981","nombre":"Escuela
+        Diplomatica"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable. I.D.
+        Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68750,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0033985","nombre":"Vicesecretaria
+        General Tecnica"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68751,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"EA0033990","nombre":"Oficialia
+        Mayor"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable. I.D. Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68752,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0033991","nombre":"S.G.
+        de Personal"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable. I.D.
+        Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68753,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"EA0033992","nombre":"Subdirecci\u00f3n
+        General de Asuntos Patrimoniales"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:46 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05023901/relaciones?administracion=E05023901&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:46 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"108","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:02:46 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05023901/relaciones?administracion=E05023901&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:47 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos
+        Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68727,"og":{"codigo_dir":"E05028601","nombre":"Secretar\u00eda
+        de Estado de Cooperaci\u00f3n Internacional y para Iberoam\u00e9rica y el
+        Caribe"},"ut":{"codigo_dir":"E05003502","nombre":"Direcci\u00f3n General de
+        Pol\u00edticas de Desarrollo Sostenible."},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68728,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"E05003903","nombre":"Direcci\u00f3n
+        General de Comunicaci\u00f3n e Informaci\u00f3n Diplom\u00e1tica"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68729,"og":{"codigo_dir":"E05028401","nombre":"Secretar\u00eda
+        de Estado de Asuntos Exteriores"},"ut":{"codigo_dir":"E05028701","nombre":"Gabinete
+        del Secretario de Estado de Asuntos Exteriores"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68730,"og":{"codigo_dir":"E05028701","nombre":"Gabinete
+        del Secretario de Estado de Asuntos Exteriores"},"ut":{"codigo_dir":"E05028701","nombre":"Gabinete
+        del Secretario de Estado de Asuntos Exteriores"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68731,"og":{"codigo_dir":"E05028501","nombre":"Secretar\u00eda
+        de Estado para la Uni\u00f3n Europea"},"ut":{"codigo_dir":"E05028901","nombre":"Gabinete
+        del Secretario de Estado para la Uni\u00f3n Europea"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68732,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"EA0033985","nombre":"Vicesecretaria
+        General Tecnica"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68733,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0033990","nombre":"Oficialia
+        Mayor"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable. I.D. Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68734,"og":{"codigo_dir":"EA0033990","nombre":"Oficialia
+        Mayor"},"ut":{"codigo_dir":"EA0033990","nombre":"Oficialia Mayor"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68735,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0033992","nombre":"Subdirecci\u00f3n
+        General de Asuntos Patrimoniales"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68736,"og":{"codigo_dir":"E05023901","nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0033993","nombre":"S.G.
+        de Administracion Financiera"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68737,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"EA0033994","nombre":"S.G.
+        de Informatica, Comunicaciones y Redes"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68738,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"GE0003418","nombre":"Oficial\u00eda
+        Mayor Caja Pagadora"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68739,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"GE0003479","nombre":"Sugicyr-Cf"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68740,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"GE0003806","nombre":"Vicesecretar\u00eda
+        General T\u00e9cnica-Coordinaci\u00f3n"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68741,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"GE0003819","nombre":"Escuela
+        Diplom\u00e1tica Acf"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68742,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"GE0003823","nombre":"Oficina
+        de Informaci\u00f3n Diplom\u00e1tica - Acf"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68743,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"GE0005937","nombre":"Unidad
+        de Caja Pagadora 1"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68744,"og":{"codigo_dir":"E05028501","nombre":"Secretar\u00eda
+        de Estado para la Uni\u00f3n Europea"},"ut":{"codigo_dir":"GE0012470","nombre":"Representaci\u00f3n
+        Permantente ante la Uni\u00f3n Europea en Bruselas (REPER)"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68747,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"E05003903","nombre":"Direcci\u00f3n
+        General de Comunicaci\u00f3n e Informaci\u00f3n Diplom\u00e1tica"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68748,"og":{"codigo_dir":"E05028601","nombre":"Secretar\u00eda
+        de Estado de Cooperaci\u00f3n Internacional y para Iberoam\u00e9rica y el
+        Caribe"},"ut":{"codigo_dir":"E05029101","nombre":"Gabinete del Secretario
+        de Estado de Cooperaci\u00f3n Internacional, para Iberoamerica y el Caribe"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68749,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0033981","nombre":"Escuela
+        Diplomatica"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable. I.D.
+        Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68750,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0033985","nombre":"Vicesecretaria
+        General Tecnica"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68751,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"EA0033990","nombre":"Oficialia
+        Mayor"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable. I.D. Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68752,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0033991","nombre":"S.G.
+        de Personal"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable. I.D.
+        Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68753,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"EA0033992","nombre":"Subdirecci\u00f3n
+        General de Asuntos Patrimoniales"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:47 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05023901/relaciones?administracion=E05023901&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:48 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos
+        Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68754,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0033993","nombre":"S.G.
+        de Administracion Financiera"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68755,"og":{"codigo_dir":"EA0033993","nombre":"S.G.
+        de Administracion Financiera"},"ut":{"codigo_dir":"EA0033993","nombre":"S.G.
+        de Administracion Financiera"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68756,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"GE0015560","nombre":"Sg
+        Administraci\u00f3n Financiera Pagos en Firme"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68767,"og":{"codigo_dir":"EA0033985","nombre":"Vicesecretaria
+        General Tecnica"},"ut":{"codigo_dir":"EA0033985","nombre":"Vicesecretaria
+        General Tecnica"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68768,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"EA0033991","nombre":"S.G.
+        de Personal"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable. I.D.
+        Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68769,"og":{"codigo_dir":"EA0033992","nombre":"Subdirecci\u00f3n
+        General de Asuntos Patrimoniales"},"ut":{"codigo_dir":"EA0033992","nombre":"Subdirecci\u00f3n
+        General de Asuntos Patrimoniales"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68770,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"EA0033993","nombre":"S.G.
+        de Administracion Financiera"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68771,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0033994","nombre":"S.G.
+        de Informatica, Comunicaciones y Redes"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68772,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"GE0003563","nombre":"Servicio
+        de Obras"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable. I.D.
+        Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68773,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"GE0003820","nombre":"Subdirecci\u00f3n
+        General de Personal-Seguros"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68787,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"EA0034001","nombre":"S.G.
+        de Proteccion y Asistencia Consular"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68788,"og":{"codigo_dir":"E04937003","nombre":"Direcci\u00f3n
+        General de Espa\u00f1oles en el Exterior y de Asuntos Consulares"},"ut":{"codigo_dir":"EA0034001","nombre":"S.G.
+        de Proteccion y Asistencia Consular"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68789,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"GE0003419","nombre":"Oficial\u00eda
+        Mayor Exterior"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68790,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"GE0015560","nombre":"Sg
+        Administraci\u00f3n Financiera Pagos en Firme"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68938,"og":{"codigo_dir":"EA0035820","nombre":"Direccion
+        de Cooperacion con Africa y Asia"},"ut":{"codigo_dir":"EA0035821","nombre":"Departamento
+        de Cooperacion con Africa Subsahariana"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68939,"og":{"codigo_dir":"EA0035823","nombre":"Direccion
+        de Cooperacion con America Latina y el Caribe"},"ut":{"codigo_dir":"EA0035825","nombre":"Departamento
+        de Cooperacion con los Paises Andinos y el Cono Sur"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68940,"og":{"codigo_dir":"EA0035823","nombre":"Direccion
+        de Cooperacion con America Latina y el Caribe"},"ut":{"codigo_dir":"EA0035826","nombre":"Departamento
+        del Fondo de Cooperacion para Agua y Saneamiento"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68941,"og":{"codigo_dir":"EA0035827","nombre":"Direccion
+        de Cooperacion Multilateral, Horizontal y Financiera"},"ut":{"codigo_dir":"EA0035829","nombre":"Departamento
+        de Cooperacion Sectorial"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68942,"og":{"codigo_dir":"EA0035832","nombre":"Direccion
+        de Relaciones Culturales y Cientificas"},"ut":{"codigo_dir":"EA0035833","nombre":"Departamento
+        de Cooperacion Universitaria y Cientifica"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68943,"og":{"codigo_dir":"EA0035832","nombre":"Direccion
+        de Relaciones Culturales y Cientificas"},"ut":{"codigo_dir":"EA0035835","nombre":"Departamento
+        de Coordinacion de Relaciones Culturales y Cientificas"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68944,"og":{"codigo_dir":"EA0035819","nombre":"Direccion
+        de la Agencia"},"ut":{"codigo_dir":"EA0035836","nombre":"Gabinete Tecnico"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68945,"og":{"codigo_dir":"EA0035840","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0035843","nombre":"Departamento de Sistemas
+        y Tecnologias de la Informacion"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68946,"og":{"codigo_dir":"EA0035823","nombre":"Direccion
+        de Cooperacion con America Latina y el Caribe"},"ut":{"codigo_dir":"GE0005974","nombre":"Unidad
+        Apoyo Dc Am\u00e9rica Latina y Caribe"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68988,"og":{"codigo_dir":"EA0035827","nombre":"Direccion
+        de Cooperacion Multilateral, Horizontal y Financiera"},"ut":{"codigo_dir":"EA0035831","nombre":"Departamento
+        de Organizaciones No Gubernamentales de Desarrollo (ONGD)"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68989,"og":{"codigo_dir":"EA0035837","nombre":"Oficina
+        de Accion Humanitaria"},"ut":{"codigo_dir":"EA0035838","nombre":"Departamento
+        de Emergencia y Posconflicto"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:48 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05023901/relaciones?administracion=E05023901&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:49 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos
+        Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68990,"og":{"codigo_dir":"EA0035840","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0035841","nombre":"Departamento de Gestion
+        Economica, Financiera y Presupuestaria"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68991,"og":{"codigo_dir":"EA0035840","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0005977","nombre":"Unidad Organizaci\u00f3n,
+        Calidad y Asuntos Jur\u00eddicos"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":68992,"og":{"codigo_dir":"EA0035827","nombre":"Direccion
+        de Cooperacion Multilateral, Horizontal y Financiera"},"ut":{"codigo_dir":"GE0005978","nombre":"Unidad
+        Apoyo Dc Multilateral, Horizontal y Financiera"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":69007,"og":{"codigo_dir":"EA0035820","nombre":"Direccion
+        de Cooperacion con Africa y Asia"},"ut":{"codigo_dir":"EA0035822","nombre":"Departamento
+        de Cooperacion con el Mundo Arabe y Asia"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":69008,"og":{"codigo_dir":"EA0035823","nombre":"Direccion
+        de Cooperacion con America Latina y el Caribe"},"ut":{"codigo_dir":"EA0035824","nombre":"Departamento
+        de Cooperacion con Centroamerica, Mexico y el Caribe"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":69009,"og":{"codigo_dir":"EA0035832","nombre":"Direccion
+        de Relaciones Culturales y Cientificas"},"ut":{"codigo_dir":"EA0035834","nombre":"Departamento
+        de Cooperacion y Promocion Cultural"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":69010,"og":{"codigo_dir":"EA0035840","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0035842","nombre":"Departamento de Recursos
+        Humanos, Conciliacion y Servicios Generales"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":69011,"og":{"codigo_dir":"EA0035820","nombre":"Direccion
+        de Cooperacion con Africa y Asia"},"ut":{"codigo_dir":"GE0005975","nombre":"Unidad
+        Apoyo Dc \u00c1frica y Asia"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":69027,"og":{"codigo_dir":"EA0035827","nombre":"Direccion
+        de Cooperacion Multilateral, Horizontal y Financiera"},"ut":{"codigo_dir":"EA0035828","nombre":"Departamento
+        de Cooperacion Multilateral"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":69028,"og":{"codigo_dir":"EA0035827","nombre":"Direccion
+        de Cooperacion Multilateral, Horizontal y Financiera"},"ut":{"codigo_dir":"EA0035830","nombre":"Departamento
+        de la Oficina del Fonprode y de Cooperacion Financiera"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":69029,"og":{"codigo_dir":"EA0035837","nombre":"Oficina
+        de Accion Humanitaria"},"ut":{"codigo_dir":"EA0035839","nombre":"Unidad de
+        Prevencion y Evaluacion"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":69047,"og":{"codigo_dir":"EA0035832","nombre":"Direccion
+        de Relaciones Culturales y Cientificas"},"ut":{"codigo_dir":"GE0005976","nombre":"Unidad
+        Apoyo Dr Culturales y Cient\u00edficas"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":69287,"og":{"codigo_dir":"E05028501","nombre":"Secretar\u00eda
+        de Estado para la Uni\u00f3n Europea"},"ut":{"codigo_dir":"EA0038490","nombre":"Representacion
+        Permanente ante la Union Europea en Belgica - Bruselas"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":69667,"og":{"codigo_dir":"EA0035840","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0035842","nombre":"Departamento de Recursos
+        Humanos, Conciliacion y Servicios Generales"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":78147,"og":{"codigo_dir":"E04937003","nombre":"Direcci\u00f3n
+        General de Espa\u00f1oles en el Exterior y de Asuntos Consulares"},"ut":{"codigo_dir":"GE0016019","nombre":"S.G.
+        de Protecci\u00f3n y Asistencia Consular. Caja Pagadora"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":78148,"og":{"codigo_dir":"E05033801","nombre":"Subsecretar\u00eda
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"GE0016020","nombre":"Escuela
+        Diplomatica. Caja Pagadora"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":78149,"og":{"codigo_dir":"E05055001","nombre":"Secretar\u00cda
+        de Estado de la Espa\u00f1a Global"},"ut":{"codigo_dir":"GE0016164","nombre":"Gabinete
+        Secretar\u00eda de Estado de la Espa\u00f1a Global. Caja Fija"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":78167,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"GE0016022","nombre":"S.G.
+        de Asuntos Patrimoniales. Caja Pagadora"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":78187,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"GE0016139","nombre":"Sugicyr.
+        Caja Pagadora"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":78188,"og":{"codigo_dir":"E04609802","nombre":"Direcci\u00f3n
+        General del Servicio Exterior"},"ut":{"codigo_dir":"GE0016181","nombre":"S.G.
+        de Administraci\u00f3n Financiera. Pagos por Caja Pagadora."},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":80967,"og":{"codigo_dir":"E05028401","nombre":"Secretar\u00eda
+        de Estado de Asuntos Exteriores"},"ut":{"codigo_dir":"EA0033899","nombre":"Oficina
+        de Derechos Humanos"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina Contable.
+        I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":80968,"og":{"codigo_dir":"E05028401","nombre":"Secretar\u00eda
+        de Estado de Asuntos Exteriores"},"ut":{"codigo_dir":"GE0016021","nombre":"Gabinete  del  S.
+        de E. de Asuntos Exteriores. Pagos en Firme."},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":88727,"og":{"codigo_dir":"E04937003","nombre":"Direcci\u00f3n
+        General de Espa\u00f1oles en el Exterior y de Asuntos Consulares"},"ut":{"codigo_dir":"GE0017039","nombre":"S.G.De.  Protecci\u00f3n
+        y Asistencia Consular. Pagos a Justificar"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":90568,"og":{"codigo_dir":"E05028401","nombre":"Secretar\u00eda
+        de Estado de Asuntos Exteriores"},"ut":{"codigo_dir":"EA0043910","nombre":"S.G.
+        de Asuntos Internacionales de Seguridad"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":90569,"og":{"codigo_dir":"E05028401","nombre":"Secretar\u00eda
+        de Estado de Asuntos Exteriores"},"ut":{"codigo_dir":"EA0043911","nombre":"S.
+        G. de Organismos Internacionales"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:49 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05023901/relaciones?administracion=E05023901&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:50 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos
+        Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":90587,"og":{"codigo_dir":"E05028401","nombre":"Secretar\u00eda
+        de Estado de Asuntos Exteriores"},"ut":{"codigo_dir":"EA0044647","nombre":"S.G.
+        de Asuntos Agricolas, Pesqueros, Alimentarios y Mar\u00edtimos"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":90588,"og":{"codigo_dir":"E05003903","nombre":"Direcci\u00f3n
+        General de Comunicaci\u00f3n e Informaci\u00f3n Diplom\u00e1tica"},"ut":{"codigo_dir":"EA0044667","nombre":"S.
+        G. de Comunicaci\u00f3n Estrategica, Diplomacia P\u00fablica y Redes"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":90589,"og":{"codigo_dir":"E05023901","nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"},"ut":{"codigo_dir":"EA0044669","nombre":"Oficina
+        de Estrategia y Prospectiva"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":91467,"og":{"codigo_dir":"E04937003","nombre":"Direcci\u00f3n
+        General de Espa\u00f1oles en el Exterior y de Asuntos Consulares"},"ut":{"codigo_dir":"GE0017340","nombre":"S.G.
+        de Asuntos Jur\u00eddicos Consulares. Servicio de Convenios"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[{"nif":"S2800492G"}],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":92787,"og":{"codigo_dir":"EA0038497","nombre":"Gerencia"},"ut":{"codigo_dir":"EA0038497","nombre":"Contabilidad"},"oc":{"codigo_dir":"EA0038497","nombre":"Centro
+        Sefarad-Israel"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos
+        Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":93727,"og":{"codigo_dir":"E05055001","nombre":"Secretar\u00cda
+        de Estado de la Espa\u00f1a Global"},"ut":{"codigo_dir":"EA0039947","nombre":"Direcci\u00f3n
+        General de Comunicaci\u00f3n, Diplomacia P\u00fablica y Redes"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":93887,"og":{"codigo_dir":"E05055001","nombre":"Secretar\u00cda
+        de Estado de la Espa\u00f1a Global"},"ut":{"codigo_dir":"E05055101","nombre":"Gabinete
+        del Secretario de Estado de la Espa\u00f1a Global"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":94507,"og":{"codigo_dir":"E05055001","nombre":"Secretar\u00cda
+        de Estado de la Espa\u00f1a Global"},"ut":{"codigo_dir":"GE0003823","nombre":"Oficina
+        de Informaci\u00f3n Diplom\u00e1tica - Acf"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":94508,"og":{"codigo_dir":"E05055101","nombre":"Gabinete
+        del Secretario de Estado de la Espa\u00f1a Global"},"ut":{"codigo_dir":"GE0016164","nombre":"Gabinete
+        Secretar\u00eda de Estado de la Espa\u00f1a Global. Caja Fija"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":95007,"og":{"codigo_dir":"E05055001","nombre":"Secretar\u00cda
+        de Estado de la Espa\u00f1a Global"},"ut":{"codigo_dir":"E05055702","nombre":"Direcci\u00f3n
+        General de Estrategia, Prospectiva y Coherencia"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97867,"og":{"codigo_dir":"EA0045680","nombre":"Direccion
+        de Cooperacion con Africa y Asia"},"ut":{"codigo_dir":"EA0045681","nombre":"Departamento
+        de Cooperacion con Africa Subsahariana"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97868,"og":{"codigo_dir":"EA0045683","nombre":"Direccion
+        de Cooperacion con America Latina y el Caribe"},"ut":{"codigo_dir":"EA0045686","nombre":"Departamento
+        del Fondo de Cooperacion para Agua y Saneamiento"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97869,"og":{"codigo_dir":"EA0045687","nombre":"Direccion
+        de Cooperacion Multilateral, Horizontal y Financiera"},"ut":{"codigo_dir":"EA0045690","nombre":"Departamento
+        de la Oficina del Fonprode y de Cooperacion Financiera"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97870,"og":{"codigo_dir":"EA0045692","nombre":"Direccion
+        de Relaciones Culturales y Cientificas"},"ut":{"codigo_dir":"EA0045693","nombre":"Departamento
+        de Cooperacion Universitaria y Cientifica"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97871,"og":{"codigo_dir":"EA0045692","nombre":"Direccion
+        de Relaciones Culturales y Cientificas"},"ut":{"codigo_dir":"EA0045695","nombre":"Departamento
+        de Coordinacion de Relaciones Culturales y Cientificas"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97872,"og":{"codigo_dir":"EA0045679","nombre":"Direccion
+        de la Agencia"},"ut":{"codigo_dir":"EA0045696","nombre":"Gabinete Tecnico"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97873,"og":{"codigo_dir":"EA0045700","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0045701","nombre":"Departamento de Gestion
+        Economica, Financiera y Presupuestaria"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97874,"og":{"codigo_dir":"EA0045700","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0045702","nombre":"Departamento de Recursos
+        Humanos, Conciliacion y Servicios Generales"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97875,"og":{"codigo_dir":"EA0045692","nombre":"Direccion
+        de Relaciones Culturales y Cientificas"},"ut":{"codigo_dir":"GE0005976","nombre":"Unidad
+        Apoyo Dr Culturales y Cient\u00edficas"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97876,"og":{"codigo_dir":"EA0045700","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0005977","nombre":"Unidad Organizaci\u00f3n,
+        Calidad y Asuntos Jur\u00eddicos"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97887,"og":{"codigo_dir":"EA0045680","nombre":"Direccion
+        de Cooperacion con Africa y Asia"},"ut":{"codigo_dir":"EA0045682","nombre":"Departamento
+        de Cooperacion con el Mundo Arabe y Asia"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97888,"og":{"codigo_dir":"EA0045683","nombre":"Direccion
+        de Cooperacion con America Latina y el Caribe"},"ut":{"codigo_dir":"EA0045684","nombre":"Departamento
+        de Cooperacion con Centroamerica, Mexico y el Caribe"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97889,"og":{"codigo_dir":"EA0045687","nombre":"Direccion
+        de Cooperacion Multilateral, Horizontal y Financiera"},"ut":{"codigo_dir":"EA0045691","nombre":"Departamento
+        de Organizaciones No Gubernamentales de Desarrollo (ONGD)"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97890,"og":{"codigo_dir":"EA0045697","nombre":"Oficina
+        de Accion Humanitaria"},"ut":{"codigo_dir":"EA0045699","nombre":"Unidad de
+        Prevencion y Evaluacion"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97907,"og":{"codigo_dir":"EA0045683","nombre":"Direccion
+        de Cooperacion con America Latina y el Caribe"},"ut":{"codigo_dir":"EA0045685","nombre":"Departamento
+        de Cooperacion con los Paises Andinos y el Cono Sur"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:50 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05023901/relaciones?administracion=E05023901&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:51 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Asuntos
+        Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97908,"og":{"codigo_dir":"EA0045687","nombre":"Direccion
+        de Cooperacion Multilateral, Horizontal y Financiera"},"ut":{"codigo_dir":"EA0045689","nombre":"Departamento
+        de Cooperacion Sectorial"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97909,"og":{"codigo_dir":"EA0045697","nombre":"Oficina
+        de Accion Humanitaria"},"ut":{"codigo_dir":"EA0045698","nombre":"Departamento
+        de Emergencia y Posconflicto"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97910,"og":{"codigo_dir":"EA0045680","nombre":"Direccion
+        de Cooperacion con Africa y Asia"},"ut":{"codigo_dir":"GE0005975","nombre":"Unidad
+        Apoyo Dc \u00c1frica y Asia"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97911,"og":{"codigo_dir":"EA0045687","nombre":"Direccion
+        de Cooperacion Multilateral, Horizontal y Financiera"},"ut":{"codigo_dir":"GE0005978","nombre":"Unidad
+        Apoyo Dc Multilateral, Horizontal y Financiera"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97927,"og":{"codigo_dir":"EA0045687","nombre":"Direccion
+        de Cooperacion Multilateral, Horizontal y Financiera"},"ut":{"codigo_dir":"EA0045688","nombre":"Departamento
+        de Cooperacion Multilateral"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97928,"og":{"codigo_dir":"EA0045692","nombre":"Direccion
+        de Relaciones Culturales y Cientificas"},"ut":{"codigo_dir":"EA0045694","nombre":"Departamento
+        de Cooperacion y Promocion Cultural"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97929,"og":{"codigo_dir":"EA0045700","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0045703","nombre":"Departamento de Sistemas
+        y Tecnologias de la Informacion"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n","codigo_dir":"E05023901","cifs":[]},"id":97930,"og":{"codigo_dir":"EA0045683","nombre":"Direccion
+        de Cooperacion con America Latina y el Caribe"},"ut":{"codigo_dir":"GE0005974","nombre":"Unidad
+        Apoyo Dc Am\u00e9rica Latina y Caribe"},"oc":{"codigo_dir":"EA0035768","nombre":"Agencia
+        Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:51 GMT
+recorded_with: VCR 6.0.0

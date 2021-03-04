@@ -1,0 +1,1621 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072501/relaciones?administracion=E05072501&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:10 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"G43941442"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14111,"og":{"codigo_dir":"GE0000505","nombre":"ACTIVA
+        MUTUA 2008"},"ut":{"codigo_dir":"GE0000505","nombre":"ACTIVA MUTUA 2008"},"oc":{"codigo_dir":"GE0000505","nombre":"ACTIVA
+        MUTUA 2008"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14112,"og":{"codigo_dir":"GE0000509","nombre":"ACTIVA
+        MUTUA 2008 UTA"},"ut":{"codigo_dir":"GE0000509","nombre":"ACTIVA MUTUA 2008
+        UTA"},"oc":{"codigo_dir":"GE0000509","nombre":"ACTIVA MUTUA 2008 UTA"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14113,"og":{"codigo_dir":"GE0000508","nombre":"ACTIVA
+        MUTUA 2008 UTB"},"ut":{"codigo_dir":"GE0000508","nombre":"ACTIVA MUTUA 2008
+        UTB"},"oc":{"codigo_dir":"GE0000508","nombre":"ACTIVA MUTUA 2008 UTB"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14114,"og":{"codigo_dir":"GE0000507","nombre":"ACTIVA
+        MUTUA 2008 UTC"},"ut":{"codigo_dir":"GE0000507","nombre":"ACTIVA MUTUA 2008
+        UTC"},"oc":{"codigo_dir":"GE0000507","nombre":"ACTIVA MUTUA 2008 UTC"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14115,"og":{"codigo_dir":"GE0000506","nombre":"ACTIVA
+        MUTUA 2008 UTD"},"ut":{"codigo_dir":"GE0000506","nombre":"ACTIVA MUTUA 2008
+        UTD"},"oc":{"codigo_dir":"GE0000506","nombre":"ACTIVA MUTUA 2008 UTD"}},{"cifs":[{"nif":"G08215824"},{"nif":"B08215824"},{"nif":"G20141334"},{"nif":"A08215824"},{"nif":"C08215824"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14116,"og":{"codigo_dir":"GE0000510","nombre":"ASEPEYO"},"ut":{"codigo_dir":"GE0000510","nombre":"ASEPEYO"},"oc":{"codigo_dir":"GE0000510","nombre":"ASEPEYO"}},{"cifs":[{"nif":"G64438997"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14117,"og":{"codigo_dir":"GE0000511","nombre":"EGARSAT"},"ut":{"codigo_dir":"GE0000511","nombre":"EGARSAT"},"oc":{"codigo_dir":"GE0000511","nombre":"EGARSAT"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14119,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000836","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE A CORU\u00d1A"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14121,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000821","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE ALAVA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14123,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000822","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE ALBACETE"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14125,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000823","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE ALICANTE"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14127,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000824","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE ALMERIA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14129,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000825","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE ASTURIAS"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14131,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000826","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE AVILA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14133,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000827","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE BADAJOZ"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14135,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000828","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE BARCELONA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14137,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000829","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE BURGOS"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14139,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000830","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE CACERES"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14141,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000831","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE CADIZ"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14143,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000832","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE CANTABRIA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14145,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000833","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE CASTELLON"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14147,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000834","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE CIUDAD REAL"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14149,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000835","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE CORDOBA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14151,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000837","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE CUENCA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14153,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000838","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE GIRONA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:10 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072501/relaciones?administracion=E05072501&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:11 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"299","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:04:11 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072501/relaciones?administracion=E05072501&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:12 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"G43941442"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14111,"og":{"codigo_dir":"GE0000505","nombre":"ACTIVA
+        MUTUA 2008"},"ut":{"codigo_dir":"GE0000505","nombre":"ACTIVA MUTUA 2008"},"oc":{"codigo_dir":"GE0000505","nombre":"ACTIVA
+        MUTUA 2008"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14112,"og":{"codigo_dir":"GE0000509","nombre":"ACTIVA
+        MUTUA 2008 UTA"},"ut":{"codigo_dir":"GE0000509","nombre":"ACTIVA MUTUA 2008
+        UTA"},"oc":{"codigo_dir":"GE0000509","nombre":"ACTIVA MUTUA 2008 UTA"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14113,"og":{"codigo_dir":"GE0000508","nombre":"ACTIVA
+        MUTUA 2008 UTB"},"ut":{"codigo_dir":"GE0000508","nombre":"ACTIVA MUTUA 2008
+        UTB"},"oc":{"codigo_dir":"GE0000508","nombre":"ACTIVA MUTUA 2008 UTB"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14114,"og":{"codigo_dir":"GE0000507","nombre":"ACTIVA
+        MUTUA 2008 UTC"},"ut":{"codigo_dir":"GE0000507","nombre":"ACTIVA MUTUA 2008
+        UTC"},"oc":{"codigo_dir":"GE0000507","nombre":"ACTIVA MUTUA 2008 UTC"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14115,"og":{"codigo_dir":"GE0000506","nombre":"ACTIVA
+        MUTUA 2008 UTD"},"ut":{"codigo_dir":"GE0000506","nombre":"ACTIVA MUTUA 2008
+        UTD"},"oc":{"codigo_dir":"GE0000506","nombre":"ACTIVA MUTUA 2008 UTD"}},{"cifs":[{"nif":"G08215824"},{"nif":"B08215824"},{"nif":"G20141334"},{"nif":"A08215824"},{"nif":"C08215824"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14116,"og":{"codigo_dir":"GE0000510","nombre":"ASEPEYO"},"ut":{"codigo_dir":"GE0000510","nombre":"ASEPEYO"},"oc":{"codigo_dir":"GE0000510","nombre":"ASEPEYO"}},{"cifs":[{"nif":"G64438997"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14117,"og":{"codigo_dir":"GE0000511","nombre":"EGARSAT"},"ut":{"codigo_dir":"GE0000511","nombre":"EGARSAT"},"oc":{"codigo_dir":"GE0000511","nombre":"EGARSAT"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14119,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000836","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE A CORU\u00d1A"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14121,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000821","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE ALAVA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14123,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000822","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE ALBACETE"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14125,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000823","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE ALICANTE"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14127,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000824","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE ALMERIA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14129,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000825","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE ASTURIAS"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14131,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000826","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE AVILA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14133,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000827","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE BADAJOZ"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14135,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000828","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE BARCELONA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14137,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000829","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE BURGOS"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14139,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000830","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE CACERES"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14141,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000831","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE CADIZ"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14143,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000832","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE CANTABRIA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14145,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000833","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE CASTELLON"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14147,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000834","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE CIUDAD REAL"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14149,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000835","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE CORDOBA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14151,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000837","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE CUENCA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14153,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000838","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE GIRONA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:12 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072501/relaciones?administracion=E05072501&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:13 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14155,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000839","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE GRANADA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14157,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000840","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE GUADALAJARA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14159,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000841","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE GUIPUZCOA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14161,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000842","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE HUELVA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14163,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000843","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE HUESCA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14165,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000844","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE ILLES BALEARS"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14167,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000845","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE JAEN"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14169,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000846","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE LA RIOJA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14171,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000847","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE LAS PALMAS"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14173,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000848","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE LEON"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14175,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000849","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE LLEIDA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14177,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000850","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE LUGO"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14179,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000851","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE MADRID"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14181,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000852","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE MALAGA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14183,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000853","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE MURCIA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14185,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000854","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE NAVARRA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14187,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000855","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE OURENSE"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14189,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000856","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE PALENCIA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14191,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000857","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE PONTEVEDRA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14193,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000859","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE SALAMANCA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14195,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000858","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE S.C. DE TENERIFE"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14197,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000860","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE SEGOVIA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14199,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000861","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE SEVILLA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14201,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000862","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE SORIA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14203,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000863","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE TARRAGONA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:13 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072501/relaciones?administracion=E05072501&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:14 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14205,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000864","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE TERUEL"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14207,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000865","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE TOLEDO"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14209,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000866","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE VALENCIA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14211,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000867","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE VALLADOLID"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14213,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000868","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE VIZCAYA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14215,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000869","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE ZAMORA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14217,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000870","nombre":"FRATERNIDAD - MUPRESPA
+        - DIRECCION PROVINCIAL DE ZARAGOZA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14219,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000871","nombre":"FRATERNIDAD - MUPRESPA
+        - HOSPITAL CENTRAL"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14221,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000872","nombre":"FRATERNIDAD - MUPRESPA
+        - SERVICIOS CENTRALES"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14222,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD MUPRESPA"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"}},{"cifs":[{"nif":"G82287228"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14223,"og":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD
+        MUPRESPA"},"ut":{"codigo_dir":"GE0011305","nombre":"FRATERNIDAD-MUPRESPA-COMPRAS
+        Y SERVICIOS"},"oc":{"codigo_dir":"GE0000512","nombre":"FRATERNIDAD MUPRESPA"}},{"cifs":[{"nif":"G28207017"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14225,"og":{"codigo_dir":"GE0000513","nombre":"FREMAP"},"ut":{"codigo_dir":"GE0000513","nombre":"FREMAP"},"oc":{"codigo_dir":"GE0000513","nombre":"FREMAP"}},{"cifs":[{"nif":"B96498977"},{"nif":"G46052924"},{"nif":"S4611001A"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14226,"og":{"codigo_dir":"GE0000514","nombre":"HOSPITAL
+        INTEMUTUAL DE LEVANTE"},"ut":{"codigo_dir":"GE0000514","nombre":"HOSPITAL
+        INTEMUTUAL DE LEVANTE"},"oc":{"codigo_dir":"GE0000514","nombre":"HOSPITAL
+        INTEMUTUAL DE LEVANTE"}},{"cifs":[{"nif":"G48773766"},{"nif":"G48773776"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14227,"og":{"codigo_dir":"GE0000515","nombre":"HOSPITAL
+        INTERMUTUAL DE EUSKADI"},"ut":{"codigo_dir":"GE0000515","nombre":"HOSPITAL
+        INTERMUTUAL DE EUSKADI"},"oc":{"codigo_dir":"GE0000515","nombre":"HOSPITAL
+        INTERMUTUAL DE EUSKADI"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14229,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000577","nombre":"IBERMUTUA
+        ALBACETE"},"oc":{"codigo_dir":"GE0000577","nombre":"IBERMUTUA ALBACETE"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14230,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000643","nombre":"IBERMUTUA
+        ALCOBENDAS"},"oc":{"codigo_dir":"GE0000643","nombre":"IBERMUTUA ALCOBENDAS"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14231,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000578","nombre":"IBERMUTUA
+        ALICANTE"},"oc":{"codigo_dir":"GE0000578","nombre":"IBERMUTUA ALICANTE"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14232,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000579","nombre":"IBERMUTUA
+        ALMER\u00cdA"},"oc":{"codigo_dir":"GE0000579","nombre":"IBERMUTUA ALMER\u00cdA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14233,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000639","nombre":"IBERMUTUA
+        ARGANDA"},"oc":{"codigo_dir":"GE0000639","nombre":"IBERMUTUA ARGANDA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14234,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000605","nombre":"IBERMUTUA
+        ASTURIAS"},"oc":{"codigo_dir":"GE0000605","nombre":"IBERMUTUA ASTURIAS"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14235,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000580","nombre":"IBERMUTUA
+        AVILA"},"oc":{"codigo_dir":"GE0000580","nombre":"IBERMUTUA AVILA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14236,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000581","nombre":"IBERMUTUA
+        BADAJOZ"},"oc":{"codigo_dir":"GE0000581","nombre":"IBERMUTUA BADAJOZ"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14237,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000582","nombre":"IBERMUTUA
+        BALEARES"},"oc":{"codigo_dir":"GE0000582","nombre":"IBERMUTUA BALEARES"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14238,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000583","nombre":"IBERMUTUA
+        BARCELONA"},"oc":{"codigo_dir":"GE0000583","nombre":"IBERMUTUA BARCELONA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14239,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000584","nombre":"IBERMUTUA
+        BURGOS"},"oc":{"codigo_dir":"GE0000584","nombre":"IBERMUTUA BURGOS"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:14 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072501/relaciones?administracion=E05072501&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:15 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14240,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000585","nombre":"IBERMUTUA
+        CACERES"},"oc":{"codigo_dir":"GE0000585","nombre":"IBERMUTUA CACERES"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14241,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000586","nombre":"IBERMUTUA
+        CADIZ"},"oc":{"codigo_dir":"GE0000586","nombre":"IBERMUTUA CADIZ"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14242,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000642","nombre":"IBERMUTUA
+        CARTAGENA"},"oc":{"codigo_dir":"GE0000642","nombre":"IBERMUTUA CARTAGENA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14243,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000587","nombre":"IBERMUTUA
+        CIUDAD REAL"},"oc":{"codigo_dir":"GE0000587","nombre":"IBERMUTUA CIUDAD REAL"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14244,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000588","nombre":"IBERMUTUA
+        CORDOBA"},"oc":{"codigo_dir":"GE0000588","nombre":"IBERMUTUA CORDOBA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14245,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000590","nombre":"IBERMUTUA
+        GRANADA"},"oc":{"codigo_dir":"GE0000590","nombre":"IBERMUTUA GRANADA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14246,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000591","nombre":"IBERMUTUA
+        GUADALAJARA"},"oc":{"codigo_dir":"GE0000591","nombre":"IBERMUTUA GUADALAJARA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14247,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000592","nombre":"IBERMUTUA
+        HUELVA"},"oc":{"codigo_dir":"GE0000592","nombre":"IBERMUTUA HUELVA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14248,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000593","nombre":"IBERMUTUA
+        JAEN"},"oc":{"codigo_dir":"GE0000593","nombre":"IBERMUTUA JAEN"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14249,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000589","nombre":"IBERMUTUA
+        LA CORU\u00d1A"},"oc":{"codigo_dir":"GE0000589","nombre":"IBERMUTUA LA CORU\u00d1A"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14250,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000608","nombre":"IBERMUTUA
+        LAS PALMAS"},"oc":{"codigo_dir":"GE0000608","nombre":"IBERMUTUA LAS PALMAS"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14251,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000640","nombre":"IBERMUTUA
+        LEGANES"},"oc":{"codigo_dir":"GE0000640","nombre":"IBERMUTUA LEGANES"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14252,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000594","nombre":"IBERMUTUA
+        LEON"},"oc":{"codigo_dir":"GE0000594","nombre":"IBERMUTUA LEON"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14253,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000595","nombre":"IBERMUTUA
+        LOGRO\u00d1O"},"oc":{"codigo_dir":"GE0000595","nombre":"IBERMUTUA LOGRO\u00d1O"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14254,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000596","nombre":"IBERMUTUA
+        LUGO"},"oc":{"codigo_dir":"GE0000596","nombre":"IBERMUTUA LUGO"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14255,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000598","nombre":"IBERMUTUA
+        MADRID"},"oc":{"codigo_dir":"GE0000598","nombre":"IBERMUTUA MADRID"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14256,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000599","nombre":"IBERMUTUA
+        MALAGA"},"oc":{"codigo_dir":"GE0000599","nombre":"IBERMUTUA MALAGA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14257,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000600","nombre":"IBERMUTUA
+        MURCIA"},"oc":{"codigo_dir":"GE0000600","nombre":"IBERMUTUA MURCIA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14258,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000602","nombre":"IBERMUTUA
+        NAVARRA"},"oc":{"codigo_dir":"GE0000602","nombre":"IBERMUTUA NAVARRA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14259,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000604","nombre":"IBERMUTUA
+        ORENSE"},"oc":{"codigo_dir":"GE0000604","nombre":"IBERMUTUA ORENSE"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14260,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000606","nombre":"IBERMUTUA
+        PALENCIA"},"oc":{"codigo_dir":"GE0000606","nombre":"IBERMUTUA PALENCIA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14261,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000647","nombre":"IBERMUTUAMUR
+        PONFERRADA"},"oc":{"codigo_dir":"GE0000647","nombre":"IBERMUTUAMUR PONFERRADA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14262,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000609","nombre":"IBERMUTUA
+        PONTEVEDRA"},"oc":{"codigo_dir":"GE0000609","nombre":"IBERMUTUA PONTEVEDRA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14263,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000610","nombre":"IBERMUTUA
+        SALAMANCA"},"oc":{"codigo_dir":"GE0000610","nombre":"IBERMUTUA SALAMANCA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14264,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000613","nombre":"IBERMUTUA
+        SANTANDER"},"oc":{"codigo_dir":"GE0000613","nombre":"IBERMUTUA SANTANDER"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:15 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072501/relaciones?administracion=E05072501&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:16 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14265,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000615","nombre":"IBERMUTUA
+        SEGOVIA"},"oc":{"codigo_dir":"GE0000615","nombre":"IBERMUTUA SEGOVIA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14266,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000624","nombre":"IBERMUTUA
+        SEVILLA"},"oc":{"codigo_dir":"GE0000624","nombre":"IBERMUTUA SEVILLA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14267,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000626","nombre":"IBERMUTUA
+        SORIA"},"oc":{"codigo_dir":"GE0000626","nombre":"IBERMUTUA SORIA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14268,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000627","nombre":"IBERMUTUA
+        TALAVERA"},"oc":{"codigo_dir":"GE0000627","nombre":"IBERMUTUA TALAVERA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14269,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000612","nombre":"IBERMUTUA
+        TENERIFE"},"oc":{"codigo_dir":"GE0000612","nombre":"IBERMUTUA TENERIFE"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14270,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000645","nombre":"IBERMUTUA
+        TORREJON"},"oc":{"codigo_dir":"GE0000645","nombre":"IBERMUTUA TORREJON"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14271,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000629","nombre":"IBERMUTUA
+        VALENCIA"},"oc":{"codigo_dir":"GE0000629","nombre":"IBERMUTUA VALENCIA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14272,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000630","nombre":"IBERMUTUA
+        VALLADOLID"},"oc":{"codigo_dir":"GE0000630","nombre":"IBERMUTUA VALLADOLID"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14273,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000632","nombre":"IBERMUTUA
+        VIZCAYA"},"oc":{"codigo_dir":"GE0000632","nombre":"IBERMUTUA VIZCAYA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14274,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000633","nombre":"IBERMUTUA
+        ZAMORA"},"oc":{"codigo_dir":"GE0000633","nombre":"IBERMUTUA ZAMORA"}},{"cifs":[{"nif":"G81939217"},{"nif":"G81839217"},{"nif":"G18939217"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14275,"og":{"codigo_dir":"GE0000516","nombre":"IBERMUTUA"},"ut":{"codigo_dir":"GE0000637","nombre":"IBERMUTUA
+        ZARAGOZA"},"oc":{"codigo_dir":"GE0000637","nombre":"IBERMUTUA ZARAGOZA"}},{"cifs":[{"nif":"G38302535"},{"nif":"G38303525"},{"nif":"G38029690"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14276,"og":{"codigo_dir":"GE0000517","nombre":"MAC
+        - MUTUA DE ACCIDENTES DE CANARIAS"},"ut":{"codigo_dir":"GE0000517","nombre":"MAC
+        - MUTUA DE ACCIDENTES DE CANARIAS"},"oc":{"codigo_dir":"GE0000517","nombre":"MAC
+        - MUTUA DE ACCIDENTES DE CANARIAS"}},{"cifs":[{"nif":"G07046196"},{"nif":"V07046196"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14277,"og":{"codigo_dir":"GE0000518","nombre":"MUTUA
+        BALEAR"},"ut":{"codigo_dir":"GE0000518","nombre":"MUTUA BALEAR"},"oc":{"codigo_dir":"GE0000518","nombre":"MUTUA
+        BALEAR"}},{"cifs":[{"nif":"G11901808"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14278,"og":{"codigo_dir":"GE0000519","nombre":"MUTUA
+        DE ANDALUC\u00cdA Y DE CEUTA"},"ut":{"codigo_dir":"GE0000519","nombre":"MUTUA
+        DE ANDALUC\u00cdA Y DE CEUTA"},"oc":{"codigo_dir":"GE0000519","nombre":"MUTUA
+        DE ANDALUC\u00cdA Y DE CEUTA"}},{"cifs":[{"nif":"G60327896"},{"nif":"G60328796"},{"nif":"G60328769"},{"nif":"G08171258"},{"nif":"A28064749"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14280,"og":{"codigo_dir":"GE0000521","nombre":"MUTUA
+        INTERCOMARCAL"},"ut":{"codigo_dir":"GE0000521","nombre":"MUTUA INTERCOMARCAL"},"oc":{"codigo_dir":"GE0000521","nombre":"MUTUA
+        INTERCOMARCAL"}},{"cifs":[{"nif":"G50005321"},{"nif":"B50005321"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14281,"og":{"codigo_dir":"GE0000522","nombre":"MUTUA
+        MAZ"},"ut":{"codigo_dir":"GE0000522","nombre":"MUTUA MAZ"},"oc":{"codigo_dir":"GE0000522","nombre":"MUTUA
+        MAZ"}},{"cifs":[{"nif":"G39008321"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14282,"og":{"codigo_dir":"GE0000523","nombre":"MUTUA
+        MONTA\u00d1ESA"},"ut":{"codigo_dir":"GE0000523","nombre":"MUTUA MONTA\u00d1ESA"},"oc":{"codigo_dir":"GE0000523","nombre":"MUTUA
+        MONTA\u00d1ESA"}},{"cifs":[{"nif":"G31033533"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14283,"og":{"codigo_dir":"GE0000524","nombre":"MUTUA
+        NAVARRA"},"ut":{"codigo_dir":"GE0000524","nombre":"MUTUA NAVARRA"},"oc":{"codigo_dir":"GE0000524","nombre":"MUTUA
+        NAVARRA"}},{"cifs":[{"nif":"G08242463"},{"nif":"V08242463"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14284,"og":{"codigo_dir":"GE0000525","nombre":"MUTUA
+        UNIVERSAL"},"ut":{"codigo_dir":"GE0000525","nombre":"MUTUA UNIVERSAL"},"oc":{"codigo_dir":"GE0000525","nombre":"MUTUA
+        UNIVERSAL"}},{"cifs":[{"nif":"G08215824"},{"nif":"G64171513"},{"nif":"G08171217"},{"nif":"G64172513"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14285,"og":{"codigo_dir":"GE0000526","nombre":"MUTUAL
+        MIDAT CYCLOPS"},"ut":{"codigo_dir":"GE0000526","nombre":"MUTUAL MIDAT CYCLOPS"},"oc":{"codigo_dir":"GE0000526","nombre":"MUTUAL
+        MIDAT CYCLOPS"}},{"cifs":[{"nif":"G95413498"},{"nif":"G95471165"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14286,"og":{"codigo_dir":"GE0000527","nombre":"MUTUALIA"},"ut":{"codigo_dir":"GE0000527","nombre":"MUTUALIA"},"oc":{"codigo_dir":"GE0000527","nombre":"MUTUALIA"}},{"cifs":[{"nif":"G45032844"},{"nif":"B82488792"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14287,"og":{"codigo_dir":"GE0000528","nombre":"SOLIMAT"},"ut":{"codigo_dir":"GE0000528","nombre":"SOLIMAT"},"oc":{"codigo_dir":"GE0000528","nombre":"SOLIMAT"}},{"cifs":[{"nif":"G96236443"},{"nif":"P4604500A"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14288,"og":{"codigo_dir":"GE0000529","nombre":"UMIVALE"},"ut":{"codigo_dir":"GE0000529","nombre":"UMIVALE"},"oc":{"codigo_dir":"GE0000529","nombre":"UMIVALE"}},{"cifs":[{"nif":"G12172290"},{"nif":"G12272290"}],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":14289,"og":{"codigo_dir":"GE0000530","nombre":"UNI\u00d3N
+        DE MUTUAS"},"ut":{"codigo_dir":"GE0000530","nombre":"UNI\u00d3N DE MUTUAS"},"oc":{"codigo_dir":"GE0000530","nombre":"UNI\u00d3N
+        DE MUTUAS"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":85549,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0041842","nombre":"Caja Pagadora
+        General"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina Contable. I.D.
+        Ministerio de Trabajo y Econom\u00eda Social"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:16 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072501/relaciones?administracion=E05072501&limit=25.0&page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:16 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":85567,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0041841","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y de la Oficina Presupuestaria"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86247,"og":{"codigo_dir":"EA0042072","nombre":"Unidad
+        EA0042072"},"ut":{"codigo_dir":"EA0042073","nombre":"Unidad EA0042073"},"oc":{"codigo_dir":"EA0042234","nombre":"EA0042234"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86248,"og":{"codigo_dir":"EA0042072","nombre":"Unidad
+        EA0042072"},"ut":{"codigo_dir":"EA0042074","nombre":"Unidad EA0042074"},"oc":{"codigo_dir":"EA0042234","nombre":"EA0042234"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86249,"og":{"codigo_dir":"EA0042072","nombre":"Unidad
+        EA0042072"},"ut":{"codigo_dir":"EA0042075","nombre":"Unidad EA0042075"},"oc":{"codigo_dir":"EA0042234","nombre":"EA0042234"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86250,"og":{"codigo_dir":"E00143606","nombre":"Unidad
+        E00143606"},"ut":{"codigo_dir":"GE0003608","nombre":"DIETAS-INTERVENCION GENERAL
+        DE LA SEGURIDAD SOCIAL"},"oc":{"codigo_dir":"EA0042239","nombre":"Unidad EA0042239"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86251,"og":{"codigo_dir":"E00143606","nombre":"Unidad
+        E00143606"},"ut":{"codigo_dir":"E00143606","nombre":"Unidad E00143606"},"oc":{"codigo_dir":"EA0042239","nombre":"Unidad
+        EA0042239"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86260,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042145","nombre":"Unidad EA0042145"},"oc":{"codigo_dir":"EA0042245","nombre":"Unidad
+        EA0042245"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86261,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042178","nombre":"Unidad EA0042178"},"oc":{"codigo_dir":"EA0042278","nombre":"Unidad
+        EA0042278"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86262,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042168","nombre":"Unidad EA0042168"},"oc":{"codigo_dir":"EA0042268","nombre":"Unidad
+        EA0042268"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86263,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042179","nombre":"Unidad EA0042179"},"oc":{"codigo_dir":"EA0042279","nombre":"Unidad
+        EA0042279"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86264,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042180","nombre":"Unidad EA0042180"},"oc":{"codigo_dir":"EA0042280","nombre":"Unidad
+        EA0042280"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86265,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042181","nombre":"Unidad EA0042181"},"oc":{"codigo_dir":"EA0042281","nombre":"Unidad
+        EA0042281"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86266,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042153","nombre":"Unidad EA0042153"},"oc":{"codigo_dir":"EA0042253","nombre":"Unidad
+        EA0042253"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86267,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042182","nombre":"Unidad EA0042182"},"oc":{"codigo_dir":"EA0042282","nombre":"Unidad
+        EA0042282"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86268,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042183","nombre":"Unidad EA0042183"},"oc":{"codigo_dir":"EA0042283","nombre":"Unidad
+        EA0042283"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86269,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042184","nombre":"Unidad EA0042184"},"oc":{"codigo_dir":"EA0042284","nombre":"Unidad
+        EA0042284"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86270,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042185","nombre":"Unidad EA0042185"},"oc":{"codigo_dir":"EA0042285","nombre":"Unidad
+        EA0042285"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86271,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042186","nombre":"Unidad EA0042186"},"oc":{"codigo_dir":"EA0042286","nombre":"Unidad
+        EA0042286"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86272,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042187","nombre":"Unidad EA0042187"},"oc":{"codigo_dir":"EA0042287","nombre":"Unidad
+        EA0042287"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86273,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042188","nombre":"Unidad EA0042188"},"oc":{"codigo_dir":"EA0042288","nombre":"Unidad
+        EA0042288"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86274,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042189","nombre":"Unidad EA0042189"},"oc":{"codigo_dir":"EA0042289","nombre":"Unidad
+        EA0042289"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86275,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042149","nombre":"Unidad EA0042149"},"oc":{"codigo_dir":"EA0042249","nombre":"Unidad
+        EA0042249"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86276,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042190","nombre":"Unidad EA0042190"},"oc":{"codigo_dir":"EA0042290","nombre":"Unidad
+        EA0042290"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86277,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042191","nombre":"Unidad EA0042191"},"oc":{"codigo_dir":"EA0042292","nombre":"Unidad
+        EA0042292"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86278,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042155","nombre":"Unidad EA0042155"},"oc":{"codigo_dir":"EA0042255","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Ceuta"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:16 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072501/relaciones?administracion=E05072501&limit=25.0&page=7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:17 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86279,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042174","nombre":"Unidad EA0042174"},"oc":{"codigo_dir":"EA0042274","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86280,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042132","nombre":"Unidad EA0042132"},"oc":{"codigo_dir":"EA0042236","nombre":"Unidad
+        EA0042236"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86281,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042167","nombre":"Unidad EA0042167"},"oc":{"codigo_dir":"EA0042267","nombre":"Unidad
+        EA0042267"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86282,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042171","nombre":"Unidad EA0042171"},"oc":{"codigo_dir":"EA0042271","nombre":"Unidad
+        EA0042271"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86283,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042172","nombre":"Unidad EA0042172"},"oc":{"codigo_dir":"EA0042272","nombre":"Unidad
+        EA0042272"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86284,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042173","nombre":"Unidad EA0042173"},"oc":{"codigo_dir":"EA0042273","nombre":"Unidad
+        EA0042273"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86285,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042175","nombre":"Unidad EA0042175"},"oc":{"codigo_dir":"EA0042275","nombre":"Unidad
+        EA0042275"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86286,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042144","nombre":"Unidad EA0042144"},"oc":{"codigo_dir":"EA0042244","nombre":"Unidad
+        EA0042244"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86287,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042142","nombre":"Unidad EA0042142"},"oc":{"codigo_dir":"EA0042241","nombre":"Unidad
+        EA0042241"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86288,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042141","nombre":"Unidad EA0042141"},"oc":{"codigo_dir":"EA0042242","nombre":"Unidad
+        EA0042242"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86289,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042143","nombre":"Unidad EA0042143"},"oc":{"codigo_dir":"EA0042243","nombre":"Unidad
+        EA0042243"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86290,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042146","nombre":"Unidad EA0042146"},"oc":{"codigo_dir":"EA0042246","nombre":"Unidad
+        EA0042246"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86291,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042147","nombre":"Unidad EA0042147"},"oc":{"codigo_dir":"EA0042247","nombre":"Unidad
+        EA0042247"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86292,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042165","nombre":"Unidad EA0042165"},"oc":{"codigo_dir":"EA0042265","nombre":"Unidad
+        EA0042265"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86293,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042148","nombre":"Unidad EA0042148"},"oc":{"codigo_dir":"EA0042248","nombre":"Unidad
+        EA0042248"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86294,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042150","nombre":"Unidad EA0042150"},"oc":{"codigo_dir":"EA0042250","nombre":"Unidad
+        EA0042250"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86295,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042151","nombre":"Unidad EA0042151"},"oc":{"codigo_dir":"EA0042251","nombre":"Unidad
+        EA0042251"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86296,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042152","nombre":"Unidad EA0042152"},"oc":{"codigo_dir":"EA0042252","nombre":"Unidad
+        EA0042252"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86297,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042154","nombre":"Unidad EA0042154"},"oc":{"codigo_dir":"EA0042254","nombre":"Unidad
+        EA0042254"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86298,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042156","nombre":"Unidad EA0042156"},"oc":{"codigo_dir":"EA0042256","nombre":"Unidad
+        EA0042256"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86299,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042157","nombre":"Unidad EA0042157"},"oc":{"codigo_dir":"EA0042257","nombre":"Unidad
+        EA0042257"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86300,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042140","nombre":"Unidad EA0042140"},"oc":{"codigo_dir":"EA0042240","nombre":"Unidad
+        EA0042240"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86301,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042158","nombre":"Unidad EA0042158"},"oc":{"codigo_dir":"EA0042258","nombre":"Unidad
+        EA0042258"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86302,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042160","nombre":"Unidad EA0042160"},"oc":{"codigo_dir":"EA0042260","nombre":"Unidad
+        EA0042260"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86303,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042161","nombre":"Unidad EA0042161"},"oc":{"codigo_dir":"EA0042261","nombre":"Unidad
+        EA0042261"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:17 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072501/relaciones?administracion=E05072501&limit=25.0&page=8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:19 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86304,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042162","nombre":"Unidad EA0042162"},"oc":{"codigo_dir":"EA0042262","nombre":"Unidad
+        EA0042262"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86305,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042159","nombre":"Unidad EA0042159"},"oc":{"codigo_dir":"EA0042259","nombre":"Unidad
+        EA0042259"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86306,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042163","nombre":"Unidad EA0042163"},"oc":{"codigo_dir":"EA0042263","nombre":"Unidad
+        EA0042263"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86307,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042164","nombre":"Unidad EA0042164"},"oc":{"codigo_dir":"EA0042264","nombre":"Unidad
+        EA0042264"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86308,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042166","nombre":"Unidad EA0042166"},"oc":{"codigo_dir":"EA0042266","nombre":"Unidad
+        EA0042266"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86309,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042169","nombre":"Unidad EA0042169"},"oc":{"codigo_dir":"EA0042269","nombre":"Unidad
+        EA0042269"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86310,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042170","nombre":"Unidad EA0042170"},"oc":{"codigo_dir":"EA0042270","nombre":"Unidad
+        EA0042270"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86311,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042176","nombre":"Unidad EA0042176"},"oc":{"codigo_dir":"EA0042276","nombre":"Unidad
+        EA0042276"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86312,"og":{"codigo_dir":"EA0042131","nombre":"Unidad
+        EA0042131"},"ut":{"codigo_dir":"EA0042177","nombre":"Unidad EA0042177"},"oc":{"codigo_dir":"EA0042277","nombre":"Unidad
+        EA0042277"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86313,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042206","nombre":"Unidad EA0042206"},"oc":{"codigo_dir":"EA0042242","nombre":"Unidad
+        EA0042242"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86314,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042207","nombre":"Unidad EA0042207"},"oc":{"codigo_dir":"EA0042243","nombre":"Unidad
+        EA0042243"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86315,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042218","nombre":"Unidad EA0042218"},"oc":{"codigo_dir":"EA0042265","nombre":"Unidad
+        EA0042265"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86316,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042208","nombre":"Unidad EA0042208"},"oc":{"codigo_dir":"EA0042248","nombre":"Unidad
+        EA0042248"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86317,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042210","nombre":"Unidad EA0042210"},"oc":{"codigo_dir":"EA0042252","nombre":"Unidad
+        EA0042252"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86318,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042213","nombre":"Unidad EA0042213"},"oc":{"codigo_dir":"EA0042254","nombre":"Unidad
+        EA0042254"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86319,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042205","nombre":"Unidad EA0042205"},"oc":{"codigo_dir":"EA0042240","nombre":"Unidad
+        EA0042240"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86320,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042216","nombre":"Unidad EA0042216"},"oc":{"codigo_dir":"EA0042259","nombre":"Unidad
+        EA0042259"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86321,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042217","nombre":"Unidad EA0042217"},"oc":{"codigo_dir":"EA0042263","nombre":"Unidad
+        EA0042263"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86322,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042221","nombre":"Unidad EA0042221"},"oc":{"codigo_dir":"EA0042271","nombre":"Unidad
+        EA0042271"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86323,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042222","nombre":"Unidad EA0042222"},"oc":{"codigo_dir":"EA0042272","nombre":"Unidad
+        EA0042272"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86324,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042223","nombre":"Unidad EA0042223"},"oc":{"codigo_dir":"EA0042273","nombre":"Unidad
+        EA0042273"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86325,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042212","nombre":"Unidad EA0042212"},"oc":{"codigo_dir":"EA0042275","nombre":"Unidad
+        EA0042275"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86326,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042215","nombre":"Unidad EA0042215"},"oc":{"codigo_dir":"EA0042245","nombre":"Unidad
+        EA0042245"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86327,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042219","nombre":"Unidad EA0042219"},"oc":{"codigo_dir":"EA0042268","nombre":"Unidad
+        EA0042268"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86328,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042229","nombre":"Unidad EA0042229"},"oc":{"codigo_dir":"EA0042279","nombre":"Unidad
+        EA0042279"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:19 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072501/relaciones?administracion=E05072501&limit=25.0&page=9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:19 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86329,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042230","nombre":"Unidad EA0042230"},"oc":{"codigo_dir":"EA0042279","nombre":"Unidad
+        EA0042279"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86330,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042225","nombre":"Unidad EA0042225"},"oc":{"codigo_dir":"EA0042281","nombre":"Unidad
+        EA0042281"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86331,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042211","nombre":"Unidad EA0042211"},"oc":{"codigo_dir":"EA0042253","nombre":"Unidad
+        EA0042253"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86332,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042226","nombre":"Unidad EA0042226"},"oc":{"codigo_dir":"EA0042283","nombre":"Unidad
+        EA0042283"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86333,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042227","nombre":"Unidad EA0042227"},"oc":{"codigo_dir":"EA0042285","nombre":"Unidad
+        EA0042285"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86334,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042228","nombre":"Unidad EA0042228"},"oc":{"codigo_dir":"EA0042288","nombre":"Unidad
+        EA0042288"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86335,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042209","nombre":"Unidad EA0042209"},"oc":{"codigo_dir":"EA0042249","nombre":"Unidad
+        EA0042249"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86336,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042214","nombre":"Unidad EA0042214"},"oc":{"codigo_dir":"EA0042255","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Ceuta"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86337,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042224","nombre":"Unidad EA0042224"},"oc":{"codigo_dir":"EA0042274","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86338,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042201","nombre":"Unidad EA0042201"},"oc":{"codigo_dir":"EA0042238","nombre":"Unidad
+        EA0042238"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86339,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042203","nombre":"Unidad EA0042203"},"oc":{"codigo_dir":"EA0042238","nombre":"Unidad
+        EA0042238"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86340,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042204","nombre":"Unidad EA0042204"},"oc":{"codigo_dir":"EA0042238","nombre":"Unidad
+        EA0042238"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86341,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042202","nombre":"Unidad EA0042202"},"oc":{"codigo_dir":"EA0042238","nombre":"Unidad
+        EA0042238"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86342,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042200","nombre":"Unidad EA0042200"},"oc":{"codigo_dir":"EA0042263","nombre":"Unidad
+        EA0042263"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86343,"og":{"codigo_dir":"EA0042194","nombre":"Unidad
+        EA0042194"},"ut":{"codigo_dir":"EA0042199","nombre":"Unidad EA0042199"},"oc":{"codigo_dir":"EA0042279","nombre":"Unidad
+        EA0042279"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86375,"og":{"codigo_dir":"EA0042300","nombre":"Unidad
+        EA0042300"},"ut":{"codigo_dir":"EA0042297","nombre":"Unidad EA0042297"},"oc":{"codigo_dir":"EA0042239","nombre":"Unidad
+        EA0042239"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86376,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042305","nombre":"Unidad EA0042305"},"oc":{"codigo_dir":"EA0042244","nombre":"Unidad
+        EA0042244"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86377,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042303","nombre":"Unidad EA0042303"},"oc":{"codigo_dir":"EA0042241","nombre":"Unidad
+        EA0042241"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86378,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042302","nombre":"Unidad EA0042302"},"oc":{"codigo_dir":"EA0042242","nombre":"Unidad
+        EA0042242"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86379,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042304","nombre":"Unidad EA0042304"},"oc":{"codigo_dir":"EA0042243","nombre":"Unidad
+        EA0042243"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86380,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042307","nombre":"Unidad EA0042307"},"oc":{"codigo_dir":"EA0042246","nombre":"Unidad
+        EA0042246"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86381,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042308","nombre":"Unidad EA0042308"},"oc":{"codigo_dir":"EA0042247","nombre":"Unidad
+        EA0042247"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86382,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042326","nombre":"Unidad EA0042326"},"oc":{"codigo_dir":"EA0042265","nombre":"Unidad
+        EA0042265"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86383,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042309","nombre":"Unidad EA0042309"},"oc":{"codigo_dir":"EA0042248","nombre":"Unidad
+        EA0042248"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86384,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042311","nombre":"Unidad EA0042311"},"oc":{"codigo_dir":"EA0042250","nombre":"Unidad
+        EA0042250"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:19 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072501/relaciones?administracion=E05072501&limit=25.0&page=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:20 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86385,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042312","nombre":"Unidad EA0042312"},"oc":{"codigo_dir":"EA0042251","nombre":"Unidad
+        EA0042251"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86386,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042313","nombre":"Unidad EA0042313"},"oc":{"codigo_dir":"EA0042252","nombre":"Unidad
+        EA0042252"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86387,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042315","nombre":"Unidad EA0042315"},"oc":{"codigo_dir":"EA0042254","nombre":"Unidad
+        EA0042254"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86388,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042317","nombre":"Unidad EA0042317"},"oc":{"codigo_dir":"EA0042256","nombre":"Unidad
+        EA0042256"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86389,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042318","nombre":"Unidad EA0042318"},"oc":{"codigo_dir":"EA0042257","nombre":"Unidad
+        EA0042257"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86390,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042301","nombre":"Unidad EA0042301"},"oc":{"codigo_dir":"EA0042240","nombre":"Unidad
+        EA0042240"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86391,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042319","nombre":"Unidad EA0042319"},"oc":{"codigo_dir":"EA0042258","nombre":"Unidad
+        EA0042258"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86392,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042321","nombre":"Unidad EA0042321"},"oc":{"codigo_dir":"EA0042260","nombre":"Unidad
+        EA0042260"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86393,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042322","nombre":"Unidad EA0042322"},"oc":{"codigo_dir":"EA0042261","nombre":"Unidad
+        EA0042261"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86394,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042323","nombre":"Unidad EA0042323"},"oc":{"codigo_dir":"EA0042262","nombre":"Unidad
+        EA0042262"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86395,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042320","nombre":"Unidad EA0042320"},"oc":{"codigo_dir":"EA0042259","nombre":"Unidad
+        EA0042259"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86396,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042324","nombre":"Unidad EA0042324"},"oc":{"codigo_dir":"EA0042263","nombre":"Unidad
+        EA0042263"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86397,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042325","nombre":"Unidad EA0042325"},"oc":{"codigo_dir":"EA0042264","nombre":"Unidad
+        EA0042264"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86398,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042327","nombre":"Unidad EA0042327"},"oc":{"codigo_dir":"EA0042266","nombre":"Unidad
+        EA0042266"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86399,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042330","nombre":"Unidad EA0042330"},"oc":{"codigo_dir":"EA0042269","nombre":"Unidad
+        EA0042269"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86400,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042331","nombre":"Unidad EA0042331"},"oc":{"codigo_dir":"EA0042270","nombre":"Unidad
+        EA0042270"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86401,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042328","nombre":"Unidad EA0042328"},"oc":{"codigo_dir":"EA0042267","nombre":"Unidad
+        EA0042267"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86402,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042332","nombre":"Unidad EA0042332"},"oc":{"codigo_dir":"EA0042271","nombre":"Unidad
+        EA0042271"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86403,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042333","nombre":"Unidad EA0042333"},"oc":{"codigo_dir":"EA0042272","nombre":"Unidad
+        EA0042272"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86404,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042334","nombre":"Unidad EA0042334"},"oc":{"codigo_dir":"EA0042273","nombre":"Unidad
+        EA0042273"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86405,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042336","nombre":"Unidad EA0042336"},"oc":{"codigo_dir":"EA0042275","nombre":"Unidad
+        EA0042275"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86406,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042337","nombre":"Unidad EA0042337"},"oc":{"codigo_dir":"EA0042276","nombre":"Unidad
+        EA0042276"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86407,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042338","nombre":"Unidad EA0042338"},"oc":{"codigo_dir":"EA0042277","nombre":"Unidad
+        EA0042277"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86408,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042306","nombre":"Unidad EA0042306"},"oc":{"codigo_dir":"EA0042245","nombre":"Unidad
+        EA0042245"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86409,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042339","nombre":"Unidad EA0042339"},"oc":{"codigo_dir":"EA0042278","nombre":"Unidad
+        EA0042278"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:20 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072501/relaciones?administracion=E05072501&limit=25.0&page=11
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:21 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86410,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042329","nombre":"Unidad EA0042329"},"oc":{"codigo_dir":"EA0042268","nombre":"Unidad
+        EA0042268"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86411,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042340","nombre":"Unidad EA0042340"},"oc":{"codigo_dir":"EA0042279","nombre":"Unidad
+        EA0042279"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86412,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042341","nombre":"Unidad EA0042341"},"oc":{"codigo_dir":"EA0042280","nombre":"Unidad
+        EA0042280"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86413,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042342","nombre":"Unidad EA0042342"},"oc":{"codigo_dir":"EA0042281","nombre":"Unidad
+        EA0042281"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86414,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042314","nombre":"Unidad EA0042314"},"oc":{"codigo_dir":"EA0042253","nombre":"Unidad
+        EA0042253"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86415,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042343","nombre":"Unidad EA0042343"},"oc":{"codigo_dir":"EA0042282","nombre":"Unidad
+        EA0042282"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86416,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042344","nombre":"Unidad EA0042344"},"oc":{"codigo_dir":"EA0042283","nombre":"Unidad
+        EA0042283"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86417,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042345","nombre":"Unidad EA0042345"},"oc":{"codigo_dir":"EA0042284","nombre":"Unidad
+        EA0042284"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86418,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042346","nombre":"Unidad EA0042346"},"oc":{"codigo_dir":"EA0042285","nombre":"Unidad
+        EA0042285"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86419,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042347","nombre":"Unidad EA0042347"},"oc":{"codigo_dir":"EA0042286","nombre":"Unidad
+        EA0042286"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86420,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042348","nombre":"Unidad EA0042348"},"oc":{"codigo_dir":"EA0042287","nombre":"Unidad
+        EA0042287"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86421,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042349","nombre":"Unidad EA0042349"},"oc":{"codigo_dir":"EA0042288","nombre":"Unidad
+        EA0042288"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86422,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042350","nombre":"Unidad EA0042350"},"oc":{"codigo_dir":"EA0042289","nombre":"Unidad
+        EA0042289"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86423,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042310","nombre":"Unidad EA0042310"},"oc":{"codigo_dir":"EA0042249","nombre":"Unidad
+        EA0042249"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86424,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042351","nombre":"Unidad EA0042351"},"oc":{"codigo_dir":"EA0042290","nombre":"Unidad
+        EA0042290"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86425,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042352","nombre":"Unidad EA0042352"},"oc":{"codigo_dir":"EA0042292","nombre":"Unidad
+        EA0042292"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86426,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042316","nombre":"Unidad EA0042316"},"oc":{"codigo_dir":"EA0042255","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Ceuta"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86427,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042335","nombre":"Unidad EA0042335"},"oc":{"codigo_dir":"EA0042274","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86428,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042354","nombre":"Unidad EA0042354"},"oc":{"codigo_dir":"EA0042239","nombre":"Unidad
+        EA0042239"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86429,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042370","nombre":"Unidad EA0042370"},"oc":{"codigo_dir":"EA0042239","nombre":"Unidad
+        EA0042239"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86430,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042300","nombre":"Unidad EA0042300"},"oc":{"codigo_dir":"EA0042239","nombre":"Unidad
+        EA0042239"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86431,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042362","nombre":"Unidad EA0042362"},"oc":{"codigo_dir":"EA0042239","nombre":"Unidad
+        EA0042239"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86432,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042414","nombre":"Unidad EA0042414"},"oc":{"codigo_dir":"EA0042239","nombre":"Unidad
+        EA0042239"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86433,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042415","nombre":"Unidad EA0042415"},"oc":{"codigo_dir":"EA0042239","nombre":"Unidad
+        EA0042239"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86434,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042357","nombre":"Unidad EA0042357"},"oc":{"codigo_dir":"EA0042239","nombre":"Unidad
+        EA0042239"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:21 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072501/relaciones?administracion=E05072501&limit=25.0&page=12
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:22 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95107,"og":{"codigo_dir":"E05072801","nombre":"Secretar\u00eda
+        de Estado de la Seguridad Social y Pensiones"},"ut":{"codigo_dir":"E04627005","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n de la Seguridad Social"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina
+        Contable. I.D. Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95047,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0042389","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Alcobendas - Madrid"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina
+        Contable. I.D. Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":96447,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0042391","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Valencia"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":96548,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0042392","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Vallecas - Madrid"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":97108,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0042393","nombre":"Centro
+        de Estancia Temporal de Inmigrantes (CETI) de Ceuta"},"oc":{"codigo_dir":"GE0014082","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ceuta - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":96569,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0042389","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Alcobendas - Madrid"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95067,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0042393","nombre":"Centro
+        de Estancia Temporal de Inmigrantes (CETI) de Ceuta"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina
+        Contable. I.D. Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95008,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0042391","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Valencia"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina
+        Contable. I.D. Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95009,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0042394","nombre":"Centro
+        de Estancia Temporal de Inmigrantes (C.E.T.I.) de Melilla"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina
+        Contable. I.D. Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95010,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0042406","nombre":"S.G. de
+        Planificacion y Gestion Economica"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina
+        Contable. I.D. Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95149,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0042488","nombre":"S. G.
+        de Gesti\u00f3n Econ\u00f3mica y Oficina Presupuestaria"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina
+        Contable. I.D. Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":96967,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0042390","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Sevilla"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95028,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0042390","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Sevilla"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina
+        Contable. I.D. Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95029,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0042392","nombre":"Centro
+        de Acogida a Refugiados (CAR) de Vallecas - Madrid"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina
+        Contable. I.D. Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95112,"og":{"codigo_dir":"E05073101","nombre":"Secretar\u00eda
+        de Estado de Migraciones"},"ut":{"codigo_dir":"EA0045467","nombre":"Caja Pagadora
+        General"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina Contable. I.D.
+        Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95128,"og":{"codigo_dir":"E05075701","nombre":"Subsecretar\u00eda
+        de Inclusi\u00f3n, Seguridad Social y Migraciones"},"ut":{"codigo_dir":"EA0042489","nombre":"S.
+        G. de Recursos Humanos e Inspecci\u00f3n de Servicios"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina
+        Contable. I.D. Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95808,"og":{"codigo_dir":"E05075701","nombre":"Subsecretar\u00eda
+        de Inclusi\u00f3n, Seguridad Social y Migraciones"},"ut":{"codigo_dir":"EA0042488","nombre":"S.
+        G. de Gesti\u00f3n Econ\u00f3mica y Oficina Presupuestaria"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina
+        Contable. I.D. Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95113,"og":{"codigo_dir":"E05075701","nombre":"Subsecretar\u00eda
+        de Inclusi\u00f3n, Seguridad Social y Migraciones"},"ut":{"codigo_dir":"EA0045467","nombre":"Caja
+        Pagadora General"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina Contable.
+        I.D. Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95114,"og":{"codigo_dir":"E05075701","nombre":"Subsecretar\u00eda
+        de Inclusi\u00f3n, Seguridad Social y Migraciones"},"ut":{"codigo_dir":"EA0045468","nombre":"Caja
+        Pagadora del Centro de Publicaciones"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina
+        Contable. I.D. Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Inclusi\u00f3n, Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86435,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042355","nombre":"Unidad EA0042355"},"oc":{"codigo_dir":"EA0042239","nombre":"Unidad
+        EA0042239"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86436,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042356","nombre":"Unidad EA0042356"},"oc":{"codigo_dir":"EA0042239","nombre":"Unidad
+        EA0042239"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86437,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042299","nombre":"Unidad EA0042299"},"oc":{"codigo_dir":"EA0042239","nombre":"Unidad
+        EA0042239"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":86438,"og":{"codigo_dir":"EA0042298","nombre":"Unidad
+        EA0042298"},"ut":{"codigo_dir":"EA0042363","nombre":"Unidad EA0042363"},"oc":{"codigo_dir":"EA0042239","nombre":"Unidad
+        EA0042239"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Inclusi\u00f3n,
+        Seguridad Social y Migraciones","codigo_dir":"E05072501","cifs":[]},"id":95108,"og":{"codigo_dir":"E05082401","nombre":"Secretar\u00eda
+        General de Objetivos y Pol\u00edticas de Inclusi\u00f3n y Previsi\u00f3n Social"},"ut":{"codigo_dir":"E05082401","nombre":"Secretar\u00eda
+        General de Objetivos y Pol\u00edticas de Inclusi\u00f3n y Previsi\u00f3n Social"},"oc":{"codigo_dir":"GE0017499","nombre":"Oficina
+        Contable. I.D. Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:22 GMT
+recorded_with: VCR 6.0.0

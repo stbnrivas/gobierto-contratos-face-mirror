@@ -1,0 +1,303 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05067101/relaciones?administracion=E05067101&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:06 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de la Presidencia,
+        Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":96547,"og":{"codigo_dir":"E05067701","nombre":"Secretar\u00eda
+        de Estado de Memoria Democr\u00e1tica"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":83189,"og":{"codigo_dir":"EA0040767","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"EA0040768","nombre":"Gerencia"},"oc":{"codigo_dir":"EA0040768","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":83190,"og":{"codigo_dir":"EA0040767","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"EA0040770","nombre":"Subdirecci\u00f3n
+        General de Estudios e Investigaci\u00f3n"},"oc":{"codigo_dir":"EA0040768","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":83191,"og":{"codigo_dir":"EA0040767","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"EA0040771","nombre":"Subdirecci\u00f3n
+        General de Publicaciones y Documentaci\u00f3n"},"oc":{"codigo_dir":"EA0040768","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":85453,"og":{"codigo_dir":"EA0040805","nombre":"Oficialia
+        Mayor"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina Presupuestaria y
+        de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina Contable.
+        I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":85435,"og":{"codigo_dir":"EA0040806","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":85436,"og":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":85437,"og":{"codigo_dir":"EA0040808","nombre":"Subdirecci\u00f3n
+        General de Tecnolog\u00edas de la Informaci\u00f3n y Comunicaciones"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":95287,"og":{"codigo_dir":"EA0040810","nombre":"Subdirecci\u00f3n
+        General de Libertad Religiosa"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":85421,"og":{"codigo_dir":"EA0040813","nombre":"Subdirecci\u00f3n
+        General de Publicaciones, Documentaci\u00f3n y Archivo"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":91280,"og":{"codigo_dir":"EA0040819","nombre":"Agencia
+        Estatal Bolet\u00edn Oficial del Estado"},"ut":{"codigo_dir":"EA0040825","nombre":"Unidad
+        Tramitadora"},"oc":{"codigo_dir":"EA0040824","nombre":"Oficina de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":85452,"og":{"codigo_dir":"E05074101","nombre":"Subsecretar\u00eda
+        de la Presidencia, Relaciones con las Cortes y Memoria Democr\u00e1tica"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":95807,"og":{"codigo_dir":"E00136007","nombre":"Direcci\u00f3n
+        General de Relaciones con las Cortes"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":85434,"og":{"codigo_dir":"E05080301","nombre":"Direcci\u00f3n
+        General de Memoria Democr\u00e1tica"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":11196,"og":{"codigo_dir":"GE0000085","nombre":"DEPARTAMENTO
+        DE IBEROAMERICA DEL MPG"},"ut":{"codigo_dir":"GE0000085","nombre":"Departamento
+        de Iberoamerica del Mpg"},"oc":{"codigo_dir":"GE0000085","nombre":"Departamento
+        de Iberoamerica del Mpg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":11194,"og":{"codigo_dir":"GE0000083","nombre":"GABINETE
+        DE SONDEOS Y PROYECTOS MP"},"ut":{"codigo_dir":"GE0000083","nombre":"GABINETE
+        DE SONDEOS Y PROYECTOS MP"},"oc":{"codigo_dir":"GE0000083","nombre":"Gabinete
+        de Sondeos y Proyectos Mp"}},{"cifs":[{"nif":"S2801207H"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":11195,"og":{"codigo_dir":"GE0000084","nombre":"UNIDAD
+        DE ESTUDIOS MP"},"ut":{"codigo_dir":"GE0000084","nombre":"UNIDAD DE ESTUDIOS
+        MP"},"oc":{"codigo_dir":"GE0000084","nombre":"Unidad de Estudios Mp"}},{"cifs":[{"nif":"S2801249J"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":17113,"og":{"codigo_dir":"GE0002347","nombre":"CENTRO
+        DE ORIENTACI\u00d3N DE PROCESOS"},"ut":{"codigo_dir":"GE0002347","nombre":"Centro
+        de Orientaci\u00f3n de Procesos"},"oc":{"codigo_dir":"GE0002347","nombre":"Centro
+        de Orientaci\u00f3n de Procesos"}},{"cifs":[{"nif":"S2801227F"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":17112,"og":{"codigo_dir":"GE0002346","nombre":"OFICINA
+        DE PLANIFICACI\u00d3N Y CONTROL DEL MPG"},"ut":{"codigo_dir":"GE0002346","nombre":"Oficina
+        de Planificaci\u00f3n y Control del Mpg"},"oc":{"codigo_dir":"GE0002346","nombre":"Oficina
+        de Planificaci\u00f3n y Control del Mpg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":21823,"og":{"codigo_dir":"GE0006302","nombre":"CENTRO
+        DE APOYO ADMINISTRATIVO T"},"ut":{"codigo_dir":"GE0006302","nombre":"Centro
+        de Apoyo Administrativo T"},"oc":{"codigo_dir":"GE0006302","nombre":"Centro
+        de Apoyo Administrativo T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":21824,"og":{"codigo_dir":"GE0006303","nombre":"DELEGACION
+        ADMINISTRATIVA F"},"ut":{"codigo_dir":"GE0006303","nombre":"Delegacion Administrativa
+        F"},"oc":{"codigo_dir":"GE0006303","nombre":"Delegacion Administrativa F"}},{"cifs":[{"nif":"S2801258A"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":21821,"og":{"codigo_dir":"GE0006300","nombre":"OFICINA
+        DE REPRESENTACION Y COORDINACION"},"ut":{"codigo_dir":"GE0006300","nombre":"OFICINA
+        DE REPRESENTACION Y COORDINACION"},"oc":{"codigo_dir":"GE0006300","nombre":"Oficina
+        de Representacion y Coordinacion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":21822,"og":{"codigo_dir":"GE0006301","nombre":"UNIDAD
+        ADMINISTRATIVA LP"},"ut":{"codigo_dir":"GE0006301","nombre":"Unidad Administrativa
+        Lp"},"oc":{"codigo_dir":"GE0006301","nombre":"Unidad Administrativa Lp"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:06 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05067101/relaciones?administracion=E05067101&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:07 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"23","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:05:07 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05067101/relaciones?administracion=E05067101&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:08 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de la Presidencia,
+        Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":96547,"og":{"codigo_dir":"E05067701","nombre":"Secretar\u00eda
+        de Estado de Memoria Democr\u00e1tica"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":83189,"og":{"codigo_dir":"EA0040767","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"EA0040768","nombre":"Gerencia"},"oc":{"codigo_dir":"EA0040768","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":83190,"og":{"codigo_dir":"EA0040767","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"EA0040770","nombre":"Subdirecci\u00f3n
+        General de Estudios e Investigaci\u00f3n"},"oc":{"codigo_dir":"EA0040768","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":83191,"og":{"codigo_dir":"EA0040767","nombre":"Centro
+        de Estudios Pol\u00edticos y Constitucionales"},"ut":{"codigo_dir":"EA0040771","nombre":"Subdirecci\u00f3n
+        General de Publicaciones y Documentaci\u00f3n"},"oc":{"codigo_dir":"EA0040768","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":85453,"og":{"codigo_dir":"EA0040805","nombre":"Oficialia
+        Mayor"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina Presupuestaria y
+        de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina Contable.
+        I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":85435,"og":{"codigo_dir":"EA0040806","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":85436,"og":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":85437,"og":{"codigo_dir":"EA0040808","nombre":"Subdirecci\u00f3n
+        General de Tecnolog\u00edas de la Informaci\u00f3n y Comunicaciones"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":95287,"og":{"codigo_dir":"EA0040810","nombre":"Subdirecci\u00f3n
+        General de Libertad Religiosa"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":85421,"og":{"codigo_dir":"EA0040813","nombre":"Subdirecci\u00f3n
+        General de Publicaciones, Documentaci\u00f3n y Archivo"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":91280,"og":{"codigo_dir":"EA0040819","nombre":"Agencia
+        Estatal Bolet\u00edn Oficial del Estado"},"ut":{"codigo_dir":"EA0040825","nombre":"Unidad
+        Tramitadora"},"oc":{"codigo_dir":"EA0040824","nombre":"Oficina de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":85452,"og":{"codigo_dir":"E05074101","nombre":"Subsecretar\u00eda
+        de la Presidencia, Relaciones con las Cortes y Memoria Democr\u00e1tica"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":95807,"og":{"codigo_dir":"E00136007","nombre":"Direcci\u00f3n
+        General de Relaciones con las Cortes"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":85434,"og":{"codigo_dir":"E05080301","nombre":"Direcci\u00f3n
+        General de Memoria Democr\u00e1tica"},"ut":{"codigo_dir":"EA0040807","nombre":"Oficina
+        Presupuestaria y de Gestion Economica"},"oc":{"codigo_dir":"GE0014050","nombre":"Oficina
+        Contable. I.D. Min. de la Presidencia, Relac. con las Cortes y Mem.Democ."}},{"cifs":[{"nif":"S2801249J"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":17113,"og":{"codigo_dir":"GE0002347","nombre":"CENTRO
+        DE ORIENTACI\u00d3N DE PROCESOS"},"ut":{"codigo_dir":"GE0002347","nombre":"Centro
+        de Orientaci\u00f3n de Procesos"},"oc":{"codigo_dir":"GE0002347","nombre":"Centro
+        de Orientaci\u00f3n de Procesos"}},{"cifs":[{"nif":"S2801227F"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":17112,"og":{"codigo_dir":"GE0002346","nombre":"OFICINA
+        DE PLANIFICACI\u00d3N Y CONTROL DEL MPG"},"ut":{"codigo_dir":"GE0002346","nombre":"Oficina
+        de Planificaci\u00f3n y Control del Mpg"},"oc":{"codigo_dir":"GE0002346","nombre":"Oficina
+        de Planificaci\u00f3n y Control del Mpg"}},{"cifs":[{"nif":"S2801258A"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":21821,"og":{"codigo_dir":"GE0006300","nombre":"OFICINA
+        DE REPRESENTACION Y COORDINACION"},"ut":{"codigo_dir":"GE0006300","nombre":"OFICINA
+        DE REPRESENTACION Y COORDINACION"},"oc":{"codigo_dir":"GE0006300","nombre":"Oficina
+        de Representacion y Coordinacion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":11196,"og":{"codigo_dir":"GE0000085","nombre":"DEPARTAMENTO
+        DE IBEROAMERICA DEL MPG"},"ut":{"codigo_dir":"GE0000085","nombre":"Departamento
+        de Iberoamerica del Mpg"},"oc":{"codigo_dir":"GE0000085","nombre":"Departamento
+        de Iberoamerica del Mpg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":11194,"og":{"codigo_dir":"GE0000083","nombre":"GABINETE
+        DE SONDEOS Y PROYECTOS MP"},"ut":{"codigo_dir":"GE0000083","nombre":"GABINETE
+        DE SONDEOS Y PROYECTOS MP"},"oc":{"codigo_dir":"GE0000083","nombre":"Gabinete
+        de Sondeos y Proyectos Mp"}},{"cifs":[{"nif":"S2801207H"}],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":11195,"og":{"codigo_dir":"GE0000084","nombre":"UNIDAD
+        DE ESTUDIOS MP"},"ut":{"codigo_dir":"GE0000084","nombre":"UNIDAD DE ESTUDIOS
+        MP"},"oc":{"codigo_dir":"GE0000084","nombre":"Unidad de Estudios Mp"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":21823,"og":{"codigo_dir":"GE0006302","nombre":"CENTRO
+        DE APOYO ADMINISTRATIVO T"},"ut":{"codigo_dir":"GE0006302","nombre":"Centro
+        de Apoyo Administrativo T"},"oc":{"codigo_dir":"GE0006302","nombre":"Centro
+        de Apoyo Administrativo T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":21824,"og":{"codigo_dir":"GE0006303","nombre":"DELEGACION
+        ADMINISTRATIVA F"},"ut":{"codigo_dir":"GE0006303","nombre":"Delegacion Administrativa
+        F"},"oc":{"codigo_dir":"GE0006303","nombre":"Delegacion Administrativa F"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica","codigo_dir":"E05067101","cifs":[]},"id":21822,"og":{"codigo_dir":"GE0006301","nombre":"UNIDAD
+        ADMINISTRATIVA LP"},"ut":{"codigo_dir":"GE0006301","nombre":"Unidad Administrativa
+        Lp"},"oc":{"codigo_dir":"GE0006301","nombre":"Unidad Administrativa Lp"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:08 GMT
+recorded_with: VCR 6.0.0

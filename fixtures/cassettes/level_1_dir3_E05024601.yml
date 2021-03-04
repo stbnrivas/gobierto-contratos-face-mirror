@@ -1,0 +1,1510 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024601/relaciones?administracion=E05024601&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:12 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica
+        Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":62996,"og":{"codigo_dir":"EA0020628","nombre":"Delegaci\u00f3n
+        del Gobierno en Galicia"},"ut":{"codigo_dir":"EA0020649","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Pontevedra  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":62995,"og":{"codigo_dir":"EA0020776","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Foral de Navarra"},"ut":{"codigo_dir":"EA0020784","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Foral de Navarra - S.Gral."},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63087,"og":{"codigo_dir":"EA0020786","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Valenciana"},"ut":{"codigo_dir":"EA0020787","nombre":"Delegaci\u00f3n
+        del Gobierno en la C. Valenciana - E.A.S.M."},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63120,"og":{"codigo_dir":"EA0020786","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Valenciana"},"ut":{"codigo_dir":"EA0020789","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Valenciana - Gastos Electorales"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":62977,"og":{"codigo_dir":"EA0020690","nombre":"Delegaci\u00f3n
+        del Gobierno en La Rioja"},"ut":{"codigo_dir":"EA0020698","nombre":"Delegaci\u00f3n
+        del Gobierno en La Rioja - S.Gral"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica Territorial
+        y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":62975,"og":{"codigo_dir":"EA0020392","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Las Palmas  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"EA0020380","nombre":"Delegaci\u00f3n
+        del Gobierno en Canarias - Gastos Electorales"},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":61054,"og":{"codigo_dir":"EA0019997","nombre":"Subdirecci\u00f3n
+        de Aprendizaje - INAP"},"ut":{"codigo_dir":"EA0019996","nombre":"Unidad de
+        Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":60996,"og":{"codigo_dir":"EA0019997","nombre":"Subdirecci\u00f3n
+        de Aprendizaje - INAP"},"ut":{"codigo_dir":"EA0019995","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":61035,"og":{"codigo_dir":"EA0019998","nombre":"Subdirecci\u00f3n
+        de Formaci\u00f3n Local - INAP"},"ut":{"codigo_dir":"EA0019995","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":61037,"og":{"codigo_dir":"EA0019998","nombre":"Subdirecci\u00f3n
+        de Formaci\u00f3n Local - INAP"},"ut":{"codigo_dir":"EA0019996","nombre":"Unidad
+        de Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":61015,"og":{"codigo_dir":"EA0019999","nombre":"Subdirecci\u00f3n
+        de Selecci\u00f3n - INAP"},"ut":{"codigo_dir":"EA0019996","nombre":"Unidad
+        de Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":60997,"og":{"codigo_dir":"EA0019999","nombre":"Subdirecci\u00f3n
+        de Selecci\u00f3n - INAP"},"ut":{"codigo_dir":"EA0019995","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":62994,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020379","nombre":"Delegaci\u00f3n
+        del Gobierno en Canarias - S.Gral."},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":62978,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020784","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Foral de Navarra - S.Gral."},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63137,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020786","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Valenciana"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":56525,"og":{"codigo_dir":"GE0010374","nombre":"Del.Gob.
+        en el Pais Vasco - Gastos Electorales"},"ut":{"codigo_dir":"GE0010374","nombre":"Del.Gob.
+        en el Pais Vasco - Gastos Electorales"},"oc":{"codigo_dir":"GE0014069","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alava - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":56514,"og":{"codigo_dir":"GE0010518","nombre":"Subdel.Gob.
+        en Huesca - Gastos Electorales"},"ut":{"codigo_dir":"GE0010518","nombre":"Subdel.Gob.
+        en Huesca - Gastos Electorales"},"oc":{"codigo_dir":"GE0014061","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huesca - Intervencion Ter"}},{"cifs":[{"nif":"S1336001E"}],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":56645,"og":{"codigo_dir":"GE0010519","nombre":"Subdel.Gob.
+        en Ciudad Real - Gastos Electorales"},"ut":{"codigo_dir":"GE0010519","nombre":"Subdel.Gob.
+        en Ciudad Real - Gastos Electorales"},"oc":{"codigo_dir":"GE0014083","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ciudad Real - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":60995,"og":{"codigo_dir":"EA0019992","nombre":"Centro
+        de Estudios y Gesti\u00f3n del Conocimiento - INAP"},"ut":{"codigo_dir":"EA0019995","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":60998,"og":{"codigo_dir":"EA0019992","nombre":"Centro
+        de Estudios y Gesti\u00f3n del Conocimiento - INAP"},"ut":{"codigo_dir":"EA0019996","nombre":"Unidad
+        de Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":62997,"og":{"codigo_dir":"EA0020667","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Pontevedra - S.Gral."},"ut":{"codigo_dir":"EA0020668","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Pontevedra - Gastos Electorales"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":61014,"og":{"codigo_dir":"EA0019993","nombre":"Departamento
+        de Innovaci\u00f3n P\u00fablica - INAP"},"ut":{"codigo_dir":"EA0019995","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":61036,"og":{"codigo_dir":"EA0019993","nombre":"Departamento
+        de Innovaci\u00f3n P\u00fablica - INAP"},"ut":{"codigo_dir":"EA0019996","nombre":"Unidad
+        de Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":60999,"og":{"codigo_dir":"EA0019994","nombre":"Gerencia
+        - INAP"},"ut":{"codigo_dir":"EA0019996","nombre":"Unidad de Contrataci\u00f3n
+        y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":61034,"og":{"codigo_dir":"EA0019994","nombre":"Gerencia
+        - INAP"},"ut":{"codigo_dir":"EA0019995","nombre":"Habilit. Material del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:12 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024601/relaciones?administracion=E05024601&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:13 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"204","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:05:13 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024601/relaciones?administracion=E05024601&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:14 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica
+        Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":56514,"og":{"codigo_dir":"GE0010518","nombre":"Subdel.Gob.
+        en Huesca - Gastos Electorales"},"ut":{"codigo_dir":"GE0010518","nombre":"Subdel.Gob.
+        en Huesca - Gastos Electorales"},"oc":{"codigo_dir":"GE0014061","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huesca - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":56525,"og":{"codigo_dir":"GE0010374","nombre":"Del.Gob.
+        en el Pais Vasco - Gastos Electorales"},"ut":{"codigo_dir":"GE0010374","nombre":"Del.Gob.
+        en el Pais Vasco - Gastos Electorales"},"oc":{"codigo_dir":"GE0014069","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alava - Intervencion Terr"}},{"cifs":[{"nif":"S1336001E"}],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":56645,"og":{"codigo_dir":"GE0010519","nombre":"Subdel.Gob.
+        en Ciudad Real - Gastos Electorales"},"ut":{"codigo_dir":"GE0010519","nombre":"Subdel.Gob.
+        en Ciudad Real - Gastos Electorales"},"oc":{"codigo_dir":"GE0014083","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ciudad Real - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":60995,"og":{"codigo_dir":"EA0019992","nombre":"Centro
+        de Estudios y Gesti\u00f3n del Conocimiento - INAP"},"ut":{"codigo_dir":"EA0019995","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":60996,"og":{"codigo_dir":"EA0019997","nombre":"Subdirecci\u00f3n
+        de Aprendizaje - INAP"},"ut":{"codigo_dir":"EA0019995","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":60997,"og":{"codigo_dir":"EA0019999","nombre":"Subdirecci\u00f3n
+        de Selecci\u00f3n - INAP"},"ut":{"codigo_dir":"EA0019995","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":60998,"og":{"codigo_dir":"EA0019992","nombre":"Centro
+        de Estudios y Gesti\u00f3n del Conocimiento - INAP"},"ut":{"codigo_dir":"EA0019996","nombre":"Unidad
+        de Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":60999,"og":{"codigo_dir":"EA0019994","nombre":"Gerencia
+        - INAP"},"ut":{"codigo_dir":"EA0019996","nombre":"Unidad de Contrataci\u00f3n
+        y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":61014,"og":{"codigo_dir":"EA0019993","nombre":"Departamento
+        de Innovaci\u00f3n P\u00fablica - INAP"},"ut":{"codigo_dir":"EA0019995","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":61015,"og":{"codigo_dir":"EA0019999","nombre":"Subdirecci\u00f3n
+        de Selecci\u00f3n - INAP"},"ut":{"codigo_dir":"EA0019996","nombre":"Unidad
+        de Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":61034,"og":{"codigo_dir":"EA0019994","nombre":"Gerencia
+        - INAP"},"ut":{"codigo_dir":"EA0019995","nombre":"Habilit. Material del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":61035,"og":{"codigo_dir":"EA0019998","nombre":"Subdirecci\u00f3n
+        de Formaci\u00f3n Local - INAP"},"ut":{"codigo_dir":"EA0019995","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":61036,"og":{"codigo_dir":"EA0019993","nombre":"Departamento
+        de Innovaci\u00f3n P\u00fablica - INAP"},"ut":{"codigo_dir":"EA0019996","nombre":"Unidad
+        de Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":61037,"og":{"codigo_dir":"EA0019998","nombre":"Subdirecci\u00f3n
+        de Formaci\u00f3n Local - INAP"},"ut":{"codigo_dir":"EA0019996","nombre":"Unidad
+        de Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":61054,"og":{"codigo_dir":"EA0019997","nombre":"Subdirecci\u00f3n
+        de Aprendizaje - INAP"},"ut":{"codigo_dir":"EA0019996","nombre":"Unidad de
+        Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0019990","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":62975,"og":{"codigo_dir":"EA0020392","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Las Palmas  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"EA0020380","nombre":"Delegaci\u00f3n
+        del Gobierno en Canarias - Gastos Electorales"},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":62977,"og":{"codigo_dir":"EA0020690","nombre":"Delegaci\u00f3n
+        del Gobierno en La Rioja"},"ut":{"codigo_dir":"EA0020698","nombre":"Delegaci\u00f3n
+        del Gobierno en La Rioja - S.Gral"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica Territorial
+        y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":62978,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020784","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Foral de Navarra - S.Gral."},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":62994,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020379","nombre":"Delegaci\u00f3n
+        del Gobierno en Canarias - S.Gral."},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":62995,"og":{"codigo_dir":"EA0020776","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Foral de Navarra"},"ut":{"codigo_dir":"EA0020784","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Foral de Navarra - S.Gral."},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":62996,"og":{"codigo_dir":"EA0020628","nombre":"Delegaci\u00f3n
+        del Gobierno en Galicia"},"ut":{"codigo_dir":"EA0020649","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Pontevedra  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":62997,"og":{"codigo_dir":"EA0020667","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Pontevedra - S.Gral."},"ut":{"codigo_dir":"EA0020668","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Pontevedra - Gastos Electorales"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63087,"og":{"codigo_dir":"EA0020786","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Valenciana"},"ut":{"codigo_dir":"EA0020787","nombre":"Delegaci\u00f3n
+        del Gobierno en la C. Valenciana - E.A.S.M."},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63120,"og":{"codigo_dir":"EA0020786","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Valenciana"},"ut":{"codigo_dir":"EA0020789","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Valenciana - Gastos Electorales"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63137,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020786","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Valenciana"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:14 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024601/relaciones?administracion=E05024601&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:15 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica
+        Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63182,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020577","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Lleida - S.Gral."},"oc":{"codigo_dir":"GE0014094","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lleida - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63315,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020365","nombre":"Delegaci\u00f3n
+        del Gobierno en Asturias"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63335,"og":{"codigo_dir":"EA0020365","nombre":"Delegaci\u00f3n
+        del Gobierno en Asturias"},"ut":{"codigo_dir":"EA0020365","nombre":"Delegaci\u00f3n
+        del Gobierno en Asturias"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63475,"og":{"codigo_dir":"EA0020417","nombre":"Delegaci\u00f3n
+        del Gobierno en Cantabria - Gastos Electorales"},"ut":{"codigo_dir":"EA0020417","nombre":"Delegaci\u00f3n
+        del Gobierno en Cantabria - Gastos Electorales"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63494,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020408","nombre":"Delegaci\u00f3n
+        del Gobierno en Cantabria"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63526,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020382","nombre":"Direccion Insular
+        de la A.G.E.  en el Hierro"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63538,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020283","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Cadiz  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014078","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cadiz - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63597,"og":{"codigo_dir":"GE0011156","nombre":"Subdel.Gob.
+        en Cordoba - Gastos Electorales"},"ut":{"codigo_dir":"GE0011156","nombre":"Subdel.Gob.
+        en Cordoba - Gastos Electorales"},"oc":{"codigo_dir":"GE0014084","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cordoba - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63598,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020701","nombre":"Delegaci\u00f3n
+        del Gobierno en Madrid"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63599,"og":{"codigo_dir":"EA0020709","nombre":"Delegaci\u00f3n
+        del Gobierno en Madrid - Gastos Electorales"},"ut":{"codigo_dir":"EA0020709","nombre":"Delegaci\u00f3n
+        del Gobierno en Madrid - Gastos Electorales"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63602,"og":{"codigo_dir":"EA0020462","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Segovia  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"GE0011668","nombre":"Subdel.Gob.En
+        Segovia-Gastos Electorales"},"oc":{"codigo_dir":"GE0014106","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Segovia - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63603,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020468","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Soria  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014108","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Soria - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63616,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"GE0005934","nombre":"Subdel.Gob. en
+        Cadiz - Gastos Electorales"},"oc":{"codigo_dir":"GE0014078","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cadiz - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63617,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020466","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Segovia - S.Gral."},"oc":{"codigo_dir":"GE0014106","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Segovia - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63618,"og":{"codigo_dir":"EA0020468","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Soria  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"EA0020474","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Soria - Gastos Electorales"},"oc":{"codigo_dir":"GE0014108","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Soria - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63619,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020429","nombre":"Delegaci\u00f3n
+        del Gobierno en Castilla y Leon - S.Gral."},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Valladolid - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63620,"og":{"codigo_dir":"EA0020430","nombre":"Delegaci\u00f3n
+        del Gobierno en Castilla y Leon - Gastos Electorales"},"ut":{"codigo_dir":"EA0020430","nombre":"Delegaci\u00f3n
+        del Gobierno en Castilla y Leon - Gastos Electorales"},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Valladolid - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63634,"og":{"codigo_dir":"EA0020604","nombre":"Delegaci\u00f3n
+        del Gobierno en Extremadura - Gastos Electorales"},"ut":{"codigo_dir":"EA0020604","nombre":"Delegaci\u00f3n
+        del Gobierno en Extremadura - Gastos Electorales"},"oc":{"codigo_dir":"GE0014073","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Badajoz - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63698,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020295","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Cordoba - S.Gral."},"oc":{"codigo_dir":"GE0014084","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cordoba - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63763,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020439","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Burgos  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014076","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Burgos - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63817,"og":{"codigo_dir":"EA0020407","nombre":"Subdelegacion
+        del Gobierno en Santa Cruz de Tenerife. Gastos Electorales"},"ut":{"codigo_dir":"EA0020407","nombre":"Subdelegacion
+        del Gobierno en Santa Cruz de Tenerife. Gastos Electorales"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63837,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020400","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Santa Cruz de Tenerife  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63855,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020800","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Castellon  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014081","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Castellon - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":63898,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020623","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Caceres  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014077","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Caceres - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":64076,"og":{"codigo_dir":"EA0020352","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Teruel  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"GE0006145","nombre":"Subdel.Gob.
+        en Teruel - Gastos Electorales"},"oc":{"codigo_dir":"GE0014110","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Teruel - Intervencion Te"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:15 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024601/relaciones?administracion=E05024601&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:16 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica
+        Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":64095,"og":{"codigo_dir":"EA0020352","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Teruel  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"EA0020356","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Teruel - S.Gral."},"oc":{"codigo_dir":"GE0014110","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Teruel - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":64299,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020456","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Salamanca  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014104","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Salamanca - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":64371,"og":{"codigo_dir":"EA0020448","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Leon  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"EA0020448","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Leon  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014093","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Leon - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":64404,"og":{"codigo_dir":"EA0020448","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Leon  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"GE0010605","nombre":"Subdel.Gob.
+        en Leon - Gastos Electorales"},"oc":{"codigo_dir":"GE0014093","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Leon - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":64421,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020448","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Leon  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014093","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Leon - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":64699,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020743","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Bizkaia  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":64700,"og":{"codigo_dir":"EA0020749","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Bizkaia - Gastos Electorales"},"ut":{"codigo_dir":"EA0020749","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Bizkaia - Gastos Electorales"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":64719,"og":{"codigo_dir":"EA0020314","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Jaen - Gastos Electorales"},"ut":{"codigo_dir":"EA0020314","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Jaen - Gastos Electorales"},"oc":{"codigo_dir":"GE0014091","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Jaen - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":65040,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020320","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Malaga - S.Gral."},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Malaga - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":65061,"og":{"codigo_dir":"EA0020315","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Malaga  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"GE0000041","nombre":"Subdel.Gob.
+        en Malaga - Gastos Electorales"},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Malaga - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":65481,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020515","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Guadalajara  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014088","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Guadalajara - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":65501,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020516","nombre":"Edificio Administrativo
+        Servicios M\u00faltiples"},"oc":{"codigo_dir":"GE0014088","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Guadalajara - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":65521,"og":{"codigo_dir":"EA0020515","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Guadalajara  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"EA0020520","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Guadalajara - Gastos Electorales"},"oc":{"codigo_dir":"GE0014088","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Guadalajara - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":65765,"og":{"codigo_dir":"EA0020309","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Huelva - Gastos Electorales"},"ut":{"codigo_dir":"EA0020309","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Huelva - Gastos Electorales"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66081,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020281","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Almeria - S.Gral."},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66082,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020282","nombre":"Subdelegaci\u00f3n
+        del GobiernoEn Almeria - Gastos Electorales"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66181,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020645","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Ourense  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014101","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ourense - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66182,"og":{"codigo_dir":"EA0020648","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Ourense - S.Gral."},"ut":{"codigo_dir":"EA0020648","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Ourense - S.Gral."},"oc":{"codigo_dir":"GE0014101","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ourense - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66541,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020752","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Gipuzkoa  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014062","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Guipuzcoa - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66542,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020673","nombre":"Delegaci\u00f3n
+        del Gobierno en Illes Balears"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66561,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020698","nombre":"Delegaci\u00f3n
+        del Gobierno en La Rioja - S.Gral"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica Territorial
+        y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66563,"og":{"codigo_dir":"E05035301","nombre":"Subsecretar\u00eda
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"},"ut":{"codigo_dir":"EA0020715","nombre":"Servicio
+        de Gestion Economica"},"oc":{"codigo_dir":"GE0014117","nombre":"Oficina Contable.
+        I.D. Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66581,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0019863","nombre":"S.G.A.F.P.A.P.
+        Contabilidad"},"oc":{"codigo_dir":"GE0014117","nombre":"Oficina Contable.
+        I.D. Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66582,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0019865","nombre":"S.G.A.F.P.A.P.
+        Contrataci\u00f3n Obras"},"oc":{"codigo_dir":"GE0014117","nombre":"Oficina
+        Contable. I.D. Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66583,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0019867","nombre":"S.G.A.F.P.A.P.
+        Intereses de Demora"},"oc":{"codigo_dir":"GE0014117","nombre":"Oficina Contable.
+        I.D. Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:16 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024601/relaciones?administracion=E05024601&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:17 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica
+        Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66601,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0019864","nombre":"S.G.A.F.P.A.P.
+        Contrataci\u00f3n Centralizada"},"oc":{"codigo_dir":"GE0014117","nombre":"Oficina
+        Contable. I.D. Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66602,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0019866","nombre":"S.G.A.F.P.A.P.
+        Contrataci\u00f3n Servicios y Suministros"},"oc":{"codigo_dir":"GE0014117","nombre":"Oficina
+        Contable. I.D. Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66603,"og":{"codigo_dir":"EA0019975","nombre":"Subdirecci\u00f3n
+        General de Cooperaci\u00f3n Local"},"ut":{"codigo_dir":"EA0019975","nombre":"Subdirecci\u00f3n
+        General de Cooperaci\u00f3n Local"},"oc":{"codigo_dir":"GE0014117","nombre":"Oficina
+        Contable. I.D. Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66621,"og":{"codigo_dir":"E05035301","nombre":"Subsecretar\u00eda
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"},"ut":{"codigo_dir":"EA0020714","nombre":"Servicio
+        de Contratacion"},"oc":{"codigo_dir":"GE0014117","nombre":"Oficina Contable.
+        I.D. Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":66802,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020272","nombre":"Delegaci\u00f3n
+        del Gobierno en Andalucia - S.Gral."},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":67406,"og":{"codigo_dir":"EA0020690","nombre":"Delegaci\u00f3n
+        del Gobierno en La Rioja"},"ut":{"codigo_dir":"EA0020699","nombre":"Delegaci\u00f3n
+        del Gobierno en La Rioja - Gastos Electorales"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica Territorial
+        y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":67691,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020503","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Albacete - S.Gral."},"oc":{"codigo_dir":"GE0014070","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Albacete - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":68528,"og":{"codigo_dir":"EA0020497","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Albacete  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"GE0005979","nombre":"Subdel.Gob.
+        en Albacete - Gastos Electorales"},"oc":{"codigo_dir":"GE0014070","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Albacete - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":68568,"og":{"codigo_dir":"EA0019994","nombre":"Gerencia
+        - INAP"},"ut":{"codigo_dir":"EA0019996","nombre":"Unidad de Contrataci\u00f3n
+        y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":68569,"og":{"codigo_dir":"EA0019870","nombre":"Consejo
+        de Transparencia y Buen Gobierno"},"ut":{"codigo_dir":"EA0019870","nombre":"Consejo
+        de Transparencia y Buen Gobierno"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":68687,"og":{"codigo_dir":"EA0019870","nombre":"Consejo
+        de Transparencia y Buen Gobierno"},"ut":{"codigo_dir":"E04977901","nombre":"Consejo
+        de Transparencia y Buen Gobierno"},"oc":{"codigo_dir":"E04977901","nombre":"Consejo
+        de Transparencia y Buen Gobierno"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":68888,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020509","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Cuenca  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014085","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cuenca - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":68889,"og":{"codigo_dir":"EA0020791","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Alicante  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"EA0020798","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Alicante - Gastos Electorales"},"oc":{"codigo_dir":"GE0014116","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alicante - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":68947,"og":{"codigo_dir":"EA0020513","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Cuenca - S.Gral."},"ut":{"codigo_dir":"EA0020514","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Cuenca - Gastos Electorales"},"oc":{"codigo_dir":"GE0014085","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cuenca - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":69068,"og":{"codigo_dir":"GE0011551","nombre":"Subdl.Gob.
+        en Lleida-Gastos Electorales"},"ut":{"codigo_dir":"GE0011551","nombre":"Subdl.Gob.
+        en Lleida-Gastos Electorales"},"oc":{"codigo_dir":"GE0014094","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lleida - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":69227,"og":{"codigo_dir":"EA0020365","nombre":"Delegaci\u00f3n
+        del Gobierno en Asturias"},"ut":{"codigo_dir":"EA0020376","nombre":"Delegaci\u00f3n
+        del Gobierno en Asturias - Gastos Electorales"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":69247,"og":{"codigo_dir":"EA0019870","nombre":"Consejo
+        de Transparencia y Buen Gobierno"},"ut":{"codigo_dir":"EA0019870","nombre":"Consejo
+        de Transparencia y Buen Gobierno"},"oc":{"codigo_dir":"E04977901","nombre":"Consejo
+        de Transparencia y Buen Gobierno"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":69267,"og":{"codigo_dir":"EA0019870","nombre":"Consejo
+        de Transparencia y Buen Gobierno"},"ut":{"codigo_dir":"EA0019870","nombre":"Consejo
+        de Transparencia y Buen Gobierno"},"oc":{"codigo_dir":"EA0019870","nombre":"Consejo
+        de Transparencia y Buen Gobierno"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":69427,"og":{"codigo_dir":"EA0020542","nombre":"Delegaci\u00f3n
+        del Gobierno en Catalu\u00f1a - Gastos Electorales"},"ut":{"codigo_dir":"EA0020542","nombre":"Delegaci\u00f3n
+        del Gobierno en Catalu\u00f1a - Gastos Electorales"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":69447,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"EA0020544","nombre":"Delegaci\u00f3n
+        del Gobierno en Catalu\u00f1a - Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":69467,"og":{"codigo_dir":"EA0019862","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        Perif\u00e9rica"},"ut":{"codigo_dir":"GE0000021","nombre":"Subdel.Gob. en
+        Caceres - Gastos Electorales"},"oc":{"codigo_dir":"GE0014077","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Caceres - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":69487,"og":{"codigo_dir":"EA0020492","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Zamora - Gastos Electorales"},"ut":{"codigo_dir":"EA0020492","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Zamora - Gastos Electorales"},"oc":{"codigo_dir":"GE0014114","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Zamora - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":70247,"og":{"codigo_dir":"EA0020682","nombre":"Delegaci\u00f3n
+        del Gobierno en Illes Balears - Gastos Electorales"},"ut":{"codigo_dir":"EA0020682","nombre":"Delegaci\u00f3n
+        del Gobierno en Illes Balears - Gastos Electorales"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":70248,"og":{"codigo_dir":"GE0011540","nombre":"Subdel.Gob.En
+        Salamanca-Gastos Electorales"},"ut":{"codigo_dir":"GE0011540","nombre":"Subdel.Gob.En
+        Salamanca-Gastos Electorales"},"oc":{"codigo_dir":"GE0014104","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Salamanca - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":70267,"og":{"codigo_dir":"EA0020439","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Burgos  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"EA0020446","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Burgos - Gastos Electorales"},"oc":{"codigo_dir":"GE0014076","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Burgos - Intervencion Ter"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:17 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024601/relaciones?administracion=E05024601&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:17 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica
+        Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":70268,"og":{"codigo_dir":"EA0020301","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Granada - S.Gral."},"ut":{"codigo_dir":"GE0010515","nombre":"Subdel.Gob.
+        en Granada - Gastos Electorales"},"oc":{"codigo_dir":"GE0014087","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Granada - Intervencion Te"}},{"cifs":[{"nif":"S1216001F"}],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":70527,"og":{"codigo_dir":"GE0010517","nombre":"Subdel.Gob.
+        en Castellon - Gastos Electorales"},"ut":{"codigo_dir":"GE0010517","nombre":"Subdel.Gob.
+        en Castellon - Gastos Electorales"},"oc":{"codigo_dir":"GE0014081","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Castellon - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":71567,"og":{"codigo_dir":"EA0020776","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Foral de Navarra"},"ut":{"codigo_dir":"GE0015759","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Foral de Navarra - Gastos Electorales"},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":72747,"og":{"codigo_dir":"E05035301","nombre":"Subsecretar\u00eda
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"},"ut":{"codigo_dir":"EA0020007","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos e Inspecci\u00f3n de Servicios"},"oc":{"codigo_dir":"GE0014117","nombre":"Oficina
+        Contable. I.D. Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82767,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040688","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Castellon  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014081","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Castellon - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82768,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040295","nombre":"Delegaci\u00f3n
+        del Gobierno en Canarias - S.Gral."},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82769,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040296","nombre":"Delegaci\u00f3n
+        del Gobierno en Canarias - Gastos Electorales"},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82867,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040300","nombre":"Direccion
+        Insular de la A.G.E.  en Fuerteventura"},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82868,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040504","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Tarragona  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014109","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Economia y Hacienda en Tarragona - Intervenci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82869,"og":{"codigo_dir":"EA0040511","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Tarragona - Gastos Electorales"},"ut":{"codigo_dir":"EA0040511","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Tarragona - Gastos Electorales"},"oc":{"codigo_dir":"GE0014109","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Economia y Hacienda en Tarragona - Intervenci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82870,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040679","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Alicante  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014116","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alicante - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82871,"og":{"codigo_dir":"EA0040119","nombre":"Departamento
+        de Innovaci\u00f3n P\u00fablica - INAP"},"ut":{"codigo_dir":"EA0040121","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0040116","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82872,"og":{"codigo_dir":"EA0040120","nombre":"Gerencia
+        - INAP"},"ut":{"codigo_dir":"EA0040121","nombre":"Habilit. Material del INAP"},"oc":{"codigo_dir":"EA0040116","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82873,"og":{"codigo_dir":"EA0040123","nombre":"Subdirecci\u00f3n
+        de Aprendizaje - INAP"},"ut":{"codigo_dir":"EA0040121","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0040116","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82874,"og":{"codigo_dir":"EA0040124","nombre":"Subdirecci\u00f3n
+        de Formaci\u00f3n Local - INAP"},"ut":{"codigo_dir":"EA0040121","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0040116","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82875,"og":{"codigo_dir":"EA0040125","nombre":"Subdirecci\u00f3n
+        de Selecci\u00f3n - INAP"},"ut":{"codigo_dir":"EA0040121","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0040116","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82876,"og":{"codigo_dir":"EA0040123","nombre":"Subdirecci\u00f3n
+        de Aprendizaje - INAP"},"ut":{"codigo_dir":"EA0040122","nombre":"Unidad de
+        Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0040116","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82887,"og":{"codigo_dir":"EA0040679","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Alicante  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"EA0040686","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Alicante - Gastos Electorales"},"oc":{"codigo_dir":"GE0014116","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alicante - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82888,"og":{"codigo_dir":"EA0040111","nombre":"Consejo
+        de Transparencia y Buen Gobierno"},"ut":{"codigo_dir":"EA0040111","nombre":"Consejo
+        de Transparencia y Buen Gobierno"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82889,"og":{"codigo_dir":"EA0040119","nombre":"Departamento
+        de Innovaci\u00f3n P\u00fablica - INAP"},"ut":{"codigo_dir":"EA0040122","nombre":"Unidad
+        de Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0040116","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82907,"og":{"codigo_dir":"EA0040111","nombre":"Consejo
+        de Transparencia y Buen Gobierno"},"ut":{"codigo_dir":"EA0040111","nombre":"Consejo
+        de Transparencia y Buen Gobierno"},"oc":{"codigo_dir":"EA0040111","nombre":"Consejo
+        de Transparencia y Buen Gobierno"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82908,"og":{"codigo_dir":"EA0040118","nombre":"Centro
+        de Estudios y Gesti\u00f3n del Conocimiento - INAP"},"ut":{"codigo_dir":"EA0040121","nombre":"Habilit.
+        Material del INAP"},"oc":{"codigo_dir":"EA0040116","nombre":"Instituto Nacional
+        de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82909,"og":{"codigo_dir":"EA0040118","nombre":"Centro
+        de Estudios y Gesti\u00f3n del Conocimiento - INAP"},"ut":{"codigo_dir":"EA0040122","nombre":"Unidad
+        de Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0040116","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82910,"og":{"codigo_dir":"EA0040120","nombre":"Gerencia
+        - INAP"},"ut":{"codigo_dir":"EA0040122","nombre":"Unidad de Contrataci\u00f3n
+        y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0040116","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82911,"og":{"codigo_dir":"EA0040124","nombre":"Subdirecci\u00f3n
+        de Formaci\u00f3n Local - INAP"},"ut":{"codigo_dir":"EA0040122","nombre":"Unidad
+        de Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0040116","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:18 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024601/relaciones?administracion=E05024601&limit=25.0&page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:19 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica
+        Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83089,"og":{"codigo_dir":"EA0040530","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Bizkaia - Gastos Electorales"},"ut":{"codigo_dir":"EA0040530","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Bizkaia - Gastos Electorales"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83268,"og":{"codigo_dir":"EA0040584","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Lugo - S.Gral."},"ut":{"codigo_dir":"EA0040585","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Lugo - Gastos Electorales"},"oc":{"codigo_dir":"GE0014095","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lugo - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83167,"og":{"codigo_dir":"EA0040589","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Ourense - S.Gral."},"ut":{"codigo_dir":"EA0040589","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Ourense - S.Gral."},"oc":{"codigo_dir":"GE0014101","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ourense - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83188,"og":{"codigo_dir":"EA0040608","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Pontevedra - S.Gral."},"ut":{"codigo_dir":"EA0040609","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Pontevedra - Gastos Electorales"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82912,"og":{"codigo_dir":"EA0040125","nombre":"Subdirecci\u00f3n
+        de Selecci\u00f3n - INAP"},"ut":{"codigo_dir":"EA0040122","nombre":"Unidad
+        de Contrataci\u00f3n y R\u00e9gimen Econ\u00f3mico del INAP"},"oc":{"codigo_dir":"EA0040116","nombre":"Instituto
+        Nacional de Administraci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83947,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040418","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Ciudad Real  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014083","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ciudad Real - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83467,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040380","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Segovia - S.Gral."},"oc":{"codigo_dir":"GE0014106","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Segovia - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83587,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040621","nombre":"Delegaci\u00f3n
+        del Gobierno en Illes Balears - S.Gral"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83187,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040590","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Pontevedra  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83607,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040316","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Santa Cruz de Tenerife  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83147,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040586","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Ourense  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014101","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ourense - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83067,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040236","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Malaga - S.Gral."},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Malaga - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83088,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040523","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Bizkaia  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82987,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040368","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Palencia - S.Gral."},"oc":{"codigo_dir":"GE0014064","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Palencia - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83090,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040347","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Burgos  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014076","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Burgos - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83707,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040304","nombre":"Direccion
+        Insular de la A.G.E.  en la Palma"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83329,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040512","nombre":"Delegaci\u00f3n
+        del Gobierno en el Pais Vasco"},"oc":{"codigo_dir":"GE0014069","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alava - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83447,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040584","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Lugo - S.Gral."},"oc":{"codigo_dir":"GE0014095","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lugo - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83747,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040613","nombre":"Delegaci\u00f3n
+        del Gobierno en Illes Balears"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83008,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040712","nombre":"Delegaci\u00f3n
+        del Gobierno en La Rioja - S.Gral"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica Territorial
+        y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83027,"og":{"codigo_dir":"EA0040153","nombre":"Subdirecci\u00f3n
+        General de Cooperaci\u00f3n Local"},"ut":{"codigo_dir":"EA0040153","nombre":"Subdirecci\u00f3n
+        General de Cooperaci\u00f3n Local"},"oc":{"codigo_dir":"GE0014117","nombre":"Oficina
+        Contable. I.D. Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83068,"og":{"codigo_dir":"EA0040231","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Malaga  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"GE0000041","nombre":"Subdel.Gob.
+        en Malaga - Gastos Electorales"},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Malaga - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83107,"og":{"codigo_dir":"EA0040347","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Burgos  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"EA0040354","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Burgos - Gastos Electorales"},"oc":{"codigo_dir":"GE0014076","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Burgos - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83007,"og":{"codigo_dir":"EA0040369","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Palencia - Gastos Electorales"},"ut":{"codigo_dir":"EA0040369","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Palencia - Gastos Electorales"},"oc":{"codigo_dir":"GE0014064","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Palencia - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":82988,"og":{"codigo_dir":"EA0040704","nombre":"Delegaci\u00f3n
+        del Gobierno en La Rioja"},"ut":{"codigo_dir":"EA0040713","nombre":"Delegaci\u00f3n
+        del Gobierno en La Rioja - Gastos Electorales"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:19 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024601/relaciones?administracion=E05024601&limit=25.0&page=7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:20 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica
+        Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84067,"og":{"codigo_dir":"EA0040571","nombre":"Delegaci\u00f3n
+        del Gobierno en Galicia - Unidad de Apoyo"},"ut":{"codigo_dir":"EA0040571","nombre":"Delegaci\u00f3n
+        del Gobierno en Galicia - Unidad de Apoyo"},"oc":{"codigo_dir":"GE0014065","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en A Coru\u00f1a - Intervencion
+        T"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica Territorial
+        y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84292,"og":{"codigo_dir":"EA0040478","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Girona  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"EA0040485","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Girona - Gastos Electorales"},"oc":{"codigo_dir":"GE0014086","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Girona - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84069,"og":{"codigo_dir":"EA0040429","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Guadalajara  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"EA0040434","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Guadalajara - Gastos Electorales"},"oc":{"codigo_dir":"GE0014088","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Guadalajara - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84293,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040226","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Jaen  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014091","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Jaen - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84088,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040430","nombre":"Edificio
+        Administrativo Servicios M\u00faltiples"},"oc":{"codigo_dir":"GE0014088","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Guadalajara - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84089,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040188","nombre":"Delegaci\u00f3n
+        del Gobierno en Andalucia - S.Gral."},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83967,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040422","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Ciudad Real - S.Gral."},"oc":{"codigo_dir":"GE0014083","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ciudad Real - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84108,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040417","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Albacete - S.Gral."},"oc":{"codigo_dir":"GE0014070","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Albacete - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84260,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040336","nombre":"Delegaci\u00f3n
+        del Gobierno en Castilla y Leon - S.Gral."},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Valladolid - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84068,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040429","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Guadalajara  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014088","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Guadalajara - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84328,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040324","nombre":"Delegaci\u00f3n
+        del Gobierno en Cantabria"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84070,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040674","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Valenciana"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84281,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040254","nombre":"Delegaci\u00f3n
+        del Gobierno en Aragon - S. Gral. Habilitacion"},"oc":{"codigo_dir":"GE0014115","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Zaragoza - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84047,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040569","nombre":"Delegaci\u00f3n
+        del Gobierno en Galicia"},"oc":{"codigo_dir":"GE0014065","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en A Coru\u00f1a - Intervencion
+        T"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica Territorial
+        y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":83987,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040197","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Almeria - S.Gral."},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84276,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040298","nombre":"Direccion
+        Insular de la A.G.E.  en el Hierro"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84278,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040387","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Soria - S.Gral."},"oc":{"codigo_dir":"GE0014108","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Soria - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84275,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040478","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Girona  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014086","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Girona - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84050,"og":{"codigo_dir":"EA0040187","nombre":"Delegaci\u00f3n
+        del Gobierno en Andalucia"},"ut":{"codigo_dir":"GE0006086","nombre":"Del.Gob.
+        en Andalucia - Gastos Electorales"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84329,"og":{"codigo_dir":"EA0040333","nombre":"Delegaci\u00f3n
+        del Gobierno en Cantabria - Gastos Electorales"},"ut":{"codigo_dir":"EA0040333","nombre":"Delegaci\u00f3n
+        del Gobierno en Cantabria - Gastos Electorales"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84091,"og":{"codigo_dir":"EA0040337","nombre":"Delegaci\u00f3n
+        del Gobierno en Castilla y Leon - Gastos Electorales"},"ut":{"codigo_dir":"EA0040337","nombre":"Delegaci\u00f3n
+        del Gobierno en Castilla y Leon - Gastos Electorales"},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Valladolid - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84279,"og":{"codigo_dir":"EA0040387","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Soria - S.Gral."},"ut":{"codigo_dir":"EA0040388","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Soria - Gastos Electorales"},"oc":{"codigo_dir":"GE0014108","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Soria - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84049,"og":{"codigo_dir":"EA0040654","nombre":"Delegaci\u00f3n
+        del Gobierno en la Ciudad de Ceuta - Gastos Electorales"},"ut":{"codigo_dir":"EA0040654","nombre":"Delegaci\u00f3n
+        del Gobierno en la Ciudad de Ceuta - Gastos Electorales"},"oc":{"codigo_dir":"GE0014082","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ceuta - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84090,"og":{"codigo_dir":"EA0040674","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Valenciana"},"ut":{"codigo_dir":"EA0040675","nombre":"Delegaci\u00f3n
+        del Gobierno en la C. Valenciana - E.A.S.M."},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84051,"og":{"codigo_dir":"EA0040674","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Valenciana"},"ut":{"codigo_dir":"EA0040677","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Valenciana - Gastos Electorales"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:20 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024601/relaciones?administracion=E05024601&limit=25.0&page=8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:21 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica
+        Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84347,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040540","nombre":"Delegaci\u00f3n
+        del Gobierno en Extremadura"},"oc":{"codigo_dir":"GE0014073","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Badajoz - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84528,"og":{"codigo_dir":"EA0040723","nombre":"Delegaci\u00f3n
+        del Gobierno en Madrid - Gastos Electorales"},"ut":{"codigo_dir":"EA0040723","nombre":"Delegaci\u00f3n
+        del Gobierno en Madrid - Gastos Electorales"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84547,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040345","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Avila - S.Gral."},"oc":{"codigo_dir":"GE0014072","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Avila - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84548,"og":{"codigo_dir":"EA0040345","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Avila - S.Gral."},"ut":{"codigo_dir":"EA0040345","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Avila - S.Gral."},"oc":{"codigo_dir":"GE0014072","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Avila - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84549,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040715","nombre":"Delegaci\u00f3n
+        del Gobierno en Madrid"},"oc":{"codigo_dir":"GE0014096","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Madrid - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84609,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040456","nombre":"Delegaci\u00f3n
+        del Gobierno en Catalu\u00f1a - Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84610,"og":{"codigo_dir":"EA0040356","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Leon  - Subdelegaci\u00f3n"},"ut":{"codigo_dir":"EA0040356","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Leon  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014093","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Leon - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84629,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040356","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Leon  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014093","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Leon - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84630,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040727","nombre":"Delegaci\u00f3n
+        del Gobierno en Murcia"},"oc":{"codigo_dir":"GE0014099","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84631,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040737","nombre":"Delegaci\u00f3n
+        del Gobierno en Murcia - Gastos Electorales"},"oc":{"codigo_dir":"GE0014099","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84633,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040370","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Salamanca  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014104","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Salamanca - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84647,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040264","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Huesca  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014061","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huesca - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84648,"og":{"codigo_dir":"EA0040455","nombre":"Delegaci\u00f3n
+        del Gobierno en Catalu\u00f1a - Gastos Electorales"},"ut":{"codigo_dir":"EA0040455","nombre":"Delegaci\u00f3n
+        del Gobierno en Catalu\u00f1a - Gastos Electorales"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84667,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040533","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Gipuzkoa  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014062","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Guipuzcoa - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84767,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040281","nombre":"Delegaci\u00f3n
+        del Gobierno en Asturias"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84827,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040626","nombre":"Dir.Insular
+        de la A.G.E. en Menorca"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":84967,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040625","nombre":"Dir.Insular
+        de la A.G.E. en Ibiza-Formentera - S. Gral"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":85070,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040302","nombre":"Direccion
+        Insular de la A.G.E.  en la Gomera"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":85208,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040564","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Caceres  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014077","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Caceres - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":85402,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040211","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Cordoba - S.Gral."},"oc":{"codigo_dir":"GE0014084","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cordoba - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":85847,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0020356","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Teruel - S.Gral."},"oc":{"codigo_dir":"GE0014110","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Teruel - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":86227,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040404","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Zamora - S.Gral."},"oc":{"codigo_dir":"GE0014114","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Zamora - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":87227,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040423","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Cuenca  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014085","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cuenca - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":87228,"og":{"codigo_dir":"EA0040427","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Cuenca - S.Gral."},"ut":{"codigo_dir":"EA0040428","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Cuenca - Gastos Electorales"},"oc":{"codigo_dir":"GE0014085","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cuenca - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":87247,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040662","nombre":"Delegaci\u00f3n
+        del Gobierno en la Ciudad de Melilla - S.Gral."},"oc":{"codigo_dir":"GE0014097","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Melilla - Intervencion Te"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:21 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024601/relaciones?administracion=E05024601&limit=25.0&page=9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:22 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Pol\u00edtica
+        Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":89487,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040653","nombre":"Delegaci\u00f3n
+        del Gobierno en la Ciudad de Ceuta - S.Gral."},"oc":{"codigo_dir":"GE0014082","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ceuta - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":90167,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040199","nombre":"Subdelegaci\u00f3n
+        del Gobierno en Cadiz  - Subdelegaci\u00f3n"},"oc":{"codigo_dir":"GE0014078","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cadiz - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":94567,"og":{"codigo_dir":"EA0040161","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n
+        General del Estado en el Territorio"},"ut":{"codigo_dir":"EA0040672","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Foral de Navarra - S.Gral."},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica","codigo_dir":"E05024601","cifs":[]},"id":96587,"og":{"codigo_dir":"EA0040664","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Foral de Navarra"},"ut":{"codigo_dir":"EA0040672","nombre":"Delegaci\u00f3n
+        del Gobierno en la Comunidad Foral de Navarra - S.Gral."},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:22 GMT
+recorded_with: VCR 6.0.0

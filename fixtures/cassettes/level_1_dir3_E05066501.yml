@@ -1,0 +1,293 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05066501/relaciones?administracion=E05066501&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:29 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo
+        y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":85547,"og":{"codigo_dir":"E05066801","nombre":"Secretar\u00eda
+        de Estado de Empleo y Econom\u00eda Social"},"ut":{"codigo_dir":"EA0041841","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y de la Oficina Presupuestaria"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":85550,"og":{"codigo_dir":"E05073901","nombre":"Subsecretar\u00eda
+        de Trabajo y Econom\u00eda Social"},"ut":{"codigo_dir":"EA0041842","nombre":"Caja
+        Pagadora General"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina Contable.
+        I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":85551,"og":{"codigo_dir":"E05073901","nombre":"Subsecretar\u00eda
+        de Trabajo y Econom\u00eda Social"},"ut":{"codigo_dir":"EA0041848","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos e Inspecci\u00f3n General de Servicios"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":85548,"og":{"codigo_dir":"E05073901","nombre":"Subsecretar\u00eda
+        de Trabajo y Econom\u00eda Social"},"ut":{"codigo_dir":"EA0041841","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y de la Oficina Presupuestaria"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":85568,"og":{"codigo_dir":"E05073901","nombre":"Subsecretar\u00eda
+        de Trabajo y Econom\u00eda Social"},"ut":{"codigo_dir":"EA0042008","nombre":"Subdirecci\u00f3n
+        General de Informes, Recursos y Publicaciones"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":93767,"og":{"codigo_dir":"EA0041789","nombre":"Consejo
+        Economico y Social"},"ut":{"codigo_dir":"EA0041798","nombre":"Caja Central"},"oc":{"codigo_dir":"EA0041801","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo
+        y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":93748,"og":{"codigo_dir":"EA0041789","nombre":"Consejo
+        Economico y Social"},"ut":{"codigo_dir":"EA0041799","nombre":"Caja Personal"},"oc":{"codigo_dir":"EA0041801","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo
+        y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":93749,"og":{"codigo_dir":"EA0041789","nombre":"Consejo
+        Economico y Social"},"ut":{"codigo_dir":"EA0041800","nombre":"Contrataci\u00f3n"},"oc":{"codigo_dir":"EA0041801","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo
+        y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":93728,"og":{"codigo_dir":"EA0041789","nombre":"Consejo
+        Economico y Social"},"ut":{"codigo_dir":"EA0041802","nombre":"Recursos Humanos"},"oc":{"codigo_dir":"EA0041801","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo
+        y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84887,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041504","nombre":"Centro
+        Nacional de Condiciones de Trabajo de Barcelona"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":85508,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041502","nombre":"Administraci\u00f3n
+        Instituto Nacional de Seguridad y Salud en el Trabajo"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84907,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041506","nombre":"Centro
+        Nacional de Nuevas Tecnologias de Madrid"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84908,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041509","nombre":"Gabinete
+        T\u00e9cnico de Ceuta"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84867,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041503","nombre":"Caja
+        Servicios Centrales Instituto Nacional de Seguridad y Salud en el Trabajo"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84868,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041505","nombre":"Centro
+        Nacional de Medios de Proteccion de Sevilla"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84869,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041508","nombre":"Direccion"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84870,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041511","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto Nacional de Seguridad
+        y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84848,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041507","nombre":"Centro
+        Nacional de Verificacion de Maquinaria de Bizkaia (SEDE- BARACALDO)"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84849,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041510","nombre":"Gabinete
+        T\u00e9cnico de Melilla"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84847,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041502","nombre":"Administraci\u00f3n
+        Instituto Nacional de Seguridad y Salud en el Trabajo"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84850,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041512","nombre":"Subdireccion
+        Tecnica"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto Nacional de Seguridad
+        y Salud en el Trabajo"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:29 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05066501/relaciones?administracion=E05066501&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:30 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"21","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:05:30 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05066501/relaciones?administracion=E05066501&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:31 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo
+        y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":85547,"og":{"codigo_dir":"E05066801","nombre":"Secretar\u00eda
+        de Estado de Empleo y Econom\u00eda Social"},"ut":{"codigo_dir":"EA0041841","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y de la Oficina Presupuestaria"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":85550,"og":{"codigo_dir":"E05073901","nombre":"Subsecretar\u00eda
+        de Trabajo y Econom\u00eda Social"},"ut":{"codigo_dir":"EA0041842","nombre":"Caja
+        Pagadora General"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina Contable.
+        I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":85551,"og":{"codigo_dir":"E05073901","nombre":"Subsecretar\u00eda
+        de Trabajo y Econom\u00eda Social"},"ut":{"codigo_dir":"EA0041848","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos e Inspecci\u00f3n General de Servicios"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":85548,"og":{"codigo_dir":"E05073901","nombre":"Subsecretar\u00eda
+        de Trabajo y Econom\u00eda Social"},"ut":{"codigo_dir":"EA0041841","nombre":"Subdirecci\u00f3n
+        General de Administraci\u00f3n Financiera y de la Oficina Presupuestaria"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":85568,"og":{"codigo_dir":"E05073901","nombre":"Subsecretar\u00eda
+        de Trabajo y Econom\u00eda Social"},"ut":{"codigo_dir":"EA0042008","nombre":"Subdirecci\u00f3n
+        General de Informes, Recursos y Publicaciones"},"oc":{"codigo_dir":"GE0014057","nombre":"Oficina
+        Contable. I.D. Ministerio de Trabajo y Econom\u00eda Social"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":93767,"og":{"codigo_dir":"EA0041789","nombre":"Consejo
+        Economico y Social"},"ut":{"codigo_dir":"EA0041798","nombre":"Caja Central"},"oc":{"codigo_dir":"EA0041801","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo
+        y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":93748,"og":{"codigo_dir":"EA0041789","nombre":"Consejo
+        Economico y Social"},"ut":{"codigo_dir":"EA0041799","nombre":"Caja Personal"},"oc":{"codigo_dir":"EA0041801","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo
+        y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":93749,"og":{"codigo_dir":"EA0041789","nombre":"Consejo
+        Economico y Social"},"ut":{"codigo_dir":"EA0041800","nombre":"Contrataci\u00f3n"},"oc":{"codigo_dir":"EA0041801","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo
+        y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":93728,"og":{"codigo_dir":"EA0041789","nombre":"Consejo
+        Economico y Social"},"ut":{"codigo_dir":"EA0041802","nombre":"Recursos Humanos"},"oc":{"codigo_dir":"EA0041801","nombre":"Oficina
+        de Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Trabajo
+        y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84887,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041504","nombre":"Centro
+        Nacional de Condiciones de Trabajo de Barcelona"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":85508,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041502","nombre":"Administraci\u00f3n
+        Instituto Nacional de Seguridad y Salud en el Trabajo"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84907,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041506","nombre":"Centro
+        Nacional de Nuevas Tecnologias de Madrid"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84908,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041509","nombre":"Gabinete
+        T\u00e9cnico de Ceuta"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84867,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041503","nombre":"Caja
+        Servicios Centrales Instituto Nacional de Seguridad y Salud en el Trabajo"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84868,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041505","nombre":"Centro
+        Nacional de Medios de Proteccion de Sevilla"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84869,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041508","nombre":"Direccion"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84870,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041511","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto Nacional de Seguridad
+        y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84848,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041507","nombre":"Centro
+        Nacional de Verificacion de Maquinaria de Bizkaia (SEDE- BARACALDO)"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84849,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041510","nombre":"Gabinete
+        T\u00e9cnico de Melilla"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84847,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041502","nombre":"Administraci\u00f3n
+        Instituto Nacional de Seguridad y Salud en el Trabajo"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Trabajo y Econom\u00eda Social","codigo_dir":"E05066501","cifs":[]},"id":84850,"og":{"codigo_dir":"EA0041501","nombre":"Instituto
+        Nacional de Seguridad y Salud en el Trabajo"},"ut":{"codigo_dir":"EA0041512","nombre":"Subdireccion
+        Tecnica"},"oc":{"codigo_dir":"EA0041501","nombre":"Instituto Nacional de Seguridad
+        y Salud en el Trabajo"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:31 GMT
+recorded_with: VCR 6.0.0

@@ -1,0 +1,401 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024301/relaciones?administracion=E05024301&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:58 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67927,"og":{"codigo_dir":"E04934403","nombre":"Secretar\u00eda
+        General de Industria y de la Peque\u00f1a y Mediana Empresa"},"ut":{"codigo_dir":"E04934603","nombre":"Direcci\u00f3n
+        General de Industria y de la Peque\u00f1a y Mediana Empresa"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":64459,"og":{"codigo_dir":"E04934403","nombre":"Secretar\u00eda
+        General de Industria y de la Peque\u00f1a y Mediana Empresa"},"ut":{"codigo_dir":"E04934603","nombre":"Direcci\u00f3n
+        General de Industria y de la Peque\u00f1a y Mediana Empresa"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67930,"og":{"codigo_dir":"E00119809","nombre":"Direcci\u00f3n
+        General de Comercio Internacional e Inversiones"},"ut":{"codigo_dir":"EA0018256","nombre":"Sg
+        de Oficialia Mayor y Administraci\u00f3n Financiera. Caja Pagadora"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":64464,"og":{"codigo_dir":"E00119809","nombre":"Direcci\u00f3n
+        General de Comercio Internacional e Inversiones"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67968,"og":{"codigo_dir":"E00119809","nombre":"Direcci\u00f3n
+        General de Comercio Internacional e Inversiones"},"ut":{"codigo_dir":"EA0011149","nombre":"Oficinas
+        Economicas y Comercio en el Exterior - Ofecomes"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":64442,"og":{"codigo_dir":"E00119809","nombre":"Direcci\u00f3n
+        General de Comercio Internacional e Inversiones"},"ut":{"codigo_dir":"EA0011149","nombre":"Oficinas
+        Economicas y Comercio en el Exterior - Ofecomes"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67947,"og":{"codigo_dir":"E00120008","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Comercial y Competitividad"},"ut":{"codigo_dir":"EA0010586","nombre":"S.G.
+        de Fomento y Modernizacion del Comercio Interior"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67948,"og":{"codigo_dir":"E00120008","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Comercial y Competitividad"},"ut":{"codigo_dir":"EA0018256","nombre":"Sg
+        de Oficialia Mayor y Administraci\u00f3n Financiera. Caja Pagadora"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67932,"og":{"codigo_dir":"E00120008","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Comercial y Competitividad"},"ut":{"codigo_dir":"EA0019171","nombre":"Unidad
+        de Apoyo de la Direcci\u00f3n General de Comercio Internacional e Inversiones"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":71509,"og":{"codigo_dir":"EA0038886","nombre":"Instituto
+        de Turismo de Espa\u00f1a"},"ut":{"codigo_dir":"EA0038890","nombre":"S.G.
+        de Conocimiento y Estudios Turisticos"},"oc":{"codigo_dir":"EA0038892","nombre":"S.G.
+        de Gestion Economico-Administrativa y Tecnologias de la Informacion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":71507,"og":{"codigo_dir":"EA0038886","nombre":"Instituto
+        de Turismo de Espa\u00f1a"},"ut":{"codigo_dir":"EA0038887","nombre":"D.G.
+        del Instituto de Turismo de Espa\u00f1a"},"oc":{"codigo_dir":"EA0038892","nombre":"S.G.
+        de Gestion Economico-Administrativa y Tecnologias de la Informacion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":71508,"og":{"codigo_dir":"EA0038886","nombre":"Instituto
+        de Turismo de Espa\u00f1a"},"ut":{"codigo_dir":"EA0038888","nombre":"Palacio
+        de Congresos - Madrid -"},"oc":{"codigo_dir":"EA0038892","nombre":"S.G. de
+        Gestion Economico-Administrativa y Tecnologias de la Informacion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":71510,"og":{"codigo_dir":"EA0038886","nombre":"Instituto
+        de Turismo de Espa\u00f1a"},"ut":{"codigo_dir":"EA0038892","nombre":"S.G.
+        de Gestion Economico-Administrativa y Tecnologias de la Informacion"},"oc":{"codigo_dir":"EA0038892","nombre":"S.G.
+        de Gestion Economico-Administrativa y Tecnologias de la Informacion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":70989,"og":{"codigo_dir":"EA0038829","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"ut":{"codigo_dir":"EA0038829","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"oc":{"codigo_dir":"EA0038829","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":71027,"og":{"codigo_dir":"EA0038829","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"ut":{"codigo_dir":"EA0038834","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0038829","nombre":"Oficina Espa\u00f1ola de
+        Patentes y Marcas, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67949,"og":{"codigo_dir":"E05030801","nombre":"Secretar\u00eda
+        de Estado de Comercio"},"ut":{"codigo_dir":"EA0018256","nombre":"Sg de Oficialia
+        Mayor y Administraci\u00f3n Financiera. Caja Pagadora"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":64479,"og":{"codigo_dir":"E05030801","nombre":"Secretar\u00eda
+        de Estado de Comercio"},"ut":{"codigo_dir":"E05031001","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67928,"og":{"codigo_dir":"E05030801","nombre":"Secretar\u00eda
+        de Estado de Comercio"},"ut":{"codigo_dir":"E05031001","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":65661,"og":{"codigo_dir":"E05030801","nombre":"Secretar\u00eda
+        de Estado de Comercio"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja Pagadora
+        de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":68001,"og":{"codigo_dir":"E05024301","nombre":"Ministerio
+        de Industria, Comercio y Turismo"},"ut":{"codigo_dir":"EA0018257","nombre":"Subdirecci\u00f3n
+        General de Tecnolog\u00edas de la Informaci\u00f3n y de las Comunicaciones"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":68023,"og":{"codigo_dir":"E05024301","nombre":"Ministerio
+        de Industria, Comercio y Turismo"},"ut":{"codigo_dir":"E05030901","nombre":"Secretar\u00eda
+        de Estado de Turismo"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina Contable.
+        I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":68025,"og":{"codigo_dir":"E05024301","nombre":"Ministerio
+        de Industria, Comercio y Turismo"},"ut":{"codigo_dir":"EA0018256","nombre":"Sg
+        de Oficialia Mayor y Administraci\u00f3n Financiera. Caja Pagadora"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":68026,"og":{"codigo_dir":"E05024301","nombre":"Ministerio
+        de Industria, Comercio y Turismo"},"ut":{"codigo_dir":"EA0018263","nombre":"Subdirecci\u00f3n
+        General de Desarrollo Normativo, Informes y Publicaciones"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":68024,"og":{"codigo_dir":"E05024301","nombre":"Ministerio
+        de Industria, Comercio y Turismo"},"ut":{"codigo_dir":"EA0018255","nombre":"Subdirecci\u00f3n
+        General de Oficial\u00eda Mayor y Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":68040,"og":{"codigo_dir":"E05024301","nombre":"Ministerio
+        de Industria, Comercio y Turismo"},"ut":{"codigo_dir":"EA0018260","nombre":"Subdirecci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n de Recursos Humanos"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:58 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024301/relaciones?administracion=E05024301&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:59 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"28","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:03:59 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024301/relaciones?administracion=E05024301&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:00 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":64442,"og":{"codigo_dir":"E00119809","nombre":"Direcci\u00f3n
+        General de Comercio Internacional e Inversiones"},"ut":{"codigo_dir":"EA0011149","nombre":"Oficinas
+        Economicas y Comercio en el Exterior - Ofecomes"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":64459,"og":{"codigo_dir":"E04934403","nombre":"Secretar\u00eda
+        General de Industria y de la Peque\u00f1a y Mediana Empresa"},"ut":{"codigo_dir":"E04934603","nombre":"Direcci\u00f3n
+        General de Industria y de la Peque\u00f1a y Mediana Empresa"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":64464,"og":{"codigo_dir":"E00119809","nombre":"Direcci\u00f3n
+        General de Comercio Internacional e Inversiones"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":64479,"og":{"codigo_dir":"E05030801","nombre":"Secretar\u00eda
+        de Estado de Comercio"},"ut":{"codigo_dir":"E05031001","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":65661,"og":{"codigo_dir":"E05030801","nombre":"Secretar\u00eda
+        de Estado de Comercio"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja Pagadora
+        de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67927,"og":{"codigo_dir":"E04934403","nombre":"Secretar\u00eda
+        General de Industria y de la Peque\u00f1a y Mediana Empresa"},"ut":{"codigo_dir":"E04934603","nombre":"Direcci\u00f3n
+        General de Industria y de la Peque\u00f1a y Mediana Empresa"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67928,"og":{"codigo_dir":"E05030801","nombre":"Secretar\u00eda
+        de Estado de Comercio"},"ut":{"codigo_dir":"E05031001","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67930,"og":{"codigo_dir":"E00119809","nombre":"Direcci\u00f3n
+        General de Comercio Internacional e Inversiones"},"ut":{"codigo_dir":"EA0018256","nombre":"Sg
+        de Oficialia Mayor y Administraci\u00f3n Financiera. Caja Pagadora"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67932,"og":{"codigo_dir":"E00120008","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Comercial y Competitividad"},"ut":{"codigo_dir":"EA0019171","nombre":"Unidad
+        de Apoyo de la Direcci\u00f3n General de Comercio Internacional e Inversiones"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67947,"og":{"codigo_dir":"E00120008","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Comercial y Competitividad"},"ut":{"codigo_dir":"EA0010586","nombre":"S.G.
+        de Fomento y Modernizacion del Comercio Interior"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67948,"og":{"codigo_dir":"E00120008","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Comercial y Competitividad"},"ut":{"codigo_dir":"EA0018256","nombre":"Sg
+        de Oficialia Mayor y Administraci\u00f3n Financiera. Caja Pagadora"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67949,"og":{"codigo_dir":"E05030801","nombre":"Secretar\u00eda
+        de Estado de Comercio"},"ut":{"codigo_dir":"EA0018256","nombre":"Sg de Oficialia
+        Mayor y Administraci\u00f3n Financiera. Caja Pagadora"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":67968,"og":{"codigo_dir":"E00119809","nombre":"Direcci\u00f3n
+        General de Comercio Internacional e Inversiones"},"ut":{"codigo_dir":"EA0011149","nombre":"Oficinas
+        Economicas y Comercio en el Exterior - Ofecomes"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":68001,"og":{"codigo_dir":"E05024301","nombre":"Ministerio
+        de Industria, Comercio y Turismo"},"ut":{"codigo_dir":"EA0018257","nombre":"Subdirecci\u00f3n
+        General de Tecnolog\u00edas de la Informaci\u00f3n y de las Comunicaciones"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":68023,"og":{"codigo_dir":"E05024301","nombre":"Ministerio
+        de Industria, Comercio y Turismo"},"ut":{"codigo_dir":"E05030901","nombre":"Secretar\u00eda
+        de Estado de Turismo"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina Contable.
+        I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":68024,"og":{"codigo_dir":"E05024301","nombre":"Ministerio
+        de Industria, Comercio y Turismo"},"ut":{"codigo_dir":"EA0018255","nombre":"Subdirecci\u00f3n
+        General de Oficial\u00eda Mayor y Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":68025,"og":{"codigo_dir":"E05024301","nombre":"Ministerio
+        de Industria, Comercio y Turismo"},"ut":{"codigo_dir":"EA0018256","nombre":"Sg
+        de Oficialia Mayor y Administraci\u00f3n Financiera. Caja Pagadora"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":68026,"og":{"codigo_dir":"E05024301","nombre":"Ministerio
+        de Industria, Comercio y Turismo"},"ut":{"codigo_dir":"EA0018263","nombre":"Subdirecci\u00f3n
+        General de Desarrollo Normativo, Informes y Publicaciones"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":68040,"og":{"codigo_dir":"E05024301","nombre":"Ministerio
+        de Industria, Comercio y Turismo"},"ut":{"codigo_dir":"EA0018260","nombre":"Subdirecci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n de Recursos Humanos"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":70989,"og":{"codigo_dir":"EA0038829","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"ut":{"codigo_dir":"EA0038829","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"oc":{"codigo_dir":"EA0038829","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":71027,"og":{"codigo_dir":"EA0038829","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"ut":{"codigo_dir":"EA0038834","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0038829","nombre":"Oficina Espa\u00f1ola de
+        Patentes y Marcas, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":71507,"og":{"codigo_dir":"EA0038886","nombre":"Instituto
+        de Turismo de Espa\u00f1a"},"ut":{"codigo_dir":"EA0038887","nombre":"D.G.
+        del Instituto de Turismo de Espa\u00f1a"},"oc":{"codigo_dir":"EA0038892","nombre":"S.G.
+        de Gestion Economico-Administrativa y Tecnologias de la Informacion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":71508,"og":{"codigo_dir":"EA0038886","nombre":"Instituto
+        de Turismo de Espa\u00f1a"},"ut":{"codigo_dir":"EA0038888","nombre":"Palacio
+        de Congresos - Madrid -"},"oc":{"codigo_dir":"EA0038892","nombre":"S.G. de
+        Gestion Economico-Administrativa y Tecnologias de la Informacion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":71509,"og":{"codigo_dir":"EA0038886","nombre":"Instituto
+        de Turismo de Espa\u00f1a"},"ut":{"codigo_dir":"EA0038890","nombre":"S.G.
+        de Conocimiento y Estudios Turisticos"},"oc":{"codigo_dir":"EA0038892","nombre":"S.G.
+        de Gestion Economico-Administrativa y Tecnologias de la Informacion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":71510,"og":{"codigo_dir":"EA0038886","nombre":"Instituto
+        de Turismo de Espa\u00f1a"},"ut":{"codigo_dir":"EA0038892","nombre":"S.G.
+        de Gestion Economico-Administrativa y Tecnologias de la Informacion"},"oc":{"codigo_dir":"EA0038892","nombre":"S.G.
+        de Gestion Economico-Administrativa y Tecnologias de la Informacion"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:00 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024301/relaciones?administracion=E05024301&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:00 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Industria,
+        Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":71511,"og":{"codigo_dir":"EA0038886","nombre":"Instituto
+        de Turismo de Espa\u00f1a"},"ut":{"codigo_dir":"EA0038893","nombre":"S.G.
+        de Marketing Exterior del Turismo"},"oc":{"codigo_dir":"EA0038892","nombre":"S.G.
+        de Gestion Economico-Administrativa y Tecnologias de la Informacion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":71527,"og":{"codigo_dir":"EA0038886","nombre":"Instituto
+        de Turismo de Espa\u00f1a"},"ut":{"codigo_dir":"EA0038891","nombre":"S.G.
+        de Estrategia y Servicios al Sector Turistico"},"oc":{"codigo_dir":"EA0038892","nombre":"S.G.
+        de Gestion Economico-Administrativa y Tecnologias de la Informacion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Industria, Comercio y Turismo","codigo_dir":"E05024301","cifs":[]},"id":85507,"og":{"codigo_dir":"E04934403","nombre":"Secretar\u00eda
+        General de Industria y de la Peque\u00f1a y Mediana Empresa"},"ut":{"codigo_dir":"E04934403","nombre":"Secretar\u00eda
+        General de Industria y de la Peque\u00f1a y Mediana Empresa"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:00 GMT
+recorded_with: VCR 6.0.0

@@ -1,0 +1,465 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990201/relaciones?administracion=E04990201&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:11 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Energ\u00eda,
+        Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":52214,"og":{"codigo_dir":"EA0011408","nombre":"Sociedad
+        Mercantil Estatal para la Gesti\u00f3n de la Innovaci\u00f3n y las Tecnolog\u00edas
+        Tur\u00edsticas, S.A.M.P."},"ut":{"codigo_dir":"EA0011408","nombre":"Sociedad
+        Mercantil Estatal para la Gesti\u00f3n de la Innovaci\u00f3n y las Tecnolog\u00edas
+        Tur\u00edsticas, S.A.M.P."},"oc":{"codigo_dir":"EA0011408","nombre":"Sociedad
+        Mercantil Estatal para la Gesti\u00f3n de la Innovaci\u00f3n y las Tecnolog\u00edas
+        Tur\u00edsticas, S.A.M.P."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57702,"og":{"codigo_dir":"E00119405","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Energ\u00e9tica y Minas"},"ut":{"codigo_dir":"E00119405","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Energ\u00e9tica y Minas"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57703,"og":{"codigo_dir":"E04990201","nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital"},"ut":{"codigo_dir":"E04992201","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57704,"og":{"codigo_dir":"E04992001","nombre":"Secretar\u00eda
+        de Estado para el Avance Digital"},"ut":{"codigo_dir":"EA0018189","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n y Ejecuci\u00f3n de Programas"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57705,"og":{"codigo_dir":"E04990201","nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital"},"ut":{"codigo_dir":"EA0018255","nombre":"Subdirecci\u00f3n
+        General de Oficial\u00eda Mayor y Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57722,"og":{"codigo_dir":"E04990201","nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital"},"ut":{"codigo_dir":"E04992101","nombre":"S.
+        de E. de Turismo"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina Contable.
+        I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57723,"og":{"codigo_dir":"E04796204","nombre":"Direcci\u00f3n
+        General de Telecomunicaciones y Tecnolog\u00edas de la Informaci\u00f3n"},"ut":{"codigo_dir":"EA0018189","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n y Ejecuci\u00f3n de Programas"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57724,"og":{"codigo_dir":"E04990201","nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital"},"ut":{"codigo_dir":"EA0018256","nombre":"Sg
+        de Oficialia Mayor y Administraci\u00f3n Financiera. Caja Pagadora"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57725,"og":{"codigo_dir":"E04990201","nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital"},"ut":{"codigo_dir":"EA0018257","nombre":"Subdirecci\u00f3n
+        General de Tecnolog\u00edas de la Informaci\u00f3n y de las Comunicaciones"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57726,"og":{"codigo_dir":"EA0018263","nombre":"Subdirecci\u00f3n
+        General de Desarrollo Normativo, Informes y Publicaciones"},"ut":{"codigo_dir":"EA0018263","nombre":"Subdirecci\u00f3n
+        General de Desarrollo Normativo, Informes y Publicaciones"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57744,"og":{"codigo_dir":"E04990201","nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital"},"ut":{"codigo_dir":"EA0018260","nombre":"Subdirecci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n de Recursos Humanos"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57763,"og":{"codigo_dir":"E04991901","nombre":"S.
+        de E. de Energ\u00eda"},"ut":{"codigo_dir":"E04991901","nombre":"S. de E.
+        de Energ\u00eda"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina Contable.
+        I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57764,"og":{"codigo_dir":"EA0018263","nombre":"Subdirecci\u00f3n
+        General de Desarrollo Normativo, Informes y Publicaciones"},"ut":{"codigo_dir":"E04997101","nombre":"Subsecretar\u00eda
+        de Energ\u00eda, Turismo y Agenda Digital"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57765,"og":{"codigo_dir":"E04990201","nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital"},"ut":{"codigo_dir":"EA0018263","nombre":"Subdirecci\u00f3n
+        General de Desarrollo Normativo, Informes y Publicaciones"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":58958,"og":{"codigo_dir":"EA0018164","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"ut":{"codigo_dir":"EA0018169","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0018164","nombre":"Oficina Espa\u00f1ola de
+        Patentes y Marcas, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":58995,"og":{"codigo_dir":"EA0018164","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"ut":{"codigo_dir":"EA0018164","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"oc":{"codigo_dir":"EA0018164","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59168,"og":{"codigo_dir":"EA0018164","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"ut":{"codigo_dir":"EA0018164","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59715,"og":{"codigo_dir":"EA0018308","nombre":"Direccion
+        Tecnica de Proteccion Radiologica"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59716,"og":{"codigo_dir":"EA0018309","nombre":"Gabinete"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59717,"og":{"codigo_dir":"EA0018313","nombre":"Direccion
+        Tecnica de Seguridad Nuclear"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59718,"og":{"codigo_dir":"EA0018314","nombre":"Gabinete"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59719,"og":{"codigo_dir":"EA0018315","nombre":"Subdireccion
+        de Ingenieria"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59720,"og":{"codigo_dir":"EA0018319","nombre":"Gabinete
+        Tecnico"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59721,"og":{"codigo_dir":"EA0018321","nombre":"Secretaria
+        del Consejo"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59722,"og":{"codigo_dir":"EA0018322","nombre":"Secretaria
+        del Consejo"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion de
+        Personal y Administracion"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:11 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990201/relaciones?administracion=E04990201&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:11 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"46","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:02:11 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990201/relaciones?administracion=E04990201&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:12 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Energ\u00eda,
+        Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57744,"og":{"codigo_dir":"E04990201","nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital"},"ut":{"codigo_dir":"EA0018260","nombre":"Subdirecci\u00f3n
+        General de Planificaci\u00f3n y Gesti\u00f3n de Recursos Humanos"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57725,"og":{"codigo_dir":"E04990201","nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital"},"ut":{"codigo_dir":"EA0018257","nombre":"Subdirecci\u00f3n
+        General de Tecnolog\u00edas de la Informaci\u00f3n y de las Comunicaciones"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57722,"og":{"codigo_dir":"E04990201","nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital"},"ut":{"codigo_dir":"E04992101","nombre":"S.
+        de E. de Turismo"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina Contable.
+        I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57724,"og":{"codigo_dir":"E04990201","nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital"},"ut":{"codigo_dir":"EA0018256","nombre":"Sg
+        de Oficialia Mayor y Administraci\u00f3n Financiera. Caja Pagadora"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57705,"og":{"codigo_dir":"E04990201","nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital"},"ut":{"codigo_dir":"EA0018255","nombre":"Subdirecci\u00f3n
+        General de Oficial\u00eda Mayor y Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57703,"og":{"codigo_dir":"E04990201","nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital"},"ut":{"codigo_dir":"E04992201","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57765,"og":{"codigo_dir":"E04990201","nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital"},"ut":{"codigo_dir":"EA0018263","nombre":"Subdirecci\u00f3n
+        General de Desarrollo Normativo, Informes y Publicaciones"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57763,"og":{"codigo_dir":"E04991901","nombre":"S.
+        de E. de Energ\u00eda"},"ut":{"codigo_dir":"E04991901","nombre":"S. de E.
+        de Energ\u00eda"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina Contable.
+        I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57704,"og":{"codigo_dir":"E04992001","nombre":"Secretar\u00eda
+        de Estado para el Avance Digital"},"ut":{"codigo_dir":"EA0018189","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n y Ejecuci\u00f3n de Programas"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57702,"og":{"codigo_dir":"E00119405","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Energ\u00e9tica y Minas"},"ut":{"codigo_dir":"E00119405","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Energ\u00e9tica y Minas"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57723,"og":{"codigo_dir":"E04796204","nombre":"Direcci\u00f3n
+        General de Telecomunicaciones y Tecnolog\u00edas de la Informaci\u00f3n"},"ut":{"codigo_dir":"EA0018189","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n y Ejecuci\u00f3n de Programas"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":58995,"og":{"codigo_dir":"EA0018164","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"ut":{"codigo_dir":"EA0018164","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"oc":{"codigo_dir":"EA0018164","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":58958,"og":{"codigo_dir":"EA0018164","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"ut":{"codigo_dir":"EA0018169","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0018164","nombre":"Oficina Espa\u00f1ola de
+        Patentes y Marcas, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59168,"og":{"codigo_dir":"EA0018164","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"ut":{"codigo_dir":"EA0018164","nombre":"Oficina
+        Espa\u00f1ola de Patentes y Marcas, O.A."},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59721,"og":{"codigo_dir":"EA0018321","nombre":"Secretaria
+        del Consejo"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59715,"og":{"codigo_dir":"EA0018308","nombre":"Direccion
+        Tecnica de Proteccion Radiologica"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59717,"og":{"codigo_dir":"EA0018313","nombre":"Direccion
+        Tecnica de Seguridad Nuclear"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59716,"og":{"codigo_dir":"EA0018309","nombre":"Gabinete"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59718,"og":{"codigo_dir":"EA0018314","nombre":"Gabinete"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59720,"og":{"codigo_dir":"EA0018319","nombre":"Gabinete
+        Tecnico"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59722,"og":{"codigo_dir":"EA0018322","nombre":"Secretaria
+        del Consejo"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59719,"og":{"codigo_dir":"EA0018315","nombre":"Subdireccion
+        de Ingenieria"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57726,"og":{"codigo_dir":"EA0018263","nombre":"Subdirecci\u00f3n
+        General de Desarrollo Normativo, Informes y Publicaciones"},"ut":{"codigo_dir":"EA0018263","nombre":"Subdirecci\u00f3n
+        General de Desarrollo Normativo, Informes y Publicaciones"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":57764,"og":{"codigo_dir":"EA0018263","nombre":"Subdirecci\u00f3n
+        General de Desarrollo Normativo, Informes y Publicaciones"},"ut":{"codigo_dir":"E04997101","nombre":"Subsecretar\u00eda
+        de Energ\u00eda, Turismo y Agenda Digital"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":52214,"og":{"codigo_dir":"EA0011408","nombre":"Sociedad
+        Mercantil Estatal para la Gesti\u00f3n de la Innovaci\u00f3n y las Tecnolog\u00edas
+        Tur\u00edsticas, S.A.M.P."},"ut":{"codigo_dir":"EA0011408","nombre":"Sociedad
+        Mercantil Estatal para la Gesti\u00f3n de la Innovaci\u00f3n y las Tecnolog\u00edas
+        Tur\u00edsticas, S.A.M.P."},"oc":{"codigo_dir":"EA0011408","nombre":"Sociedad
+        Mercantil Estatal para la Gesti\u00f3n de la Innovaci\u00f3n y las Tecnolog\u00edas
+        Tur\u00edsticas, S.A.M.P."}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:12 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990201/relaciones?administracion=E04990201&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:13 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Energ\u00eda,
+        Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":67134,"og":{"codigo_dir":"E04991901","nombre":"S.
+        de E. de Energ\u00eda"},"ut":{"codigo_dir":"E04991901","nombre":"S. de E.
+        de Energ\u00eda"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":67088,"og":{"codigo_dir":"E04992001","nombre":"Secretar\u00eda
+        de Estado para el Avance Digital"},"ut":{"codigo_dir":"EA0018189","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n y Ejecuci\u00f3n de Programas"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Energ\u00eda,
+        Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":67107,"og":{"codigo_dir":"E00119405","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Energ\u00e9tica y Minas"},"ut":{"codigo_dir":"E00119405","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Energ\u00e9tica y Minas"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":67106,"og":{"codigo_dir":"E04796204","nombre":"Direcci\u00f3n
+        General de Telecomunicaciones y Tecnolog\u00edas de la Informaci\u00f3n"},"ut":{"codigo_dir":"EA0018189","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n y Ejecuci\u00f3n de Programas"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Energ\u00eda,
+        Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59756,"og":{"codigo_dir":"EA0018318","nombre":"Presidencia
+        del Consejo de Seguridad Nuclear"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59738,"og":{"codigo_dir":"EA0018323","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59739,"og":{"codigo_dir":"EA0018324","nombre":"Gabinete"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59737,"og":{"codigo_dir":"EA0018320","nombre":"Secretaria"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59758,"og":{"codigo_dir":"EA0018329","nombre":"Unidad
+        de Inspeccion"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59774,"og":{"codigo_dir":"EA0018330","nombre":"Unidad
+        de Investigacion y Gestion del Conocimiento"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59724,"og":{"codigo_dir":"EA0018331","nombre":"Unidad
+        de Planificacion , Evaluacion y Calidad"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59723,"og":{"codigo_dir":"EA0018326","nombre":"Subdireccion
+        de Asesoria Juridica"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59734,"og":{"codigo_dir":"EA0018310","nombre":"Subdireccion
+        de Emergencias y Proteccion Fisica"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59755,"og":{"codigo_dir":"EA0018316","nombre":"Subdireccion
+        de Instalaciones Nucleares"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":68228,"og":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59740,"og":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59754,"og":{"codigo_dir":"EA0018311","nombre":"Subdireccion
+        de Proteccion Radiologia Ambiental"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59735,"og":{"codigo_dir":"EA0018312","nombre":"Subdireccion
+        de Proteccion Radiologia Operacional"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59736,"og":{"codigo_dir":"EA0018317","nombre":"Subdireccion
+        de Tecnologia Nuclear"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":59757,"og":{"codigo_dir":"EA0018328","nombre":"Subdireccion
+        de Tecnologias de la Informacion"},"ut":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0018327","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Energ\u00eda, Turismo y Agenda Digital","codigo_dir":"E04990201","cifs":[]},"id":68039,"og":{"codigo_dir":"EA0018263","nombre":"Subdirecci\u00f3n
+        General de Desarrollo Normativo, Informes y Publicaciones"},"ut":{"codigo_dir":"E05034701","nombre":"Subsecretar\u00eda
+        de Industria, Comercio y Turismo"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:13 GMT
+recorded_with: VCR 6.0.0

@@ -1,0 +1,707 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05070401/relaciones?administracion=E05070401&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:45 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86344,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043104","nombre":"Unidad EA0043104"},"oc":{"codigo_dir":"EA0042250","nombre":"Unidad
+        EA0042250"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86345,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043097","nombre":"Unidad EA0043097"},"oc":{"codigo_dir":"EA0042240","nombre":"Unidad
+        EA0042240"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86346,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043114","nombre":"Unidad EA0043114"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86347,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043118","nombre":"Unidad EA0043118"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86348,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043122","nombre":"Unidad EA0043122"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86349,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043121","nombre":"Unidad EA0043121"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86350,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043120","nombre":"Unidad EA0043120"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86351,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043100","nombre":"Unidad EA0043100"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86352,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043098","nombre":"Unidad EA0043098"},"oc":{"codigo_dir":"EA0042241","nombre":"Unidad
+        EA0042241"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86353,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043102","nombre":"Unidad EA0043102"},"oc":{"codigo_dir":"EA0042252","nombre":"Unidad
+        EA0042252"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86354,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043099","nombre":"Unidad EA0043099"},"oc":{"codigo_dir":"EA0042267","nombre":"Unidad
+        EA0042267"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86355,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043101","nombre":"Unidad EA0043101"},"oc":{"codigo_dir":"EA0042280","nombre":"Unidad
+        EA0042280"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86356,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043115","nombre":"Unidad EA0043115"},"oc":{"codigo_dir":"EA0042255","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Ceuta"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86357,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043116","nombre":"Unidad EA0043116"},"oc":{"codigo_dir":"EA0042274","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86358,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043111","nombre":"Unidad EA0043111"},"oc":{"codigo_dir":"EA0042274","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86359,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043113","nombre":"Unidad EA0043113"},"oc":{"codigo_dir":"EA0042274","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86360,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043112","nombre":"Unidad EA0043112"},"oc":{"codigo_dir":"EA0042255","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Ceuta"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86361,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043109","nombre":"Unidad EA0043109"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86362,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043095","nombre":"Unidad EA0043095"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86363,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043092","nombre":"Unidad EA0043092"},"oc":{"codigo_dir":"EA0042251","nombre":"Unidad
+        EA0042251"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86364,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043096","nombre":"Unidad EA0043096"},"oc":{"codigo_dir":"EA0042257","nombre":"Unidad
+        EA0042257"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86365,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043093","nombre":"Unidad EA0043093"},"oc":{"codigo_dir":"EA0042240","nombre":"Unidad
+        EA0042240"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86366,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043094","nombre":"Unidad EA0043094"},"oc":{"codigo_dir":"EA0042262","nombre":"Unidad
+        EA0042262"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86367,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043089","nombre":"Unidad EA0043089"},"oc":{"codigo_dir":"EA0042269","nombre":"Unidad
+        EA0042269"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86368,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043103","nombre":"Unidad EA0043103"},"oc":{"codigo_dir":"EA0042280","nombre":"Unidad
+        EA0042280"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:45 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05070401/relaciones?administracion=E05070401&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:46 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"99","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:05:46 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05070401/relaciones?administracion=E05070401&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:47 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86344,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043104","nombre":"Unidad EA0043104"},"oc":{"codigo_dir":"EA0042250","nombre":"Unidad
+        EA0042250"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86345,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043097","nombre":"Unidad EA0043097"},"oc":{"codigo_dir":"EA0042240","nombre":"Unidad
+        EA0042240"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86346,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043114","nombre":"Unidad EA0043114"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86347,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043118","nombre":"Unidad EA0043118"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86348,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043122","nombre":"Unidad EA0043122"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86349,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043121","nombre":"Unidad EA0043121"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86350,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043120","nombre":"Unidad EA0043120"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86351,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043100","nombre":"Unidad EA0043100"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86352,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043098","nombre":"Unidad EA0043098"},"oc":{"codigo_dir":"EA0042241","nombre":"Unidad
+        EA0042241"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86353,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043102","nombre":"Unidad EA0043102"},"oc":{"codigo_dir":"EA0042252","nombre":"Unidad
+        EA0042252"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86354,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043099","nombre":"Unidad EA0043099"},"oc":{"codigo_dir":"EA0042267","nombre":"Unidad
+        EA0042267"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86355,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043101","nombre":"Unidad EA0043101"},"oc":{"codigo_dir":"EA0042280","nombre":"Unidad
+        EA0042280"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86356,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043115","nombre":"Unidad EA0043115"},"oc":{"codigo_dir":"EA0042255","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Ceuta"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86357,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043116","nombre":"Unidad EA0043116"},"oc":{"codigo_dir":"EA0042274","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86358,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043111","nombre":"Unidad EA0043111"},"oc":{"codigo_dir":"EA0042274","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86359,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043113","nombre":"Unidad EA0043113"},"oc":{"codigo_dir":"EA0042274","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Melilla"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86360,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043112","nombre":"Unidad EA0043112"},"oc":{"codigo_dir":"EA0042255","nombre":"Intervenci\u00f3n
+        Delegada Territorial de Ceuta"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86361,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043109","nombre":"Unidad EA0043109"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86362,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043095","nombre":"Unidad EA0043095"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86363,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043092","nombre":"Unidad EA0043092"},"oc":{"codigo_dir":"EA0042251","nombre":"Unidad
+        EA0042251"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86364,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043096","nombre":"Unidad EA0043096"},"oc":{"codigo_dir":"EA0042257","nombre":"Unidad
+        EA0042257"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86365,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043093","nombre":"Unidad EA0043093"},"oc":{"codigo_dir":"EA0042240","nombre":"Unidad
+        EA0042240"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86366,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043094","nombre":"Unidad EA0043094"},"oc":{"codigo_dir":"EA0042262","nombre":"Unidad
+        EA0042262"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86367,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043089","nombre":"Unidad EA0043089"},"oc":{"codigo_dir":"EA0042269","nombre":"Unidad
+        EA0042269"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86368,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043103","nombre":"Unidad EA0043103"},"oc":{"codigo_dir":"EA0042280","nombre":"Unidad
+        EA0042280"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:47 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05070401/relaciones?administracion=E05070401&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:48 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94396,"og":{"codigo_dir":"EA0042670","nombre":"Subdirecci\u00f3n
+        General de Normativa y Relaciones Internacionales"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94411,"og":{"codigo_dir":"E05070401","nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94390,"og":{"codigo_dir":"E05070601","nombre":"Secretar\u00eda
+        del Vicepresidente Segundo del Gobierno"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94391,"og":{"codigo_dir":"E05070801","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94404,"og":{"codigo_dir":"E05071101","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94392,"og":{"codigo_dir":"E05070901","nombre":"Secretar\u00eda
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94405,"og":{"codigo_dir":"E05071201","nombre":"Secretar\u00eda
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94406,"og":{"codigo_dir":"E05074901","nombre":"Subsecretar\u00eda
+        de Derechos Sociales y Agenda 2030"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94393,"og":{"codigo_dir":"E05074901","nombre":"Subsecretar\u00eda
+        de Derechos Sociales y Agenda 2030"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94403,"og":{"codigo_dir":"E04938703","nombre":"Secretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94389,"og":{"codigo_dir":"E05051302","nombre":"Direcci\u00f3n
+        General de Pol\u00edticas de Discapacidad"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94394,"og":{"codigo_dir":"E05079401","nombre":"Direcci\u00f3n
+        General de Derechos de la Infancia y de la Adolescencia"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94395,"og":{"codigo_dir":"E05080001","nombre":"Direcci\u00f3n
+        General de Derechos de los Animales"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94402,"og":{"codigo_dir":"EA0042714","nombre":"Subdirecci\u00f3n
+        General de An\u00e1lisis y Estudios para la Agenda 2030"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86369,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043108","nombre":"Unidad EA0043108"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86370,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043105","nombre":"Unidad EA0043105"},"oc":{"codigo_dir":"EA0042269","nombre":"Unidad
+        EA0042269"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86371,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043106","nombre":"Unidad EA0043106"},"oc":{"codigo_dir":"EA0042288","nombre":"Unidad
+        EA0042288"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86372,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043110","nombre":"Unidad EA0043110"},"oc":{"codigo_dir":"EA0042284","nombre":"Unidad
+        EA0042284"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86373,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043117","nombre":"Unidad EA0043117"},"oc":{"codigo_dir":"EA0042235","nombre":"Unidad
+        EA0042235"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":86374,"og":{"codigo_dir":"EA0043088","nombre":"Unidad
+        EA0043088"},"ut":{"codigo_dir":"EA0043107","nombre":"Unidad EA0043107"},"oc":{"codigo_dir":"EA0042245","nombre":"Unidad
+        EA0042245"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94400,"og":{"codigo_dir":"EA0042710","nombre":"Subdirecci\u00f3n
+        General de Pol\u00edticas de Infancia y Adolescencia"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94401,"og":{"codigo_dir":"EA0042711","nombre":"Subdirecci\u00f3n
+        General de Programas Sociales"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94397,"og":{"codigo_dir":"EA0042677","nombre":"Subdirecci\u00f3n
+        General de Recursos, Relaciones con los Tribunales y Atenci\u00f3n a la Ciudadan\u00eda"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94398,"og":{"codigo_dir":"EA0042680","nombre":"Subdirecci\u00f3n
+        General de Oficial\u00eda Mayor"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94399,"og":{"codigo_dir":"EA0042709","nombre":"Oficina
+        de Atenci\u00f3n a la Discapacidad"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:48 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05070401/relaciones?administracion=E05070401&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:49 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94412,"og":{"codigo_dir":"E05070501","nombre":"Gabinete
+        del Vicepresidente Segundo del Gobierno"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94413,"og":{"codigo_dir":"E05070701","nombre":"Secretar\u00eda
+        de Estado de Derechos Sociales"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94414,"og":{"codigo_dir":"E05071001","nombre":"Secretar\u00eda
+        de Estado para la Agenda 2030"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94415,"og":{"codigo_dir":"E05071201","nombre":"Secretar\u00eda
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94416,"og":{"codigo_dir":"E05075001","nombre":"Secretar\u00eda
+        del Subsecretario"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94417,"og":{"codigo_dir":"E05079601","nombre":"Direcci\u00f3n
+        General de Diversidad Familiar y Servicios Sociales"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94418,"og":{"codigo_dir":"EA0042665","nombre":"Vicesecretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94419,"og":{"codigo_dir":"EA0042681","nombre":"Divisi\u00f3n
+        de Tecnolog\u00edas de la Informaci\u00f3n y Comunicaciones"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94420,"og":{"codigo_dir":"EA0042707","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n y Ordenaci\u00f3n"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94421,"og":{"codigo_dir":"EA0045007","nombre":"Director
+        Adjunto Gabinete de la Vicepresidencia"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94422,"og":{"codigo_dir":"E05070401","nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94423,"og":{"codigo_dir":"E05070901","nombre":"Secretar\u00eda
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94424,"og":{"codigo_dir":"E05079401","nombre":"Direcci\u00f3n
+        General de Derechos de la Infancia y de la Adolescencia"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94425,"og":{"codigo_dir":"E05079601","nombre":"Direcci\u00f3n
+        General de Diversidad Familiar y Servicios Sociales"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94426,"og":{"codigo_dir":"EA0042665","nombre":"Vicesecretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94427,"og":{"codigo_dir":"E04938703","nombre":"Secretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94428,"og":{"codigo_dir":"EA0042712","nombre":"Subdirecci\u00f3n
+        General del Tercer Sector y Voluntariado"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94429,"og":{"codigo_dir":"E05051302","nombre":"Direcci\u00f3n
+        General de Pol\u00edticas de Discapacidad"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94430,"og":{"codigo_dir":"E05070501","nombre":"Gabinete
+        del Vicepresidente Segundo del Gobierno"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94431,"og":{"codigo_dir":"E05070601","nombre":"Secretar\u00eda
+        del Vicepresidente Segundo del Gobierno"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94432,"og":{"codigo_dir":"E05070701","nombre":"Secretar\u00eda
+        de Estado de Derechos Sociales"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94433,"og":{"codigo_dir":"E05075001","nombre":"Secretar\u00eda
+        del Subsecretario"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94434,"og":{"codigo_dir":"EA0042677","nombre":"Subdirecci\u00f3n
+        General de Recursos, Relaciones con los Tribunales y Atenci\u00f3n a la Ciudadan\u00eda"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94435,"og":{"codigo_dir":"EA0042682","nombre":"Gabinete
+        T\u00e9cnico"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94447,"og":{"codigo_dir":"E05071101","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:49 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05070401/relaciones?administracion=E05070401&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:49 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Derechos
+        Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94457,"og":{"codigo_dir":"EA0042670","nombre":"Subdirecci\u00f3n
+        General de Normativa y Relaciones Internacionales"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94455,"og":{"codigo_dir":"E05071001","nombre":"Secretar\u00eda
+        de Estado para la Agenda 2030"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94454,"og":{"codigo_dir":"E05070801","nombre":"Gabinete
+        del Secretario de Estado"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94460,"og":{"codigo_dir":"EA0045007","nombre":"Director
+        Adjunto Gabinete de la Vicepresidencia"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94467,"og":{"codigo_dir":"E05079801","nombre":"Direcci\u00f3n
+        General de Pol\u00edticas Palanca para el Cumplimiento de la Agenda 2030"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94448,"og":{"codigo_dir":"E05079801","nombre":"Direcci\u00f3n
+        General de Pol\u00edticas Palanca para el Cumplimiento de la Agenda 2030"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94456,"og":{"codigo_dir":"E05080001","nombre":"Direcci\u00f3n
+        General de Derechos de los Animales"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94492,"og":{"codigo_dir":"EA0042714","nombre":"Subdirecci\u00f3n
+        General de An\u00e1lisis y Estudios para la Agenda 2030"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94453,"og":{"codigo_dir":"EA0042713","nombre":"Subdirecci\u00f3n
+        General de Diversidad Familiar"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94459,"og":{"codigo_dir":"EA0042713","nombre":"Subdirecci\u00f3n
+        General de Diversidad Familiar"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94458,"og":{"codigo_dir":"EA0042707","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n y Ordenaci\u00f3n"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94489,"og":{"codigo_dir":"EA0042708","nombre":"Subdirecci\u00f3n
+        General de Di\u00e1logo Civil"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94452,"og":{"codigo_dir":"EA0042708","nombre":"Subdirecci\u00f3n
+        General de Di\u00e1logo Civil"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94490,"og":{"codigo_dir":"EA0042710","nombre":"Subdirecci\u00f3n
+        General de Pol\u00edticas de Infancia y Adolescencia"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94491,"og":{"codigo_dir":"EA0042711","nombre":"Subdirecci\u00f3n
+        General de Programas Sociales"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94471,"og":{"codigo_dir":"EA0042712","nombre":"Subdirecci\u00f3n
+        General del Tercer Sector y Voluntariado"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94469,"og":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94450,"og":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94487,"og":{"codigo_dir":"EA0042680","nombre":"Subdirecci\u00f3n
+        General de Oficial\u00eda Mayor"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94468,"og":{"codigo_dir":"EA0042678","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos y de Inspecci\u00f3n de Servicios"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94449,"og":{"codigo_dir":"EA0042678","nombre":"Subdirecci\u00f3n
+        General de Recursos Humanos y de Inspecci\u00f3n de Servicios"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94488,"og":{"codigo_dir":"EA0042681","nombre":"Divisi\u00f3n
+        de Tecnolog\u00edas de la Informaci\u00f3n y Comunicaciones"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94470,"og":{"codigo_dir":"EA0042709","nombre":"Oficina
+        de Atenci\u00f3n a la Discapacidad"},"ut":{"codigo_dir":"GE0017419","nombre":"Habilitaci\u00f3n
+        Caja"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina Contable. I.D. Ministerio
+        de Derechos Sociales y Agenda 2030"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Derechos Sociales y Agenda 2030","codigo_dir":"E05070401","cifs":[]},"id":94451,"og":{"codigo_dir":"EA0042682","nombre":"Gabinete
+        T\u00e9cnico"},"ut":{"codigo_dir":"EA0042679","nombre":"Subdirecci\u00f3n
+        General de la Oficina Presupuestaria y Gesti\u00f3n Econ\u00f3mica"},"oc":{"codigo_dir":"GE0017500","nombre":"Oficina
+        Contable. I.D. Ministerio de Derechos Sociales y Agenda 2030"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:49 GMT
+recorded_with: VCR 6.0.0

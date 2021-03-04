@@ -1,0 +1,410 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072201/relaciones?administracion=E05072201&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:07 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Consumo","codigo_dir":"E05072201","cifs":[]},"id":66402,"og":{"codigo_dir":"GE0015318","nombre":"Agencia
+        Espa\u00f1ola de Seguridad Alimentaria y Nutrici\u00f3n-\u00d3rgano Gestor"},"ut":{"codigo_dir":"GE0001591","nombre":"Contrataci\u00f3n
+        Laboratorios"},"oc":{"codigo_dir":"GE0015319","nombre":"Secretar\u00eda General-Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Consumo","codigo_dir":"E05072201","cifs":[]},"id":66403,"og":{"codigo_dir":"GE0015318","nombre":"Agencia
+        Espa\u00f1ola de Seguridad Alimentaria y Nutrici\u00f3n-\u00d3rgano Gestor"},"ut":{"codigo_dir":"GE0015314","nombre":"Caja
+        Fija"},"oc":{"codigo_dir":"GE0015319","nombre":"Secretar\u00eda General-Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Consumo","codigo_dir":"E05072201","cifs":[]},"id":66404,"og":{"codigo_dir":"GE0015318","nombre":"Agencia
+        Espa\u00f1ola de Seguridad Alimentaria y Nutrici\u00f3n-\u00d3rgano Gestor"},"ut":{"codigo_dir":"GE0015316","nombre":"Contrataci\u00f3n
+        R\u00e9gimen Interior"},"oc":{"codigo_dir":"GE0015319","nombre":"Secretar\u00eda
+        General-Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":66421,"og":{"codigo_dir":"GE0015318","nombre":"Agencia
+        Espa\u00f1ola de Seguridad Alimentaria y Nutrici\u00f3n-\u00d3rgano Gestor"},"ut":{"codigo_dir":"GE0015315","nombre":"Gesti\u00f3n
+        Econ\u00f3mica (Contrataci\u00f3n)"},"oc":{"codigo_dir":"GE0015319","nombre":"Secretar\u00eda
+        General-Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":66422,"og":{"codigo_dir":"GE0015318","nombre":"Agencia
+        Espa\u00f1ola de Seguridad Alimentaria y Nutrici\u00f3n-\u00d3rgano Gestor"},"ut":{"codigo_dir":"GE0015320","nombre":"Contrataci\u00f3n"},"oc":{"codigo_dir":"GE0015319","nombre":"Secretar\u00eda
+        General-Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":66441,"og":{"codigo_dir":"GE0015318","nombre":"Agencia
+        Espa\u00f1ola de Seguridad Alimentaria y Nutrici\u00f3n-\u00d3rgano Gestor"},"ut":{"codigo_dir":"GE0015317","nombre":"Contrataci\u00f3n
+        Cap\u00edtulo 1"},"oc":{"codigo_dir":"GE0015319","nombre":"Secretar\u00eda
+        General-Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":68387,"og":{"codigo_dir":"GE0015318","nombre":"Agencia
+        Espa\u00f1ola de Seguridad Alimentaria y Nutrici\u00f3n-\u00d3rgano Gestor"},"ut":{"codigo_dir":"GE0015316","nombre":"Contrataci\u00f3n
+        R\u00e9gimen Interior"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93888,"og":{"codigo_dir":"EA0043140","nombre":"Subdirecci\u00f3n
+        General de Regulaci\u00f3n del Juego"},"ut":{"codigo_dir":"E04912605","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n del Juego"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93889,"og":{"codigo_dir":"EA0043145","nombre":"Divisi\u00f3n
+        de Tecnolog\u00edas y Servicios de la Informaci\u00f3n"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93890,"og":{"codigo_dir":"E05081801","nombre":"Secretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"GE0017621","nombre":"Ministerio
+        de Consumo - Tramitaci\u00f3n Expedientes"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93891,"og":{"codigo_dir":"EA0043143","nombre":"Subdirecci\u00f3n
+        General de Personal, Inspecci\u00f3n de Servicios y Coordinaci\u00f3n"},"ut":{"codigo_dir":"GE0017621","nombre":"Ministerio
+        de Consumo - Tramitaci\u00f3n Expedientes"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93909,"og":{"codigo_dir":"EA0043136","nombre":"Centro
+        de Investigaci\u00f3n y Control de la Calidad"},"ut":{"codigo_dir":"E05051502","nombre":"Direcci\u00f3n
+        General de Consumo"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina Contable.
+        I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93910,"og":{"codigo_dir":"EA0043137","nombre":"Subdirecci\u00f3n
+        General de Arbitraje y Derechos del Consumidor"},"ut":{"codigo_dir":"E05051502","nombre":"Direcci\u00f3n
+        General de Consumo"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina Contable.
+        I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93911,"og":{"codigo_dir":"E04912605","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n del Juego"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93912,"og":{"codigo_dir":"E05075501","nombre":"Subsecretar\u00eda
+        de Consumo"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio de Consumo
+        - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93913,"og":{"codigo_dir":"E05081801","nombre":"Secretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93914,"og":{"codigo_dir":"EA0043140","nombre":"Subdirecci\u00f3n
+        General de Regulaci\u00f3n del Juego"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93915,"og":{"codigo_dir":"EA0043143","nombre":"Subdirecci\u00f3n
+        General de Personal, Inspecci\u00f3n de Servicios y Coordinaci\u00f3n"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93916,"og":{"codigo_dir":"EA0043145","nombre":"Divisi\u00f3n
+        de Tecnolog\u00edas y Servicios de la Informaci\u00f3n"},"ut":{"codigo_dir":"GE0017621","nombre":"Ministerio
+        de Consumo - Tramitaci\u00f3n Expedientes"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93917,"og":{"codigo_dir":"EA0043147","nombre":"Subdirecci\u00f3n
+        General de Recursos, Reclamaciones y Publicaciones"},"ut":{"codigo_dir":"GE0017621","nombre":"Ministerio
+        de Consumo - Tramitaci\u00f3n Expedientes"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93928,"og":{"codigo_dir":"E04912605","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n del Juego"},"ut":{"codigo_dir":"E04912605","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n del Juego"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93929,"og":{"codigo_dir":"EA0043138","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n, Calidad y Cooperaci\u00f3n en Consumo"},"ut":{"codigo_dir":"E05051502","nombre":"Direcci\u00f3n
+        General de Consumo"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina Contable.
+        I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93930,"og":{"codigo_dir":"E05081601","nombre":"Secretar\u00eda
+        General de Consumo y Juego"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93931,"og":{"codigo_dir":"EA0043137","nombre":"Subdirecci\u00f3n
+        General de Arbitraje y Derechos del Consumidor"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93932,"og":{"codigo_dir":"EA0043139","nombre":"Subdirecci\u00f3n
+        General de Inspecci\u00f3n del Juego"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:07 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072201/relaciones?administracion=E05072201&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:08 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"35","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:04:08 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072201/relaciones?administracion=E05072201&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:09 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Consumo","codigo_dir":"E05072201","cifs":[]},"id":66402,"og":{"codigo_dir":"GE0015318","nombre":"Agencia
+        Espa\u00f1ola de Seguridad Alimentaria y Nutrici\u00f3n-\u00d3rgano Gestor"},"ut":{"codigo_dir":"GE0001591","nombre":"Contrataci\u00f3n
+        Laboratorios"},"oc":{"codigo_dir":"GE0015319","nombre":"Secretar\u00eda General-Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Consumo","codigo_dir":"E05072201","cifs":[]},"id":66403,"og":{"codigo_dir":"GE0015318","nombre":"Agencia
+        Espa\u00f1ola de Seguridad Alimentaria y Nutrici\u00f3n-\u00d3rgano Gestor"},"ut":{"codigo_dir":"GE0015314","nombre":"Caja
+        Fija"},"oc":{"codigo_dir":"GE0015319","nombre":"Secretar\u00eda General-Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Consumo","codigo_dir":"E05072201","cifs":[]},"id":66404,"og":{"codigo_dir":"GE0015318","nombre":"Agencia
+        Espa\u00f1ola de Seguridad Alimentaria y Nutrici\u00f3n-\u00d3rgano Gestor"},"ut":{"codigo_dir":"GE0015316","nombre":"Contrataci\u00f3n
+        R\u00e9gimen Interior"},"oc":{"codigo_dir":"GE0015319","nombre":"Secretar\u00eda
+        General-Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":66421,"og":{"codigo_dir":"GE0015318","nombre":"Agencia
+        Espa\u00f1ola de Seguridad Alimentaria y Nutrici\u00f3n-\u00d3rgano Gestor"},"ut":{"codigo_dir":"GE0015315","nombre":"Gesti\u00f3n
+        Econ\u00f3mica (Contrataci\u00f3n)"},"oc":{"codigo_dir":"GE0015319","nombre":"Secretar\u00eda
+        General-Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":66422,"og":{"codigo_dir":"GE0015318","nombre":"Agencia
+        Espa\u00f1ola de Seguridad Alimentaria y Nutrici\u00f3n-\u00d3rgano Gestor"},"ut":{"codigo_dir":"GE0015320","nombre":"Contrataci\u00f3n"},"oc":{"codigo_dir":"GE0015319","nombre":"Secretar\u00eda
+        General-Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":66441,"og":{"codigo_dir":"GE0015318","nombre":"Agencia
+        Espa\u00f1ola de Seguridad Alimentaria y Nutrici\u00f3n-\u00d3rgano Gestor"},"ut":{"codigo_dir":"GE0015317","nombre":"Contrataci\u00f3n
+        Cap\u00edtulo 1"},"oc":{"codigo_dir":"GE0015319","nombre":"Secretar\u00eda
+        General-Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":68387,"og":{"codigo_dir":"GE0015318","nombre":"Agencia
+        Espa\u00f1ola de Seguridad Alimentaria y Nutrici\u00f3n-\u00d3rgano Gestor"},"ut":{"codigo_dir":"GE0015316","nombre":"Contrataci\u00f3n
+        R\u00e9gimen Interior"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93888,"og":{"codigo_dir":"EA0043140","nombre":"Subdirecci\u00f3n
+        General de Regulaci\u00f3n del Juego"},"ut":{"codigo_dir":"E04912605","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n del Juego"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93889,"og":{"codigo_dir":"EA0043145","nombre":"Divisi\u00f3n
+        de Tecnolog\u00edas y Servicios de la Informaci\u00f3n"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93890,"og":{"codigo_dir":"E05081801","nombre":"Secretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"GE0017621","nombre":"Ministerio
+        de Consumo - Tramitaci\u00f3n Expedientes"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93891,"og":{"codigo_dir":"EA0043143","nombre":"Subdirecci\u00f3n
+        General de Personal, Inspecci\u00f3n de Servicios y Coordinaci\u00f3n"},"ut":{"codigo_dir":"GE0017621","nombre":"Ministerio
+        de Consumo - Tramitaci\u00f3n Expedientes"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93909,"og":{"codigo_dir":"EA0043136","nombre":"Centro
+        de Investigaci\u00f3n y Control de la Calidad"},"ut":{"codigo_dir":"E05051502","nombre":"Direcci\u00f3n
+        General de Consumo"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina Contable.
+        I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93910,"og":{"codigo_dir":"EA0043137","nombre":"Subdirecci\u00f3n
+        General de Arbitraje y Derechos del Consumidor"},"ut":{"codigo_dir":"E05051502","nombre":"Direcci\u00f3n
+        General de Consumo"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina Contable.
+        I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93911,"og":{"codigo_dir":"E04912605","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n del Juego"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93912,"og":{"codigo_dir":"E05075501","nombre":"Subsecretar\u00eda
+        de Consumo"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio de Consumo
+        - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93913,"og":{"codigo_dir":"E05081801","nombre":"Secretar\u00eda
+        General T\u00e9cnica"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93914,"og":{"codigo_dir":"EA0043140","nombre":"Subdirecci\u00f3n
+        General de Regulaci\u00f3n del Juego"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93915,"og":{"codigo_dir":"EA0043143","nombre":"Subdirecci\u00f3n
+        General de Personal, Inspecci\u00f3n de Servicios y Coordinaci\u00f3n"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93916,"og":{"codigo_dir":"EA0043145","nombre":"Divisi\u00f3n
+        de Tecnolog\u00edas y Servicios de la Informaci\u00f3n"},"ut":{"codigo_dir":"GE0017621","nombre":"Ministerio
+        de Consumo - Tramitaci\u00f3n Expedientes"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93917,"og":{"codigo_dir":"EA0043147","nombre":"Subdirecci\u00f3n
+        General de Recursos, Reclamaciones y Publicaciones"},"ut":{"codigo_dir":"GE0017621","nombre":"Ministerio
+        de Consumo - Tramitaci\u00f3n Expedientes"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93928,"og":{"codigo_dir":"E04912605","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n del Juego"},"ut":{"codigo_dir":"E04912605","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n del Juego"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93929,"og":{"codigo_dir":"EA0043138","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n, Calidad y Cooperaci\u00f3n en Consumo"},"ut":{"codigo_dir":"E05051502","nombre":"Direcci\u00f3n
+        General de Consumo"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina Contable.
+        I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93930,"og":{"codigo_dir":"E05081601","nombre":"Secretar\u00eda
+        General de Consumo y Juego"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93931,"og":{"codigo_dir":"EA0043137","nombre":"Subdirecci\u00f3n
+        General de Arbitraje y Derechos del Consumidor"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93932,"og":{"codigo_dir":"EA0043139","nombre":"Subdirecci\u00f3n
+        General de Inspecci\u00f3n del Juego"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:09 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05072201/relaciones?administracion=E05072201&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:04:10 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93934,"og":{"codigo_dir":"E05075501","nombre":"Subsecretar\u00eda
+        de Consumo"},"ut":{"codigo_dir":"GE0017621","nombre":"Ministerio de Consumo
+        - Tramitaci\u00f3n Expedientes"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93948,"og":{"codigo_dir":"E05051502","nombre":"Direcci\u00f3n
+        General de Consumo"},"ut":{"codigo_dir":"E05051502","nombre":"Direcci\u00f3n
+        General de Consumo"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina Contable.
+        I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93949,"og":{"codigo_dir":"E05051502","nombre":"Direcci\u00f3n
+        General de Consumo"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio de
+        Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93935,"og":{"codigo_dir":"E05081601","nombre":"Secretar\u00eda
+        General de Consumo y Juego"},"ut":{"codigo_dir":"GE0017621","nombre":"Ministerio
+        de Consumo - Tramitaci\u00f3n Expedientes"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93933,"og":{"codigo_dir":"EA0043142","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica, Oficina Presupuestaria y Asuntos Generales"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93936,"og":{"codigo_dir":"EA0043142","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica, Oficina Presupuestaria y Asuntos Generales"},"ut":{"codigo_dir":"GE0017621","nombre":"Ministerio
+        de Consumo - Tramitaci\u00f3n Expedientes"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93950,"og":{"codigo_dir":"EA0043136","nombre":"Centro
+        de Investigaci\u00f3n y Control de la Calidad"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93951,"og":{"codigo_dir":"EA0043138","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n, Calidad y Cooperaci\u00f3n en Consumo"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93947,"og":{"codigo_dir":"EA0043139","nombre":"Subdirecci\u00f3n
+        General de Inspecci\u00f3n del Juego"},"ut":{"codigo_dir":"E04912605","nombre":"Direcci\u00f3n
+        General de Ordenaci\u00f3n del Juego"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Consumo","codigo_dir":"E05072201","cifs":[]},"id":93952,"og":{"codigo_dir":"EA0043147","nombre":"Subdirecci\u00f3n
+        General de Recursos, Reclamaciones y Publicaciones"},"ut":{"codigo_dir":"GE0017620","nombre":"Ministerio
+        de Consumo - Caja Fija y Pagos a Justificar"},"oc":{"codigo_dir":"GE0017502","nombre":"Oficina
+        Contable. I. D. Ministerio de Consumo"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:04:10 GMT
+recorded_with: VCR 6.0.0

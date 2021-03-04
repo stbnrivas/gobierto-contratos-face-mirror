@@ -1,0 +1,1013 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024001/relaciones?administracion=E05024001&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:32 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":61234,"og":{"codigo_dir":"E05029301","nombre":"Secretar\u00eda
+        de Estado de Hacienda"},"ut":{"codigo_dir":"E04995702","nombre":"Secretar\u00eda
+        General de Financiaci\u00f3n Auton\u00f3mica y Local"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62255,"og":{"codigo_dir":"E00127105","nombre":"Direcci\u00f3n
+        General del Catastro"},"ut":{"codigo_dir":"EA0022510","nombre":"Expedientes
+        de la D.G. del Catastro"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62354,"og":{"codigo_dir":"EA0022992","nombre":"Instituto
+        de Estudios Fiscales"},"ut":{"codigo_dir":"GE0013370","nombre":"Pagos en Firme
+        del Instituto de Estudios Fiscales"},"oc":{"codigo_dir":"GE0013869","nombre":"Oficina
+        Contable del Instituto de Estudios Fiscales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62374,"og":{"codigo_dir":"EA0022992","nombre":"Instituto
+        de Estudios Fiscales"},"ut":{"codigo_dir":"GE0013371","nombre":"Caja Fija
+        del Instituto de Estudios Fiscales"},"oc":{"codigo_dir":"GE0013869","nombre":"Oficina
+        Contable del Instituto de Estudios Fiscales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62574,"og":{"codigo_dir":"EA0022992","nombre":"Instituto
+        de Estudios Fiscales"},"ut":{"codigo_dir":"GE0013370","nombre":"Pagos en Firme
+        del Instituto de Estudios Fiscales"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"V36611580"}],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62638,"og":{"codigo_dir":"EA0024162","nombre":"Consorcio
+        de la Zona Franca de Vigo"},"ut":{"codigo_dir":"EA0024162","nombre":"Consorcio
+        de la Zona Franca de Vigo"},"oc":{"codigo_dir":"EA0024162","nombre":"Consorcio
+        de la Zona Franca Vigo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62899,"og":{"codigo_dir":"EA0028237","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Pontevedra"},"ut":{"codigo_dir":"EA0028244","nombre":"Unidad
+        Tramitadora de Caja"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina Contable.
+        Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62918,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028053","nombre":"Delegaci\u00f3n Especial
+        de Economia y Hacienda en Cantabria - Secretaria General"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62919,"og":{"codigo_dir":"EA0028098","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en La Rioja"},"ut":{"codigo_dir":"EA0028099","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en La Rioja - Gerencia Regional del Catastro"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62920,"og":{"codigo_dir":"EA0028098","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en La Rioja"},"ut":{"codigo_dir":"EA0028101","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en La Rioja - Secretar\u00eda General"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62921,"og":{"codigo_dir":"EA0028210","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Lleida"},"ut":{"codigo_dir":"EA0028212","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Lleida - Intervenci\u00f3n Territorial"},"oc":{"codigo_dir":"GE0014094","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lleida - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62922,"og":{"codigo_dir":"EA0028116","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Navarra"},"ut":{"codigo_dir":"EA0028118","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Navarra - Secretaria General"},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62923,"og":{"codigo_dir":"EA0028269","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Zamora"},"ut":{"codigo_dir":"EA0028272","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Zamora - Secretaria General"},"oc":{"codigo_dir":"GE0014114","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Zamora - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62936,"og":{"codigo_dir":"EA0028098","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en La Rioja"},"ut":{"codigo_dir":"EA0028100","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n Regional"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62938,"og":{"codigo_dir":"EA0028210","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Lleida"},"ut":{"codigo_dir":"EA0028213","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Lleida - Secretaria General"},"oc":{"codigo_dir":"GE0014094","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lleida - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62942,"og":{"codigo_dir":"EA0028261","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Tarragona"},"ut":{"codigo_dir":"EA0028263","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Tarragona - Secretaria General"},"oc":{"codigo_dir":"GE0014109","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Economia y Hacienda en Tarragona - Intervenci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62943,"og":{"codigo_dir":"EA0028262","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Tarragona - Gerencia Territorial del
+        Catastro"},"ut":{"codigo_dir":"EA0028263","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Tarragona - Secretaria General"},"oc":{"codigo_dir":"GE0014109","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Economia y Hacienda en Tarragona - Intervenci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62957,"og":{"codigo_dir":"EA0028051","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Cantabria"},"ut":{"codigo_dir":"EA0028053","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Cantabria - Secretaria General"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62959,"og":{"codigo_dir":"EA0028210","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Lleida"},"ut":{"codigo_dir":"EA0028211","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Lleida - Gerencia Territorial del Catastro"},"oc":{"codigo_dir":"GE0014094","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lleida - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62960,"og":{"codigo_dir":"EA0022538","nombre":"TEAR
+        de Navarra - Sede Pamplona"},"ut":{"codigo_dir":"EA0028118","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Navarra - Secretaria General"},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62963,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028263","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Tarragona - Secretaria General"},"oc":{"codigo_dir":"GE0014109","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Economia y Hacienda en Tarragona - Intervenci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63016,"og":{"codigo_dir":"E00127005","nombre":"Direcci\u00f3n
+        General de Tributos"},"ut":{"codigo_dir":"EA0022493","nombre":"Subdirecci\u00f3n
+        General de Pol\u00edtica Tributaria"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63074,"og":{"codigo_dir":"EA0023058","nombre":"Area
+        Economico-Financiera, Presupuestaria, de Personal y Servicios Generales"},"ut":{"codigo_dir":"EA0023058","nombre":"Area
+        Economico-Financiera, Presupuestaria, de Personal y Servicios Generales"},"oc":{"codigo_dir":"EA0023058","nombre":"Area
+        Economico-Financiera, Presupuestaria, de Personal y Servicios Generales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63119,"og":{"codigo_dir":"EA0028134","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Almer\u00eda"},"ut":{"codigo_dir":"EA0028137","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Almer\u00eda - Secretar\u00eda General"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63156,"og":{"codigo_dir":"EA0028134","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Almer\u00eda"},"ut":{"codigo_dir":"EA0028135","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Almer\u00eda - Gerencia Territorial del
+        Catastro"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina Contable. Delegacion
+        de Economia y Hacienda en Almeria - Intervencion Te"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:32 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024001/relaciones?administracion=E05024001&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:33 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"138","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:05:33 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024001/relaciones?administracion=E05024001&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:34 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":61234,"og":{"codigo_dir":"E05029301","nombre":"Secretar\u00eda
+        de Estado de Hacienda"},"ut":{"codigo_dir":"E04995702","nombre":"Secretar\u00eda
+        General de Financiaci\u00f3n Auton\u00f3mica y Local"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62255,"og":{"codigo_dir":"E00127105","nombre":"Direcci\u00f3n
+        General del Catastro"},"ut":{"codigo_dir":"EA0022510","nombre":"Expedientes
+        de la D.G. del Catastro"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62354,"og":{"codigo_dir":"EA0022992","nombre":"Instituto
+        de Estudios Fiscales"},"ut":{"codigo_dir":"GE0013370","nombre":"Pagos en Firme
+        del Instituto de Estudios Fiscales"},"oc":{"codigo_dir":"GE0013869","nombre":"Oficina
+        Contable del Instituto de Estudios Fiscales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62374,"og":{"codigo_dir":"EA0022992","nombre":"Instituto
+        de Estudios Fiscales"},"ut":{"codigo_dir":"GE0013371","nombre":"Caja Fija
+        del Instituto de Estudios Fiscales"},"oc":{"codigo_dir":"GE0013869","nombre":"Oficina
+        Contable del Instituto de Estudios Fiscales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62574,"og":{"codigo_dir":"EA0022992","nombre":"Instituto
+        de Estudios Fiscales"},"ut":{"codigo_dir":"GE0013370","nombre":"Pagos en Firme
+        del Instituto de Estudios Fiscales"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"V36611580"}],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62638,"og":{"codigo_dir":"EA0024162","nombre":"Consorcio
+        de la Zona Franca de Vigo"},"ut":{"codigo_dir":"EA0024162","nombre":"Consorcio
+        de la Zona Franca de Vigo"},"oc":{"codigo_dir":"EA0024162","nombre":"Consorcio
+        de la Zona Franca Vigo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62899,"og":{"codigo_dir":"EA0028237","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Pontevedra"},"ut":{"codigo_dir":"EA0028244","nombre":"Unidad
+        Tramitadora de Caja"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina Contable.
+        Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62918,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028053","nombre":"Delegaci\u00f3n Especial
+        de Economia y Hacienda en Cantabria - Secretaria General"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62919,"og":{"codigo_dir":"EA0028098","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en La Rioja"},"ut":{"codigo_dir":"EA0028099","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en La Rioja - Gerencia Regional del Catastro"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62920,"og":{"codigo_dir":"EA0028098","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en La Rioja"},"ut":{"codigo_dir":"EA0028101","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en La Rioja - Secretar\u00eda General"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62921,"og":{"codigo_dir":"EA0028210","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Lleida"},"ut":{"codigo_dir":"EA0028212","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Lleida - Intervenci\u00f3n Territorial"},"oc":{"codigo_dir":"GE0014094","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lleida - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62922,"og":{"codigo_dir":"EA0028116","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Navarra"},"ut":{"codigo_dir":"EA0028118","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Navarra - Secretaria General"},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62923,"og":{"codigo_dir":"EA0028269","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Zamora"},"ut":{"codigo_dir":"EA0028272","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Zamora - Secretaria General"},"oc":{"codigo_dir":"GE0014114","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Zamora - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62936,"og":{"codigo_dir":"EA0028098","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en La Rioja"},"ut":{"codigo_dir":"EA0028100","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n Regional"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62938,"og":{"codigo_dir":"EA0028210","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Lleida"},"ut":{"codigo_dir":"EA0028213","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Lleida - Secretaria General"},"oc":{"codigo_dir":"GE0014094","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lleida - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62942,"og":{"codigo_dir":"EA0028261","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Tarragona"},"ut":{"codigo_dir":"EA0028263","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Tarragona - Secretaria General"},"oc":{"codigo_dir":"GE0014109","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Economia y Hacienda en Tarragona - Intervenci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62943,"og":{"codigo_dir":"EA0028262","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Tarragona - Gerencia Territorial del
+        Catastro"},"ut":{"codigo_dir":"EA0028263","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Tarragona - Secretaria General"},"oc":{"codigo_dir":"GE0014109","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Economia y Hacienda en Tarragona - Intervenci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62957,"og":{"codigo_dir":"EA0028051","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Cantabria"},"ut":{"codigo_dir":"EA0028053","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Cantabria - Secretaria General"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62959,"og":{"codigo_dir":"EA0028210","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Lleida"},"ut":{"codigo_dir":"EA0028211","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Lleida - Gerencia Territorial del Catastro"},"oc":{"codigo_dir":"GE0014094","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lleida - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62960,"og":{"codigo_dir":"EA0022538","nombre":"TEAR
+        de Navarra - Sede Pamplona"},"ut":{"codigo_dir":"EA0028118","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Navarra - Secretaria General"},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":62963,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028263","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Tarragona - Secretaria General"},"oc":{"codigo_dir":"GE0014109","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Economia y Hacienda en Tarragona - Intervenci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63016,"og":{"codigo_dir":"E00127005","nombre":"Direcci\u00f3n
+        General de Tributos"},"ut":{"codigo_dir":"EA0022493","nombre":"Subdirecci\u00f3n
+        General de Pol\u00edtica Tributaria"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63074,"og":{"codigo_dir":"EA0023058","nombre":"Area
+        Economico-Financiera, Presupuestaria, de Personal y Servicios Generales"},"ut":{"codigo_dir":"EA0023058","nombre":"Area
+        Economico-Financiera, Presupuestaria, de Personal y Servicios Generales"},"oc":{"codigo_dir":"EA0023058","nombre":"Area
+        Economico-Financiera, Presupuestaria, de Personal y Servicios Generales"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63119,"og":{"codigo_dir":"EA0028134","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Almer\u00eda"},"ut":{"codigo_dir":"EA0028137","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Almer\u00eda - Secretar\u00eda General"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63156,"og":{"codigo_dir":"EA0028134","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Almer\u00eda"},"ut":{"codigo_dir":"EA0028135","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Almer\u00eda - Gerencia Territorial del
+        Catastro"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina Contable. Delegacion
+        de Economia y Hacienda en Almeria - Intervencion Te"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:34 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024001/relaciones?administracion=E05024001&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:35 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63157,"og":{"codigo_dir":"EA0028068","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en Catalu\u00f1a-Barcelona"},"ut":{"codigo_dir":"EA0028075","nombre":"Unidad
+        Tramitadora de Expedientes de la D.E.H. de Barcelona"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63158,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028097","nombre":"Delegaci\u00f3n Especial
+        de Econom\u00eda y Hacienda en Illes Balears - Secretaria General"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63175,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028046","nombre":"Delegaci\u00f3n  Especial
+        de Economia y Hacienda en Canarias-Las Palmas- Secretaria General"},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63178,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028123","nombre":"Delegaci\u00f3n Provincial
+        de Econom\u00eda y Hacienda en \u00c1lava"},"oc":{"codigo_dir":"GE0014069","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alava - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63179,"og":{"codigo_dir":"EA0028068","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en Catalu\u00f1a-Barcelona"},"ut":{"codigo_dir":"EA0028069","nombre":"Caja
+        de la D.E.H de Barcelona"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63180,"og":{"codigo_dir":"EA0028165","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Ciudad Real"},"ut":{"codigo_dir":"EA0028165","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Ciudad Real"},"oc":{"codigo_dir":"GE0014083","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ciudad Real - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63181,"og":{"codigo_dir":"EA0028093","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en Illes Balears"},"ut":{"codigo_dir":"EA0028097","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en Illes Balears - Secretaria General"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63188,"og":{"codigo_dir":"EA0023200","nombre":"Autoridad
+        Independiente de Responsabilidad Fiscal"},"ut":{"codigo_dir":"EA0023200","nombre":"Autoridad
+        Independiente de Responsabilidad Fiscal"},"oc":{"codigo_dir":"EA0023200","nombre":"Autoridad
+        Independiente de Responsabilidad Fiscal"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63189,"og":{"codigo_dir":"EA0028076","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Comunidad Valenciana-Valencia"},"ut":{"codigo_dir":"EA0028081","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Comunidad Valenciana-Valencia - Secretaria
+        General"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina Contable. Delegacion
+        de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63194,"og":{"codigo_dir":"EA0028045","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Canarias-Las Palmas"},"ut":{"codigo_dir":"EA0028046","nombre":"Delegaci\u00f3n  Especial
+        de Economia y Hacienda en Canarias-Las Palmas- Secretaria General"},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63195,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028244","nombre":"Unidad Tramitadora
+        de Caja"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina Contable. Delegacion
+        de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63214,"og":{"codigo_dir":"EA0028123","nombre":"Delegaci\u00f3n
+        Provincial de Econom\u00eda y Hacienda en \u00c1lava"},"ut":{"codigo_dir":"EA0028123","nombre":"Delegaci\u00f3n
+        Provincial de Econom\u00eda y Hacienda en \u00c1lava"},"oc":{"codigo_dir":"GE0014069","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alava - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63215,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028069","nombre":"Caja de la D.E.H de
+        Barcelona"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina Contable. Delegacion
+        de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63234,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028037","nombre":"Delegaci\u00f3n Especial
+        de Econom\u00eda y Hacienda en Asturias"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63235,"og":{"codigo_dir":"EA0028037","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en Asturias"},"ut":{"codigo_dir":"EA0028044","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Asturias - Sede de Gij\u00f3n"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63237,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028112","nombre":"Delegaci\u00f3n Especial
+        de Economia y Hacienda en Murcia - Secretaria General"},"oc":{"codigo_dir":"GE0014099","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63238,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028081","nombre":"Delegaci\u00f3n Especial
+        de Economia y Hacienda en Comunidad Valenciana-Valencia - Secretaria General"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63254,"og":{"codigo_dir":"EA0028037","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en Asturias"},"ut":{"codigo_dir":"EA0028037","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en Asturias"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63255,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028044","nombre":"Delegaci\u00f3n Especial
+        de Economia y Hacienda en Asturias - Sede de Gij\u00f3n"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63262,"og":{"codigo_dir":"EA0028171","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en C\u00f3rdoba"},"ut":{"codigo_dir":"EA0028174","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en C\u00f3rdoba - Secretaria General"},"oc":{"codigo_dir":"GE0014084","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cordoba - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63263,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028189","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Granada - Secretaria General"},"oc":{"codigo_dir":"GE0014087","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Granada - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63264,"og":{"codigo_dir":"EA0028186","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Granada"},"ut":{"codigo_dir":"EA0028189","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Granada - Secretaria General"},"oc":{"codigo_dir":"GE0014087","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Granada - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63265,"og":{"codigo_dir":"EA0028107","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Murcia"},"ut":{"codigo_dir":"EA0028112","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Murcia - Secretaria General"},"oc":{"codigo_dir":"GE0014099","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Murcia - Intervencion Reg"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63318,"og":{"codigo_dir":"EA0028202","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Ja\u00e9n"},"ut":{"codigo_dir":"EA0028202","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Ja\u00e9n"},"oc":{"codigo_dir":"GE0014091","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Jaen - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63319,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028214","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Lugo"},"oc":{"codigo_dir":"GE0014095","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lugo - Intervencion Terri"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:35 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024001/relaciones?administracion=E05024001&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:36 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63334,"og":{"codigo_dir":"EA0028233","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Palencia"},"ut":{"codigo_dir":"EA0028236","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Palencia - Secretaria General"},"oc":{"codigo_dir":"GE0014064","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Palencia - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63356,"og":{"codigo_dir":"EA0028214","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Lugo"},"ut":{"codigo_dir":"EA0028214","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Lugo"},"oc":{"codigo_dir":"GE0014095","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lugo - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63389,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028133","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Alicante - Secretaria General"},"oc":{"codigo_dir":"GE0014116","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alicante - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63394,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028137","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Almer\u00eda - Secretar\u00eda General"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63415,"og":{"codigo_dir":"EA0028182","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Girona"},"ut":{"codigo_dir":"EA0028185","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Girona - Secretaria General"},"oc":{"codigo_dir":"GE0014086","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Girona - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63416,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028030","nombre":"Delegaci\u00f3n Especial
+        de Economia y Hacienda en Andaluc\u00eda-Sevilla - Secretaria General"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63418,"og":{"codigo_dir":"EA0028031","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Arag\u00f3n-Zaragoza"},"ut":{"codigo_dir":"EA0028036","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Arag\u00f3n-Zaragoza - Secretaria General"},"oc":{"codigo_dir":"GE0014115","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Zaragoza - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63419,"og":{"codigo_dir":"EA0028130","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Alicante"},"ut":{"codigo_dir":"EA0028133","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Alicante - Secretaria General"},"oc":{"codigo_dir":"GE0014116","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alicante - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63435,"og":{"codigo_dir":"EA0028249","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Santa Cruz de Tenerife"},"ut":{"codigo_dir":"EA0028252","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Santa Cruz de Tenerife- Secretaria General"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63436,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028260","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Soria - Secretaria General"},"oc":{"codigo_dir":"GE0014108","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Soria - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63437,"og":{"codigo_dir":"EA0028257","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Soria"},"ut":{"codigo_dir":"EA0028260","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Soria - Secretaria General"},"oc":{"codigo_dir":"GE0014108","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Soria - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63454,"og":{"codigo_dir":"EA0028120","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Pa\u00eds Vasco-Bizkaia"},"ut":{"codigo_dir":"EA0028120","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Pa\u00eds Vasco-Bizkaia"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63476,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028252","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Santa Cruz de Tenerife- Secretaria General"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63517,"og":{"codigo_dir":"EA0028082","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Extremadura-Badajoz"},"ut":{"codigo_dir":"E03036401","nombre":"Demarcaci\u00f3n
+        de Carreteras del Estado en Extremadura (BADAJOZ)"},"oc":{"codigo_dir":"GE0014073","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Badajoz - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63520,"og":{"codigo_dir":"EA0028082","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Extremadura-Badajoz"},"ut":{"codigo_dir":"EA0028086","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Extremadura-Badajoz - Secretar\u00eda General"},"oc":{"codigo_dir":"GE0014073","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Badajoz - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63521,"og":{"codigo_dir":"EA0028120","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Pa\u00eds Vasco-Bizkaia"},"ut":{"codigo_dir":"EA0022544","nombre":"TEAR
+        del Pais Vasco - Sede Bilbao"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63522,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028120","nombre":"Delegaci\u00f3n Especial
+        de Economia y Hacienda en Pa\u00eds Vasco-Bizkaia"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63525,"og":{"codigo_dir":"EA0028175","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Cuenca"},"ut":{"codigo_dir":"EA0028178","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Cuenca - Secretaria General"},"oc":{"codigo_dir":"GE0014085","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cuenca - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63527,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028256","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Segovia - Secretaria General"},"oc":{"codigo_dir":"GE0014106","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Segovia - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63528,"og":{"codigo_dir":"EA0028253","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Segovia"},"ut":{"codigo_dir":"EA0028256","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Segovia - Secretaria General"},"oc":{"codigo_dir":"GE0014106","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Segovia - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63529,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028065","nombre":"Delegaci\u00f3n Especial
+        de Economia y Hacienda en Castilla y Le\u00f3n-Valladolid - Secretaria General"},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Valladolid - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63530,"og":{"codigo_dir":"EA0028062","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Castilla y Le\u00f3n-Valladolid"},"ut":{"codigo_dir":"EA0028065","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Castilla y Le\u00f3n-Valladolid - Secretaria
+        General"},"oc":{"codigo_dir":"GE0014113","nombre":"Oficina Contable. Delegacion  de
+        Economia y Hacienda en Valladolid - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63537,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028086","nombre":"Delegaci\u00f3n Especial
+        de Economia y Hacienda en Extremadura-Badajoz - Secretar\u00eda General"},"oc":{"codigo_dir":"GE0014073","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Badajoz - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63596,"og":{"codigo_dir":"EA0028154","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en C\u00e1diz - Secretaria General"},"ut":{"codigo_dir":"EA0028150","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en C\u00e1diz"},"oc":{"codigo_dir":"GE0014078","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cadiz - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63600,"og":{"codigo_dir":"EA0028227","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Ourense"},"ut":{"codigo_dir":"EA0028228","nombre":"Caja
+        de la Deh de Ourense"},"oc":{"codigo_dir":"GE0014101","nombre":"Oficina Contable.
+        Delegacion de Economia y Hacienda en Ourense - Intervencion Te"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:36 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024001/relaciones?administracion=E05024001&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:37 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63601,"og":{"codigo_dir":"EA0028227","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Ourense"},"ut":{"codigo_dir":"EA0028232","nombre":"Unidad
+        Tramitadora  Expedientes Deh Ourense"},"oc":{"codigo_dir":"GE0014101","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ourense - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63654,"og":{"codigo_dir":"EA0028150","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en C\u00e1diz"},"ut":{"codigo_dir":"EA0028150","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en C\u00e1diz"},"oc":{"codigo_dir":"GE0014078","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cadiz - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63655,"og":{"codigo_dir":"EA0028154","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en C\u00e1diz - Secretaria General"},"ut":{"codigo_dir":"EA0028154","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en C\u00e1diz - Secretaria General"},"oc":{"codigo_dir":"GE0014078","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cadiz - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63695,"og":{"codigo_dir":"EA0028218","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en M\u00e1laga"},"ut":{"codigo_dir":"EA0028219","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en M\u00e1laga - Gerencia Territorial del
+        Catastro"},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina Contable. Delegacion
+        de Economia y Hacienda en Malaga - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63696,"og":{"codigo_dir":"EA0028218","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en M\u00e1laga"},"ut":{"codigo_dir":"EA0028221","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en M\u00e1laga - Secretaria General"},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Malaga - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63714,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028221","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en M\u00e1laga - Secretaria General"},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Malaga - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63754,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028129","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Albacete - Secretaria General"},"oc":{"codigo_dir":"GE0014070","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Albacete - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63755,"og":{"codigo_dir":"EA0028126","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Albacete"},"ut":{"codigo_dir":"EA0028129","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Albacete - Secretaria General"},"oc":{"codigo_dir":"GE0014070","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Albacete - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63764,"og":{"codigo_dir":"EA0028160","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Castell\u00f3n de la Plana - Secretaria
+        General"},"ut":{"codigo_dir":"EA0028160","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Castell\u00f3n de la Plana - Secretaria General"},"oc":{"codigo_dir":"GE0014081","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Castellon - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63765,"og":{"codigo_dir":"EA0028245","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Salamanca"},"ut":{"codigo_dir":"EA0028247","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Salamanca - Intervenci\u00f3n Territorial"},"oc":{"codigo_dir":"GE0014104","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Salamanca - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63783,"og":{"codigo_dir":"EA0028245","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Salamanca"},"ut":{"codigo_dir":"EA0028246","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Salamanca - Gerencia Territorial del
+        Catastro"},"oc":{"codigo_dir":"GE0014104","nombre":"Oficina Contable. Delegacion
+        de Economia y Hacienda en Salamanca - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63785,"og":{"codigo_dir":"EA0028245","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Salamanca"},"ut":{"codigo_dir":"EA0028248","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Salamanca - Secretaria General"},"oc":{"codigo_dir":"GE0014104","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Salamanca - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63806,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028160","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Castell\u00f3n de la Plana - Secretaria General"},"oc":{"codigo_dir":"GE0014081","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Castellon - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63874,"og":{"codigo_dir":"EA0028146","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en C\u00e1ceres"},"ut":{"codigo_dir":"EA0028147","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en C\u00e1ceres - Gerencia Territorial del
+        Catastro"},"oc":{"codigo_dir":"GE0014077","nombre":"Oficina Contable. Delegacion
+        de Economia y Hacienda en Caceres - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63875,"og":{"codigo_dir":"EA0028146","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en C\u00e1ceres"},"ut":{"codigo_dir":"EA0028148","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en C\u00e1ceres - Intervenci\u00f3n Territorial"},"oc":{"codigo_dir":"GE0014077","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Caceres - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63894,"og":{"codigo_dir":"EA0028146","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en C\u00e1ceres"},"ut":{"codigo_dir":"EA0028149","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en C\u00e1ceres - Secretaria General"},"oc":{"codigo_dir":"GE0014077","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Caceres - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63895,"og":{"codigo_dir":"EA0028190","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Guadalajara"},"ut":{"codigo_dir":"EA0028193","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Guadalajara - Secretaria General"},"oc":{"codigo_dir":"GE0014088","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Guadalajara - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63900,"og":{"codigo_dir":"EA0028025","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Andaluc\u00eda-Sevilla"},"ut":{"codigo_dir":"E03076904","nombre":"Delegacion
+        de Economia y Hacienda en Sevilla - Secretaria General"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63901,"og":{"codigo_dir":"EA0028025","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Andaluc\u00eda-Sevilla"},"ut":{"codigo_dir":"EA0028030","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Andaluc\u00eda-Sevilla - Secretaria General"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63902,"og":{"codigo_dir":"EA0028265","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Teruel"},"ut":{"codigo_dir":"EA0028268","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Teruel - Secretaria General"},"oc":{"codigo_dir":"GE0014110","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Teruel - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63914,"og":{"codigo_dir":"EA0028190","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Guadalajara"},"ut":{"codigo_dir":"EA0028191","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Guadalajara - Gerencia Territorial del
+        Catastro"},"oc":{"codigo_dir":"GE0014088","nombre":"Oficina Contable. Delegacion
+        de Economia y Hacienda en Guadalajara - Intervencio"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63954,"og":{"codigo_dir":"EA0028142","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Burgos"},"ut":{"codigo_dir":"EA0028145","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Burgos - Secretaria General"},"oc":{"codigo_dir":"GE0014076","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Burgos - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63955,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028174","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en C\u00f3rdoba - Secretaria General"},"oc":{"codigo_dir":"GE0014084","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cordoba - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63957,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028268","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Teruel - Secretaria General"},"oc":{"codigo_dir":"GE0014110","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Teruel - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63974,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"E03076904","nombre":"Delegacion de Economia
+        y Hacienda en Sevilla - Secretaria General"},"oc":{"codigo_dir":"GE0014107","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Sevilla - Intervecion Te"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:37 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024001/relaciones?administracion=E05024001&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:39 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":63996,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028228","nombre":"Caja de la Deh de Ourense"},"oc":{"codigo_dir":"GE0014101","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ourense - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":64058,"og":{"codigo_dir":"EA0028056","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Castilla La Mancha-Toledo"},"ut":{"codigo_dir":"EA0028057","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Castilla La Mancha-Toledo - Gerencia Regional
+        del Catastro"},"oc":{"codigo_dir":"GE0014111","nombre":"Oficina Contable.
+        Delegacion  de Economia y Hacienda en Toledo - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":64059,"og":{"codigo_dir":"EA0028056","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Castilla La Mancha-Toledo"},"ut":{"codigo_dir":"EA0028060","nombre":"Delegaci\u00f3n
+        Especial de Economia y Hacienda en Castilla La Mancha-Toledo - Secretaria
+        General"},"oc":{"codigo_dir":"GE0014111","nombre":"Oficina Contable. Delegacion  de
+        Economia y Hacienda en Toledo - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":64097,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028060","nombre":"Delegaci\u00f3n Especial
+        de Economia y Hacienda en Castilla La Mancha-Toledo - Secretaria General"},"oc":{"codigo_dir":"GE0014111","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Toledo - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":64264,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028164","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Ceuta - Secretaria General"},"oc":{"codigo_dir":"GE0014082","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ceuta - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":64265,"og":{"codigo_dir":"EA0028161","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Ceuta"},"ut":{"codigo_dir":"EA0028164","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Ceuta - Secretaria General"},"oc":{"codigo_dir":"GE0014082","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ceuta - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":64298,"og":{"codigo_dir":"EA0028206","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Le\u00f3n"},"ut":{"codigo_dir":"EA0028206","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Le\u00f3n"},"oc":{"codigo_dir":"GE0014093","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Leon - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":64300,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028248","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Salamanca - Secretaria General"},"oc":{"codigo_dir":"GE0014104","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Salamanca - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":64317,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028206","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Le\u00f3n"},"oc":{"codigo_dir":"GE0014093","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Leon - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":64540,"og":{"codigo_dir":"EA0028194","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Huelva"},"ut":{"codigo_dir":"EA0028197","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Huelva - Secretaria General"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":64619,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028141","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en \u00c1vila - Secretaria General"},"oc":{"codigo_dir":"GE0014072","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Avila - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":64639,"og":{"codigo_dir":"EA0028138","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en \u00c1vila"},"ut":{"codigo_dir":"EA0028141","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en \u00c1vila - Secretaria General"},"oc":{"codigo_dir":"GE0014072","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Avila - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":64800,"og":{"codigo_dir":"E00126605","nombre":"Direcci\u00f3n
+        General del Patrimonio del Estado"},"ut":{"codigo_dir":"EA0023084","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n de Edificaciones Administrativas"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":65261,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028181","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Guipuzcoa - Secretaria General"},"oc":{"codigo_dir":"GE0014062","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Guipuzcoa - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":65262,"og":{"codigo_dir":"EA0028179","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Gipuzkoa"},"ut":{"codigo_dir":"EA0028181","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Guipuzcoa - Secretaria General"},"oc":{"codigo_dir":"GE0014062","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Guipuzcoa - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":65281,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028101","nombre":"Delegaci\u00f3n Especial
+        de Econom\u00eda y Hacienda en La Rioja - Secretar\u00eda General"},"oc":{"codigo_dir":"GE0014092","nombre":"Oficina
+        Contable. Delegaci\u00f3n de Econom\u00eda y Hacienda en La Rioja - Intervenci\u00f3n
+        R"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":65441,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028036","nombre":"Delegaci\u00f3n Especial
+        de Economia y Hacienda en Arag\u00f3n-Zaragoza - Secretaria General"},"oc":{"codigo_dir":"GE0014115","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Zaragoza - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":65502,"og":{"codigo_dir":"EA0023058","nombre":"Area
+        Economico-Financiera, Presupuestaria, de Personal y Servicios Generales"},"ut":{"codigo_dir":"EA0023058","nombre":"Area
+        Economico-Financiera, Presupuestaria, de Personal y Servicios Generales"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":65664,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028213","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Lleida - Secretaria General"},"oc":{"codigo_dir":"GE0014094","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lleida - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":65782,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028185","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Girona - Secretaria General"},"oc":{"codigo_dir":"GE0014086","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Girona - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":66241,"og":{"codigo_dir":"EA0028087","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en Galicia-A Coru\u00f1a"},"ut":{"codigo_dir":"EA0028087","nombre":"Delegaci\u00f3n
+        Especial de Econom\u00eda y Hacienda en Galicia-A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014065","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en A Coru\u00f1a - Intervencion
+        T"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":68068,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0023029","nombre":"Caja Pagadora Subsecretar\u00eda
+        Alcal\u00e1"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":68069,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0023030","nombre":"Oficialia Mayor - Unidad
+        de Pagos en Firme"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":68227,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028087","nombre":"Delegaci\u00f3n Especial
+        de Econom\u00eda y Hacienda en Galicia-A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014065","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en A Coru\u00f1a - Intervencion
+        T"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":68807,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0022521","nombre":"TEAR de Castilla-La
+        Mancha - Sede Toledo"},"oc":{"codigo_dir":"GE0014111","nombre":"Oficina Contable.
+        Delegacion  de Economia y Hacienda en Toledo - Intervencion Te"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:39 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024001/relaciones?administracion=E05024001&limit=25.0&page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:39 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":68828,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028057","nombre":"Delegaci\u00f3n Especial
+        de Economia y Hacienda en Castilla La Mancha-Toledo - Gerencia Regional del
+        Catastro"},"oc":{"codigo_dir":"GE0014111","nombre":"Oficina Contable. Delegacion  de
+        Economia y Hacienda en Toledo - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":68937,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028202","nombre":"Delegaci\u00f3n Provincial
+        de Economia y Hacienda en Ja\u00e9n"},"oc":{"codigo_dir":"GE0014091","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Jaen - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":70047,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"EA0028118","nombre":"Delegaci\u00f3n Especial
+        de Economia y Hacienda en Navarra - Secretaria General"},"oc":{"codigo_dir":"GE0014100","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Navarra - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":72347,"og":{"codigo_dir":"E05034001","nombre":"Subsecretar\u00eda
+        de Hacienda"},"ut":{"codigo_dir":"GE0005922","nombre":"Servicio de Coordinaci\u00f3n
+        Territorial-Unidad 2"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":76847,"og":{"codigo_dir":"E05029301","nombre":"Secretar\u00eda
+        de Estado de Hacienda"},"ut":{"codigo_dir":"E05029501","nombre":"Gabinete
+        de la Secretar\u00eda de Estado"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":80302,"og":{"codigo_dir":"E00127205","nombre":"Tribunal
+        Econ\u00f3mico Administrativo Central"},"ut":{"codigo_dir":"EA0011456","nombre":"Subdirecci\u00f3n
+        General de Organizaci\u00f3n, Medios y Procedimientos"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":80416,"og":{"codigo_dir":"E00127205","nombre":"Tribunal
+        Econ\u00f3mico Administrativo Central"},"ut":{"codigo_dir":"EA0011772","nombre":"Caja
+        Pagadora Subsecretar\u00eda Alcal\u00e1"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":84628,"og":{"codigo_dir":"EA0028198","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Huesca"},"ut":{"codigo_dir":"EA0028201","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Huesca - Secretaria General"},"oc":{"codigo_dir":"GE0014061","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huesca - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":85555,"og":{"codigo_dir":"E00127205","nombre":"Tribunal
+        Econ\u00f3mico Administrativo Central"},"ut":{"codigo_dir":"EA0023029","nombre":"Caja
+        Pagadora Subsecretar\u00eda Alcal\u00e1"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":86688,"og":{"codigo_dir":"EA0028162","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Ceuta - Gerencia Territorial del Catastro"},"ut":{"codigo_dir":"EA0028164","nombre":"Delegaci\u00f3n
+        Provincial de Economia y Hacienda en Ceuta - Secretaria General"},"oc":{"codigo_dir":"GE0014082","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Ceuta - Intervencion Terr"}},{"cifs":[{"nif":"Q3900824H"}],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":88207,"og":{"codigo_dir":"EA0024109","nombre":"Consorcio
+        de la Zona Franca de Santander"},"ut":{"codigo_dir":"EA0024109","nombre":"Consorcio
+        de la Zona Franca de Santander"},"oc":{"codigo_dir":"EA0024109","nombre":"Consorcio
+        de la  Zona Franca de Santander"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":89830,"og":{"codigo_dir":"E04962703","nombre":"Direcci\u00f3n
+        General de Racionalizaci\u00f3n y Centralizaci\u00f3n de la Contrataci\u00f3n"},"ut":{"codigo_dir":"EA0023092","nombre":"Subdirecci\u00f3n
+        General de Coordinaci\u00f3n y Gesti\u00f3n Presupuestaria"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[{"nif":"S2801459E"}],"administracion":{"nombre":"Ministerio
+        de Hacienda","codigo_dir":"E05024001","cifs":[]},"id":91027,"og":{"codigo_dir":"E00127606","nombre":"Direcci\u00f3n
+        General de Costes de Personal"},"ut":{"codigo_dir":"EA0044753","nombre":"Secretar\u00eda
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:39 GMT
+recorded_with: VCR 6.0.0

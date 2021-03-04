@@ -1,0 +1,219 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05073401/relaciones?administracion=E05073401&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:51 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Universidades","codigo_dir":"E05073401","cifs":[]},"id":94027,"og":{"codigo_dir":"E05073401","nombre":"Ministerio
+        de Universidades"},"ut":{"codigo_dir":"EA0044928","nombre":"Habilitaci\u00f3n"},"oc":{"codigo_dir":"GE0017501","nombre":"Oficina
+        Contable. I. D. Ministerio de Universidades"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":93908,"og":{"codigo_dir":"E05073401","nombre":"Ministerio
+        de Universidades"},"ut":{"codigo_dir":"EA0044927","nombre":"Caja Pagadora"},"oc":{"codigo_dir":"GE0017501","nombre":"Oficina
+        Contable. I. D. Ministerio de Universidades"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":93907,"og":{"codigo_dir":"E05073401","nombre":"Ministerio
+        de Universidades"},"ut":{"codigo_dir":"E05081201","nombre":"Secretar\u00eda
+        General de Universidades"},"oc":{"codigo_dir":"GE0017501","nombre":"Oficina
+        Contable. I. D. Ministerio de Universidades"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":93927,"og":{"codigo_dir":"E05073401","nombre":"Ministerio
+        de Universidades"},"ut":{"codigo_dir":"EA0041227","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica, Oficina Presupuestaria y Asuntos Generales"},"oc":{"codigo_dir":"GE0017501","nombre":"Oficina
+        Contable. I. D. Ministerio de Universidades"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":94047,"og":{"codigo_dir":"E05073401","nombre":"Ministerio
+        de Universidades"},"ut":{"codigo_dir":"EA0044929","nombre":"Inventario"},"oc":{"codigo_dir":"GE0017501","nombre":"Oficina
+        Contable. I. D. Ministerio de Universidades"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86888,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011623","nombre":"Caja
+        Santander"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86890,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011627","nombre":"Caja
+        Sevilla"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86887,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011622","nombre":"Caja
+        Central Uimp"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86891,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0014326","nombre":"Pagos
+        a Justificar Central"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86889,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011626","nombre":"Caja
+        Galicia"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86867,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011621","nombre":"Gesti\u00f3n
+        de Expedientes"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86869,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011628","nombre":"Caja
+        Tenerife"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86868,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011625","nombre":"Caja
+        Cuenca"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86907,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011624","nombre":"Caja
+        Valencia"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":90591,"og":{"codigo_dir":"EA0044847","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"},"ut":{"codigo_dir":"EA0044847","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"},"oc":{"codigo_dir":"EA0044847","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":92287,"og":{"codigo_dir":"EA0045288","nombre":"Agencia
+        Nacional de Evaluacion de la Calidad y Acreditacion (ANECA)"},"ut":{"codigo_dir":"EA0045288","nombre":"Agencia
+        Nacional de Evaluacion de la Calidad y Acreditacion (ANECA)"},"oc":{"codigo_dir":"EA0045288","nombre":"Agencia
+        Nacional de Evaluacion de la Calidad y Acreditacion (ANECA)"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:51 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05073401/relaciones?administracion=E05073401&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:51 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"16","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:05:51 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05073401/relaciones?administracion=E05073401&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:05:52 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86867,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011621","nombre":"Gesti\u00f3n
+        de Expedientes"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86868,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011625","nombre":"Caja
+        Cuenca"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86869,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011628","nombre":"Caja
+        Tenerife"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86887,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011622","nombre":"Caja
+        Central Uimp"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86888,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011623","nombre":"Caja
+        Santander"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86889,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011626","nombre":"Caja
+        Galicia"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86890,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011627","nombre":"Caja
+        Sevilla"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86891,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0014326","nombre":"Pagos
+        a Justificar Central"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":86907,"og":{"codigo_dir":"EA0043234","nombre":"Rectorado"},"ut":{"codigo_dir":"GE0011624","nombre":"Caja
+        Valencia"},"oc":{"codigo_dir":"EA0043233","nombre":"Gerencia"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":90591,"og":{"codigo_dir":"EA0044847","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"},"ut":{"codigo_dir":"EA0044847","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"},"oc":{"codigo_dir":"EA0044847","nombre":"Servicio
+        Espa\u00f1ol para la Internacionalizaci\u00f3n de la Educaci\u00f3n"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":92287,"og":{"codigo_dir":"EA0045288","nombre":"Agencia
+        Nacional de Evaluacion de la Calidad y Acreditacion (ANECA)"},"ut":{"codigo_dir":"EA0045288","nombre":"Agencia
+        Nacional de Evaluacion de la Calidad y Acreditacion (ANECA)"},"oc":{"codigo_dir":"EA0045288","nombre":"Agencia
+        Nacional de Evaluacion de la Calidad y Acreditacion (ANECA)"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":93907,"og":{"codigo_dir":"E05073401","nombre":"Ministerio
+        de Universidades"},"ut":{"codigo_dir":"E05081201","nombre":"Secretar\u00eda
+        General de Universidades"},"oc":{"codigo_dir":"GE0017501","nombre":"Oficina
+        Contable. I. D. Ministerio de Universidades"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":93908,"og":{"codigo_dir":"E05073401","nombre":"Ministerio
+        de Universidades"},"ut":{"codigo_dir":"EA0044927","nombre":"Caja Pagadora"},"oc":{"codigo_dir":"GE0017501","nombre":"Oficina
+        Contable. I. D. Ministerio de Universidades"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":93927,"og":{"codigo_dir":"E05073401","nombre":"Ministerio
+        de Universidades"},"ut":{"codigo_dir":"EA0041227","nombre":"Subdirecci\u00f3n
+        General de Gesti\u00f3n Econ\u00f3mica, Oficina Presupuestaria y Asuntos Generales"},"oc":{"codigo_dir":"GE0017501","nombre":"Oficina
+        Contable. I. D. Ministerio de Universidades"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":94027,"og":{"codigo_dir":"E05073401","nombre":"Ministerio
+        de Universidades"},"ut":{"codigo_dir":"EA0044928","nombre":"Habilitaci\u00f3n"},"oc":{"codigo_dir":"GE0017501","nombre":"Oficina
+        Contable. I. D. Ministerio de Universidades"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Universidades","codigo_dir":"E05073401","cifs":[]},"id":94047,"og":{"codigo_dir":"E05073401","nombre":"Ministerio
+        de Universidades"},"ut":{"codigo_dir":"EA0044929","nombre":"Inventario"},"oc":{"codigo_dir":"GE0017501","nombre":"Oficina
+        Contable. I. D. Ministerio de Universidades"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:05:52 GMT
+recorded_with: VCR 6.0.0

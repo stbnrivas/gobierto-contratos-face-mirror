@@ -1,0 +1,707 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990501/relaciones?administracion=E04990501&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:05 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":54536,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0013702","nombre":"Contrataci\u00f3n Administrativa"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":54615,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0013703","nombre":"Contratos Menores y Adquisici\u00f3n
+        Centralizada"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":54634,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0013704","nombre":"Unidad Central de Tesorer\u00eda"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":54654,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0013705","nombre":"Arrendamientos"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":55094,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010624","nombre":"Delegacion Provincial del
+        INE de Navarra"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58496,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010961","nombre":"Departamento
+        de Energia"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58497,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010966","nombre":"Ciemat-Enresa
+        Medioambiente"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58498,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010969","nombre":"Ciemat-Fusi\u00f3n"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58499,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010972","nombre":"S.G.
+        de Relaciones Institucionales y Transferencia del Conocimiento"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58500,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010973","nombre":"S.G.
+        de Seguridad y Mejora de las Instalaciones del Ciemat"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58515,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010962","nombre":"Ciemat-Enresa
+        Energ\u00eda"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58534,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010963","nombre":"Ciemat-Psa"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58535,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010964","nombre":"Departamento
+        de Investigacion Basica"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58536,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010965","nombre":"Departamento
+        de Medio Ambiente"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58537,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010967","nombre":"Departamento
+        de Tecnologia"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58538,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010970","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58554,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010968","nombre":"Laboratorio
+        Nacional de Fusion"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58975,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010610","nombre":"Delegacion Provincial del
+        INE de Girona"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59085,"og":{"codigo_dir":"EA0010788","nombre":"Centro
+        de Investigaciones Biologicas"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59086,"og":{"codigo_dir":"EA0010791","nombre":"Centro
+        de Quimica Organica Lora Tamayo"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59087,"og":{"codigo_dir":"EA0010830","nombre":"Instituto
+        de Ceramica y Vidrio"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59088,"og":{"codigo_dir":"EA0010872","nombre":"Instituto
+        de Microelectronica de Madrid"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59089,"og":{"codigo_dir":"EA0010889","nombre":"Instituto
+        de Tecnologias Fisicas y de la Informacion \"LEONARDO TORRES QUEVEDO\""},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59090,"og":{"codigo_dir":"EA0010905","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0010905","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59091,"og":{"codigo_dir":"EA0011159","nombre":"Instituto
+        de Contabilidad y Auditoria de Cuentas"},"ut":{"codigo_dir":"EA0011161","nombre":"S.G.
+        de Control Tecnico"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:05 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990501/relaciones?administracion=E04990501&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:06 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"100","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:02:06 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990501/relaciones?administracion=E04990501&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:07 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":54536,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0013702","nombre":"Contrataci\u00f3n Administrativa"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":54615,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0013703","nombre":"Contratos Menores y Adquisici\u00f3n
+        Centralizada"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":54634,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0013704","nombre":"Unidad Central de Tesorer\u00eda"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":54654,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0013705","nombre":"Arrendamientos"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":55094,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010624","nombre":"Delegacion Provincial del
+        INE de Navarra"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58496,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010961","nombre":"Departamento
+        de Energia"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58497,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010966","nombre":"Ciemat-Enresa
+        Medioambiente"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58498,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010969","nombre":"Ciemat-Fusi\u00f3n"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58499,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010972","nombre":"S.G.
+        de Relaciones Institucionales y Transferencia del Conocimiento"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58500,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010973","nombre":"S.G.
+        de Seguridad y Mejora de las Instalaciones del Ciemat"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58515,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010962","nombre":"Ciemat-Enresa
+        Energ\u00eda"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58534,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010963","nombre":"Ciemat-Psa"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58535,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010964","nombre":"Departamento
+        de Investigacion Basica"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58536,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010965","nombre":"Departamento
+        de Medio Ambiente"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58537,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010967","nombre":"Departamento
+        de Tecnologia"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58538,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010970","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58554,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010968","nombre":"Laboratorio
+        Nacional de Fusion"},"oc":{"codigo_dir":"EA0010970","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":58975,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010610","nombre":"Delegacion Provincial del
+        INE de Girona"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59085,"og":{"codigo_dir":"EA0010788","nombre":"Centro
+        de Investigaciones Biologicas"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59086,"og":{"codigo_dir":"EA0010791","nombre":"Centro
+        de Quimica Organica Lora Tamayo"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59087,"og":{"codigo_dir":"EA0010830","nombre":"Instituto
+        de Ceramica y Vidrio"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59088,"og":{"codigo_dir":"EA0010872","nombre":"Instituto
+        de Microelectronica de Madrid"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59089,"og":{"codigo_dir":"EA0010889","nombre":"Instituto
+        de Tecnologias Fisicas y de la Informacion \"LEONARDO TORRES QUEVEDO\""},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59090,"og":{"codigo_dir":"EA0010905","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"ut":{"codigo_dir":"EA0010905","nombre":"Secretaria
+        General Adjunta de Obras e Infraestructuras"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59091,"og":{"codigo_dir":"EA0011159","nombre":"Instituto
+        de Contabilidad y Auditoria de Cuentas"},"ut":{"codigo_dir":"EA0011161","nombre":"S.G.
+        de Control Tecnico"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:07 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990501/relaciones?administracion=E04990501&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:08 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59097,"og":{"codigo_dir":"EA0010773","nombre":"Centro
+        de Automatica y Robotica"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59098,"og":{"codigo_dir":"EA0010774","nombre":"Centro
+        de Ciencias Humanas y Sociales"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59099,"og":{"codigo_dir":"EA0010780","nombre":"Centro
+        de Fisica Miguel A. Catalan"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59100,"og":{"codigo_dir":"EA0010781","nombre":"Centro
+        de Fisica Teorica y Matematicas"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59101,"og":{"codigo_dir":"EA0010794","nombre":"Centro
+        Nacional de Biotecnologia"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59102,"og":{"codigo_dir":"EA0010795","nombre":"Centro
+        Nacional de Investigaciones Metalurgicas (MADRID)"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59103,"og":{"codigo_dir":"EA0010809","nombre":"Instituto
+        Cajal"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59104,"og":{"codigo_dir":"EA0010810","nombre":"Instituto
+        Ciencias de la Construccion Eduardo Torroja"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59105,"og":{"codigo_dir":"EA0010821","nombre":"Instituto
+        de Biologia Molecular Eladio Vi\u00f1uela"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59106,"og":{"codigo_dir":"EA0010829","nombre":"Instituto
+        de Catalisis y Petroleoquimica"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59107,"og":{"codigo_dir":"EA0010833","nombre":"Instituto
+        de Ciencia de Materiales Madrid"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59108,"og":{"codigo_dir":"EA0010834","nombre":"Instituto
+        de Ciencia y Tecnologia de Alimentos y Nutricion"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59109,"og":{"codigo_dir":"EA0010836","nombre":"Instituto
+        de Ciencias Agrarias"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59110,"og":{"codigo_dir":"EA0010859","nombre":"Instituto
+        de Investigacion en Ciencias de Alimentacion"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59111,"og":{"codigo_dir":"EA0010863","nombre":"Instituto
+        de Investigaciones Biomedicas Alberto Sols"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59112,"og":{"codigo_dir":"EA0010881","nombre":"Instituto
+        de Quimica Fisica Rocasolano"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59113,"og":{"codigo_dir":"EA0010901","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010901","nombre":"Secretaria General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59114,"og":{"codigo_dir":"EA0010918","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0010934","nombre":"Contratacion"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59115,"og":{"codigo_dir":"EA0010951","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010951","nombre":"Secretaria General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59116,"og":{"codigo_dir":"EA0010960","nombre":"Centro
+        de Investigaciones Energeticas, Medioambientales y Tecnologicas"},"ut":{"codigo_dir":"EA0010970","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59117,"og":{"codigo_dir":"EA0010974","nombre":"Instituto
+        Espa\u00f1ol de Oceanografia"},"ut":{"codigo_dir":"EA0010984","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59118,"og":{"codigo_dir":"EA0010987","nombre":"Instituto
+        Geologico y Minero de Espa\u00f1a"},"ut":{"codigo_dir":"EA0010995","nombre":"Unidad
+        de Pagos en Firme del Instituto Geol\u00f3gico y Minero de Espa\u00f1a"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59119,"og":{"codigo_dir":"EA0011258","nombre":"Centro
+        Espa\u00f1ol de Metrologia"},"ut":{"codigo_dir":"EA0011261","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59178,"og":{"codigo_dir":"EA0010670","nombre":"Comision
+        Nacional de los Mercados y la Competencia"},"ut":{"codigo_dir":"GE0000252","nombre":"Pagos
+        en Firme Cnmc"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable.
+        I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59206,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"GE0013702","nombre":"Contrataci\u00f3n Administrativa"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:08 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990501/relaciones?administracion=E04990501&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:08 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59494,"og":{"codigo_dir":"EA0010918","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0010930","nombre":"Area Jur\u00eddica"},"oc":{"codigo_dir":"EA0010933","nombre":"Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59495,"og":{"codigo_dir":"EA0010918","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0010934","nombre":"Contratacion"},"oc":{"codigo_dir":"EA0010933","nombre":"Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59514,"og":{"codigo_dir":"EA0010918","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0010931","nombre":"Caja 1 - Campus
+        Chamartin"},"oc":{"codigo_dir":"EA0010933","nombre":"Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59515,"og":{"codigo_dir":"EA0010918","nombre":"Instituto
+        de Salud Carlos III"},"ut":{"codigo_dir":"EA0010932","nombre":"Caja 2 - Campus
+        Majadahonda"},"oc":{"codigo_dir":"EA0010933","nombre":"Contabilidad"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59574,"og":{"codigo_dir":"EA0011159","nombre":"Instituto
+        de Contabilidad y Auditoria de Cuentas"},"ut":{"codigo_dir":"EA0011161","nombre":"S.G.
+        de Control Tecnico"},"oc":{"codigo_dir":"EA0011159","nombre":"Instituto de
+        Contabilidad y Auditoria de Cuentas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59594,"og":{"codigo_dir":"EA0011159","nombre":"Instituto
+        de Contabilidad y Auditoria de Cuentas"},"ut":{"codigo_dir":"EA0011162","nombre":"S.G.
+        de Normalizacion y Tecnica Contable"},"oc":{"codigo_dir":"EA0011159","nombre":"Instituto
+        de Contabilidad y Auditoria de Cuentas"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59595,"og":{"codigo_dir":"EA0010670","nombre":"Comision
+        Nacional de los Mercados y la Competencia"},"ut":{"codigo_dir":"GE0000251","nombre":"Caja
+        Fija Cnmc"},"oc":{"codigo_dir":"EA0010702","nombre":"Subdireccion  de Recursos
+        Humanos y Gestion Economica y Patrimonial"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":59596,"og":{"codigo_dir":"EA0010670","nombre":"Comision
+        Nacional de los Mercados y la Competencia"},"ut":{"codigo_dir":"GE0000252","nombre":"Pagos
+        en Firme Cnmc"},"oc":{"codigo_dir":"EA0010702","nombre":"Subdireccion  de
+        Recursos Humanos y Gestion Economica y Patrimonial"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61514,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010603","nombre":"Delegacion Provincial del
+        INE de Cantabria"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61914,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010597","nombre":"Delegacion Provincial del
+        INE de Badajoz"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61935,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010589","nombre":"Delegacion Provincial del
+        INE de Lugo"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61936,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010608","nombre":"Delegacion Provincial del
+        INE de Cuenca"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61954,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010598","nombre":"Delegacion Provincial del
+        INE de Barcelona"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61955,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010599","nombre":"Delegacion Provincial del
+        INE de Bizkaia"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61956,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010602","nombre":"Delegacion Provincial del
+        INE de Cadiz"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61957,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010609","nombre":"Delegacion Provincial del
+        INE de Gipuzkoa"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61958,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010612","nombre":"Delegacion Provincial del
+        INE de Guadalajara"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61959,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010628","nombre":"Delegacion Provincial del
+        INE de Salamanca"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61960,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010639","nombre":"Delegacion Provincial del
+        INE de Zaragoza"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61961,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010594","nombre":"Delegacion Provincial del
+        INE de Asturias"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61962,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010611","nombre":"Delegacion Provincial del
+        INE de Granada"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61963,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010613","nombre":"Delegacion Provincial del
+        INE de Huelva"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61974,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010615","nombre":"Delegacion Provincial del
+        INE de Illes Balears"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61994,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010634","nombre":"Delegacion Provincial del
+        INE de Teruel"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":61995,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010635","nombre":"Delegacion Provincial del
+        INE de Toledo"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:08 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04990501/relaciones?administracion=E04990501&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:02:09 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":62054,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010607","nombre":"Delegacion Provincial del
+        INE de Cordoba"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":62097,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010630","nombre":"Delegacion Provincial del
+        INE de Segovia"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":62134,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010623","nombre":"Delegacion Provincial del
+        INE de Murcia"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":62154,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010633","nombre":"Delegacion Provincial del
+        INE de Tarragona"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":62236,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010614","nombre":"Delegacion Provincial del
+        INE de Huesca"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":62274,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010617","nombre":"Delegacion Provincial del
+        INE de La Rioja"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":62275,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010620","nombre":"Delegacion Provincial del
+        INE de Madrid"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":62314,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010629","nombre":"Delegacion Provincial del
+        INE de Santa Cruz de Tenerife"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina
+        Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":62534,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010616","nombre":"Delegacion Provincial del
+        INE de Jaen"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":62575,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010625","nombre":"Delegacion Provincial del
+        INE de Ourense"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":63514,"og":{"codigo_dir":"EA0010656","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0010638","nombre":"Delegacion Provincial del
+        INE de Zamora"},"oc":{"codigo_dir":"GE0013701","nombre":"Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":64366,"og":{"codigo_dir":"EA0011012","nombre":"Direcciones
+        Territoriales y Provinciales de Comercio"},"ut":{"codigo_dir":"EA0011012","nombre":"Direcciones
+        Territoriales y Provinciales de Comercio"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":64367,"og":{"codigo_dir":"E00119808","nombre":"D.G.
+        de Comercio Internacional e Inversiones"},"ut":{"codigo_dir":"EA0019171","nombre":"Unidad
+        de Apoyo de la Direcci\u00f3n General de Comercio Internacional e Inversiones"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":64403,"og":{"codigo_dir":"EA0010574","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Comercial y Competitividad"},"ut":{"codigo_dir":"EA0019171","nombre":"Unidad
+        de Apoyo de la Direcci\u00f3n General de Comercio Internacional e Inversiones"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":65100,"og":{"codigo_dir":"EA0010574","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Comercial y Competitividad"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":65120,"og":{"codigo_dir":"E00119808","nombre":"D.G.
+        de Comercio Internacional e Inversiones"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":65240,"og":{"codigo_dir":"EA0011012","nombre":"Direcciones
+        Territoriales y Provinciales de Comercio"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":65701,"og":{"codigo_dir":"EA0010574","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Comercial y Competitividad"},"ut":{"codigo_dir":"EA0010586","nombre":"S.G.
+        de Fomento y Modernizacion del Comercio Interior"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":67006,"og":{"codigo_dir":"EA0011258","nombre":"Centro
+        Espa\u00f1ol de Metrologia"},"ut":{"codigo_dir":"EA0011261","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0011261","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":67787,"og":{"codigo_dir":"E00118706","nombre":"D.G.
+        de Pol\u00edtica Econ\u00f3mica"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":67788,"og":{"codigo_dir":"E04994301","nombre":"S.
+        de E. de Economia y Apoyo a la Empresa"},"ut":{"codigo_dir":"EA0023115","nombre":"Caja
+        Pagadora de Administraci\u00f3n Financiera"},"oc":{"codigo_dir":"GE0014048","nombre":"Oficina
+        Contable. I.D. Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n
+        Digital"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Econom\u00eda,
+        Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":67929,"og":{"codigo_dir":"E00119808","nombre":"D.G.
+        de Comercio Internacional e Inversiones"},"ut":{"codigo_dir":"EA0018256","nombre":"Sg
+        de Oficialia Mayor y Administraci\u00f3n Financiera. Caja Pagadora"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":67931,"og":{"codigo_dir":"E00119808","nombre":"D.G.
+        de Comercio Internacional e Inversiones"},"ut":{"codigo_dir":"EA0019171","nombre":"Unidad
+        de Apoyo de la Direcci\u00f3n General de Comercio Internacional e Inversiones"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":67967,"og":{"codigo_dir":"EA0011012","nombre":"Direcciones
+        Territoriales y Provinciales de Comercio"},"ut":{"codigo_dir":"EA0011012","nombre":"Direcciones
+        Territoriales y Provinciales de Comercio"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Econom\u00eda, Industria y Competitividad","codigo_dir":"E04990501","cifs":[]},"id":67969,"og":{"codigo_dir":"EA0011012","nombre":"Direcciones
+        Territoriales y Provinciales de Comercio"},"ut":{"codigo_dir":"EA0018256","nombre":"Sg
+        de Oficialia Mayor y Administraci\u00f3n Financiera. Caja Pagadora"},"oc":{"codigo_dir":"GE0014053","nombre":"Oficina
+        Contable. I.D. Ministerio de Industria, Comercio y Turismo"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:02:09 GMT
+recorded_with: VCR 6.0.0

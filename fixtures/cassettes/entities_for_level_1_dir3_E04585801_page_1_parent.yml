@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 28 Feb 2021 03:52:18 GMT
+      - Thu, 04 Mar 2021 16:43:47 GMT
       Server:
       - Microsoft-IIS/5.0
       Cache-Control:
@@ -138,5 +138,5 @@ http_interactions:
         Caribe"},"ut":{"codigo_dir":"EA0014486","nombre":"Gabinete del Secretario
         de Estado de Cooperaci\u00f3n Internacional, para Iberoamerica y el Caribe"},"oc":{"codigo_dir":"GE0014059","nombre":"Oficina
         Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."}}]}'
-  recorded_at: Sun, 28 Feb 2021 03:52:18 GMT
+  recorded_at: Thu, 04 Mar 2021 16:43:47 GMT
 recorded_with: VCR 6.0.0

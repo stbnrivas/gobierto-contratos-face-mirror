@@ -1,0 +1,570 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921701/relaciones?administracion=E04921701&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:28 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S2817039G"},{"nif":"Q3317001J"},{"nif":"E04802803"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11305,"og":{"codigo_dir":"E04802803","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"ut":{"codigo_dir":"E04802803","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"oc":{"codigo_dir":"E04802803","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."}},{"cifs":[{"nif":"Q4717001D"},{"nif":"G4717001D"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11217,"og":{"codigo_dir":"E00133703","nombre":"Confederacion
+        Hidrografica del Duero"},"ut":{"codigo_dir":"E03150903","nombre":"Oficina
+        de Planificacion Hidrologica"},"oc":{"codigo_dir":"E03151003","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"Q4717001D"},{"nif":"G4717001D"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11219,"og":{"codigo_dir":"E00133703","nombre":"Confederacion
+        Hidrografica del Duero"},"ut":{"codigo_dir":"E03151003","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"E03151003","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q4717001D"},{"nif":"G4717001D"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11220,"og":{"codigo_dir":"E00133703","nombre":"Confederacion
+        Hidrografica del Duero"},"ut":{"codigo_dir":"E03151103","nombre":"Direccion
+        Tecnica"},"oc":{"codigo_dir":"E03151003","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q4717001D"},{"nif":"G4717001D"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11221,"og":{"codigo_dir":"E00133703","nombre":"Confederacion
+        Hidrografica del Duero"},"ut":{"codigo_dir":"E03151203","nombre":"Comisaria
+        de Aguas"},"oc":{"codigo_dir":"E03151003","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q4117001J"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11228,"og":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"E03152303","nombre":"OFICINA
+        DE PLANIFICACION HIDROLOGICA"},"oc":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"}},{"cifs":[{"nif":"Q4117001J"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11230,"og":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"E03152403","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"E00134003","nombre":"Confederacion Hidrografica
+        del Guadalquivir"}},{"cifs":[{"nif":"Q4117001J"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11231,"og":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"E03152503","nombre":"DIRECCION
+        TECNICA"},"oc":{"codigo_dir":"E00134003","nombre":"Confederacion Hidrografica
+        del Guadalquivir"}},{"cifs":[{"nif":"Q4117001J"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11232,"og":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"E03152603","nombre":"COMISARIA
+        DE AGUAS"},"oc":{"codigo_dir":"E00134003","nombre":"Confederacion Hidrografica
+        del Guadalquivir"}},{"cifs":[{"nif":"Q0617001C"},{"nif":"S2817039G"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11296,"og":{"codigo_dir":"E00134103","nombre":"Confederacion
+        Hidrografica del Guadiana"},"ut":{"codigo_dir":"E03152903","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"E00134103","nombre":"Confederacion Hidrografica
+        del Guadiana"}},{"cifs":[{"nif":"Q3017001C"},{"nif":"Q0968272E"},{"nif":"B84527977"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11299,"og":{"codigo_dir":"E00134303","nombre":"Confederaci\u00f3n
+        Hidrogr\u00e1fica del Segura, O.A."},"ut":{"codigo_dir":"E03153703","nombre":"PRESIDENCIA"},"oc":{"codigo_dir":"E03153903","nombre":"Secretar\u00eda
+        General"}},{"cifs":[{"nif":"Q3017001C"},{"nif":"Q0968272E"},{"nif":"B84527977"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11300,"og":{"codigo_dir":"E00134303","nombre":"Confederaci\u00f3n
+        Hidrogr\u00e1fica del Segura, O.A."},"ut":{"codigo_dir":"E03153803","nombre":"OFICINA
+        DE PLANIFICACION HIDROLOGICA"},"oc":{"codigo_dir":"E03153903","nombre":"Secretar\u00eda
+        General"}},{"cifs":[{"nif":"Q3017001C"},{"nif":"Q0968272E"},{"nif":"B84527977"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11301,"og":{"codigo_dir":"E00134303","nombre":"Confederaci\u00f3n
+        Hidrogr\u00e1fica del Segura, O.A."},"ut":{"codigo_dir":"E03153903","nombre":"Secretar\u00eda
+        General"},"oc":{"codigo_dir":"E03153903","nombre":"Secretar\u00eda General"}},{"cifs":[{"nif":"Q3017001C"},{"nif":"Q0968272E"},{"nif":"B84527977"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11302,"og":{"codigo_dir":"E00134303","nombre":"Confederaci\u00f3n
+        Hidrogr\u00e1fica del Segura, O.A."},"ut":{"codigo_dir":"E03154003","nombre":"Direcci\u00f3n
+        T\u00e9cnica"},"oc":{"codigo_dir":"E03153903","nombre":"Secretar\u00eda General"}},{"cifs":[{"nif":"Q3017001C"},{"nif":"Q0968272E"},{"nif":"B84527977"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11303,"og":{"codigo_dir":"E00134303","nombre":"Confederaci\u00f3n
+        Hidrogr\u00e1fica del Segura, O.A."},"ut":{"codigo_dir":"E03154103","nombre":"COMISARIA
+        DE AGUAS"},"oc":{"codigo_dir":"E03153903","nombre":"Secretar\u00eda General"}},{"cifs":[{"nif":"Q2817005H"},{"nif":"S2817005H"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11308,"og":{"codigo_dir":"E00134403","nombre":"Confederacion
+        Hidrografica del Tajo"},"ut":{"codigo_dir":"E03154203","nombre":"PRESIDENCIA"},"oc":{"codigo_dir":"E03154403","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"Q2817005H"},{"nif":"S2817005H"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11309,"og":{"codigo_dir":"E00134403","nombre":"Confederacion
+        Hidrografica del Tajo"},"ut":{"codigo_dir":"E03154303","nombre":"OFICINA DE
+        PLANIFICACION HIDROLOGICA"},"oc":{"codigo_dir":"E03154403","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"Q2817005H"},{"nif":"S2817005H"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11311,"og":{"codigo_dir":"E00134403","nombre":"Confederacion
+        Hidrografica del Tajo"},"ut":{"codigo_dir":"E03154403","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"E03154403","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q2817005H"},{"nif":"S2817005H"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11312,"og":{"codigo_dir":"E00134403","nombre":"Confederacion
+        Hidrografica del Tajo"},"ut":{"codigo_dir":"E03154503","nombre":"DIRECCION
+        TECNICA"},"oc":{"codigo_dir":"E03154403","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q2817005H"},{"nif":"S2817005H"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11313,"og":{"codigo_dir":"E00134403","nombre":"Confederacion
+        Hidrografica del Tajo"},"ut":{"codigo_dir":"E03154603","nombre":"COMISARIA
+        DE AGUAS"},"oc":{"codigo_dir":"E03154403","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11537,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"E03149103","nombre":"PARQUE
+        NACIONAL DE CABA\u00d1EROS"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11538,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"E03149203","nombre":"PARQUE
+        NACIONAL DE DAIMIEL"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11539,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"E03150203","nombre":"CENTRO
+        LUGAR NUEVO Y SELLADORES"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11540,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"E03150303","nombre":"CENTRO
+        VALSAIN (CENTRO NACIONAL DE EDUCACION AMBIENTAL)"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q3017002A"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11307,"og":{"codigo_dir":"E03150703","nombre":"Mancomunidad
+        de los Canales del Taibilla"},"ut":{"codigo_dir":"E03150703","nombre":"Mancomunidad
+        de los Canales del Taibilla"},"oc":{"codigo_dir":"E03150703","nombre":"Mancomunidad
+        de los Canales del Taibilla"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:01:28 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921701/relaciones?administracion=E04921701&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:28 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"69","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:01:28 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921701/relaciones?administracion=E04921701&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:29 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"S2817039G"},{"nif":"Q3317001J"},{"nif":"E04802803"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11305,"og":{"codigo_dir":"E04802803","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"ut":{"codigo_dir":"E04802803","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"oc":{"codigo_dir":"E04802803","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."}},{"cifs":[{"nif":"Q4717001D"},{"nif":"G4717001D"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11217,"og":{"codigo_dir":"E00133703","nombre":"Confederacion
+        Hidrografica del Duero"},"ut":{"codigo_dir":"E03150903","nombre":"Oficina
+        de Planificacion Hidrologica"},"oc":{"codigo_dir":"E03151003","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"Q4717001D"},{"nif":"G4717001D"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11219,"og":{"codigo_dir":"E00133703","nombre":"Confederacion
+        Hidrografica del Duero"},"ut":{"codigo_dir":"E03151003","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"E03151003","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q4717001D"},{"nif":"G4717001D"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11220,"og":{"codigo_dir":"E00133703","nombre":"Confederacion
+        Hidrografica del Duero"},"ut":{"codigo_dir":"E03151103","nombre":"Direccion
+        Tecnica"},"oc":{"codigo_dir":"E03151003","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q4717001D"},{"nif":"G4717001D"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11221,"og":{"codigo_dir":"E00133703","nombre":"Confederacion
+        Hidrografica del Duero"},"ut":{"codigo_dir":"E03151203","nombre":"Comisaria
+        de Aguas"},"oc":{"codigo_dir":"E03151003","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q4117001J"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11228,"og":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"E03152303","nombre":"OFICINA
+        DE PLANIFICACION HIDROLOGICA"},"oc":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"}},{"cifs":[{"nif":"Q4117001J"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11230,"og":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"E03152403","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"E00134003","nombre":"Confederacion Hidrografica
+        del Guadalquivir"}},{"cifs":[{"nif":"Q4117001J"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11231,"og":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"E03152503","nombre":"DIRECCION
+        TECNICA"},"oc":{"codigo_dir":"E00134003","nombre":"Confederacion Hidrografica
+        del Guadalquivir"}},{"cifs":[{"nif":"Q4117001J"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11232,"og":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"E03152603","nombre":"COMISARIA
+        DE AGUAS"},"oc":{"codigo_dir":"E00134003","nombre":"Confederacion Hidrografica
+        del Guadalquivir"}},{"cifs":[{"nif":"Q0617001C"},{"nif":"S2817039G"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11296,"og":{"codigo_dir":"E00134103","nombre":"Confederacion
+        Hidrografica del Guadiana"},"ut":{"codigo_dir":"E03152903","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"E00134103","nombre":"Confederacion Hidrografica
+        del Guadiana"}},{"cifs":[{"nif":"Q3017001C"},{"nif":"Q0968272E"},{"nif":"B84527977"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11299,"og":{"codigo_dir":"E00134303","nombre":"Confederaci\u00f3n
+        Hidrogr\u00e1fica del Segura, O.A."},"ut":{"codigo_dir":"E03153703","nombre":"PRESIDENCIA"},"oc":{"codigo_dir":"E03153903","nombre":"Secretar\u00eda
+        General"}},{"cifs":[{"nif":"Q3017001C"},{"nif":"Q0968272E"},{"nif":"B84527977"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11300,"og":{"codigo_dir":"E00134303","nombre":"Confederaci\u00f3n
+        Hidrogr\u00e1fica del Segura, O.A."},"ut":{"codigo_dir":"E03153803","nombre":"OFICINA
+        DE PLANIFICACION HIDROLOGICA"},"oc":{"codigo_dir":"E03153903","nombre":"Secretar\u00eda
+        General"}},{"cifs":[{"nif":"Q3017001C"},{"nif":"Q0968272E"},{"nif":"B84527977"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11301,"og":{"codigo_dir":"E00134303","nombre":"Confederaci\u00f3n
+        Hidrogr\u00e1fica del Segura, O.A."},"ut":{"codigo_dir":"E03153903","nombre":"Secretar\u00eda
+        General"},"oc":{"codigo_dir":"E03153903","nombre":"Secretar\u00eda General"}},{"cifs":[{"nif":"Q3017001C"},{"nif":"Q0968272E"},{"nif":"B84527977"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11302,"og":{"codigo_dir":"E00134303","nombre":"Confederaci\u00f3n
+        Hidrogr\u00e1fica del Segura, O.A."},"ut":{"codigo_dir":"E03154003","nombre":"Direcci\u00f3n
+        T\u00e9cnica"},"oc":{"codigo_dir":"E03153903","nombre":"Secretar\u00eda General"}},{"cifs":[{"nif":"Q3017001C"},{"nif":"Q0968272E"},{"nif":"B84527977"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11303,"og":{"codigo_dir":"E00134303","nombre":"Confederaci\u00f3n
+        Hidrogr\u00e1fica del Segura, O.A."},"ut":{"codigo_dir":"E03154103","nombre":"COMISARIA
+        DE AGUAS"},"oc":{"codigo_dir":"E03153903","nombre":"Secretar\u00eda General"}},{"cifs":[{"nif":"Q2817005H"},{"nif":"S2817005H"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11308,"og":{"codigo_dir":"E00134403","nombre":"Confederacion
+        Hidrografica del Tajo"},"ut":{"codigo_dir":"E03154203","nombre":"PRESIDENCIA"},"oc":{"codigo_dir":"E03154403","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"Q2817005H"},{"nif":"S2817005H"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11309,"og":{"codigo_dir":"E00134403","nombre":"Confederacion
+        Hidrografica del Tajo"},"ut":{"codigo_dir":"E03154303","nombre":"OFICINA DE
+        PLANIFICACION HIDROLOGICA"},"oc":{"codigo_dir":"E03154403","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"Q2817005H"},{"nif":"S2817005H"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11311,"og":{"codigo_dir":"E00134403","nombre":"Confederacion
+        Hidrografica del Tajo"},"ut":{"codigo_dir":"E03154403","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"E03154403","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q2817005H"},{"nif":"S2817005H"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11312,"og":{"codigo_dir":"E00134403","nombre":"Confederacion
+        Hidrografica del Tajo"},"ut":{"codigo_dir":"E03154503","nombre":"DIRECCION
+        TECNICA"},"oc":{"codigo_dir":"E03154403","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q2817005H"},{"nif":"S2817005H"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11313,"og":{"codigo_dir":"E00134403","nombre":"Confederacion
+        Hidrografica del Tajo"},"ut":{"codigo_dir":"E03154603","nombre":"COMISARIA
+        DE AGUAS"},"oc":{"codigo_dir":"E03154403","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11537,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"E03149103","nombre":"PARQUE
+        NACIONAL DE CABA\u00d1EROS"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11538,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"E03149203","nombre":"PARQUE
+        NACIONAL DE DAIMIEL"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11539,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"E03150203","nombre":"CENTRO
+        LUGAR NUEVO Y SELLADORES"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11540,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"E03150303","nombre":"CENTRO
+        VALSAIN (CENTRO NACIONAL DE EDUCACION AMBIENTAL)"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q3017002A"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11307,"og":{"codigo_dir":"E03150703","nombre":"Mancomunidad
+        de los Canales del Taibilla"},"ut":{"codigo_dir":"E03150703","nombre":"Mancomunidad
+        de los Canales del Taibilla"},"oc":{"codigo_dir":"E03150703","nombre":"Mancomunidad
+        de los Canales del Taibilla"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:01:29 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921701/relaciones?administracion=E04921701&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:30 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11541,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"E03150403","nombre":"CENTRO
+        QUINTOS DE MORA"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11542,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"E03150503","nombre":"CASAS
+        FORESTALES"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina Contable Parques
+        Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11543,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"E03150604","nombre":"CENTRO
+        DE MONTES Y ASERRADERO DE VALSAIN"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11544,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"E04647503","nombre":"CENTRO
+        DE ENCOMIENDA DE MUDELA"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11546,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"E04690803","nombre":"Vivero
+        Escuela Rio Guadarrama (NAVALCARNERO)"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11547,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"E04713703","nombre":"ISLA
+        GRACIOSA DE TEGUISE"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11548,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003113","nombre":"\u00c1REA
+        DE GESTI\u00d3N ECON\u00d3MICA Y PRESUPUESTARIA"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11549,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003114","nombre":"DIRECCI\u00d3N"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11551,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003115","nombre":"Unidad
+        de Apoyo a Direcci\u00f3n"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11552,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003116","nombre":"FINCAS
+        DE REPRESENTACI\u00d3N INSTITUCIONAL"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11553,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003118","nombre":"\u00c1REA
+        JUR\u00cdDICA Y DE GESTION DE RECURSOS HUMANOS"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11554,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003119","nombre":"\u00c1REA
+        DE ACTUACIONES SINGULARES EN RED, CENTROS Y FINCAS"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11555,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003120","nombre":"\u00c1REA
+        DE RELACIONES INTERNACIONALES Y RESERVAS DE LA BIOSFERA"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11556,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003121","nombre":"\u00c1REA
+        DE CONSERVACI\u00d3N, SEGUIMIENTO Y PROGRAMAS DE LA RED"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11557,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003122","nombre":"REFUGIO
+        NACIONAL DE CAZA ISLAS CHAFARINAS"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11558,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003123","nombre":"CENTRO
+        DEL LINCE EL ACEBUCHE"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina Contable
+        Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11559,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003124","nombre":"CENTRO
+        DE CR\u00cdA GRANADILLA"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11560,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003125","nombre":"FINCA
+        LAS MARISMILLAS (PN DO\u00d1ANA)"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11561,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003126","nombre":"FINCA
+        DEHESA DE SAN JUAN (PN SIERRA NEVADA)"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11562,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003127","nombre":"FINCA
+        LUGAR NUEVO DE MONFRAG\u00dcE (PN MONFRAG\u00dcE)"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11563,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003128","nombre":"FINCA
+        GRANADILLA"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina Contable Parques
+        Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11564,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003129","nombre":"FINCA
+        LOS REALEJOS"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina Contable Parques
+        Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11565,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0003130","nombre":"FINCA
+        RIBAVELLOSA"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina Contable Parques
+        Nacionales"}},{"cifs":[{"nif":"Q1386002H"},{"nif":"Q2821021J"},{"nif":"Q4036001H"},{"nif":"U2821022G"},{"nif":"Q2821022G"},{"nif":"S3500036C"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11566,"og":{"codigo_dir":"E00133503","nombre":"Organismo
+        Autonomo Parques Nacionales"},"ut":{"codigo_dir":"EA0008581","nombre":"CAJA
+        FIJA Y HABILITACI\u00d3N OA PARQUES NACIONALES"},"oc":{"codigo_dir":"EA0003135","nombre":"Oficina
+        Contable Parques Nacionales"}},{"cifs":[{"nif":"Q2871011I"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11571,"og":{"codigo_dir":"E02747703","nombre":"SECRETARIA
+        GENERAL"},"ut":{"codigo_dir":"EA0003148","nombre":"Secretar\u00eda General.
+        Unidad Tramitadora"},"oc":{"codigo_dir":"EA0003147","nombre":"Secretar\u00eda
+        General. Oficina Contable"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:01:30 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E04921701/relaciones?administracion=E04921701&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:01:31 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura,
+        Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":19138,"og":{"codigo_dir":"E02747603","nombre":"DIRECCION
+        - UNIDAD DE APOYO"},"ut":{"codigo_dir":"EA0003148","nombre":"Secretar\u00eda
+        General. Unidad Tramitadora"},"oc":{"codigo_dir":"EA0003147","nombre":"Secretar\u00eda
+        General. Oficina Contable"}},{"cifs":[{"nif":"Q4717001D"},{"nif":"G4717001D"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":51773,"og":{"codigo_dir":"E00133703","nombre":"Confederacion
+        Hidrografica del Duero"},"ut":{"codigo_dir":"E03150803","nombre":"Presidencia"},"oc":{"codigo_dir":"E03151003","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"Q4117001J"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":35829,"og":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"GE0003612","nombre":"Confederaci\u00f3n
+        Hidrogr\u00e1fica del Guadalquivir-Caja de Sevilla"},"oc":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"}},{"cifs":[{"nif":"Q4117001J"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":35831,"og":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"GE0003613","nombre":"CONFEDERACI\u00d3N
+        HIDROGR\u00c1FICA DEL GUADALQUIVIR-CAJA DE C\u00d3RDOBA"},"oc":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"}},{"cifs":[{"nif":"Q4117001J"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":35833,"og":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"GE0003614","nombre":"CONFEDERACI\u00d3N
+        HIDROGR\u00c1FICA DEL GUADALQUIVIR-CAJA DE GRANADA"},"oc":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"}},{"cifs":[{"nif":"Q4117001J"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":35835,"og":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"ut":{"codigo_dir":"GE0003615","nombre":"CONFEDERACI\u00d3N
+        HIDROGR\u00c1FICA DEL GUADALQUIVIR-CAJA DE JA\u00c9N"},"oc":{"codigo_dir":"E00134003","nombre":"Confederacion
+        Hidrografica del Guadalquivir"}},{"cifs":[{"nif":"Q0617001C"},{"nif":"S2817039G"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":36222,"og":{"codigo_dir":"E00134103","nombre":"Confederacion
+        Hidrografica del Guadiana"},"ut":{"codigo_dir":"GE0011593","nombre":"CHG CAJA
+        PAGADORA BADAJOZ"},"oc":{"codigo_dir":"E00134103","nombre":"Confederacion
+        Hidrografica del Guadiana"}},{"cifs":[{"nif":"Q3200109A"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11609,"og":{"codigo_dir":"E04802703","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"E04802903","nombre":"Presidencia"},"oc":{"codigo_dir":"E04803003","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"Q3200109A"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11610,"og":{"codigo_dir":"E04802703","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"E04803003","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"E04803003","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q3200109A"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11611,"og":{"codigo_dir":"E04802703","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"E04803103","nombre":"OFICINA
+        DE PLANIFICACION HIDROLOGICA"},"oc":{"codigo_dir":"E04803003","nombre":"Secretaria
+        General"}},{"cifs":[{"nif":"Q3200109A"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11612,"og":{"codigo_dir":"E04802703","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"E04803203","nombre":"Direccion
+        Tecnica"},"oc":{"codigo_dir":"E04803003","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q3200109A"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11613,"og":{"codigo_dir":"E04802703","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"E04803303","nombre":"COMISARIA
+        DE AGUAS"},"oc":{"codigo_dir":"E04803003","nombre":"Secretaria General"}},{"cifs":[{"nif":"Q3200109A"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11614,"og":{"codigo_dir":"E04802703","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"GE0001931","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil (CAJA)"},"oc":{"codigo_dir":"E04803003","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio de Agricultura,
+        Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11572,"og":{"codigo_dir":"E02747803","nombre":"DIRECCION
+        TECNICA"},"ut":{"codigo_dir":"EA0003148","nombre":"Secretar\u00eda General.
+        Unidad Tramitadora"},"oc":{"codigo_dir":"EA0003147","nombre":"Secretar\u00eda
+        General. Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":44219,"og":{"codigo_dir":"E00133603","nombre":"Mancomunidad
+        de los Canales del Taibilla"},"ut":{"codigo_dir":"GE0012171","nombre":"Unidad
+        Tramitadora Canales del Taibilla"},"oc":{"codigo_dir":"E00133603","nombre":"Mancomunidad
+        de los Canales del Taibilla"}},{"cifs":[{"nif":"Q2821018E"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":11580,"og":{"codigo_dir":"EA0003177","nombre":"SECRETARIA
+        GENERAL ENESA"},"ut":{"codigo_dir":"EA0003179","nombre":"Servicio Econ\u00f3mico-Financiero"},"oc":{"codigo_dir":"EA0003178","nombre":"Servicio
+        de Contabilidad"}},{"cifs":[{"nif":"Q2871011I"},{"nif":"S28005561"}],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":19137,"og":{"codigo_dir":"E04973101","nombre":"Secretaria
+        General"},"ut":{"codigo_dir":"EA0003148","nombre":"Secretar\u00eda General.
+        Unidad Tramitadora"},"oc":{"codigo_dir":"EA0003147","nombre":"Secretar\u00eda
+        General. Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":19139,"og":{"codigo_dir":"E04973201","nombre":"UNIDAD
+        TECNICA DE MERCADOS"},"ut":{"codigo_dir":"EA0003148","nombre":"Secretar\u00eda
+        General. Unidad Tramitadora"},"oc":{"codigo_dir":"EA0003147","nombre":"Secretar\u00eda
+        General. Oficina Contable"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        de Agricultura, Alimentacion y Medio Ambiente","codigo_dir":"E04921701","cifs":[]},"id":19140,"og":{"codigo_dir":"E04973301","nombre":"UNIDAD
+        TECNICA DE SEGUIMIENTO DE LA CADENA E INSPECCION"},"ut":{"codigo_dir":"EA0003148","nombre":"Secretar\u00eda
+        General. Unidad Tramitadora"},"oc":{"codigo_dir":"EA0003147","nombre":"Secretar\u00eda
+        General. Oficina Contable"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:01:31 GMT
+recorded_with: VCR 6.0.0

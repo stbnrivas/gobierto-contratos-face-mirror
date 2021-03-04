@@ -1,0 +1,1035 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024701/relaciones?administracion=E05024701&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:21 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62678,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0022683","nombre":"Direcci\u00f3n
+        T\u00e9cnica"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion Hidrografica
+        del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62679,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0022685","nombre":"Presidencia"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62718,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"GE0012030","nombre":"\u00c1rea
+        de Explotaci\u00f3n"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62719,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"GE0012032","nombre":"Servicio
+        6\u00ba del \u00c1rea de Explotaci\u00f3n"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62734,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0022630","nombre":"Comisar\u00eda
+        de Aguas"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion Hidrografica
+        del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62735,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0022684","nombre":"Oficina de
+        Planificaci\u00f3n Hidrol\u00f3gica"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62736,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0022686","nombre":"Secretar\u00eda
+        General"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion Hidrografica
+        del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62737,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"GE0012031","nombre":"Servicio
+        2\u00ba del \u00c1rea de Explotaci\u00f3n"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62738,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"GE0012033","nombre":"Servicio
+        de Aplicaciones Industriales"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62979,"og":{"codigo_dir":"EA0022583","nombre":"Demarcaciones
+        y Servicios de Costas"},"ut":{"codigo_dir":"EA0022603","nombre":"Servicio
+        Provincial de Costas Pontevedra"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63274,"og":{"codigo_dir":"EA0022616","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"ut":{"codigo_dir":"EA0022616","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"oc":{"codigo_dir":"EA0022616","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63317,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022588","nombre":"Demarcacion
+        de Costas de Baleares"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina Contable.
+        Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63354,"og":{"codigo_dir":"EA0022601","nombre":"Servicio
+        Provincial de Costas Huelva"},"ut":{"codigo_dir":"EA0022601","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63355,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022588","nombre":"Demarcacion
+        de Costas de Baleares"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina Contable.
+        Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63523,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022584","nombre":"Demarcacion
+        de Costas. Andalucia-Atlantico Cadiz"},"oc":{"codigo_dir":"GE0014078","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cadiz - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63524,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022584","nombre":"Demarcacion
+        de Costas. Andalucia-Atlantico Cadiz"},"oc":{"codigo_dir":"GE0014078","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cadiz - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63766,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022589","nombre":"Demarcacion
+        de Costas de Canarias Las Palmas"},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63816,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022587","nombre":"Demarcacion
+        de Costas de Asturias Oviedo"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63836,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022587","nombre":"Demarcacion
+        de Costas de Asturias Oviedo"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64115,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022599","nombre":"Servicio
+        Provincial de Costas Girona"},"oc":{"codigo_dir":"GE0014086","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Girona - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64135,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022603","nombre":"Servicio
+        Provincial de Costas Pontevedra"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64301,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022594","nombre":"Demarcacion
+        de Costas Valencia"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina Contable.
+        Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64369,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0018743","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64370,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022601","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64520,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022597","nombre":"Servicio
+        Provincial de Costas Castellon"},"oc":{"codigo_dir":"GE0014081","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Castellon - Intervencion"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:21 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024701/relaciones?administracion=E05024701&page=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:21 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"pager":{"total":"149","limit":25},"filter":{"fields":["oc","og","ut"]}}'
+  recorded_at: Thu, 04 Mar 2021 14:03:21 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024701/relaciones?administracion=E05024701&limit=25.0&page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:22 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62678,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0022683","nombre":"Direcci\u00f3n
+        T\u00e9cnica"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion Hidrografica
+        del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62679,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0022685","nombre":"Presidencia"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62718,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"GE0012030","nombre":"\u00c1rea
+        de Explotaci\u00f3n"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62719,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"GE0012032","nombre":"Servicio
+        6\u00ba del \u00c1rea de Explotaci\u00f3n"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62734,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0022630","nombre":"Comisar\u00eda
+        de Aguas"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion Hidrografica
+        del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62735,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0022684","nombre":"Oficina de
+        Planificaci\u00f3n Hidrol\u00f3gica"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62736,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"EA0022686","nombre":"Secretar\u00eda
+        General"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion Hidrografica
+        del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62737,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"GE0012031","nombre":"Servicio
+        2\u00ba del \u00c1rea de Explotaci\u00f3n"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62738,"og":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"ut":{"codigo_dir":"GE0012033","nombre":"Servicio
+        de Aplicaciones Industriales"},"oc":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":62979,"og":{"codigo_dir":"EA0022583","nombre":"Demarcaciones
+        y Servicios de Costas"},"ut":{"codigo_dir":"EA0022603","nombre":"Servicio
+        Provincial de Costas Pontevedra"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63274,"og":{"codigo_dir":"EA0022616","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"ut":{"codigo_dir":"EA0022616","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"oc":{"codigo_dir":"EA0022616","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63317,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022588","nombre":"Demarcacion
+        de Costas de Baleares"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina Contable.
+        Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63354,"og":{"codigo_dir":"EA0022601","nombre":"Servicio
+        Provincial de Costas Huelva"},"ut":{"codigo_dir":"EA0022601","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63355,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022588","nombre":"Demarcacion
+        de Costas de Baleares"},"oc":{"codigo_dir":"GE0014090","nombre":"Oficina Contable.
+        Delegaci\u00f3n de Econom\u00eda y Hacienda en Illes Balears - Intervenc"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63523,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022584","nombre":"Demarcacion
+        de Costas. Andalucia-Atlantico Cadiz"},"oc":{"codigo_dir":"GE0014078","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cadiz - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63524,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022584","nombre":"Demarcacion
+        de Costas. Andalucia-Atlantico Cadiz"},"oc":{"codigo_dir":"GE0014078","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Cadiz - Intervencion Terr"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63766,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022589","nombre":"Demarcacion
+        de Costas de Canarias Las Palmas"},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63816,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022587","nombre":"Demarcacion
+        de Costas de Asturias Oviedo"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":63836,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022587","nombre":"Demarcacion
+        de Costas de Asturias Oviedo"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64115,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022599","nombre":"Servicio
+        Provincial de Costas Girona"},"oc":{"codigo_dir":"GE0014086","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Girona - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64135,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022603","nombre":"Servicio
+        Provincial de Costas Pontevedra"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64301,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022594","nombre":"Demarcacion
+        de Costas Valencia"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina Contable.
+        Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64369,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0018743","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64370,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022601","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64520,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022597","nombre":"Servicio
+        Provincial de Costas Castellon"},"oc":{"codigo_dir":"GE0014081","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Castellon - Intervencion"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:22 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024701/relaciones?administracion=E05024701&limit=25.0&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:23 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64539,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022590","nombre":"Demarcacion
+        de Costas de Catalu\u00f1a"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64559,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022590","nombre":"Demarcacion
+        de Costas de Catalu\u00f1a"},"oc":{"codigo_dir":"GE0014074","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Barcelona - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64599,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022595","nombre":"Servicio
+        Provincial de Costas Alicante"},"oc":{"codigo_dir":"GE0014116","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Alicante - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64620,"og":{"codigo_dir":"EA0022935","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"E04802903","nombre":"Presidencia"},"oc":{"codigo_dir":"E04803003","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64621,"og":{"codigo_dir":"EA0022935","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"E04803203","nombre":"Direccion
+        Tecnica"},"oc":{"codigo_dir":"E04803003","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64622,"og":{"codigo_dir":"EA0022935","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"EA0022952","nombre":"Presidencia"},"oc":{"codigo_dir":"EA0022953","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64640,"og":{"codigo_dir":"EA0022935","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"EA0022936","nombre":"Comisaria
+        de Aguas"},"oc":{"codigo_dir":"EA0022953","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64641,"og":{"codigo_dir":"EA0022935","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"EA0022951","nombre":"Oficina
+        de Planificacion Hidrologica"},"oc":{"codigo_dir":"EA0022953","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64680,"og":{"codigo_dir":"EA0022935","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"E04803003","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"E04803003","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64681,"og":{"codigo_dir":"EA0022935","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"GE0001931","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil (CAJA)"},"oc":{"codigo_dir":"E04803003","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64682,"og":{"codigo_dir":"EA0022935","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"EA0022944","nombre":"Direccion
+        Tecnica"},"oc":{"codigo_dir":"EA0022953","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64683,"og":{"codigo_dir":"EA0022935","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"EA0022953","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0022953","nombre":"Secretaria General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64684,"og":{"codigo_dir":"EA0022935","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"GE0001931","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil (CAJA)"},"oc":{"codigo_dir":"EA0022953","nombre":"Secretaria
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64741,"og":{"codigo_dir":"EA0022929","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0022931","nombre":"Direccion
+        Tecnica"},"oc":{"codigo_dir":"EA0022929","nombre":"Confederacion Hidrografica
+        del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio para
+        la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64761,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022586","nombre":"Demarcacion
+        de Costas Cantabria"},"oc":{"codigo_dir":"GE0014080","nombre":"Oficina Contable.
+        Delegacion de Economia y Hacienda en Cantabria - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64762,"og":{"codigo_dir":"EA0022929","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0022930","nombre":"Comisaria
+        de Aguas"},"oc":{"codigo_dir":"EA0022929","nombre":"Confederacion Hidrografica
+        del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio para
+        la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64780,"og":{"codigo_dir":"EA0022929","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0022932","nombre":"Oficina
+        de Planificacion Hidrologica"},"oc":{"codigo_dir":"EA0022929","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64781,"og":{"codigo_dir":"EA0022929","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0022933","nombre":"Presidencia"},"oc":{"codigo_dir":"EA0022929","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64782,"og":{"codigo_dir":"EA0022929","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"ut":{"codigo_dir":"EA0022934","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"EA0022929","nombre":"Confederacion Hidrografica
+        del Jucar, O.A."}},{"cifs":[],"administracion":{"nombre":"Ministerio para
+        la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64822,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022596","nombre":"Servicio
+        Provincial de Costas Almeria"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":64840,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022596","nombre":"Servicio
+        Provincial de Costas Almeria"},"oc":{"codigo_dir":"GE0014071","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Almeria - Intervencion Te"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":65000,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022602","nombre":"Servicio
+        Provincial de Costas Lugo"},"oc":{"codigo_dir":"GE0014095","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lugo - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":65020,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022602","nombre":"Servicio
+        Provincial de Costas Lugo"},"oc":{"codigo_dir":"GE0014095","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Lugo - Intervencion Terri"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":65060,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022585","nombre":"Demarcacion
+        de Costas. Andalucia-Mediterraneo Malaga"},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Malaga - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":65080,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022585","nombre":"Demarcacion
+        de Costas. Andalucia-Mediterraneo Malaga"},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Malaga - Intervencion Ter"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:23 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024701/relaciones?administracion=E05024701&limit=25.0&page=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:24 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":65121,"og":{"codigo_dir":"EA0022935","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil"},"ut":{"codigo_dir":"EA0022953","nombre":"Secretaria
+        General"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina Contable. I.D.
+        Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":65543,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0018748","nombre":"Servicio
+        Provincial de Costas Tenerife"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":65662,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0018742","nombre":"Servicio
+        Provincial de Costas Guipuzcoa"},"oc":{"codigo_dir":"GE0014062","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Guipuzcoa - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":65681,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022600","nombre":"Servicio
+        Provincial de Costas Guipuzcoa"},"oc":{"codigo_dir":"GE0014062","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Guipuzcoa - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":65682,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022601","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014089","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Huelva - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":65704,"og":{"codigo_dir":"EA0022954","nombre":"Confederacion
+        Hidrografica del Segura, O.A."},"ut":{"codigo_dir":"EA0022972","nombre":"Secretar\u00eda
+        General"},"oc":{"codigo_dir":"EA0022972","nombre":"Secretar\u00eda General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":65724,"og":{"codigo_dir":"EA0022954","nombre":"Confederacion
+        Hidrografica del Segura, O.A."},"ut":{"codigo_dir":"EA0022969","nombre":"Direcci\u00f3n
+        T\u00e9cnica"},"oc":{"codigo_dir":"EA0022972","nombre":"Secretar\u00eda General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":65725,"og":{"codigo_dir":"EA0022954","nombre":"Confederacion
+        Hidrografica del Segura, O.A."},"ut":{"codigo_dir":"EA0022971","nombre":"Presidencia"},"oc":{"codigo_dir":"EA0022972","nombre":"Secretar\u00eda
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":65761,"og":{"codigo_dir":"EA0022954","nombre":"Confederacion
+        Hidrografica del Segura, O.A."},"ut":{"codigo_dir":"EA0022955","nombre":"Comisar\u00eda
+        de Aguas"},"oc":{"codigo_dir":"EA0022972","nombre":"Secretar\u00eda General"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":65762,"og":{"codigo_dir":"EA0022954","nombre":"Confederacion
+        Hidrografica del Segura, O.A."},"ut":{"codigo_dir":"EA0022970","nombre":"Oficina
+        de Planificaci\u00f3n Hidrol\u00f3gica"},"oc":{"codigo_dir":"EA0022972","nombre":"Secretar\u00eda
+        General"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":67105,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022589","nombre":"Demarcacion
+        de Costas de Canarias Las Palmas"},"oc":{"codigo_dir":"GE0014066","nombre":"Oficina
+        Contable. Delegacion  de Economia y Hacienda en Canarias-Las Palmas- Int"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":67827,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022603","nombre":"Servicio
+        Provincial de Costas Pontevedra"},"oc":{"codigo_dir":"GE0014102","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Pontevedra - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":67933,"og":{"codigo_dir":"E05041501","nombre":"Secretaria
+        General Tecnica"},"ut":{"codigo_dir":"EA0022460","nombre":"S.G. De. Servicios
+        y Coordinaci\u00f3n"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":67950,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022455","nombre":"S.G.
+        de Relaciones Internacionales"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":67952,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022608","nombre":"S.G.
+        para la Proteccion de la Costa"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":67953,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"GE0003626","nombre":"Caja
+        Pagadora MITERD"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":67970,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022456","nombre":"S.G.
+        de Personal e Inspeccion de los Servicios"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":67971,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022460","nombre":"S.G.
+        De. Servicios y Coordinaci\u00f3n"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68002,"og":{"codigo_dir":"E05041301","nombre":"Direcci\u00f3n
+        General de Biodiversidad y Calidad Ambiental"},"ut":{"codigo_dir":"EA0022580","nombre":"S.G.
+        de Biodiversidad y Medio Natural"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68003,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022582","nombre":"Unidad
+        de Apoyo de la D.G. de Biodiversidad y Calidad Ambiental"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68004,"og":{"codigo_dir":"E04595805","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0022616","nombre":"Confederacion
+        Hidrografica del Cantabrico, O.A."},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68005,"og":{"codigo_dir":"E04595805","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0022622","nombre":"Confederacion
+        Hidrografica del Duero"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68006,"og":{"codigo_dir":"E04595805","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0022929","nombre":"Confederacion
+        Hidrografica del Jucar, O.A."},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68041,"og":{"codigo_dir":"E04737006","nombre":"Oficina
+        Espa\u00f1ola del Cambio Clim\u00e1tico"},"ut":{"codigo_dir":"EA0022610","nombre":"S.G.
+        de Comercio de Emisiones y Mecanismos de Flexibilidad"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68042,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022615","nombre":"S.G.
+        de Programacion Economica"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:24 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024701/relaciones?administracion=E05024701&limit=25.0&page=4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:25 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68043,"og":{"codigo_dir":"E04595805","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0022969","nombre":"Direcci\u00f3n
+        T\u00e9cnica"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68044,"og":{"codigo_dir":"E04595805","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"GE0003626","nombre":"Caja Pagadora
+        MITERD"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable. I.D. Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68047,"og":{"codigo_dir":"E00119406","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Energ\u00e9tica y Minas"},"ut":{"codigo_dir":"E00119406","nombre":"Direcci\u00f3n
+        General de Pol\u00edtica Energ\u00e9tica y Minas"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68048,"og":{"codigo_dir":"E05032001","nombre":"Secretar\u00eda
+        de Estado de Energ\u00eda"},"ut":{"codigo_dir":"E05032001","nombre":"Secretar\u00eda
+        de Estado de Energ\u00eda"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68049,"og":{"codigo_dir":"E05032001","nombre":"Secretar\u00eda
+        de Estado de Energ\u00eda"},"ut":{"codigo_dir":"E05032201","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68050,"og":{"codigo_dir":"E05032101","nombre":"Secretar\u00eda
+        de Estado de Medio Ambiente"},"ut":{"codigo_dir":"E05032401","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68051,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"E05032401","nombre":"Gabinete
+        del Secretario de Estado"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68052,"og":{"codigo_dir":"E05041301","nombre":"Direcci\u00f3n
+        General de Biodiversidad y Calidad Ambiental"},"ut":{"codigo_dir":"EA0022582","nombre":"Unidad
+        de Apoyo de la D.G. de Biodiversidad y Calidad Ambiental"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68053,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022610","nombre":"S.G.
+        de Comercio de Emisiones y Mecanismos de Flexibilidad"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68054,"og":{"codigo_dir":"E04737006","nombre":"Oficina
+        Espa\u00f1ola del Cambio Clim\u00e1tico"},"ut":{"codigo_dir":"EA0022611","nombre":"S.G.
+        de Coordinacion de Acciones Frente al Cambio Climatico"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68055,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022611","nombre":"S.G.
+        de Coordinacion de Acciones Frente al Cambio Climatico"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68056,"og":{"codigo_dir":"E04595805","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0022615","nombre":"S.G. de Programacion
+        Economica"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable. I.D.
+        Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68057,"og":{"codigo_dir":"E04595805","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0022629","nombre":"Confederacion
+        Hidrografica del Ebro"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68058,"og":{"codigo_dir":"E04595805","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0022687","nombre":"Confederacion
+        Hidrografica del Guadalquivir"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68059,"og":{"codigo_dir":"E04595805","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"GE0001931","nombre":"Confederacion
+        Hidrografica del Mi\u00f1o-Sil (CAJA)"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68067,"og":{"codigo_dir":"E04595805","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"GE0011648","nombre":"Caja Pagos a Justificar
+        Expropiaciones y Obras Emergencia Chg"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68087,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022592","nombre":"Demarcacion
+        de Costas del Pais Vasco Bizkaia"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68107,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022592","nombre":"Demarcacion
+        de Costas del Pais Vasco Bizkaia"},"oc":{"codigo_dir":"GE0014075","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Bizkaia - Intervencion Re"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68127,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022597","nombre":"Servicio
+        Provincial de Costas Castellon"},"oc":{"codigo_dir":"GE0014081","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Castellon - Intervencion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68230,"og":{"codigo_dir":"EA0022570","nombre":"Area
+        Juridica y Patrimonial"},"ut":{"codigo_dir":"EA0022545","nombre":"Agencia
+        Estatal de Meteorologia"},"oc":{"codigo_dir":"GE0014526","nombre":"Oficina
+        Contable. I.D. Ministerio de Hacienda"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68347,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022594","nombre":"Demarcacion
+        de Costas Valencia"},"oc":{"codigo_dir":"GE0014112","nombre":"Oficina Contable.
+        Delegacion de Economia y Hacienda en Valencia - Intervencion T"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68507,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022591","nombre":"Demarcacion
+        de Costas de Galicia A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014065","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en A Coru\u00f1a - Intervencion
+        T"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":68527,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022591","nombre":"Demarcacion
+        de Costas de Galicia A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014065","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en A Coru\u00f1a - Intervencion
+        T"}},{"cifs":[],"administracion":{"nombre":"Ministerio para la Transici\u00f3n
+        Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70368,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022584","nombre":"Demarcacion
+        de Costas. Andalucia-Atlantico Cadiz"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70370,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022587","nombre":"Demarcacion
+        de Costas de Asturias Oviedo"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:25 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024701/relaciones?administracion=E05024701&limit=25.0&page=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:26 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70371,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022589","nombre":"Demarcacion
+        de Costas de Canarias Las Palmas"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70374,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022591","nombre":"Demarcacion
+        de Costas de Galicia A Coru\u00f1a"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70375,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022594","nombre":"Demarcacion
+        de Costas Valencia"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70377,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022605","nombre":"Servicio
+        Provincial de Costas Tarragona"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70389,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022588","nombre":"Demarcacion
+        de Costas de Baleares"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70390,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022590","nombre":"Demarcacion
+        de Costas de Catalu\u00f1a"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70395,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022595","nombre":"Servicio
+        Provincial de Costas Alicante"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70399,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022598","nombre":"Servicio
+        Provincial de Costas de Granada"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70401,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022599","nombre":"Servicio
+        Provincial de Costas Girona"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70402,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022600","nombre":"Servicio
+        Provincial de Costas Guipuzcoa"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70404,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022603","nombre":"Servicio
+        Provincial de Costas Pontevedra"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70405,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022604","nombre":"Servicio
+        Provincial de Costas Sevilla"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70407,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022585","nombre":"Demarcacion
+        de Costas. Andalucia-Mediterraneo Malaga"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70408,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022586","nombre":"Demarcacion
+        de Costas Cantabria"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70413,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022596","nombre":"Servicio
+        Provincial de Costas Almeria"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70414,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022597","nombre":"Servicio
+        Provincial de Costas Castellon"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70417,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022601","nombre":"Servicio
+        Provincial de Costas Huelva"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70419,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022602","nombre":"Servicio
+        Provincial de Costas Lugo"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":70428,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022592","nombre":"Demarcacion
+        de Costas del Pais Vasco Bizkaia"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72207,"og":{"codigo_dir":"EA0039140","nombre":"Subdireccion
+        de Emergencias y Proteccion Fisica"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72208,"og":{"codigo_dir":"EA0039144","nombre":"Gabinete"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72209,"og":{"codigo_dir":"EA0039150","nombre":"Secretaria"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72210,"og":{"codigo_dir":"EA0039152","nombre":"Secretaria
+        del Consejo"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72211,"og":{"codigo_dir":"EA0039158","nombre":"Subdireccion
+        de Tecnologias de la Informacion"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72212,"og":{"codigo_dir":"EA0039159","nombre":"Unidad
+        de Inspeccion"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion de
+        Personal y Administracion"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:26 GMT
+- request:
+    method: get
+    uri: https://face.gob.es/api/v2/administraciones/E05024701/relaciones?administracion=E05024701&limit=25.0&page=6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 04 Mar 2021 14:03:27 GMT
+      Server:
+      - Microsoft-IIS/5.0
+      Cache-Control:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubdomains; preload
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin,strict-origin-when-cross-origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"cifs":[],"administracion":{"nombre":"Ministerio para la
+        Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":75307,"og":{"codigo_dir":"E04595805","nombre":"Direcci\u00f3n
+        General del Agua"},"ut":{"codigo_dir":"EA0022975","nombre":"Direccion Tecnica"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":93627,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0043344","nombre":"Demarcacion
+        de Costas. Andalucia-Mediterraneo Malaga"},"oc":{"codigo_dir":"GE0014063","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Malaga - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":86647,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0022599","nombre":"Servicio
+        Provincial de Costas Girona"},"oc":{"codigo_dir":"GE0014086","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Girona - Intervencion Ter"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":90827,"og":{"codigo_dir":"E04795205","nombre":"Direcci\u00f3n
+        General de Sostenibilidad de la Costa y del Mar"},"ut":{"codigo_dir":"EA0043346","nombre":"Demarcacion
+        de Costas en Asturias (Oviedo)"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":73407,"og":{"codigo_dir":"EA0039138","nombre":"Direccion
+        Tecnica de Proteccion Radiologica"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":73408,"og":{"codigo_dir":"EA0039139","nombre":"Gabinete"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72227,"og":{"codigo_dir":"EA0039141","nombre":"Subdireccion
+        de Proteccion Radiologia Ambiental"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72228,"og":{"codigo_dir":"EA0039142","nombre":"Subdireccion
+        de Proteccion Radiologia Operacional"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":73427,"og":{"codigo_dir":"EA0039143","nombre":"Direccion
+        Tecnica de Seguridad Nuclear"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72229,"og":{"codigo_dir":"EA0039145","nombre":"Subdireccion
+        de Ingenieria"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72230,"og":{"codigo_dir":"EA0039146","nombre":"Subdireccion
+        de Instalaciones Nucleares"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72231,"og":{"codigo_dir":"EA0039147","nombre":"Subdireccion
+        de Tecnologia Nuclear"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72232,"og":{"codigo_dir":"EA0039149","nombre":"Gabinete
+        Tecnico"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72233,"og":{"codigo_dir":"EA0039154","nombre":"Gabinete"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72234,"og":{"codigo_dir":"EA0039155","nombre":"Relacion
+        Especial de Puestos del Consejo de Seguridad Nuclear (ACUERDO CONSEJO MINISTROS
+        2\/7\/10)"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion de Personal
+        y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion de
+        Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72235,"og":{"codigo_dir":"EA0039156","nombre":"Subdireccion
+        de Asesoria Juridica"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72236,"og":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72237,"og":{"codigo_dir":"EA0039160","nombre":"Unidad
+        de Investigacion y Gestion del Conocimiento"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72238,"og":{"codigo_dir":"EA0039161","nombre":"Unidad
+        de Planificacion , Evaluacion y Calidad"},"ut":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"},"oc":{"codigo_dir":"EA0039157","nombre":"Subdireccion
+        de Personal y Administracion"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":76609,"og":{"codigo_dir":"E05032101","nombre":"Secretar\u00eda
+        de Estado de Medio Ambiente"},"ut":{"codigo_dir":"EA0039767","nombre":"Caja
+        Pagadora Cop25"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina Contable.
+        I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":90847,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0043346","nombre":"Demarcacion
+        de Costas en Asturias (Oviedo)"},"oc":{"codigo_dir":"GE0014068","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Asturias - Intervencion R"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":97389,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0043346","nombre":"Demarcacion
+        de Costas en Asturias (Oviedo)"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72647,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022606","nombre":"Servicio
+        Provincial de Costas Tenerife"},"oc":{"codigo_dir":"GE0014060","nombre":"Oficina
+        Contable. I.D. Ministerio para la Transici\u00f3n Ecol\u00f3gica y Reto Demogr\u00e1fic"}},{"cifs":[],"administracion":{"nombre":"Ministerio
+        para la Transici\u00f3n Ecol\u00f3gica","codigo_dir":"E05024701","cifs":[]},"id":72667,"og":{"codigo_dir":"E05035501","nombre":"Subsecretar\u00eda
+        para la Transici\u00f3n Ecol\u00f3gica"},"ut":{"codigo_dir":"EA0022606","nombre":"Servicio
+        Provincial de Costas Tenerife"},"oc":{"codigo_dir":"GE0014105","nombre":"Oficina
+        Contable. Delegacion de Economia y Hacienda en Santa Cruz de Tenerife -"}}]}'
+  recorded_at: Thu, 04 Mar 2021 14:03:27 GMT
+recorded_with: VCR 6.0.0

@@ -32,7 +32,14 @@ Se identifican por varios campos (ambos son únicos) :
 Se proporciona un dump de la tabla fiscal_entities en `db/fiscal_entities.csv` con el campo Dir3
 relleno.
 
+
+
+
 ## Objetivo
+
+![image](open-licitaciones.png)
+
+
 
 El objetivo del proyecto es ampliar el número de entidades (ahora hay aproximadamente 75k)
 importándolas de una base de datos oficial llamada FACe: https://face.gob.es/es/directorio/administraciones
@@ -52,42 +59,18 @@ Hay entidades de 5 niveles, que se obtienen a través de estas llamadas:
 (Ojo que en los niveles 1 y 2 hay muy pocos elementos, es normal.)
 
 
-https://face.gob.es/api/v2/administraciones?nivel=1&provincia=&administracion=&page=1&limit=25
-
-
-La API devuelve un JSON muy sencillo del que tenemos que guardar el nombre, el DIR3.
-
-```json
-{
-  "items": [
-    {
-      "codigo_dir": "E04585801",
-      "nombre_admon": "Ministerio de Asuntos Exteriores y de Cooperación"
-    },
-    ...
-  ]
-}
-
-
-
 Para saber el numero de paginas, debemos acceder primeramente a la paginacion asignando el parametro `page=0` por ejemplo:
 
 https://face.gob.es/api/v2/administraciones?nivel=1&provincia&page=0
 
 
 ```json
-{ "pager":
-  {
-    "total":"8254",
-    "limit":25},
-    "filter":
-      {
-        "fields":
-          [
-            "administracion",
-            "provincia",
-            "nivel"]
-      }
+{
+  "pager": {
+    "total":"44",
+    "limit":25
+    },
+    "filter":{"fields":["administracion","provincia","nivel"]}
 }
 ```
 
@@ -100,67 +83,249 @@ total_pages = (total / 25).ceil
 ```
 
 
-Para cada elemento devuelto por la API se debe realizar otra llamada para importar la jerarquía (las
-entidades hijas). Por ejemplo para el DIR3 L01401945, sus entidades hijas son
+Recorriendo todas las pagina obtenemos un listado de dir3 que son hijos de el nivel correspondiente
 
-https://face.gob.es/api/v2/administraciones/L01401945/relaciones?administracion=&page=1&limit=10
-
+- pagina 1: https://face.gob.es/api/v2/administraciones?nivel=1&provincia=&administracion=&page=1&limit=25
 
 ```json
 {
   "items": [
     {
-      "cifs": [{ "nif": "S2812001B" }],
-      "administracion": {
-        "nombre": "Ministerio de Asuntos Exteriores y de Cooperaci\u00f3n",
-        "codigo_dir": "E04585801",
-        "cifs": [{ "nif": "S2812001B" }]
-      },
-      "id": 58176,
-      "og": {
-        "codigo_dir": "E04585801",
-        "nombre": "Ministerio de Asuntos Exteriores y de Cooperaci\u00f3n"
-      },
-      "ut": {
-        "codigo_dir": "E04681701",
-        "nombre": "S.G. de Administracion Financiera"
-      },
-      "oc": {
-        "codigo_dir": "GE0014059",
-        "nombre": "Oficina Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."
-      }
+      "codigo_dir": "E04585801",
+      "nombre_admon": "Ministerio de Asuntos Exteriores y de Cooperaci\u00f3n"
     },
     {
-      "cifs": [
-        { "nif": "S2812001B" },
-        { "nif": "B2812001B" },
-        { "nif": "S2821001B" },
-        { "nif": "F2812001B" },
-        { "nif": "S2811001B" },
-        { "nif": "Q2812001B" }
-      ],
+      "codigo_dir": "E05024101",
+      "nombre_admon": "Ministerio de Educaci\u00f3n y Formaci\u00f3n Profesional"
+    },
+    { "codigo_dir": "E00003601", "nombre_admon": "Ministerio de Fomento" },
+    {
+      "codigo_dir": "E04921401",
+      "nombre_admon": "Ministerio de Educaci\u00f3n, Cultura y Deporte"
+    },
+    {
+      "codigo_dir": "E04921301",
+      "nombre_admon": "Ministerio de Hacienda y Administraciones Publicas"
+    },
+    {
+      "codigo_dir": "E04921601",
+      "nombre_admon": "Ministerio de Industria, Energia y Turismo"
+    },
+    {
+      "codigo_dir": "E05024901",
+      "nombre_admon": "Ministerio de Econom\u00eda y Empresa"
+    },
+    {
+      "codigo_dir": "E05024401",
+      "nombre_admon": "Ministerio de Agricultura, Pesca y Alimentaci\u00f3n"
+    },
+    {
+      "codigo_dir": "E00004101",
+      "nombre_admon": "Ministerio de la Presidencia"
+    },
+    {
+      "codigo_dir": "E04921501",
+      "nombre_admon": "Ministerio de Empleo y Seguridad Social"
+    },
+    {
+      "codigo_dir": "E04990301",
+      "nombre_admon": "Ministerio de Agricultura y Pesca, Alimentaci\u00f3n y Medio Ambiente"
+    },
+    { "codigo_dir": "E00003801", "nombre_admon": "Ministerio del Interior" },
+    {
+      "codigo_dir": "E04990401",
+      "nombre_admon": "Ministerio de la Presidencia y para las Administraciones Territoriales"
+    },
+    { "codigo_dir": "E00003901", "nombre_admon": "Ministerio de Justicia" },
+    {
+      "codigo_dir": "E04921701",
+      "nombre_admon": "Ministerio de Agricultura, Alimentacion y Medio Ambiente"
+    },
+    {
+      "codigo_dir": "E04921901",
+      "nombre_admon": "Ministerio de Sanidad, Servicios Sociales e Igualdad"
+    },
+    {
+      "codigo_dir": "E04990101",
+      "nombre_admon": "Ministerio de Hacienda y Funci\u00f3n P\u00fablica"
+    },
+    {
+      "codigo_dir": "E04990201",
+      "nombre_admon": "Ministerio de Energ\u00eda, Turismo y Agenda Digital"
+    },
+    {
+      "codigo_dir": "E04990501",
+      "nombre_admon": "Ministerio de Econom\u00eda, Industria y Competitividad"
+    },
+    { "codigo_dir": "EA0008567", "nombre_admon": "Presidencia del Gobierno" },
+    {
+      "codigo_dir": "E04921801",
+      "nombre_admon": "Ministerio de Economia y Competitividad"
+    },
+    { "codigo_dir": "E00003301", "nombre_admon": "Ministerio de Defensa" },
+    {
+      "codigo_dir": "E05024801",
+      "nombre_admon": "Ministerio de Cultura y Deporte"
+    },
+    {
+      "codigo_dir": "E05025101",
+      "nombre_admon": "Ministerio de Ciencia, Innovaci\u00f3n y Universidades"
+    },
+    {
+      "codigo_dir": "E05023901",
+      "nombre_admon": "Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Cooperaci\u00f3n"
+    }
+  ]
+}
+
+```
+
+- pagina 2: https://face.gob.es/api/v2/administraciones?nivel=1&provincia=&administracion=&page=2&limit=25
+
+```json
+{
+  "items": [
+    {
+      "codigo_dir": "E05024201",
+      "nombre_admon": "Ministerio de Trabajo, Migraciones y Seguridad Social"
+    },
+    {
+      "codigo_dir": "E05024701",
+      "nombre_admon": "Ministerio para la Transici\u00f3n Ecol\u00f3gica"
+    },
+    {
+      "codigo_dir": "E05065601",
+      "nombre_admon": "Ministerio de Transportes, Movilidad y Agenda Urbana"
+    },
+    {
+      "codigo_dir": "E05071301",
+      "nombre_admon": "Ministerio de Ciencia e Innovaci\u00f3n"
+    },
+    { "codigo_dir": "E05071601", "nombre_admon": "Ministerio de Igualdad" },
+    {
+      "codigo_dir": "E05068001",
+      "nombre_admon": "Ministerio para la Transici\u00f3n Ecol\u00f3gica y el Reto Demogr\u00e1fico"
+    },
+    {
+      "codigo_dir": "E05024301",
+      "nombre_admon": "Ministerio de Industria, Comercio y Turismo"
+    },
+    {
+      "codigo_dir": "E05068901",
+      "nombre_admon": "Ministerio de Asuntos Econ\u00f3micos y Transformaci\u00f3n Digital"
+    },
+    { "codigo_dir": "E05072201", "nombre_admon": "Ministerio de Consumo" },
+    {
+      "codigo_dir": "E05072501",
+      "nombre_admon": "Ministerio de Inclusi\u00f3n, Seguridad Social y Migraciones"
+    },
+    {
+      "codigo_dir": "E05067101",
+      "nombre_admon": "Ministerio de la Presidencia, Relaciones Con las Cortes y Memoria Democr\u00e1tica"
+    },
+    {
+      "codigo_dir": "E05024501",
+      "nombre_admon": "Ministerio de la Presidencia, Relaciones Con las Cortes e Igualdad"
+    },
+    {
+      "codigo_dir": "E05024601",
+      "nombre_admon": "Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"
+    },
+    { "codigo_dir": "E05070101", "nombre_admon": "Ministerio de Sanidad" },
+    {
+      "codigo_dir": "E05066501",
+      "nombre_admon": "Ministerio de Trabajo y Econom\u00eda Social"
+    },
+    { "codigo_dir": "E05024001", "nombre_admon": "Ministerio de Hacienda" },
+    {
+      "codigo_dir": "E05025001",
+      "nombre_admon": "Ministerio de Sanidad, Consumo y Bienestar Social"
+    },
+    {
+      "codigo_dir": "E05070401",
+      "nombre_admon": "Ministerio de Derechos Sociales y Agenda 2030"
+    },
+    { "codigo_dir": "E05073401", "nombre_admon": "Ministerio de Universidades" }
+  ]
+}
+```
+
+
+tenemos por tanto el listado de dir3
+
+```json
+["E05024201", "E05024701", "E05065601"..."E05073401"]
+```
+
+por cada uno dir3 debemos preguntar ahora por sus entidades hijas:
+
+
+- primero la paginacion  https://face.gob.es/api/v2/administraciones/E05024201/relaciones?administracion=E05024201&page=0&limit=25
+
+```json
+{
+  "pager": {
+    "total":"146",
+    "limit":25
+    },
+    "filter":{"fields":["oc","og","ut"]
+  }
+}
+```
+
+- calculamos el numero de paginas 5
+
+
+```ruby
+total = json[:pager][:total]
+limit = json[:pager][:limit]
+total_pages = (total / 25).ceil
+```
+
+- pagina 1: https://face.gob.es/api/v2/administraciones/E05024201/relaciones?administracion=E05024201&page=1&limit=25
+
+```json
+{
+  "items": [
+    {
+      "cifs": [],
       "administracion": {
-        "nombre": "Ministerio de Asuntos Exteriores y de Cooperaci\u00f3n",
-        "codigo_dir": "E04585801",
-        "cifs": [{ "nif": "S2812001B" }]
+        "nombre": "Ministerio de Trabajo, Migraciones y Seguridad Social",
+        "codigo_dir": "E05024201",
+        "cifs": []
       },
-      "id": 58155,
+      "id": 61654,
       "og": {
-        "codigo_dir": "E04588601",
-        "nombre": "Subsecretaria de Asuntos Exteriores y de Cooperacion"
+        "codigo_dir": "EA0021624",
+        "nombre": "Instituto Nacional de Seguridad y Salud en el Trabajo"
       },
-      "ut": { "codigo_dir": "E04609201", "nombre": "Escuela Diplomatica" },
+      "ut": {
+        "codigo_dir": "EA0021625",
+        "nombre": "Centro Nacional de Verificacion de Maquinaria de Bizkaia (SEDE- BARACALDO)"
+      },
       "oc": {
-        "codigo_dir": "GE0014059",
-        "nombre": "Oficina Contable. I.D. Ministerio de Asuntos Exteriores, Uni\u00f3n Europea y Coop."
+        "codigo_dir": "E00142903",
+        "nombre": "Instituto Nacional de Seguridad e Higiene en el Trabajo"
       }
     },
 
     ...
-
   ]
 }
 ```
+
+- pagina 2: https://face.gob.es/api/v2/administraciones/E05024201/relaciones?administracion=E05024201&page=2&limit=25
+
+- pagina 3: https://face.gob.es/api/v2/administraciones/E05024201/relaciones?administracion=E05024201&page=3&limit=25
+
+- pagina 4: https://face.gob.es/api/v2/administraciones/E05024201/relaciones?administracion=E05024201&page=4&limit=25
+
+- pagina 5: https://face.gob.es/api/v2/administraciones/E05024201/relaciones?administracion=E05024201&page=5&limit=25
+
+
+en cada uno de los resultados de cada pagina deseamos guardar:
+- el padre si no existia ya
+- cada uno de los hijos si ya no existia ya
 
 ### NOTA
 
@@ -239,7 +404,56 @@ TODO: buscar el significado de las una o dos letras con la que comienzan...
 
 ## Solucion:
 
-he añadido un fichero de operaciones para mostrar como funciona la [solución](OPERATIONS-dev.md)
+
+```bash
+cd gobierto-contratos-face-mirror
+
+# set environment
+cp .env.example .env
+
+# run infra requirements
+docker-compose up
+
+# prepare db
+bin/rails db:create
+bin/rails db:migrate
+
+bin/rails db:migrate RAILS_ENV=test
+
+# run tests
+bin/rails test
+
+# import fiscal_entities.csv
+bin/rails csv:load
+
+# scrape face api for new entities passing level as params
+bin/rails face:import_level[1]
+
+# scrape face api for new entities for **ALL LEVELS**
+bin/rails face:import_level
+```
+
+
+como parte del docker-compose tienes accesible la web de administracion sidekiq-ui en [localhost:9292](localhost:9292) para ver el estado de las tareas
+
+```bash
+# from now worker is off, to run
+bundle exec sidekiq
+
+# he preferido no poner un worker de sidekiq por ahora para tener control de si quiero ejecutar los procesos en background o empezar encolando niveles
+```
+
+## cosas a mejorar o tener en cuenta
+
+- el modelo fiscal entities, quita las letras vocales con acentos para el campo slug
+
+```
+admininistración => admininistracin
+seria mejor admininistracion
+```
+- la api tiene entidades repetidas en puedes verse en los vcr con las request
+- la api en sus entidades tiene cifs no validos, que ahora mismo se desechan
+- *creo* que seria mejor quitar el campo id del csv que se importa a veces las inserciones fallan por que el id ya está en uso.
 
 
 

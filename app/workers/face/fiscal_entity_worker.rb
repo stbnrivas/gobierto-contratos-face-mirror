@@ -8,7 +8,7 @@ class Face::FiscalEntityWorker
   def perform(*args)
     level = args.first['level']
     dir3_list = args.first['dir3_to_import']
-    counter = FiscalEntityProcessingCounter.new
+    counter = Face::FiscalEntityProcessingCounter.new
 
     dir3_list.each do |dir3|
       process_dir3(level,dir3,counter)
